@@ -1,0 +1,959 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>3D First-Person Games, So Far</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://games.slashdot.org/games/01/08/13/1629258.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,games,entertainment';
+		var parent = 'http://slashdot.org/articles/01/08/13/1629258.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=games;tpc=entertainment;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=01/08/13/1629258">3D First-Person Games, So Far</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>373</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=20235">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 373 comments</option>
+	<option value="0">0: 356 comments</option>
+	<option value="1" selected>1: 272 comments</option>
+	<option value="2">2: 90 comments</option>
+	<option value="3">3: 33 comments</option>
+	<option value="4">4: 16 comments</option>
+	<option value="5">5: 6 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="20235">
+		<input type="hidden" name="cid" value="2124628">
+		<input type="hidden" name="pid" value="2124628">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_2124628" class="comment">
+<div id="comment_status_2124628" class="commentstatus"></div>
+<div id="comment_2124628">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2124628">Errors.</a></h4>
+
+
+		 	<span id="comment_score_2124628" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2124628">		
+		on Monday August 13, @03:31PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2124628">#2124628</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2124628">&gt;It (DOOM) was designed by talented people with good skills and academic degrees in
+<br>&gt;computer science.
+<br>
+<br>None of us had degrees in computer science.  Romero, Adrian, and I don't have any degrees at all, and Kevin's is in political science.
+<br>
+<br>&gt;It even had a simple but multithreaded "operating system" of its own to handle asynchronous
+<br>&gt;updates of graphics and playing sound while performing the game simulation.
+<br>
+<br>No.  We made the startup sequence busy and techie in a sort of imitation of the NeXT workstations we were using at the time, but there was no multithreading going on.  The sound was done with interrupt driven processing, which doesn't qualify.
+<br>
+<br>With the source code open for years, this should have been easy to check.
+<br>
+<br>&gt;a resolution of only 320x240
+<br>
+<br>320x200
+<br> <br>I would take issue with some of the other vague statements made later on, but they aren't pointed enough to debate.
+<br>
+<br>John Carmack
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2124628">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">5</th>
+		<th align="left">&nbsp;points</th>
+	</tr>
+
+
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_2110722" class="comment">
+<div id="comment_status_2110722" class="commentstatus"></div>
+<div id="comment_2110722">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2110722">Re:Errors.</a></h4>
+
+
+		 	<span id="comment_score_2110722" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~zpengo">zpengo (99887)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2110722">		
+		on Monday August 13, @03:50PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2110722">#2110722</a>)
+		<small><br>(<a href="http://www.clueology.com/" rel="nofollow">http://www.clueology.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2110722"><i>We made the startup sequence busy and techie in a sort of imitation of the NeXT workstations we were using at the time...</i>
+<p>Now, if we could just get Linux programmers to stop doing that, and instead to throw a pretty splash screen over the dirty background stuff, Linuxusership would increase exponentially.
+</p><p>But no...hackers love their scrolling gibberish...</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2110722">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2110722#2109703">Re:Errors.</a> by kin_korn_karn (Score:1) Monday August 13, @04:24PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2109703">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li><li id="tree_2116684" class="comment">
+<div id="comment_status_2116684" class="commentstatus"></div>
+<div id="comment_2116684">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2116684">LOL</a></h4>
+
+
+		 	<span id="comment_score_2116684" class="score">(Score:2, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~wrinkledshirt">wrinkledshirt (228541)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2116684">		
+		on Monday August 13, @07:11PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2116684">#2116684</a>)
+		<small><br>(<a href="http://slashdot.org/" rel="nofollow">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2116684"><i>With the source code open for years, this should have been easy to check. </i>
+
+<p>Easy for you to say. Some of us still get the intellectual equivalent of a slurpee brain freeze trying to get all the way through Abrash's Black Book.
+
+</p><p>Jeez, who does this guy think he is? John Romero or something?</p><p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2116684">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2117267" class="comment">
+<div id="comment_status_2117267" class="commentstatus"></div>
+<div id="comment_2117267">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2117267">Dude</a></h4>
+
+
+		 	<span id="comment_score_2117267" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~xenocide2">xenocide2 (231786)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2117267">		 &lt;<a href="mailto:jld5445%40%40%40ksu...edu">jld5445@@@ksu...edu</a>&gt;
+		on Tuesday August 14, @01:54AM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2117267">#2117267</a>)
+		<small><br>(<a href="http://dugger.notsoevil.net/" rel="nofollow">http://dugger.notsoevil.net/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2117267">God it must be nice to be John Carmack. All you gotta do is post and it automatically gets modded up. Not that the post wasn't informative or anything. I guess I'm just mad because I don't get karma for being a local celebrity.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2117267">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2117267">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2125436" class="comment">
+<div id="comment_status_2125436" class="commentstatus"></div>
+<div id="comment_2125436">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2125436">Re:Errors.</a></h4>
+
+
+		 	<span id="comment_score_2125436" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~RatBastard">RatBastard (949)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2125436">		
+		on Monday August 13, @05:40PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2125436">#2125436</a>)
+		<small><br>(<a href="http://www.trilobite.org/" rel="nofollow">http://www.trilobite.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2125436">I have never understood why the "Mode X" myth just won't die.  How much research would it take to figure out that DOOM (the original DOS version) ran at 320x200?  A screenshot would be all that is needed to prove the resolution.
+<br>
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2125436">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2129620" class="comment">
+<div id="comment_status_2129620" class="commentstatus"></div>
+<div id="comment_2129620">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2129620">Reminicent....</a></h4>
+
+
+		 	<span id="comment_score_2129620" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~keepper">keepper (24317)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2129620">		
+		on Monday August 13, @07:51PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2129620">#2129620</a>)
+		<small><br>(<a href="http://www.daylife.com/" rel="nofollow">http://www.daylife.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2129620">Of that whole Ksh compliance bit between the microsoftie and the creator of KSH.....
+<br>
+<br>
+Hehe
+<br>
+<br><nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2129620">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2134017" class="comment">
+<div id="comment_status_2134017" class="commentstatus"></div>
+<div id="comment_2134017">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2134017">Re:Errors.</a></h4>
+
+
+		 	<span id="comment_score_2134017" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~denshi">denshi (173594)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2134017">		 &lt;<a href="mailto:toddg%40math.utexas.edu">toddg@math.utexas.edu</a>&gt;
+		on Monday August 13, @05:01PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2134017">#2134017</a>)
+		<small><br>(<a href="http://www.toddbrandlabs.com/" rel="nofollow">http://www.toddbrandlabs.com/</a> | Last Journal: <a href="//slashdot.org/~denshi/journal/">Sunday August 25, @09:34PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2134017">&gt; &gt;It (DOOM) was designed by talented people with
+<br>
+&gt; &gt;good skills and academic degrees in computer science.
+<p>
+&gt; None of us had degrees in computer science.  Romero, Adrian, and I don't have any degrees at all,
+<br>
+&gt; and Kevin's is in political science.
+</p><p>
+Do you see a lot of these kinds of assumptions?  The rest of the article doesn't show this bias, but I assumed this kind of mistake, coming from a CS prof, is the ivory tower trying to claim validity on a subject they have ignored.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2134017">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2136941" class="comment">
+<div id="comment_status_2136941" class="commentstatus"></div>
+<div id="comment_2136941">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2136941">And More Errors.</a></h4>
+
+
+		 	<span id="comment_score_2136941" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~acomj">acomj (20611)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2136941">		
+		on Monday August 13, @08:19PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2136941">#2136941</a>)
+		<small><br>(<a href="http://www.plocp.com/" rel="nofollow">http://www.plocp.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2136941">I remeber games for mac SE that were networked via apple-talk .  Net Trek was one and this maze game with a shoe was another... Long before doom and the 1990s..
+<br>
+<br>/Aram
+<br> <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2136941">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2144261" class="comment">
+<div id="comment_status_2144261" class="commentstatus"></div>
+<div id="comment_2144261">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2144261">Re:Errors.</a></h4>
+
+
+		 	<span id="comment_score_2144261" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~RottenDeadite">RottenDeadite (137213)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2144261">		 &lt;<a href="mailto:cnelsonweb%40+h+o+t+m+a+il.com">cnelsonweb@ h o t m a il.com</a>&gt;
+		on Monday August 13, @03:44PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2144261">#2144261</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~RottenDeadite/journal/">Wednesday August 06, @11:11AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2144261"><i> &gt; John Carmack</i>
+<p>
+Do I recall you making some noise at one point about writing a Snow Crash-esque engine, based off Q3 netcode?
+</p><p>
+Or have the drugs begun to take hold?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2144261">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2146103" class="comment">
+<div id="comment_status_2146103" class="commentstatus"></div>
+<div id="comment_2146103">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2146103">Re:Errors.</a></h4>
+
+
+		 	<span id="comment_score_2146103" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~dmorin">dmorin (25609)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2146103">		 &lt;<a href="mailto:dmorinNO%40SPAMgmail.com">dmorinNO@SPAMgmail.com</a>&gt;
+		on Monday August 13, @04:07PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2146103">#2146103</a>)
+		<small><br>(<a href="http://www.morinfamily.com/blog/categories/Geek.html" rel="nofollow">http://www.morinfami...categories/Geek.html</a> | Last Journal: <a href="//slashdot.org/~dmorin/journal/">Tuesday March 01, @03:47PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2146103">On that resolution of 320x200..?  For years I've been under the impression that DOOM was one of the first games to use "Mode X" (made famous by Michael Abrash) which is what enabled the killer frame rate at a time when 320x200 plain VGA gave you really inefficient 1byte/pixel linear buffers.  Mode X also gave you funky increased resolution like 320x340.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2146103">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2124628">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2146103#2130045">Re:Errors.</a> by drivers (Score:3) Monday August 13, @04:33PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2146103">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2110260" class="comment">
+<div id="comment_status_2110260" class="commentstatus"></div>
+<div id="comment_2110260">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2110260">Re:Doom expandability (history corrections)</a></h4>
+
+
+		 	<span id="comment_score_2110260" class="score">(Score:4, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Raphael">Raphael (18701)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2110260">		 &lt;<a href="mailto:quinet%40gam%5B+%5D.org+%5B'ers'+in+gap%5D">quinet@gam[ ].org ['ers' in gap]</a>&gt;
+		on Tuesday August 14, @03:23AM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2110260">#2110260</a>)
+		<small><br>(<a href="http://blogs.gnome.org/portal/raphael" rel="nofollow">http://blogs.gnome.org/portal/raphael</a> | Last Journal: <a href="//slashdot.org/~Raphael/journal/">Friday September 14, @12:09PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2110260"><p>The statement about the DOOM file format being "more or less officially documented" is mentioned in several books and web sites that attempt to (re-)write the history of 3D games, but this is wrong.  When DOOM was released, the WAD file format was not documented at all.  It is only with the release of DOOM II that we got two useful pieces of information from John Carmack: a list of new LINEDEF types used in Doom II, and the source code for the BSP compiler in Objective-C.  Several people (including myself) had decoded the WAD file format and written their own BSP compilers in the meantime, but the release of id's code allowed the developers of DOOM editors to compare different algorithms and to improve their editors.</p>
+
+<p>I was a contributor to the "<a href="http://www.gamers.org/dEngine/doom/spec/uds.1666.txt" title="gamers.org" rel="nofollow">Unofficial Doom Specs</a> [gamers.org]" and the main author of DEU (Doom Editing Utilities).  From December 1993 to April/May 1994, I spent a large amount of time reverse-engineering the WAD file format until I got the first working editor.  To the credit of id Software, I must add that several things changed after the release of DOOM II:  the unofficial level editors that were initially frowned upon (maybe not by John Carmack, but at least by Jay Wilbur, the biz guy) were allowed and even encouraged.</p>
+
+<p>When Quake was released (first the QTest1 demo, then the full game), the same things happened, but a bit faster: initially, no information was released about the PAK file format, so I cooperated with Olivier Montannuy and others to write the "<a href="http://www.gamers.org/dEngine/quake/spec/" title="gamers.org" rel="nofollow">Unofficial Quake Specs</a> [gamers.org]".  But soon after the game was released, John Carmack provided more information about the game, which allowed several good editors to be developed in a relatively short time.  The usage of Quake-C allowed a lot of modifications without having to modify the executable, so that was another nice move.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2110260">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2119577">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2113842" class="comment">
+<div id="comment_status_2113842" class="commentstatus"></div>
+<div id="comment_2113842">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2113842">Re:Doom expandability</a></h4>
+
+
+		 	<span id="comment_score_2113842" class="score">(Score:5, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2113842">		
+		on Monday August 13, @07:32PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2113842">#2113842</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2113842">We were surprised at Wolf3D mods, but we knew it was going to happen with DOOM.  I worked with some of the Wolf3D map editor guys before DOOM was even released, but they didn't wind up making the popular level editors.
+<br>
+<br>The editor and utility source code was released quite early, but it was all for NeXT workstations in Objective-C, so it had to wait for someone to rewrite it for more conventional systems.
+<br>
+<br>John Carmack
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2113842">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2119577">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2113842#2142398">OT: Milk Rendering</a> by Reality Master 101 (Score:2) Tuesday August 14, @10:30AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2113842">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2153855" class="comment">
+<div id="comment_status_2153855" class="commentstatus"></div>
+<div id="comment_2153855">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2153855">Re:Anarchy Online</a></h4>
+
+
+		 	<span id="comment_score_2153855" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~codeforprofit2">codeforprofit2 (457961)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2153855">		
+		on Monday August 13, @03:58PM (<a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2153855">#2153855</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2153855">I would love to play it, bought it on the day it was possible to buy it.
+<br>
+<br>I have tried it on two computers, one win98+static ip and one win2k+dhcp. It don't work on either of them.
+<br>
+<br>No patches helps.
+<br>
+<br>:-(</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2153855">
+[ <a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2125828">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2153855">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20235&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2124628">4 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

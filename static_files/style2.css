@@ -1,0 +1,204 @@
+body {
+font-size: 9.5pt; 
+font-family: Arial, Verdana, Helvetica;
+color : #333333; 
+line-height:13pt;
+/* top right bottom left */
+padding : 0px 0px 0px 100px; 
+margin : 0px 0px 0px 0px;
+background-color : #f8f6f3; 
+background-position : 0% 0%; 
+background-attachment: scroll;
+background-repeat : repeat-y;
+background-image : url("bg_recentupdates.png"); 
+}
+
+/*
+	general
+*/
+
+.italic {
+font-style:italic;
+}
+
+.strong {
+font-weight:bold;
+}
+
+.highlight_block {
+	background-color: #e4e9f0;
+	padding: 9px;
+	border-bottom: 1px solid black;
+}
+
+.code_box {
+	margin:0px; 
+	padding:6px; 
+	border-top:1px dashed;
+	border-left:1px dashed;
+	border-bottom:1px dashed;
+	font-size: 13px;
+	font-family: Courier New,Arial;
+}
+
+/*
+	navbar
+*/
+
+.navbar {
+color:#555555;
+background-color: black;
+padding: 10px 20px 10px 40px;
+font-weight:bold;
+font-size:7.5pt;
+color:#555555;
+text-decoration:none;
+letter-spacing:0;
+}
+
+.navbar a {
+font-family:verdana,Arial,sans-serif;
+font-size: 7.5pt;
+font-weight:bold; 
+color:#AAAAAA;  
+text-decoration:none;
+}
+
+.navbar a:link {
+color:#AAAAAA;   
+text-decoration:none;  
+}
+
+.navbar a:visited {
+color:#AAAAAA;   
+text-decoration:none; 
+}
+
+.navbar a:active {
+ text-decoration:none;
+}
+
+.navbar a:hover {
+ color:#FFFFFF;  
+ text-decoration:none; 
+}
+
+/*
+	main
+*/
+
+a:link img, a:visited img {
+border-style : none
+}
+
+.main {
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 20px;
+}
+
+a {
+/*font-size: 9pt;*/
+color:#115599;
+text-decoration:underline;
+}
+
+a:link {
+ color:#115599;
+}
+
+a:visited {
+ color:#115599;
+}
+		
+a:active {        
+text-decoration:none;  
+color:#115599;
+}
+
+a:hover {
+color:#115599;
+text-decoration:none;
+}
+
+h1 {
+  font-family:Arial,Helvetica,sans-serif; 
+  font-size:14pt;  
+  font-weight:bold;  
+  color:#333333;  
+  text-decoration:none;
+}
+
+h2 { 
+font-family:Arial,Helvetica,sans-serif; 
+font-size:12pt;  
+font-weight:bold;  
+color:#333333;  
+text-decoration:none;
+}
+
+
+h3 { 
+font-family:Arial,Helvetica,sans-serif; 
+font-size:11pt;  
+font-weight:bold; 
+color:#333333; 
+text-decoration:none;
+}
+
+
+/*
+	plan
+*/
+
+.plan {
+}
+
+.plan_alternate {
+	background-color: #e4e9f0;
+	padding: 9px;
+	border-bottom: 1px solid black;
+}
+
+.plan_list {
+	list-style-type: none;
+}
+
+.done {
+	color: green;
+}
+
+.fix {
+	color: blue;
+}
+
+.against {
+	color: red;
+}
+
+.money {
+	color: green;
+}
+
+.ferrari {
+	color: #e00000;
+}
+
+
+/*
+	interview 
+*/
+.question {
+}
+
+.answer {
+	background-color: #e4e9f0;
+	padding: 9px;
+	border-bottom: 1px solid black;
+}
+
+.section {
+	padding-top: 20px;
+	/* border-bottom: 2px solid black; */
+	text-align: center;
+}

@@ -1,0 +1,1613 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Doom 3 Gets Reviews, Piracy Questions, Exultation</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://games.slashdot.org/games/04/08/03/2315236.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,games,entertainment,pcgames,fps';
+		var parent = 'http://slashdot.org/articles/04/08/03/2315236.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=games;tpc=entertainment;tpc=pcgames;tpc=fps;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//games.slashdot.org/article.pl?sid=04/08/03/2315236&amp;tid=206">Doom 3 Gets Reviews, Piracy Questions, Exultation</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>1319</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=116699">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 1319 comments</option>
+	<option value="0">0: 1302 comments</option>
+	<option value="1" selected>1: 990 comments</option>
+	<option value="2">2: 616 comments</option>
+	<option value="3">3: 183 comments</option>
+	<option value="4">4: 112 comments</option>
+	<option value="5">5: 68 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="116699">
+		<input type="hidden" name="cid" value="9876672">
+		<input type="hidden" name="pid" value="9876672">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_9876672" class="comment">
+<div id="comment_status_9876672" class="commentstatus"></div>
+<div id="comment_9876672">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9876672">I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9876672" class="score">(Score:5, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9876672">		
+		on Wednesday August 04, @03:56AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9876672">#9876672</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9876672">I am extremely proud of Doom 3.  I think it is the best game we have ever made, and it exceeded all of my expectations.  That is a rather trite phrase, but it is literally true -- I had a good set of expectations for how the game would turn out based on the technologies that it was built on, and it wound up being just plain better than that.<br> <br>We think a lot of people will like it.<br> <br>I don't follow gaming message boards, because, at its best, entertainment is going to be a subjective thing that can't win for everyone, while at worst, a particular game just becomes a random symbol for petty tribal behavior.  This slashdot story is about as close as I want to go...<br> <br>Amidst all the various Doom ports and expansions, we are starting up on our next game.  It will have a new rendering engine, which will be keeping me busy for a while, but the only other thing we are saying for now is that it won't be a sequel to any of our previous work.  We have a really solid team that did a lot of maturing through Doom's development, so I have high hopes that it won't be another four year odyssey.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9876672">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">1</th>
+		<th align="left">&nbsp;point</th>
+	</tr>
+
+
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Moderation</td>
+		<td>&nbsp;</td>
+		<td align="right">+4</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Interesting' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_9876880" class="comment">
+<div id="comment_status_9876880" class="commentstatus"></div>
+<div id="comment_9876880">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9876880">What makes the engine unique?</a></h4>
+
+
+		 	<span id="comment_score_9876880" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~jeti">jeti (105266)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9876880">		
+		on Wednesday August 04, @05:04AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9876880">#9876880</a>)
+		<small><br>(<a href="http://www.radialthinking.de/">http://www.radialthinking.de/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9876880"><br>I haven't had a chance to play the game yet.<br> <br>But since the engines of id software have always driven the development of game graphics, I would like to know this:<br> <br>What makes the game engine of Doom 3 unique in comparison to f.e. Thief 3 or Splinter Cell 2?<br> <br>Thank you,<br>Jens<br> <br>PS: Nice hover<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9876880">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9876880#9880449">Re:What makes the engine unique?</a> by nukepapa (Score:2) Wednesday August 04, @01:07PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880449#9896565">Re:What makes the engine unique?</a> by jazmataz23 (Score:1) Thursday August 05, @11:51PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9896565#9899968">Re:What makes the engine unique?</a> by sco_is_for_babies (Score:1) Friday August 06, @12:30PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9899968#9936256">Re:What makes the engine unique?</a> by jazmataz23 (Score:1) Tuesday August 10, @10:45PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9936256#9939257">Re:What makes the engine unique?</a> by sco_is_for_babies (Score:1) Wednesday August 11, @10:29AM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9939257#9940875">Re:What makes the engine unique?</a> by Evangelion (Score:1) Wednesday August 11, @01:13PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9940875#9943006">Re:What makes the engine unique?</a> by jazmataz23 (Score:1) Wednesday August 11, @05:16PM
+</li></ul></li></ul></li></ul></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9876880#9884689">Re:What makes the engine unique?</a> by askegg (Score:1) Wednesday August 04, @08:08PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9884689#9887614">Re:What makes the engine unique?</a> by instanto (Score:1) Thursday August 05, @08:40AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9887614#9888134">Re:What makes the engine unique?</a> by Nerd4News (Score:1) Thursday August 05, @09:42AM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9887614#9896534">Re:What makes the engine unique?</a> by jazmataz23 (Score:1) Thursday August 05, @11:46PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9896534#9918779">Re:What makes the engine unique?</a> by instanto (Score:1) Monday August 09, @06:55AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9918779#9936300">Re:What makes the engine unique?</a> by jazmataz23 (Score:1) Tuesday August 10, @10:54PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9936300#9938035">Re:What makes the engine unique?</a> by instanto (Score:1) Wednesday August 11, @06:26AM
+</li></ul></li></ul></li></ul></li></ul></li></ul></li><li id="tree_9877159" class="comment">
+<div id="comment_status_9877159" class="commentstatus"></div>
+<div id="comment_9877159">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9877159">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9877159" class="score">(Score:1, Insightful)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_9877159">		
+		on Wednesday August 04, @06:14AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9877159">#9877159</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9877159">John, (I hope it's really you)<br>This is the best looking game I've ever played, and I've been playing it on the lowest possible graphics settings. I love the allusions to the originals in Doom3.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9877159">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9877532" class="comment">
+<div id="comment_status_9877532" class="commentstatus"></div>
+<div id="comment_9877532">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9877532">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9877532" class="score">(Score:2, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~shotgunefx">shotgunefx (239460)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9877532">		
+		on Wednesday August 04, @07:55AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9877532">#9877532</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~shotgunefx/journal/">Thursday November 09, @11:31AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9877532">John,<br>From Wolf and on, your games have always been the best of the best.<br> <br>I don't know if you remember this, but I remember finding a BBS (MCI Worldcom?) where you and Abrash would go back and forth. I also remember you sharing bits of the source for DOOM as you developed it. At the time, I was an aspiring game developer (and kid) and your posts and sharing your ideas was so unbelievably helpful. Even though I took a different direction, your shared insight defintely made me a much better programmer than I would have been without. Can't wait to hit DOOM3<nobr> <wbr></nobr>:)<br> <br>Somewhere, I still have a copy of that voxel editor you were toying around with for Doom.<br> <br>Thanks,<br> <br>-Lee<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9877532">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9877532#9877751">Re:I'm proud of it.</a> by Archerkit (Score:1) Wednesday August 04, @08:33AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9877751#9877902">Re:I'm proud of it.</a> by shotgunefx (Score:1) Wednesday August 04, @08:54AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9877902#9877953">Re:I'm proud of it.</a> by Archerkit (Score:1) Wednesday August 04, @09:01AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9877953#9878058">Re:I'm proud of it.</a> by shotgunefx (Score:1) Wednesday August 04, @09:15AM
+</li></ul></li></ul></li></ul></li></ul></li><li id="tree_9877624" class="comment">
+<div id="comment_status_9877624" class="commentstatus"></div>
+<div id="comment_9877624">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9877624">Machinima?</a></h4>
+
+
+		 	<span id="comment_score_9877624" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~FreeUser">FreeUser (11483)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9877624">		
+		on Wednesday August 04, @08:11AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9877624">#9877624</a>)
+		<small><br>(<a href="http://jm-smith.com/">http://jm-smith.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9877624">My insterest in Doom3 and similiar games are their use for machinima (particularly if I can do it under linux and switch back and forth between it, the gimp, blender, and transcode).  I do a lot of blendering, and choreographing scenes in real time, with multiple actors / sprites, has some real appeal vs. offline rendering.<br> <br>Any chance you guys are planning some add-ons to specifically support machinima type activities (character/sprite editing, etc.), lighting editors, etc?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9877624">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9878946" class="comment">
+<div id="comment_status_9878946" class="commentstatus"></div>
+<div id="comment_9878946">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9878946">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9878946" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Kolben">Kolben (610005)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9878946">		
+		on Wednesday August 04, @10:51AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9878946">#9878946</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9878946">It's the same thing with musicians. They always say that their newest album is the best...EVER. I look forward to playing Doom 3, and I'm sure you guys did a brilliant job again. But I think you should let the game age a little before putting out such statements. Not because it isn't true, but because it's difficult to take seriously. You might just be out selling your new product<nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9878946">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9878965" class="comment">
+<div id="comment_status_9878965" class="commentstatus"></div>
+<div id="comment_9878965">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9878965">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9878965" class="score">(Score:2, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Trent+Polack">Trent Polack (622919)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9878965">		
+		on Wednesday August 04, @10:53AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9878965">#9878965</a>)
+		<small><br>(<a href="http://www.polycat.net/" rel="nofollow">http://www.polycat.net/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9878965">I love you John Carmack. <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9878965">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9879017#9885088">Re:I'm proud of it.</a> by JebusIsLord (Score:2) Wednesday August 04, @09:03PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9878965">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_9879583" class="comment">
+<div id="comment_status_9879583" class="commentstatus"></div>
+<div id="comment_9879583">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9879583">Next step</a></h4>
+
+
+		 	<span id="comment_score_9879583" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Sun+Rider">Sun Rider (623563)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9879583">		
+		on Wednesday August 04, @11:50AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9879583">#9879583</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9879583">IMHO you should go for Virtual Reality now.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9879583">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9879583#9885116">Re:Next step</a> by JebusIsLord (Score:2) Wednesday August 04, @09:07PM
+</li></ul></li><li id="tree_9879808" class="comment">
+<div id="comment_status_9879808" class="commentstatus"></div>
+<div id="comment_9879808">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9879808">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9879808" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~desideria">desideria (140436)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9879808">		
+		on Wednesday August 04, @12:09PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9879808">#9879808</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9879808">I just bought it yesterday when Best Buy opened and I have to say, the game is BEAUTIFUL even at the low quality settings. As always, Id has delivered something incredible years before it's time. Thank you for another ground-breaking release John Carmack!<br> <br>Also, has anyone heard if and when there will be level editing tools made available for the game?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9879808">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9879808#9893471">Re:I'm proud of it.</a> by sheppos (Score:1) Thursday August 05, @04:54PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9879808#9912598">Re:I'm proud of it.</a> by 88NoSoup4U88 (Score:2) Sunday August 08, @07:06AM
+</li></ul></li><li id="tree_9879832" class="comment">
+<div id="comment_status_9879832" class="commentstatus"></div>
+<div id="comment_9879832">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9879832">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9879832" class="score">(Score:2, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~abionnnn">abionnnn (758579)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9879832">		
+		on Wednesday August 04, @12:11PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9879832">#9879832</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9879832"><tt>I've been a long time fan of id software games, and I have to say playing Doom 3 brought back happy memories. I recognised some level designs from both Doom and Doom II. Though I could just be going insane... =)<br> <br>I especially liked the mars surface parts, which reminded me of the marathon series by bungie. The spider like things on the surface, while you're running out of air was an excellent touch. The ambient music was quite original too.<br> <br>I don't know if this is the best game you guys have ever made, because I'm so attached to the older ones, but it's the best game I've played in a long time. It's pretty much the only game that a fellow physicists where I work were talking about. (big Doom fans I take it)<br> <br>Thank you and everyone else at id software for the effort involved in bringing this fantastic game to us. I'm sure there's a lot of people wishing you luck on your next project. But not me<nobr> <wbr></nobr>... how the hell am I going to write my thesis now? Damn you id sofware! =)</tt></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9879832">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9880580" class="comment">
+<div id="comment_status_9880580" class="commentstatus"></div>
+<div id="comment_9880580">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9880580">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9880580" class="score">(Score:1, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Endureth">Endureth (802718)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9880580">		
+		on Wednesday August 04, @01:20PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9880580">#9880580</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9880580">I can't use the right shift key to sprint.  Can I get a patch?  I use the arrow keys for movement and not WASD and I need that right shift to sprint.  Even selecting right shift in the options menu doesn't work, it still only lets me use the left shift.
+
+-Endureth</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9880580">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880580#9880676">Re:I'm proud of it.</a> by TheAwfulTruth (Score:2) Wednesday August 04, @01:31PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880676#9881822">Re:I'm proud of it.</a> by JaxGator75 (Score:1) Wednesday August 04, @03:21PM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880580#9895764">Re:I'm proud of it.</a> by Ch_Omega (Score:2) Thursday August 05, @09:29PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9880580">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_9880599" class="comment">
+<div id="comment_status_9880599" class="commentstatus"></div>
+<div id="comment_9880599">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9880599">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9880599" class="score">(Score:2, Offtopic)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~delus10n0">delus10n0 (524126)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9880599">		 &lt;<a href="mailto:delusion_%40pdsys.oWELTYrg+minus+author">delusion_@pdsys.oWELTYrg minus author</a>&gt;
+		on Wednesday August 04, @01:23PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9880599">#9880599</a>)
+		<small><br>(<a href="http://www.pdsys.org/">http://www.pdsys.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9880599">Hey John,<br> <br>Did you guys do any testing on nForce2 motherboards? The sound starts to crackle after a random period of time, when in surround mode and using 5.1 -- is this a Doom3 sound engine problem, or a nVidia/nForce problem?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9880599">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880599#9880687">Re:I'm proud of it.</a> by ksiddique (Score:1) Wednesday August 04, @01:32PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880599#9881186">Re:I'm proud of it.</a> by DigitalDragon (Score:1) Wednesday August 04, @02:13PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880599#9881228">Re:I'm proud of it.</a> by delus10n0 (Score:2) Wednesday August 04, @02:18PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880599#9881446">Re:I'm proud of it.</a> by Evangelion (Score:1) Wednesday August 04, @02:40PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9881446#9882222">Re:I'm proud of it.</a> by delus10n0 (Score:2) Wednesday August 04, @04:05PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9881446">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880599#9912608">Re:I'm proud of it.</a> by 88NoSoup4U88 (Score:2) Sunday August 08, @07:09AM
+</li></ul></li><li id="tree_9880667" class="comment">
+<div id="comment_status_9880667" class="commentstatus"></div>
+<div id="comment_9880667">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9880667">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9880667" class="score">(Score:1, Interesting)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_9880667">		
+		on Wednesday August 04, @01:30PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9880667">#9880667</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9880667">What about the Doom 3 demo??<br> <br>I want to play with Doom 3 but i'm not going to buy it if can't test the game on my computer (performonances and hardware/driver issues).<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9880667">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9880901" class="comment">
+<div id="comment_status_9880901" class="commentstatus"></div>
+<div id="comment_9880901">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9880901">Is this guy really John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_9880901" class="score">(Score:2, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~LordJezo">LordJezo (596587)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9880901">		
+		on Wednesday August 04, @01:49PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9880901">#9880901</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9880901">Just wondering....</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9880901">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880901#9882932">Re:Is this guy really John Carmack?</a> by AgentUSA (Score:1) Wednesday August 04, @05:22PM
+</li><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880901#9922570">Re:Is this guy really John Carmack?</a> by 0x0d0a (Score:2) Monday August 09, @03:10PM
+</li></ul></li><li id="tree_9881463" class="comment">
+<div id="comment_status_9881463" class="commentstatus"></div>
+<div id="comment_9881463">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9881463">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9881463" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Epyx911">Epyx911 (802754)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9881463">		
+		on Wednesday August 04, @02:42PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9881463">#9881463</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9881463">I love this game but have 1 *minor* gripe...
+
+As a reviewer stated...why can't the marine use some tape the flashlight to his helmet or weapons?  The changing does add to the tension but would be nice to have the option!<nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9881463">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9882139" class="comment">
+<div id="comment_status_9882139" class="commentstatus"></div>
+<div id="comment_9882139">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9882139">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9882139" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~rDx666">rDx666 (801783)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9882139">		
+		on Wednesday August 04, @03:55PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9882139">#9882139</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9882139">You should be proud. Simply the amount of work you guys put into the game is apparent, no matter the subjective opinion of the end product. Doom 3 is meant to be a retelling of Doom 1, no? Even then, lots of games need twice the details and elements per square meter to match a Doom 3 level. Yes, id software has gained lots of experience with the creation of Doom 3.<br> <br>I am also happy with how the game runs--your technical direction also shows through every moment of the game. I now know what you mean by the word "polish."<br> <br>Though it's sad that Doom 3 is probably going to mark the end of the old-school shooter, judging from some of the reactions here. If they would only make a Painkiller sequel...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9882139">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9882139#9963552">Re:I'm proud of it.</a> by Soul-Burn666 (Score:1) Friday August 13, @05:46PM
+</li></ul></li><li id="tree_9882593" class="comment">
+<div id="comment_status_9882593" class="commentstatus"></div>
+<div id="comment_9882593">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9882593">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9882593" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~db10">db10 (740174)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9882593">		
+		on Wednesday August 04, @04:49PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9882593">#9882593</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9882593">Besides the graphics, the audio is simply phenomenal..  All-around kick-ass, I was kind of expecting a tech-showcase, but this DOOM 3 is the whole package...  Id is simply taking the genre to the next level... again.  Cheers!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9882593">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9883805" class="comment">
+<div id="comment_status_9883805" class="commentstatus"></div>
+<div id="comment_9883805">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9883805">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9883805" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~SuperRob">SuperRob (31516)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9883805">		
+		on Wednesday August 04, @06:31PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9883805">#9883805</a>)
+		<small><br>(<a href="http://superrob.blogspot.com/">http://superrob.blogspot.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9883805">"Amidst all the various Doom ports and expansions, we are starting up on our next game."<br> <br>EXPANSIONS?  This may be the first public mention of an expansion for DOOM 3.  Care to retract^H^H^H^H^H^H^Helaborate?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9883805">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9884725" class="comment">
+<div id="comment_status_9884725" class="commentstatus"></div>
+<div id="comment_9884725">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9884725">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9884725" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~spiderbiten">spiderbiten (618187)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9884725">		
+		on Wednesday August 04, @08:11PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9884725">#9884725</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9884725">I'd like to say Thank You. Id has created a beautiful, if not a little morbid sometimes, video game. The detail is amazing, even at the lowest settings. Some of the places in there, just get you going. I was personally starting to get nervous in one section. I could hear the demons, see shadows, but none to shoot. I was wishing just to let me have something to shoot and not play with me, it's an intense game. I love it, and have not been this addicted to a video game since the original Doom came out.
+Id has outdone themselves, you all deserve a cold one, if I lived near you guys, I'd buy.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9884725">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9885857" class="comment">
+<div id="comment_status_9885857" class="commentstatus"></div>
+<div id="comment_9885857">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9885857">I like it</a></h4>
+
+
+		 	<span id="comment_score_9885857" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DragonHawk">DragonHawk (21256)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9885857">		
+		on Wednesday August 04, @11:30PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9885857">#9885857</a>)
+		<small><br>(<a href="http://slashdot.org/">http://slashdot.org/</a> | Last Journal: <a href="//slashdot.org/~DragonHawk/journal/">Saturday November 18, @09:52AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9885857">I played Doom 3 for a little over an hour at one of those "computer game center" places.  I was really impressed.  My original thought was that the game would not be worth the $500 or so I will have to spend to upgrade my home game rig to play Doon 3.  I have changed my mind; I will be upgrading and buying Doom 3 soon.  Good job.<br> <br>FYI, I've heard that game publishers don't like those "computer game centers" because they feel they are losing revenue (i.e., royalties).  In my case, at least, you gained a customer -- you didn't lose one.  If, on the other hand, I was not able to try the game cheaply and easily as I did, I likely would still be planning on holding off on my purchase.<br> <br>Ignore all the people complaining that Doom 3 is just like Doom and Doom ][.  I guess they must not have noticed the word "Doom" in the title.<nobr> <wbr></nobr>:-)<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9885857">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9885857">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_9886137" class="comment">
+<div id="comment_status_9886137" class="commentstatus"></div>
+<div id="comment_9886137">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9886137">Well if it makes you feel better</a></h4>
+
+
+		 	<span id="comment_score_9886137" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Tibor+the+Hun">Tibor the Hun (143056)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9886137">		
+		on Thursday August 05, @12:40AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9886137">#9886137</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9886137">If it makes you feel better, I'm still too scared to play it in the dark.<br>And I'm 26!<br> <br>Mission accomplished, I'd say.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9886137">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9886137#9905146">Re:Well if it makes you feel better</a> by @madeus (Score:2) Friday August 06, @08:24PM
+</li></ul></li><li id="tree_9887417" class="comment">
+<div id="comment_status_9887417" class="commentstatus"></div>
+<div id="comment_9887417">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9887417">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9887417" class="score">(Score:1, Interesting)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_9887417">		
+		on Thursday August 05, @07:44AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9887417">#9887417</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9887417">I've played it and it's is the first time ever I've been freightened of a game, it scared the shit out of me, The gameplay detail is amazing<nobr> <wbr></nobr>,like whenever there's a compuiter<nobr> <wbr></nobr>,you can just use it for all kinds of utillities.<br>Also the sound and lightning effects are amazing.<br>I hope there will be a Doom IV</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9887417">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9887492" class="comment">
+<div id="comment_status_9887492" class="commentstatus"></div>
+<div id="comment_9887492">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9887492">Wonderful mix of Deja Vu and WOW!</a></h4>
+
+
+		 	<span id="comment_score_9887492" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~mildness">mildness (579534)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9887492">		 &lt;<a href="mailto:bill%26bamph%2Ccom">bill&amp;bamph,com</a>&gt;
+		on Thursday August 05, @08:05AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9887492">#9887492</a>)
+		<small><br>(<a href="http://www.bamph.com/">http://www.bamph.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9887492">In between the technology blowing my mind I am  brought back to the giddy pants crapping experience of beating Doom | and || on Nightmare.
+
+<p>
+Heartfelt thanks to you and your team John for all the hard work!!!
+
+</p><p>
+Cheers!
+</p><p>
+Billy Bad Ass</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9887492">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9968181#9969299">Re:Wonderful mix of Deja Vu and WOW!</a> by mildness (Score:2) Saturday August 14, @04:07PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9887492">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_9888321" class="comment">
+<div id="comment_status_9888321" class="commentstatus"></div>
+<div id="comment_9888321">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9888321">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9888321" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Reapy">Reapy (688651)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9888321">		
+		on Thursday August 05, @09:59AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9888321">#9888321</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9888321">How about being proud of not releasing the game bundled with protection software taht won't let me run the game because I'm running emulation software? Why don't you guys come to my house first and make sure I'm wearing clean underware before letting me start the game? What buisness of yours is it that I run legal software on my computer so I can keep back ups of my games?<br> <br>I obliged though, I wanted to play your game. I even went as far as uninstalling daemon tools, and it still wouldnt start?<br> <br>Why do I have to download a no cd patch to play the retail version of the game? Why would you do that? Why are you proud of that?<br> <br>At liest you made pretty shadows. You did a really good job there at liest. But in about 20 years of gaming, I havent seen such complete crap ever, when trying to run a game. Never, ever, ever ever. I guess that's something to be proud of...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9888321">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9888321#9917437">Re:I'm proud of it.</a> by Itrebax (Score:1) Sunday August 08, @11:29PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9888321">3 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_9890359" class="comment">
+<div id="comment_status_9890359" class="commentstatus"></div>
+<div id="comment_9890359">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9890359">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9890359" class="score">(Score:2, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Jettamann">Jettamann (25050)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9890359">		
+		on Thursday August 05, @12:53PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9890359">#9890359</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9890359">Hey John... What's the official word on the MultiThreaded design or improvements (if any) in DOOM3 compared to Q3E<br> <br>I ask because can't decide if I should stick with my AMD-XP upgrade path from (1500+ to 2500+) or take the plung and switch to Intel's P4 HT or true Duel CPU mobo before I buy the game!<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9890359">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9890359#9965812">suggestion</a> by Erpo (Score:2) Saturday August 14, @01:49AM
+</li></ul></li><li id="tree_9896261" class="comment">
+<div id="comment_status_9896261" class="commentstatus"></div>
+<div id="comment_9896261">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9896261">Me Too.</a></h4>
+
+
+		 	<span id="comment_score_9896261" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~mfh">mfh (56)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9896261">		
+		on Thursday August 05, @11:03PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9896261">#9896261</a>)
+		<small><br>(<a href="http://put-your-money-where-your-mouth-is.com/blog/">http://put-your-mone...r-mouth-is.com/blog/</a> | Last Journal: <a href="//slashdot.org/~mfh/journal/">Monday January 29, @03:44PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9896261"><i>&gt; I am extremely proud of Doom 3. I think it is the best game we have ever made, and it exceeded all of my expectations.</i> <br> <br>I'm proud to be one of the modders hard at work coming up with ideas to add hours of enjoyment to your wonderful game. We are having a blast, and you've created so much for us to do with the game... it's just a total leap forward into a new level of game design.<br> <br> <i>&gt; Amidst all the various Doom ports and expansions, we are starting up on our next game.</i> <br> <br>And we'll mod *that* too, I expect.<br> <br> <i>&gt; It will have a new rendering engine, which will be keeping me busy for a while, but the only other thing we are saying for now is that it won't be a sequel to any of our previous work.</i> <br> <br> <b> <i>Trinity?</i> </b> For real?<nobr> <wbr></nobr>:-)<br> <br> <i>&gt; We have a really solid team that did a lot of maturing through Doom's development, so I have high hopes that it won't be another four year odyssey.</i> <br> <br>Even though you say that D3 was a four year oddessey, which it likely felt like to you, I think the game matured so much in that time that it has become so much better as a result. From all the modders out there, and I think I speak for all of them, thanks for the ongoing support and really cool toys to play with!<nobr> <wbr></nobr>:-)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9896261">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9898546" class="comment">
+<div id="comment_status_9898546" class="commentstatus"></div>
+<div id="comment_9898546">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9898546">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9898546" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~XO">XO (250276)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9898546">		 &lt;<a href="mailto:eblade%40blackmagik.dynup.net">eblade@blackmagik.dynup.net</a>&gt;
+		on Friday August 06, @09:52AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9898546">#9898546</a>)
+		<small><br>(<a href="http://blackmagik.dynup.net/">http://blackmagik.dynup.net/</a> | Last Journal: <a href="//slashdot.org/~XO/journal/">Saturday January 31, @10:47AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9898546">I know you really don't care to hear people's subjective opinions.. but..<br> <br>
+ Doom 3 is scary as hell.  That's great.<br> <br>
+ The weapons SUCK.  It feels like I'm playing with Unreal's weapons.  The feedback sucks, the damage is way off, and the lack of prevalent gibs is just not right for an id game.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9898546">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9898546#9922235">Re:I'm proud of it.</a> by 0x0d0a (Score:2) Monday August 09, @02:36PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9922235#9925278">Re:I'm proud of it.</a> by XO (Score:2) Monday August 09, @07:59PM
+</li></ul></li></ul></li><li id="tree_9901613" class="comment">
+<div id="comment_status_9901613" class="commentstatus"></div>
+<div id="comment_9901613">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9901613">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9901613" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~FAX3D">FAX3D (803379)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9901613">		
+		on Friday August 06, @02:51PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9901613">#9901613</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9901613">Hi John, my name is Fabio, I'm Italian. I love all your works in particular Doom3. I'm a programmer like you, and I've a team of game development based on what we have learned playing your games, if you want to see something about our works... http://kyson.altervista.org
+
+Hi, you are the greatest</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9901613">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9909238" class="comment">
+<div id="comment_status_9909238" class="commentstatus"></div>
+<div id="comment_9909238">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9909238">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9909238" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~MrWoot">MrWoot (803602)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9909238">		
+		on Saturday August 07, @01:52PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9909238">#9909238</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9909238">Carmack,
+
+You have done an excellant job, I have followed your work since early on and needless to say it's because of the things you have done with computers that have made me want to be like you. I'm glad you are happy with Doom 3, I purchsed it the day it came out and am simply amazed with the results you have produced, congradulations and I cannot wait until i see the fruits of your labor for this final engine!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9909238">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9922384" class="comment">
+<div id="comment_status_9922384" class="commentstatus"></div>
+<div id="comment_9922384">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9922384">Piracy</a></h4>
+
+
+		 	<span id="comment_score_9922384" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~0x0d0a">0x0d0a (568518)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9922384">		
+		on Monday August 09, @02:55PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9922384">#9922384</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~0x0d0a/journal/">Sunday October 03, @05:03AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9922384">I dunno if JC reads all the responses to his posts, especially if those reponses come in a bit late, but I wanted to post this.<br> <br>I've been advocating that an effective method of dissuading people from just swiping content is to put forward the human element.  People *tip* waitresses, barbers and bellhops.  People don't even blink before swiping the latest EA football game.  What's the difference?  People have a hard time ripping people off if they actually see them as people -- we've built up mental structures that dissuade us from screwing over *people*.<br> <br>Corporations, on the other hand, are easy to screw over.  They aren't *people*.<br> <br>Somewhere along the line, publishers decided that they needed to try to market themselves.  They demand that games be categorized under their name, that they appear before the developer on the title intro (and sometimes in an unskippable intro), so on and so forth.  The problem is, nobody buys a game based on who publishes it.  It's the development house that matters.  Plus, developers provide that crucial human element -- "Sid Meyer" is a *person* who made a nice game, and when people pirate Civilization, they are taking away sales from him.<br> <br>I think that John Carmack does one of the best jobs I've ever seen of promoting a human element, and deliberately or not, enjoys the benefits of the loyalty that comes with such.  He posts about software that he's working on, and he puts out quite straightforward<nobr> <wbr></nobr>.plans that don't smack of the sort of marketroid-sterilized content that would come from EA.  Really, I'd very much like to see games all include a brief video clip in the intro of the development team grinning and saying "Good luck!" or whatnot to keep that link alive.<br> <br>One of the most effective tools that the RIAA has used (and has never been shot down) is that a pirate is "taking from the artist".  People arguing with the RIAA didn't even bother to try to argue against this -- they just worked on pointing out that the RIAA doesn't give a whole lot of the CD royalties to the artist.  We know that taking from content creators is bad.  Publishers -- ah, nobody cares.<br> <br>I wish more publishers and developers would do what Sid Meyer, John Carmack, and a few others do -- present a *human* face, let people associate *creators* with a game.  That doesn't mean a carefully organized marketing scheme with a scantily clad female developer on staff, that means just letting the human "oh, that's a *person* who I shouldn't screw over" mechanism kick in.<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9922384">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9965980" class="comment">
+<div id="comment_status_9965980" class="commentstatus"></div>
+<div id="comment_9965980">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9965980">John Carmack, developer, dead at 39</a></h4>
+
+
+		 	<span id="comment_score_9965980" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Jerk+City+Troll">Jerk City Troll (661616)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9965980">		
+		on Saturday August 14, @02:49AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9965980">#9965980</a>)
+		<small><br>(<a href="http://anti-slash.org/">http://anti-slash.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9965980">I just heard some sad news on talk radio - horror/sci fi FPS game developer John Carmack was found dead in his UAC barracks on Mars this morning. There weren't any more details. I'm sure everyone in the Slashdot community will miss him - even if you didn't enjoy his work, there's no denying his contributions to Satanic culture. Truly an American icon.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9965980">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9876672">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9878219" class="comment">
+<div id="comment_status_9878219" class="commentstatus"></div>
+<div id="comment_9878219">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9878219">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9878219" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Vap1d-">Vap1d- (461834)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9878219">		
+		on Wednesday August 04, @09:36AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9878219">#9878219</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9878219">Yes it's dark, yes it's almost pitch black and you have to deal with that; switching between weapon and flashlight.  It's part of the atmosphere.  It's all about ambiance.  If you don't get it, you don't get it..   And it's your loss!!  This is the most visceral game I've ever played.  (I've played a lot of them, not all, but lots..)  It's intention is to keep you on your toes and to keep you on the edge of your seat, and it works.  It's a BONUS that you have to keep switching to your flashlight in that if you didn't it wouldn't be the same game...  If you could see everything that was coming at you it would be a much easier and albiet more mundane affair...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9878219">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9877945">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9879730" class="comment">
+<div id="comment_status_9879730" class="commentstatus"></div>
+<div id="comment_9879730">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9879730">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9879730" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Kolben">Kolben (610005)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9879730">		
+		on Wednesday August 04, @12:05PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9879730">#9879730</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9879730">The part about tribal behavior is true enough. It happens often that people are trying to top each others comments. That always result in a skewed/exaggerated view on the topic. He's not lashing out on anyone. Just using this tendency as an argument for not reading the stuff. It's understandable. When you put alot of work into something, bad feedback hurts alot, even if it's skewed or exaggerated. I'd also rather obtain feedback elsewhere. Just to be sure that it's valid...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9879730">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9879640">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9880730" class="comment">
+<div id="comment_status_9880730" class="commentstatus"></div>
+<div id="comment_9880730">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9880730">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9880730" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~TuringTest">TuringTest (533084)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9880730">		
+		on Wednesday August 04, @01:35PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9880730">#9880730</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9880730">"flashlight separate from weapons" is part of the gameplay. Live with it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9880730">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9877893">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9880730#9905097">Re:I'm proud of it.</a> by @madeus (Score:2) Friday August 06, @08:17PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=9905097#9922720">Re:I'm proud of it.</a> by 0x0d0a (Score:2) Monday August 09, @03:23PM
+</li></ul></li></ul></li><li id="tree_9888164" class="comment">
+<div id="comment_status_9888164" class="commentstatus"></div>
+<div id="comment_9888164">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9888164">Re:  Ohh, so you've only played the alpha...</a></h4>
+
+
+		 	<span id="comment_score_9888164" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~khaustic">khaustic (802955)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9888164">		
+		on Thursday August 05, @09:43AM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9888164">#9888164</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9888164">Because otherwise you'd have at least a slight idea what you were talking about.<br> <br>FarCry is a completely different type of engine: it's not mean to have incredibly realistic shadows or lighting, nor is it an engine meant for close-quarters, detailed rendering.  The entire purpose of the CryEngine is to produce massive open areas using long-distance detail scaling and a sh*tload of sprites for various ephemera.  Everything in FarCry looked like an over-done cartoon - a very pretty cartoon, mind you, but a cartoon nonetheless.  I don't think ANYONE would buy DoomIII if it looked like it was produced by Disney.<br> <br>Stalker...  not even out yet, you've seen nothing but screenshots and maybe two trailers, and you're already saying it looks better than DoomIII?  Ha.  I won't even bother with this one.<br> <br>And let's talk about hardware.  I run a system with a 2.4Ghz Athlon XP, 512MB RAM, and a Ti4200.  FarCry?  Had to drop the detail levels so low to get frame rates above 20fps that it was like playing in a desert, not a deserted island.<br> <br>Stalker?  Of course I haven't played it yet, and neither have you.  ("On quite good system, that runs other mentioned games with very nice visuals.")  Wait until the game is actually released before pretending you know how it runs.<br> <br>Doom3, however, I could play on high detail, with only the shadows and Anti-aliasing turned off, at 1024x768.  And the only time I found myself lagging a bit was when there were massive lightshows going on.<br> <br>And non-existent MP?  That's funny, I must've been dreaming last night when I played on my LAN with two friends for about four hours.  Weird.  I'll have to stop eating before I go to bed, it gives me the most VIVID dreams.<br> <br>Go post somewhere else, troll.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9888164">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9886796">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_9891400" class="comment">
+<div id="comment_status_9891400" class="commentstatus"></div>
+<div id="comment_9891400">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="9891400">Re:I'm proud of it.</a></h4>
+
+
+		 	<span id="comment_score_9891400" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~ripewithdecay">ripewithdecay (573894)</a> 
+			<span class="otherdetails" id="comment_otherdetails_9891400">		 &lt;<a href="mailto:booticon.gmail%40com">booticon.gmail@com</a>&gt;
+		on Thursday August 05, @02:13PM (<a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9891400">#9891400</a>)
+		<small><br>(<a href="http://platea.us/" rel="nofollow">http://platea.us/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_9891400">In the end, Chris Vrenna ended up doing the music.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_9891400">
+[ <a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=9884825">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li><b><a href="//slashdot.org/comments.pl?sid=116699&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=9876672">18 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

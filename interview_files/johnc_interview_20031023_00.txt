@@ -1,0 +1,54 @@
+http://www.computerandvideogames.com/article.php?id=97758
+DooM III Preview
+PC ZONE scores a rare audience with programming legend John Carmack, and gets the raw truth about Doom 3, the future of graphics engines and why he hates ragdolls...
+Computer and Video Games
+PC Zone Staff
+
+<desc>Some say he's the greatest programmer alive. Others call him a visionary genius who single-handedly drags games technology into the future with his audacious talent. Since we wouldn't know a string of C-code from a string of lean beef snarlers, we could hardly comment on that, but we do know one thing - John Carmack has coded some of the best games ever made. Wolf 3D, Doom, Quake - hell, he practically invented the FPS.
+
+These days, the Mack Daddy of rendering doesn't emerge from his subterranean lair very often, and PC ZONE was the only UK magazine to secure an interview at QuakeCon 2003. It's too big for one magazine, so we've had to split it across a couple of issues. Part one starts right here, so without further ado, over to the big man...</desc>
+
+
+<q>How close is Doom 3 to completion?</q>
+
+<a>We're really close. The last level was completed recently, but there's a huge amount of tuning that needs to be done. We've got a few levels, like the ones shown in the demo that are pretty much at the level of polish we're looking for throughout the game. But the other 20-some odd levels are not there yet.</a>
+
+<q>How critical are the next few months going to be?</q>
+
+<a>In some ways this is the most important time of development. The tools are all there, everything's at our disposal, everything's basically working. Now's where it goes from being an interesting demonstration of all the technologies to being a fabulous game, and that really does all happen at the end.I recently counted up the number of things we have to tune between pulling a trigger and hitting something with a projectile, and there's 32 effects that we have going on between there. There's the muzzle flash model, the light from there, the kick of the gun, the kick on the view, the sound on the muzzle flash, the sound on the projectile, the light on the projectile, the particles from the projectile, the pain animation that the monster gets hit by, the knock-back that he gets, the blood spray that comes off of it, the decal that gets put on it, the pass-through that goes on to the wall, the shell that comes out of the gun - you know, it's this huge list. You look back at the really early games where it's like, OK, you had an animation that happened there as a little muzzle flash and then the guy went into a pain animation, and that was it. So, there are a lot of dimensions that we have at our disposal for tuning, and you're not going to get everything perfect, but you feel an obligation to at least try and explore the solution space a little bit to try and hit on the really good things.</a>
+
+<q>So is it at the stage now where your personal involvement on the game is a little bit less?</q>
+
+<a>Actually this entire past year I haven't been the most critical person on the team, because the development of the rendering engine went smoother than really any I've ever done before. It turns out that the decisions I made at the very beginning about how the implementation was going to be, what the features were going to be, what the interface was going to be - they were all really good. Normally there's lots of evolution and major changes that go on, but the original architecture for the Doom 3 renderer has stayed pretty damn constant. Two years ago it was rendering pictures that look basically like our pictures today. One year ago it was feature-complete. This past year has been adding tweaks and some optimisations to things, but really at this point I'm hesitant to make too many major changes because it's really good right now, I don't want to screw it up.</a>
+
+<q>What's your main responsibility on the game now then?</q>
+
+<a>I've actually been back in recently doing some more of the game code, which is not what I ever intended to do, but I'm almost sort of twiddling my thumbs sometimes. It's more difficult now, because in previous games all the code was spawned by me. I wrote the base of everything and then other programmers would take over and extend the things, but I still put everything in its original places so it was easy for me to jump in and quickly diagnose any problems or add any feature. Doom 3 is the first game that started out with multiple programmers writing brand new code.In Quake III we wound up pulling in a big block of code that Jan Paul [van Waveren, the Dutch programming whiz headhunted by id from the Quake editing community] wrote for the bots, but that was an emergency measure at the end, because of the way that whole thing worked out. So there's this block of stuff in Quake III that I really know nothing about. But with Doom 3 we had many programmers writing brand new sub-systems, and I don't necessarily always agree with how some of the things are implemented. So I'm not in a position where I can just jump in and grab anything off the 'to-do' list and go and fix a problem in the game code. But I did recently finally start getting back into carving off some sections of the game code and fixing it up and making it more the way I'd like it to be. I'll probably be doing some more of that. But there's a huge loss in productivity once you go from a project that one person basically created the bulk of to something that has lots of people working on it. We've had five programmers working almost from the beginning on Doom 3, and it might have twice as many features as if I had done everything, but it has like ten times the problems. You pay more labour for more features, but you get features that you wouldn't have got otherwise. The classic case that I'll hold up, as a perfect example of something I wouldn't have done that turned out really good, is the ragdoll physics for deaths that Jan Paul really pushed for. That's the type of feature that I never would have implemented.</a>
+
+<q>Why's that? We can't get enough of those kooky ragdolls...</q>
+
+<a>Physics code is among the twitchiest stuff to put into a game engine, because it's not as deterministic and able to be nailed down. It is a pretty significant performance drag, and for two years now in Doom 3 we've had cases where it's like, 'the game is stuck at seven frames per second, what the hell?' and it's because a ragdoll is stuck and not going into a quiescent state. There's all these sets of problems that I knew would be problems, and were. But they were able to be solved, and now the ragdolls are a good feature.</a>
+
+<q>Do you fret a bit about losing a certain level of control over the development process?</q>
+
+<a>I'm at peace with the situation. It was a known strategic decision. For one thing I'm not spending all my time at id anymore, because I'm doing the Armadillo stuff with a good chunk of my time [Armadillo Aerospace, John's rocket science project]. So the company has to get by without me, and even if I was still spending 80 hours a week at id, you'd just eventually reach a point where one person functionally cannot do all the features that you want to have on there.</a>
+
+<q>I was talking to Tim and Todd earlier about the involvement of UK developer Splash Damage on the Doom multiplayer. How's that working out?</q>
+
+<a>Well, we always knew that we were going to be, intentionally, giving multiplayer short shrift in Doom 3. It's a single-player game, that's what we're building everything around, and the multiplayer is going to be present, but not a focus. So it's probably a good thing that we're getting an outside team to go ahead and make it their focus. Otherwise it would have been essentially the level of capability that Quake II had, where you had like five levels that were hashed out in a week from somebody. So now we're going to get some good stuff with really good playtesting in it.</a>
+
+<q>You've been doing this stuff for more than a decade now, making dark and disturbing first-person shooters. What keeps you going and what keeps it interesting?</q>
+
+<a>Well, to some degree we are trapped by our success. Because we're a single-product company, and we have 20-some odd employees that we pay very well, we don't have the freedom to go off on some complete lark and try some random thing. The products that we spend time on have to have a high probability of success, and they also have to use the same mix of artists, level designers and programmers that we have. It's not in our cards to go and say, 'well, we really only need one designer for this project, we'll fire four level designers'. We just wouldn't do that.</a>
+
+<q>Are you ever tempted to try something completely different?</q>
+
+<a>Well, I'm doing Armadillo Aerospace, so yes, you could say the temptation is there on some level [laughs]. Game-wise, I'll occasionally have some random thoughts about doing something different, but the first-person shooters have been good from a technical-challenge level, with the combination of networking and sound with the graphics and the structuring and architecting of the things. It's been rewarding on that level. And that's my primary motivation really - the engineering challenge. Making interesting things work as new capabilities arrive, as the hardware provides it to us.</a>
+
+<q>Are you anticipating any media controversy to follow the release of Doom 3, as you've suffered with many of your previous games?</q>
+
+<a>I would have thought that stuff had been played out. The media every once in a while is like, 'Hmm, what are we going to do now... Let's pick on violent videogames.' I wouldn't be surprised though. External events again are going to be the driver. If there's any other... ah, Columbine sort of thing, I'm sure it will come up again. I don't think we're going to get too much of it, but I could be wrong. It's not my area.</a>
+
+<q>We noticed one undiscussed item on the multiplayer weapons menu - the Soulcube. Can you tell us about this item and any other power-ups we don't know about?</q>
+
+<a>The Soulcube is a hell artifact from the later part of the game. There are some other power-ups that you haven't seen yet, but the multiplayer is not going to have all the power-ups that people expect on there - it's not hugely focused on that. There will be a few other things with some interesting effects, but that's not a focus in the multiplayer.</a>

@@ -1,0 +1,12 @@
+timeline/*.txt
+pdf/*.aux
+pdf/*.bbl
+pdf/*.blg
+pdf/*.dvi
+pdf/*.log
+pdf/*.out
+pdf/*.tex
+pdf/*.toc
+pdf/*.pdf
+files/*.zip
+./*

@@ -1,0 +1,65 @@
+http://ds.ign.com/articles/833/833894p1.html
+John Carmack on the Nintendo DS
+The gaming tech guru chats up the dual screen handheld in our exclusive interview.
+IGN
+Craig Harris
+
+<desc>Next week Electronic Arts will ship Orcs &amp; Elves for the Nintendo DS, a dual-screen conversion of the cellphone design brought to life by game engine guru John Carmack, best known for his work at id Software such as Wolfenstein 3D, Doom, Quake...and the list goes on. The man also had his hand on the Nintendo DS version, building the tech to get Orcs &amp; Elves moving on the portable system.
+
+In preparation of the game's release on November 13th, we had the opportunity to talk with Carmack about his work on the Nintendo DS.
+
+Carmack has also been blogging about his experience on the Orcs &amp; Elves developer diary. Be sure to check it out.</desc>
+
+<q>So I heard that you created the engine for Orcs and Elves for the DS in four days. Truth, or an exaggeration? If it is true, how the heck is that possible?</q>
+
+<a>It is true that I wrote the 3D code in four days, but I had a good setup for it. The Fountainhead team had gone through the initial learning curve of working with the DS dev tools, so the game was basically running when I got it. They had also done some test models and a first cut at a non-tile based level model, so I had data to work on the new functionality with.
+
+Once or twice a year I go on "working retreats", where I lock myself in a hotel room for two weeks with no internet connection for completely focused work. I tackled the DS work first this time. I had read the reference guides, I understood what the hardware did, and I had a pretty good idea how I was going to structure everything. Fortunately, I didn't hit any blind alleys, and the implementation went pretty much as I expected it to. After four days, all of the low level functionality for displaying the general purpose 3D levels and moving around models and sprites was implemented, and the Fountainhead team took it back over to finish all the detail work of the game.</a>
+
+<q>Since this is your first Nintendo DS project, what was it like poking at the hardware?</q>
+
+<a>It was probably the most fun platform that I have personally worked on. The early consoles that I worked on (SNES, Genesis-32X, and Jaguar) had fun hardware and full documentation, but a lousy development tool chain. A lot of later consoles had much better development tools, but they started playing secretive with the exact hardware specs, at least around console introduction time.
+
+While there are a few nooks on the DS that aren't documented, they weren't things I cared about, so to me it was almost perfect. It is a shame that homebrew development can't be officially sanctioned and supported, because it would be a wonderful platform for a modern generation of programmers to be able to get a real feel for low level design work, to be contrasted with the high level web and application work that so many entry level people start with.
+
+Orcs &amp; Elves makes the move from phone to DS this month.</a>
+
+
+<q>Tell us some of the features of your engine, and how that's applied to Orcs and Elves. Can this engine be used for anything but a step-by-step, gridded first-person dungeon hacker?</q>
+
+<a>On projects of this scope, it isn't really accurate to speak of the "game engine" since there isn't all that much code involved. The basic strategy is to just allow the relatively slow CPU to chain together static blocks of data that are ready for the relatively fast GPU to consume, implementing dynamic effects by prepending some state updates before the static data is consumed. I wanted 60hz updates everywhere (I was irritated that Prison occasionally slows down to 30hz).
+
+To the game code, the world is still just a tile map, but for rendering, each map was exported as a general-purpose 3D model, and the artists could then go through it and spend the polygons any way they liked, without the limits of line-of-constant-z software rasterization that we lived with on the mobile phones. You can't render all that many polygons on a DS frame, and you have to keep a healthy reserve to avoid ugly failure in dynamic situations, but the geometric freedom and vertex lighting/colorizing lets it look a heck of a lot better than any cell phone.
+
+High level culling is still done by a front to back walk of a BSP based on the original tile geometry, with a one dimensional occlusion buffer being filled in as segments are processed. This is the thing that is most marginal right now, since if the "prettied up" 3D model diverges too far from the original tile geometry, you can get culling errors. I would do this differently, given a bit more time. An explicitly modeled 2D portal/occluder shell would be faster, more flexible, and slightly smaller in memory, but would require another new element in our production chain. Our next DS title will certainly use code from Orcs&amp;Elves, but there will be significant changes.</a>
+
+<q>Orcs and Elves seems to approach a game idea that's been left behind: the Eye of the Beholder/Lands of Lore-style dungeon hack. Do you think this style of gameplay is still relevant? Are you concerned that maybe this style might not work in this day and age?</q>
+
+<a>I think World of Warcraft shows that people today still like a good fantasy hack and slash game. I always thought that a lot of computer fantasy games leapt into complex party based play somewhat prematurely. There is a certain type of fun in shuffling things around to min/max your party's combat effectiveness, but that type of gaming is pretty much orthogonal to the basic sense of adventure at the core of an RPG.
+
+It is true that the gameplay for Orcs&amp;Elves was designed around the limitations of mobile phones, and that if we were starting completely from scratch for the DS we would probably do things a bit differently, but the bottom line is that when we sit a random DS player down with the game, they have a lot of fun.</a>
+
+
+<q>You mentioned at Quakecon that you're interested in a Quake Arena for the Nintendo DS, but didn't want to approach it control-wise like Metroid Prime Hunters with the mouselook on the touchscreen. Care to elaborate on this? Why wouldn't you want to utilize the touch screen for the freedom of movement?</q>
+
+<a>I haven't ruled any control scheme out at this point, but when I ask people what they think of Metroid Prime Hunters, the response is strikingly uniform: The control seems wonderfully cool at first, but nobody wants to play it for extended periods of time, because the ergonomics are bad. It is essentially like trying to use the right analog stick on a 360 with your left thumb.
+
+I think that there is a somewhat unexplored spot in the gameplay solution space around a game that plays more like classic Doom deathmatch, with dpad+shoulder strafe control. At 60fps rendering speed, aiming control can be quite accurate, and timing based skills somewhat take the place of the extra dimensions of look up/look down decisions. I know for a fact that we can make something fun with that control scheme, the only question is if we can do something else that is even more fun. The DS doesn't care at all whether it is rendering a 2.5D play environment or a full 3D, 6DOF environment, but if the gameplay gets less fun when you insist on forcing the player to use additional degrees of freedom, it could still be a bad decision.</a>
+
+<q>Since you're very tech heavy and familiar with the hardware, tell us: have we reached the cap of what's possible on the Nintendo DS? Or do you think there's something coming down the pike that'll really wow us?</q>
+
+<a>It is likely that every significant trick of the hardware has been demonstrated, but software is all about combining basic steps to do unique things, so new things will be seen as surely as new books will be written. In any case, all of the implementation decisions will change as the prices for cartridge memory continue to fall. If we had a 128 meg cart instead of a 16 meg cart, all sorts of priorities would have been different. The combination of larger amounts of non-volatile memory on carts with internet access also opens up possibilities for continuously updated games.</a>
+
+<q>Do you feel a sense of responsibility for driving the industry forward? Is that something you keep in mind when developing new engines?</q>
+
+<a>Oh, the industry is barreling along just fine all by itself. Sometimes I get to nudge the steering wheel a little. One of the things that is stressing me out right now is that significant decisions are being made about the next generation of consoles and compute accelerators based on large arrays of processing elements, and there is a lot of hand waving going on about how great new things will be done with it, but very little to back it up. I have my own "hand waving" direction that I have been talking about, but until I have the time to actually implement some proof of concept work, I can't speak with any kind of an authoritative voice.</a>
+
+<q>What's the next big step for games - where you see it moving over the next five to ten years, both in terms of technology and platforms?</q>
+
+<a>I do think that mobile platforms will play an increasingly important role. There are vastly more mobile phones in the world than there are game consoles, the hardware capabilities are now quite strong, and connectivity is intrinsic. There is still a large issue with poor user input characteristics and widely scattered implementation quality, but I am hopeful that will be improving over the next few years.
+
+Ten years is a long time to look ahead for hardware trends. Some things will not have changed drastically -- the HDTV resolutions will probably be the same, and game consoles and controllers will still be recognizable. Processing will likely be done with hundreds of parallel processing units with a flexible division of work. Content delivery will mostly be over the internet, likely in a dynamic streaming style rather than a one-big-download style. Networking could even displace local computation for high end rendering, with cheaper devices essentially streaming media created at locations of higher compute density. I don't think it is inevitable in this timeframe, but significant advances in IO would make the largest difference -- direct retinal image scanning, high resolution full body input, etc.</a>
+
+<q>To the average gaming consumer, what do you think of as the most important aspect to deliver in a game? What are people really looking for, and how are you working to incorporate that into the work you do?</q>
+
+<a>Today, I don't think it is reasonable to speak of the "average gaming consumer", any more so than the "average phone user" or "average book reader", and I wouldn't try to guess what such a large slice of the public really wants anyway. We try to pick directions that a good number of people will enjoy, then just do a quality job implementing it. Some people will love it, and some people will hate it. The people that hate it usually scream louder.</a>

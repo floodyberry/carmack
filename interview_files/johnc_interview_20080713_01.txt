@@ -1,0 +1,102 @@
+http://www.gamespot.com/news/6193726.html
+E3 '08: Carmack IDs Quake Live
+Doom-creator's celebrity technical director joins executive producer Marty Stratton to discuss free-to-play, browser-based FPS, and PC-versus-console strengths
+GameSpot
+Tom Magrino
+
+<desc>It isn't at all unusual to hear the word's "pioneer" and "id Software" uttered within the space of a breath. After all, the Mesquite, Texas-based outfit dramatically revolutionized the gaming industry in 1993 with the ground-breaking first-person shooter Doom. Since then, the developer has maintained its position as a technological innovator, thanks in no small part to programming wunderkind John Carmack.
+
+At last year's QuakeCon, the notable studio first teased its next ambitious effort in the gaming industry, announcing a free-to-play, ad-supported version of Quake III Arena. However, forgoing the traditional brick-and-mortar distribution channel, and outright leapfrogging the fledgling digital download market, id revealed the game would be streamed as a native application through an everyday Web browser.
+
+Nearly a year on and a partnership with in-game advertising kingpins IGA Worldwide later, id is preparing to open the flood gates on QuakeLive.com, the platform that will host the free-to-play, browser-based Quake III Arena. With id expecting to flip the switch on QuakeLive.com as soon as next month, GameSpot sat down with id Software founder and technical director John Carmack as well as executive producer Marty Stratton.
+
+The gaming execs discussed what Quake Live brings to the table, how the ad-supported gaming fit in with id's mobile and top-tier development strategy, what PCs still have over consoles, and how the PC is the "junior partner" in id's cross-platform strategy for Rage and its latest-and-greatest game engine, Tech 5. </desc>
+
+<q>Quake Live was initially announced as Quake Zero at last year's QuakeCon, and you all said it would be an experiment in advertising-supported gaming. When did it become Quake Live, and what has been going on with the game since then? </q>
+
+<a>So the process was, I had this rough idea to try this shortly before QuakeCon last year, and we announced it there, but we didn't wind up tying up all the domain names that we should have when we were calling it Quake Zero. So some speculators or squatters wound up sitting on the domain, and we decided that since it was still the early days, to go ahead and just change the title of the game, rather than pay them off.
+
+And it's been Quake Live since very shortly after that. Now, it's definitely already been significantly longer than we thought it would take to launch. The initial thought was that this might be a six-month development, where we take the old title and we wrap a Web interface around it and kind of push it out there and see what it does. And it turned into, one, a more ambitious project, and two, as we should have expected going in, we really didn't know how to make Web sites and manage databases and all that stuff with the people that we already had in house.
+
+And there's been a big learning experience on it, and here we are, almost a year later, and it is rolling into beta now, and we're pretty happy with how it looks on everything. But the big question about how this will do as a business model should be answered within six months. We'll know whether things are playing out fairly early.
+
+My first earliest fears have already been resolved where, when this idea was first floated out, we really didn't know if when we launched, if we would get 50,000, 500,000, or 5 million people playing it. I mean, I could see credible arguments that people could make for any of those numbers and anything in between. And I was really quite heartened when we opened the beta registration process and we have had over 100,000 people sign up, with really no significant promotion or anything around it.
+
+I think that bodes very well for the possibility of getting in the multiple millions of regular users. And so much of the effort that's gone into this has been about turning it from something that was very much a hardcore game, into something that is approachable by everybody. We've taken all the suggestions that the people that have been playing the game for the last nine years--the diehard, competitive crowd--the things that they like about it, and the rule changes that they've liked, and so on. Those are all moved into the game.
+
+So in many ways it's better for the hardcore people, but most of the focus has been on making sure that, if somebody--since it's free, you want the scenario to be, "Hey, go check this out. You might like it." We want people to be able to go to the Web site, and things just automatically happen. They jump in, they're trained a little bit, they're taught what goes on in the game. They're given an opportunity to play at something that won't be overwhelming, and then based on how their training match went, the initial games that they select to play in will be with people at a similar level of skill.
+
+Because right now, if you gave somebody a boxed copy of Quake Arena, there's still a few thousand people playing it, like, probably at this moment still, online. So there's a community of tens of thousands of people that are still active Quake III players. But if somebody was given a copy of Quake III, and they tried to go online, they'd have a miserable experience. Because everybody's playing some modified version of something, the communities are all tightly knit and everybody is extremely highly skilled, if they're still playing the game, and it would be a lousy entry point.
+
+So we've made that our highest priority. We want it to be something that people that have never played this type of game before can follow their Web browser over here and things just happen and lead them into the game and that's a nice, easy way. </a>
+
+<q>So is this just a port of Quake III Arena? Or have you added in additional features? </q>
+
+<a>The core game has had very little changes to the engine. The idea was to wrap this really state-of-the-art--player interaction, score-boarding, leaderboards, chat forums--all this stuff, around a stable, consistent game. So there are some advantages to that, in that every computer that anybody is at all going to sit down on, and is connected to the Internet, can play Quake Arena well. You know, most of them run it at 120-something frames per second on there. There are no driver issues, because everybody used this game as a benchmark for five years before it was superseded by other things on there.
+
+The data has actually been touched on every single level, though. While the core rendering engine has only modest tweaks on it, nothing particularly to improve what you really call rendering things. But every map has been touched where there's a level of polish that modern games have that, when we look back nine years ago, standards were a lot more lax. I mean, Quake Arena was the first mainstream, hardware-accelerated game, and it was much more about, "Wow, look at this. Isn't it cool?" And people weren't looking at all the details, like making sure the textures line up or the lighting is appropriate.
+
+And we have had the designers make a path through every single level in the original Quake Arena, the Team Arena content, and there's a little bit of custom new stuff that goes on in here also. So everything is cleaned up, brought up to a modern level of polish, the billboards and advertising scoreboards are very nicely integrated. It's not a matter of just finding a bare spot of wall and throwing up two triangles that you can stream an ad on to. They're actually built into the levels in a very stylish way, where you've got the boards with spotlights, lighting them up as things change. And all that's been done really nicely.
+
+But, you know, 90 percent of the work on the project has been stuff that goes around the game--the Web site experience, the game rankings, all the stat-tracking and database management, and all of this stuff that really is better than probably any game, anywhere has done. We went out, we surveyed the landscape of what was available, what we could integrate, what we could take, and what we could improve.
+
+And we make no claims or try to hide the fact that the core of the game is essentially nine year old technology. But everything around it is modern, 2008, state-of-the-art stuff. </a>
+
+<q>What changes or what new technology has made it possible to get the Quake engine running in a Web browser? </q>
+
+<a>Fundamentally, nothing. We are running the game as a native application. This isn't a Flash or Java game. I mean, it's always been interesting for years to watch people port various versions of Quake to Java and run in the sandbox. But this is the core game put inside, and you could do this back when Quake Arena was originally released. And, in fact, that was one of my--it didn't wind up turning out like this--but I had actually pitched the idea of doing all of our user interface in a Web browser back when we did the original game.
+
+So there's nothing fundamental that makes it possible now, that wasn't possible before. It was just a choice to go do this now, rather than focusing on the conventional game models that we had previously had through Doom III. The PC market has dropped an important force relative to the console for our mainstream titles. So what we're doing, we take Tech 5 and Rage, and PC's still there, but it's a junior partner in the cross platform strategy.
+
+And Quake Live was our attempt to look at what the PC still does really honestly better than the consoles, where you've got the rich Internet experience, the good Web browsing, the ability to show lots of statistics, the ability to have ubiquitous PC anywhere--you could sit down and log into your account from anywhere--and, importantly, mouse/keyboard interface, which for a game like Quake III, makes the game a whole lot more enjoyable than a joypad ever could.
+
+I wouldn't say that things like new game advertising and web interface are the future of PC gaming. That's a huge over reach for something that's so speculative right now. But thinking about those types of questions, and then building PC games around what differentiates the platform from consoles--that has guided a lot of our decisions about what we do here. </a>
+
+<q>Are there any plans to turn QuakeLive.com into a full-fledged platform in the vein of something like Garage Games' InstantAction, where you've got several different titles on it? Where do you see the future of this browser-based gaming going for you guys? </q>
+
+<a>Well, the future on this is that we hope it's a successful product and we keep team members on it indefinitely. We don't have a follow up plan. There was a little bit of talk about taking Enemy Territory: Quake Wars, and doing something similar with it. But there are no current plans for that, and if we did do that, it would just be a completely parallel experience. We think that that the Quake Live game is going to be its own Web site, and it's not going to be part of a platform where you have selective different options.
+
+Certainly, the success of some of the casual gaming markets has been a good find for us. That there's success to be had there, but just the level of product that we're putting out--something that was, at one time, the stand-out commercial title--and it is a different level of development from what people are expecting from Web games. </a>
+
+<q>So you mentioned that this is a free product and will be ad supported. How is that going to be integrated into the game? </q>
+
+<a>Yeah, it won't be strictly ad support, in that we have in-game advertising, billboards and such inside the game. There are ads on the scoreboards and when you die, and certainly all the normal Web site advertising. But there's also a lot of opportunities for sponsorship of things. Sponsored contests, whether it's sponsored media level tournaments, leaderboards, all sorts of things like that.
+
+And while we have a good guarantee already on the in-game advertising, it's going to be a toss up to see--well, we're very interested in seeing how it plays out. There's still every chance in the world that this just fails. We don't have the existing proofs to point to and say, look, clearly this a successful model because there are five other companies doing it. We may well wind up being the pioneer with all the errors in our plan here.
+
+But there's enough good signs that I'm at least guardedly hopeful that this is going to turn out to be an interesting business for us. </a>
+
+<q>Do you think that this kind of ad-supported model will, in the near-future, take off to the point where games are essentially free, and you're making money by serving ads to a mass-market audience?</q>
+
+<a>It doesn't really work that way for most games and, you know, that's why we would never consider doing something like a Doom Live, or something, where the core of the game is just not as compelling with commercials and ads stuffed in. That's why I've never been a big supporter of in-game advertising in any of our other titles. You know, we've looked at it, we've been approached by people about it for our titles for quite some time. Actually, all the way back to Quake I, if you can believe it.
+
+But we've never chosen to do it because, for lots of games, it's just not a good fit. Like, Quake Arena was always about this kind of ESPN-like arena, where there's commercialized combat, and it just fits pretty naturally with that game. You know, as with almost anything, there are lots of viable and valid paths to take, and I think that it'd be nice if it turns out that this type of thing can be a small niche in the market. I would be shocked if it turned out to be a dominant platform for PC gaming going forward. It's not out of the question, but it's not what I would expect. </a>
+
+<q>What about the mobile market? </q>
+
+<a>Well, I'm a big believer in the mobile market. We've sold over two million units our mobile games, Doom RPG and Orcs and Elves, and we have Wolfenstein RPG coming out later this year, the latest and greatest 3D engine, all that kind of good stuff.
+
+So yeah, those in fact are the three prongs of this strategy right now. We still have our top-of-the-line, triple A, cross-platform titles with what we're doing with Rage and Tech 5, and we're following up with another Doom game after that. But then we've got Quake Live, as our PC-focused title, and then we have the mobile projects, with what we're doing on mobile. </a>
+
+<q>Would it be possible to do something like Quake Live for mobile phones? </q>
+
+<a>You know, I have this type of discussion a lot with my wife, and the problem is that there's not enough tight control. You can't do a great action game on mobile right now in any kind of a broad base. I have really high hopes for the iPhone as a market. I think that what they're doing with the iTunes delivery, cutting the carriers out, native programming, graphic accelerator--they have lots of great possibilities there.
+
+Although, fundamentally, unless you have Wi-Fi access, even the 3G network really fights for latency, so a Quake Live game would not be a particularly good product. All of the success of our mobile games is largely due to the fact that we didn't fight the platform. We built a completely new style of gameplay to cater to that. Rather than just saying, "Well, we know how to do first-person shooters, let's push one on the phones." Instead we've got the kind of RPG 3D stuff that we've been doing on there.
+
+So no, I wouldn't expect a Quake Live on the phone anytime soon. </a>
+
+<q>Alright. So do you guys have an expected launch date for QuakeLive on PCs? </q>
+
+<a Marty Stratton>We're rolling through a closed beta right now, and as John mentioned, scalability is something that we're cautious of. We don't have a lot of experience with the data-hosting side, and we're trying to get good solutions in place. So we're basically going to take a measured launch approach, where we move through our closed beta, where we're adding--right now we're adding about anywhere between 1,000 and 1,500 players a week to our closed beta. Over the next two, three weeks, four weeks, once we get into our data center, that'll allow us to then scale by tens of thousands every week. And I would expect us to grow that up to 150,000 to 200,000 through July and into August, and kind of see how the scalings happen.
+
+The last thing we want to do is just flip a switch, open the site, and be down within 30 minutes. I think even Apple is experiencing that [with the launch of its new iPhone]. I've heard you [couldn't] register your new iPhone because their servers are down. We've got a lot less experience than Apple does, so we're really trying to take an approach that'll allow large groups of people to get into the game, over a period of time. And then once we're confident we can handle all the loads, then we'll basically just take the gate off the site and open that up to everybody.
+
+And that process will happen really through July, into August, probably later into August, and hopefully by then we'll be really near completely launched, if not completely launched. But, of course, that's one of the great things about this model. It's not like the boxed-good model, where you have to have your two-week media blitz leading up to the roll out on here. The product's going to sit there, and it can grow users at whatever rate it turns out to happen.
+
+Once we're sure that the product really is solid, and we've got a happy user base, then we probably will be investigating in advertising and extra pushes and things like that, that we can do at it. But there's no real pressure for that to happen sooner rather than later. We'd rather let it grow at a cautious rate and try and do a great job, rather than make some big blitz and fall on our face because, you know, we weren't really qualified to deal with all those problems immediately.
+
+And even from just a feature perspective, our focus is on I'd say maybe five core features that we're delivering over that time period that I just went through. Almost all of those are about the Web experience and the usability of the Web site and getting into the game. Longer term, we already have a list of I think it's eight to 10 features right now, that we want to add, and because the interface is on the Web, because the delivery mechanism is basically transparent, we can update content without people even really knowing. We can publicize things that basically are just as easy as updating a Web site.
+
+So it really gives us a level of flexibility and speed that we've never had before with a retail product. I mean, we're not going through a publisher, so if we want to run a contest, we run a contest, and it's immediately up on the Web site. And the players see it, and if we need to push new content to do that, we push new content to do it. It's really a whole different way of doing things for us, even from a development and delivery perspective. </a>
+

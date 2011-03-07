@@ -1,0 +1,1343 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Carmack Speaks On Ray Tracing, Future id Engines</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_199">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_199">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_199"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_199">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_199">
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_199" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-32013-5");
+pageTracker._setDomainName("slashdot.org");
+pageTracker._initData();
+</script>
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+                                        <li><a href="//slashdot.org/help" title="Get help with your account.">Help</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+                                
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+                        Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//mobile.slashdot.org//" onclick="javascript:pageTracker._trackPageview('/toshiba/mobile_section')">Mobile</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="http://ad.doubleclick.net/clk;172276006;13503038;t?http://www.linux.com/sponsor_solutions/">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block static" id="links-jobs">
+	<div class="title" id="links-jobs-title" style="cursor:pointer;" onclick="window.location='http://jobs.slashdot.org/';">
+		<h4><a href=" http://jobs.slashdot.org/" style="text-decoration:none;border-style:none;">Jobs</a></h4>
+	</div>
+	<div class="content" id="links-jobs-content">
+		<script type="text/javascript" src="http://edge.jobthread.com/feeds/jobroll/?s_user_id=100540&subtype=slashdot "></script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://games.slashdot.org/games/08/03/12/1918250.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,games,entertainment,software,graphics,technology';
+		var parent = 'http://slashdot.org/articles/08/03/12/1918250.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=games;tpc=entertainment;tpc=software;tpc=graphics;tpc=technology;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox "><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+	<div class="commentBoxForm" id="commentControlBox">
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+<noscript><br><small>Without JavaScript enabled, you might want to
+use <a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;no_d2=1&amp;pid=22733726">the classic discussion system</a> instead.  If you <a href="//slashdot.org/login.pl">login</a>, you can remember this preference.
+</small></noscript>
+	</div>
+	</div>
+	
+		<div id="d2out" class="vertical">
+		<div id="d2act" class="hide">
+		<div class="loki" id="gods">
+		<div class="block">
+			<div class="title">
+				<h4>
+				
+					<span class="h-inline"><a href="//games.slashdot.org/article.pl?sid=08/03/12/1918250" title="Back to Article - Carmack Speaks On Ray Tracing, Future id Engines">Carmack Speaks On Ray Tracing, Future id Engines</a></span>
+					<span class="titlecount"><a href="//games.slashdot.org/article.pl?sid=08/03/12/1918250#topcomment" title="Back to Top Comment - Carmack Speaks On Ray Tracing, Future id Engines"><span id="titlecountnum">26</span>&nbsp;Comments</a></span>
+				
+		<span class="ccw-header-links">
+    
+        <a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_b"></span> More</a> | 
+    <div id="login_cover" style="display:none" onclick="hide_login_box()"></div>
+<div id="login_box" style="display:none">
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Please Log In to Continue<a href="#" onclick="hide_login_box(); return false" class="close" title="Close this box"><img id="login_box_close" src="//images.slashdot.org/sic_close.png" alt="Close"></a>
+			
+		</h3>
+	</div>
+</div>
+<div id="login_box_content">
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/comments.pl?sid=485272">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+</div></div>
+<script type="text/javascript">logged_in = 0</script>
+        <a href="//slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a>
+    
+
+		
+		</span>
+		<span id="d2toggle" title="Toggle window location" onclick="toggleDisplayOptions()" class="close">/</span>
+				</h4>
+			</div>
+		</div>
+<script type="text/javascript">
+gCommentControlWidget = null;
+
+YAHOO.slashdot.ThresholdApp = function() {
+  return {
+    init: function() {
+      gCommentControlWidget = new YAHOO.slashdot.ThresholdWidget();
+      gCommentControlWidget.setTHT(user_threshold, user_highlightthresh);
+      updateTotals();
+    }
+  };
+}();
+
+YAHOO.util.Event.addListener(window, "load", YAHOO.slashdot.ThresholdApp.init);
+</script>
+		<div id="bones">
+      <div id="ccw">
+        <div id="ccw-body" class="ccw-core">
+          <div id="ccw-panel-container" class="ccw-core">
+            <div id="ccw-full-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-full-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-full-count-text" class="ccw-count-text"><span id="currentFull"></span><span id="ccw-full-phrase">&nbsp;Full</span></span>
+              </div>
+            </div>
+            <div id="ccw-abbr-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-abbr-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-abbr-count-text" class="ccw-count-text"><span id="currentOneline"></span><span id="ccw-abbr-phrase">&nbsp;Abbreviated</span></span>
+              </div>
+            </div>
+            <div id="ccw-hide-panel" class="ccw-panel">
+              <div id="ccw-hide-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-hide-count-text" class="ccw-count-text"><span id="currentHidden"></span><span id="ccw-hide-phrase">&nbsp;Hidden</span></span>
+              </div>
+            </div>
+          </div>
+    
+          <div id="ccw-control" class="ccw-core">
+            <div id="ccw-centering-rail" class="ccw-core">
+              <div id="ccw-hide-bar-pos" class="ccw-core-pos">
+                <div id="ccw-hide-bar" class="ccw-bar">
+                  <div id="ccw-hide-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-hide-bar-upzone" class="ccw-upzone" onclick="gCommentControlWidget.stepTHT(HIDE_BAR, +1)"></div>
+                  <div id="ccw-hide-bar-downzone" class="ccw-downzone" onclick="gCommentControlWidget.stepTHT(HIDE_BAR, -1)"></div>
+                </div>
+              </div>
+              <div id="ccw-abbr-bar-pos" class="ccw-core-pos">
+                <div id="ccw-abbr-bar" class="ccw-bar">
+                  <div id="ccw-abbr-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-abbr-bar-upzone" class="ccw-upzone" onclick="gCommentControlWidget.stepTHT(ABBR_BAR, +1)"></div>
+                  <div id="ccw-abbr-bar-downzone" class="ccw-downzone" onclick="gCommentControlWidget.stepTHT(ABBR_BAR, -1)"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+		<div class="commentControlFooter">
+    
+        <a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_c"></span> More</a> | 
+    <div id="login_cover" style="display:none" onclick="hide_login_box()"></div>
+<div id="login_box" style="display:none">
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Please Log In to Continue<a href="#" onclick="hide_login_box(); return false" class="close" title="Close this box"><img id="login_box_close" src="//images.slashdot.org/sic_close.png" alt="Close"></a>
+			
+		</h3>
+	</div>
+</div>
+<div id="login_box_content">
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/comments.pl?sid=485272">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+</div></div>
+<script type="text/javascript">logged_in = 0</script>
+        <a href="//slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a>
+    
+		
+			<div id="bindings-legend">Keybindings Beta<br>
+<a href="#" onclick="keyHandler('','Q'); return false" title="previous comment by load order">Q</a>
+<a href="#" onclick="keyHandler('','W'); return false" title="previous thread"               >W</a>
+<a href="#" onclick="keyHandler('','E'); return false" title="next comment by load order"    >E</a><br>
+<a href="#" onclick="keyHandler('','A'); return false" title="previous comment in thread"    >A</a>
+<a href="#" onclick="keyHandler('','S'); return false" title="next thread"                   >S</a>
+<a href="#" onclick="keyHandler('','D'); return false" title="next comment in thread"        >D</a><br>
+<a href="#" onclick="keyHandler('','R'); return false" title="reply to current comment"      >R</a>
+<a href="#" onclick="keyHandler('','P'); return false" title="parent of current comment"     >P</a>
+<a href="#" onclick="keyHandler('','M'); return false" title="history of current comment"    >M</a><br>
+<a href="#" onclick="keyHandler('','T'); return false" title="first comment"                 >T</a>
+<a href="#" onclick="keyHandler('','G'); return false" title="get more comments"             >G</a>
+<a href="#" onclick="keyHandler('','V'); return false" title="last comment"                  >V</a>
+			</div>
+		</div>
+		<div id="commentControlBoxStatus" class="hide"><b>Loading... please wait.</b></div>
+	</div>
+</div>
+		</div>
+	
+</div>
+<a name="topcomment"></a><script src="//images.slashdot.org/comments.js?T_2_5_0_199" type="text/javascript"></script>
+	<script type="text/javascript">
+<!--
+	window.onscroll = d2act;
+	boxStatus(1);
+comments = { 22735574: { uid: 749199, pid: 22733726, points: 3, kids: [ 22740492 ] }, 22732124: { uid: 970822, pid: 0, points: 1, kids: [ 22732302 ] }, 22735540: { uid: 666, pid: 22735310, subject: "Re:Stunning! Yes, but what have YOU done, better?", points: -1, kids: [  ] }, 22759168: { uid: 1256780, pid: 22740492, subject: "Re:acceleration structures, etc...", points: 1, kids: [  ] }, 22734244: { uid: 1061292, pid: 22733726, subject: "Re:Stunning!", points: 1, kids: [  ] }, 22740222: { uid: 101025, pid: 22734788, subject: "Re:Senor Carmack, one question", points: 5, kids: [  ] }, 22736772: { uid: 970160, pid: 22733726, subject: "Re:Stunning!", points: 1, kids: [  ] }, 22735828: { uid: 666, pid: 22733726, subject: "Re:Stunning!", points: -1, kids: [  ] }, 22739088: { uid: 807394, pid: 22733726, subject: "Re:Stunning!", points: 2, kids: [  ] }, 22732302: { uid: 1000255, pid: 22732124, subject: "Re:Stunning!", points: 5, kids: [ 22732690 ] }, 22737204: { uid: 666, pid: 22733726, subject: "Re:Stunning!", points: -1, kids: [  ] }, 22734020: { uid: 970822, pid: 22733726, subject: "Re:Stunning!", points: 2, kids: [ 22735310 ] }, 22736852: { uid: 1047660, pid: 22733726, subject: "Re:Stunning!", points: 2, kids: [  ] }, 22736524: { uid: 317220, pid: 22733726, points: 1, kids: [  ] }, 22742942: { uid: 749199, pid: 22740492, subject: "Re:acceleration structures, etc...", points: 2, kids: [  ] }, 22734788: { uid: 541069, pid: 22733726, points: 2, kids: [ 22740222 ] }, 22733726: { uid: 101025, pid: 22732690, subject: "Re:Stunning!", points: 5, kids: [ 22733868, 22734020, 22734244, 22734788, 22735574, 22735594, 22735694, 22735828, 22736524, 22736772, 22736852, 22737204, 22738936, 22739088 ] }, 22738936: { uid: 792056, pid: 22733726, subject: "Re:Stunning!", points: 1, kids: [  ] }, 22743144: { uid: 749199, pid: 22742810, subject: "Re:acceleration structures, etc...", points: 2, kids: [  ] }, 22735594: { uid: 666, pid: 22733726, subject: "Re:Stunning!", points: -1, kids: [  ] }, 22735694: { uid: 1255476, pid: 22733726, subject: "Re:Stunning!", points: 3, kids: [  ] }, 22732690: { uid: 970822, pid: 22732302, subject: "Re:Stunning!", points: 5, kids: [ 22733726 ] }, 22733868: { uid: 666, pid: 22733726, subject: "Re:Stunning!", points: 5, kids: [  ] }, 22742810: { uid: 649844, pid: 22740492, subject: "Re:acceleration structures, etc...", points: 2, kids: [ 22743144 ] }, 22735310: { uid: 666, pid: 22734020, points: -1, kids: [ 22735540 ] }, 22740492: { uid: 101025, pid: 22735574, subject: "Re:acceleration structures, etc...", points: 5, kids: [ 22742810, 22742942, 22759168 ] } };
+
+thresh_totals = {6:{6:{1:26,3:0,2:0}},4:{6:{1:20,3:0,2:6},4:{1:20,3:6,2:0},5:{1:20,3:6,2:0}},1:{6:{1:5,3:0,2:21},4:{1:5,3:6,2:15},1:{1:5,3:21,2:0},3:{1:5,3:8,2:13},2:{1:5,3:16,2:5},5:{1:5,3:6,2:15}},3:{6:{1:18,3:0,2:8},4:{1:18,3:6,2:2},3:{1:18,3:8,2:0},5:{1:18,3:6,2:2}},0:{6:{1:5,3:0,2:21},4:{1:5,3:6,2:15},1:{1:5,3:21,2:0},3:{1:5,3:8,2:13},0:{1:5,3:21,2:0},2:{1:5,3:16,2:5},5:{1:5,3:6,2:15}},2:{6:{1:11,3:0,2:15},4:{1:11,3:6,2:9},3:{1:11,3:8,2:7},2:{1:11,3:15,2:0},5:{1:11,3:6,2:9}},5:{6:{1:20,3:0,2:6},5:{1:20,3:6,2:0}},"-1":{6:{1:0,3:0,2:26},4:{1:0,3:6,2:20},1:{1:0,3:21,2:5},3:{1:0,3:8,2:18},0:{1:0,3:21,2:5},2:{1:0,3:16,2:10},5:{1:0,3:6,2:20},"-1":{1:0,3:26,2:0}}};
+
+root_comment = 22733726;
+root_comments = [22732124];
+root_comments_hash = {22732124:1};
+max_cid = 22759168;
+
+user_uid = 666;
+user_is_anon = 1;
+user_is_admin = 0;
+user_is_subscriber = 0;
+user_threshold = 1;
+user_highlightthresh = 4;
+
+discussion_id = 485272;
+
+d2_seen = '22732124,178,388,1036,142,152,224,544,522,230,34,20,100,134,696,248,80,352,1732,152,1134,270,2318,132,202,16024';
+more_comments_num = 230;
+adTimerUrl = '//images.slashdot.org/iframe/mainpage.html';
+
+
+//-->
+	</script>
+
+
+
+
+	
+	
+	
+	
+		<ul id="commentlisting" class="d2">
+			<li id="tree_22732124" class="comment">
+<div id="comment_status_22732124" class="commentstatus"></div>
+<div id="comment_22732124" class="oneline">
+	<div id="comment_top_22732124" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22732124" name="comment_link_22732124" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22732124" onclick="return setFocusComment(22732124)">Stunning!</a>
+
+
+		 	<span id="comment_score_22732124" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22732124); return false">Score:1</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DragonWriter">DragonWriter (970822)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22732124"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22732124"><p><blockquote><span class="substr"> </span> <div>Carmack seems to think that Intel's direction using traditional ray tracing methods is not going to work and instead theorizes that using ray casting to traverse a new data structure he is developing is the best course of action.</div> </blockquote> <br> <br>Surprisingly, a developer</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22732124">
+
+</div>
+</div>
+
+<div id="replyto_22732124"></div>
+
+<ul id="group_22732124">
+	<li id="hiddens_22732124" class="hide"></li>
+</ul>
+
+<ul id="commtree_22732124"><li id="tree_22732302" class="comment">
+<div id="comment_status_22732302" class="commentstatus"></div>
+<div id="comment_22732302" class="oneline">
+	<div id="comment_top_22732302" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22732302" name="comment_link_22732302" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22732302" onclick="return setFocusComment(22732302)">Re:</a>
+
+
+		 	<span id="comment_score_22732302" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22732302); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Falesh">Falesh (1000255)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22732302"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22732302">Why not analyse his argument and judge it on it's merits rather then throw it out simply because he is working on an idea of his own?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22732302">
+
+</div>
+</div>
+
+<div id="replyto_22732302"></div>
+
+<ul id="group_22732302">
+	<li id="hiddens_22732302" class="hide"></li>
+</ul>
+
+<ul id="commtree_22732302"><li id="tree_22732690" class="comment">
+<div id="comment_status_22732690" class="commentstatus"></div>
+<div id="comment_22732690" class="oneline">
+	<div id="comment_top_22732690" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22732690" name="comment_link_22732690" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22732690" onclick="return setFocusComment(22732690)">Re:</a>
+
+
+		 	<span id="comment_score_22732690" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22732690); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DragonWriter">DragonWriter (970822)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22732690"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22732690"><p><blockquote><span class="substr"> </span> <div>Why not analyse his argument and judge it on it's merits rather then throw it out simply because he is working on an idea of his own?</div> </blockquote> <br> <br>Commenting on the fact that it is unsurprising that someone working on a different technique favors that technique over ray</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22732690">
+
+</div>
+</div>
+
+<div id="replyto_22732690"></div>
+
+<ul id="group_22732690">
+	<li id="hiddens_22732690" class="hide"></li>
+</ul>
+
+<ul id="commtree_22732690"><li id="tree_22733726" class="comment contain">
+<div id="comment_status_22733726" class="commentstatus"></div>
+<div id="comment_22733726" class="full">
+	<div id="comment_top_22733726" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22733726" name="comment_link_22733726" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22733726" onclick="return setFocusComment(22733726)">Re:Stunning!</a>
+
+
+		 	<span id="comment_score_22733726" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22733726); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22733726">		
+		on Wednesday March 12, @06:52PM (<a href="//slashdot.org/comments.pl?sid=485272&amp;cid=22733726">#22733726</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22733726"><br>Give me a little credit here.  I am not suggesting that everyone blindly intersects rays with a huge list of triangles.   That would be absurd, and I assumed everyone understood that.  What you might have missed is that I'm not proposing a sparse voxel octree as some form of bounding hierarchy to reduce intersection tests against triangles, I am proposing that it REPLACE hierarchies of triangles or other primitives for some data sets, and this brings about significant improvements (data size) that you wouldn't have with even infinitely fast conventional ray tracing.  I'm also not trying to say that this is some novel brainstorm of mine, but I have some practical experience with the direction, and I think it has promise.<br><br>One of my major points is that this is all still theoretical.  I don't know what is going to be the right architecture for next gen systems.  Neither do you, or Intel, Nvidia, Microsoft, Sony, or Nintendo.  If I had to place a bet, it is that rasterization will still be dominant, but it is a Good Thing to have lots of people doing research into various alternatives.  All the players have their own agendas, but we will all know the big win when we see it.<br><br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22733726">
+<span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=22732690" onclick="return selectParent(22732690)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_22733726"></div>
+
+<ul id="group_22733726">
+	<li id="hiddens_22733726" class="hide"></li>
+</ul>
+
+<ul id="commtree_22733726"><li id="tree_22733868" class="comment contain">
+<div id="comment_status_22733868" class="commentstatus"></div>
+<div id="comment_22733868" class="full">
+	<div id="comment_top_22733868" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22733868" name="comment_link_22733868" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22733868" onclick="return setFocusComment(22733868)">Re:Stunning!</a>
+
+
+		 	<span id="comment_score_22733868" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22733868); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_22733868">		
+		on Wednesday March 12, @07:06PM (<a href="//slashdot.org/comments.pl?sid=485272&amp;cid=22733868">#22733868</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22733868">RTFA, you didn't understand what the guy who wrote the article was saying.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22733868">
+<span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=22733726" onclick="return selectParent(22733726)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_22733868"></div>
+
+<ul id="group_22733868">
+	<li id="hiddens_22733868" class="hide"></li>
+</ul>
+
+</li><li id="tree_22734020" class="comment">
+<div id="comment_status_22734020" class="commentstatus"></div>
+<div id="comment_22734020" class="oneline">
+	<div id="comment_top_22734020" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22734020" name="comment_link_22734020" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22734020" onclick="return setFocusComment(22734020)">Re:</a>
+
+
+		 	<span id="comment_score_22734020" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22734020); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DragonWriter">DragonWriter (970822)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22734020"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22734020"><p><blockquote><span class="substr"> </span> <div>Give me a little credit here. I am not suggesting that everyone blindly intersects rays with a huge list of triangles. That would be absurd, and I assumed everyone understood that.</div> </blockquote> <br> <br>The wording in the article suggested that. I would assume, given your backg</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22734020">
+
+</div>
+</div>
+
+<div id="replyto_22734020"></div>
+
+<ul id="group_22734020">
+	<li id="hiddens_22734020" class="hide"></li>
+</ul>
+
+<ul id="commtree_22734020"><li id="tree_22735310" class="comment">
+<div id="comment_status_22735310" class="commentstatus"></div>
+<div id="comment_22735310" class="hidden">
+</div>
+
+<div id="replyto_22735310"></div>
+
+<ul id="group_22735310">
+	<li id="hiddens_22735310" class="hide"></li>
+</ul>
+
+<ul id="commtree_22735310"><li id="tree_22735540" class="comment">
+<div id="comment_status_22735540" class="commentstatus"></div>
+<div id="comment_22735540" class="hidden">
+</div>
+
+<div id="replyto_22735540"></div>
+
+<ul id="group_22735540">
+	<li id="hiddens_22735540" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_22735310"><noscript><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=22735310">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="hidestring_22734020"><noscript><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=22734020">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_22734244" class="comment">
+<div id="comment_status_22734244" class="commentstatus"></div>
+<div id="comment_22734244" class="oneline">
+	<div id="comment_top_22734244" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22734244" name="comment_link_22734244" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22734244" onclick="return setFocusComment(22734244)">Re:</a>
+
+
+		 	<span id="comment_score_22734244" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22734244); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~ozphx">ozphx (1061292)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22734244"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22734244">I remember looking at a similar structure back when I first started playing with openGL. At that time I gave up because despite the optimisations I was making (closing off nodes as "solid" or "empty") I didn't see it ever having enough fidelity to be usefu</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22734244">
+
+</div>
+</div>
+
+<div id="replyto_22734244"></div>
+
+<ul id="group_22734244">
+	<li id="hiddens_22734244" class="hide"></li>
+</ul>
+
+</li><li id="tree_22734788" class="comment">
+<div id="comment_status_22734788" class="commentstatus"></div>
+<div id="comment_22734788" class="oneline">
+	<div id="comment_top_22734788" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22734788" name="comment_link_22734788" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22734788" onclick="return setFocusComment(22734788)">Senor Carmack, one question</a>
+
+
+		 	<span id="comment_score_22734788" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22734788); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~gozu">gozu (541069)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22734788"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22734788">I was just wondering if your approach has any impact of physics at all or if we're talking about 2 independant layers of abstraction.<br> <br>Pleasant surprise to see you comment on slashdot. Now go and make the Unreal 3 engine look bad<nobr> <wbr></nobr>:)<br> <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22734788">
+
+</div>
+</div>
+
+<div id="replyto_22734788"></div>
+
+<ul id="group_22734788">
+	<li id="hiddens_22734788" class="hide"></li>
+</ul>
+
+<ul id="commtree_22734788"><li id="tree_22740222" class="comment contain">
+<div id="comment_status_22740222" class="commentstatus"></div>
+<div id="comment_22740222" class="full">
+	<div id="comment_top_22740222" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22740222" name="comment_link_22740222" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22740222" onclick="return setFocusComment(22740222)">Re:Senor Carmack, one question</a>
+
+
+		 	<span id="comment_score_22740222" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22740222); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22740222">		
+		on Thursday March 13, @12:22PM (<a href="//slashdot.org/comments.pl?sid=485272&amp;cid=22740222">#22740222</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22740222">In our current generation codebase we have moved to completely separate representations for rendering and physics, and I expect that to continue in the future.  The requirements are different enough to merit different internal storage.<br><br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22740222">
+<span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=22734788" onclick="return selectParent(22734788)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_22740222"></div>
+
+<ul id="group_22740222">
+	<li id="hiddens_22740222" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_22735574" class="comment">
+<div id="comment_status_22735574" class="commentstatus"></div>
+<div id="comment_22735574" class="oneline">
+	<div id="comment_top_22735574" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22735574" name="comment_link_22735574" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22735574" onclick="return setFocusComment(22735574)">acceleration structures, etc...</a>
+
+
+		 	<span id="comment_score_22735574" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22735574); return false">Score:3</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~j1m%2B5n0w">j1m+5n0w (749199)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22735574"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22735574"><p><blockquote><span class="substr"> </span> <div>I am proposing that it REPLACE hierarchies of triangles or other primitives for some data sets, and this brings about significant improvements (data size) that you wouldn't have with even infinitely fast conventional ray tracing.</div> </blockquote>
+
+<p>So, it's like a variable-</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22735574">
+
+</div>
+</div>
+
+<div id="replyto_22735574"></div>
+
+<ul id="group_22735574">
+	<li id="hiddens_22735574" class="hide"></li>
+</ul>
+
+<ul id="commtree_22735574"><li id="tree_22740492" class="comment contain">
+<div id="comment_status_22740492" class="commentstatus"></div>
+<div id="comment_22740492" class="full">
+	<div id="comment_top_22740492" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22740492" name="comment_link_22740492" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22740492" onclick="return setFocusComment(22740492)">Re:acceleration structures, etc...</a>
+
+
+		 	<span id="comment_score_22740492" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22740492); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22740492">		
+		on Thursday March 13, @12:45PM (<a href="//slashdot.org/comments.pl?sid=485272&amp;cid=22740492">#22740492</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22740492">Tracing into an SVO structure can be done with almost a Bresenham algorithm, and when you reach whatever depth of descent you want (a critical factor, you aren't going all the way to final detail on every trace), you pop out whatever data is stored there (probably some vector quantized BRDF sort of thingy) and run a "fragment program" on it.<br><br>The data sets for a game world represented like this would be massive, but it is intrinsically well suited for streaming, even over the internet, which may well be the dominant media distribution channel in the timeframe we are looking at.<br><br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22740492">
+<span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=22735574" onclick="return selectParent(22735574)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_22740492"></div>
+
+<ul id="group_22740492">
+	<li id="hiddens_22740492" class="hide"></li>
+</ul>
+
+<ul id="commtree_22740492"><li id="tree_22742810" class="comment">
+<div id="comment_status_22742810" class="commentstatus"></div>
+<div id="comment_22742810" class="oneline">
+	<div id="comment_top_22742810" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22742810" name="comment_link_22742810" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22742810" onclick="return setFocusComment(22742810)">Re:</a>
+
+
+		 	<span id="comment_score_22742810" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22742810); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DamnStupidElf">DamnStupidElf (649844)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22742810"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22742810">This post answered several of the questions I was initially going to ask, especially about the representation of the data in the octree. It sounds like level of detail would be accomplished by storing an approximation of the subspaces in each level of the</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22742810">
+
+</div>
+</div>
+
+<div id="replyto_22742810"></div>
+
+<ul id="group_22742810">
+	<li id="hiddens_22742810" class="hide"></li>
+</ul>
+
+<ul id="commtree_22742810"><li id="tree_22743144" class="comment">
+<div id="comment_status_22743144" class="commentstatus"></div>
+<div id="comment_22743144" class="oneline">
+	<div id="comment_top_22743144" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22743144" name="comment_link_22743144" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22743144" onclick="return setFocusComment(22743144)">Re:</a>
+
+
+		 	<span id="comment_score_22743144" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22743144); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~j1m%2B5n0w">j1m+5n0w (749199)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22743144"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22743144"><p><blockquote><span class="substr"> </span> <div>Would a tree with a higher degree of branching would be more efficient? It would reduce the maximum depth of the tree, but would introduce more empty subspaces, so it would depend on whether it is faster to iterate over many empty child volumes of the same</div></blockquote></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22743144">
+
+</div>
+</div>
+
+<div id="replyto_22743144"></div>
+
+<ul id="group_22743144">
+	<li id="hiddens_22743144" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_22742942" class="comment">
+<div id="comment_status_22742942" class="commentstatus"></div>
+<div id="comment_22742942" class="oneline">
+	<div id="comment_top_22742942" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22742942" name="comment_link_22742942" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22742942" onclick="return setFocusComment(22742942)">Re:</a>
+
+
+		 	<span id="comment_score_22742942" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22742942); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~j1m%2B5n0w">j1m+5n0w (749199)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22742942"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22742942"><p>Ok, I can see the benefit of being able to bail out early in cases where geometry is far away or the full resolution hasn't been loaded in from disk or network or wherever it comes from.  I can also see the benefit of storing the texture and geometry in th<span class="substr"> </span></p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22742942">
+
+</div>
+</div>
+
+<div id="replyto_22742942"></div>
+
+<ul id="group_22742942">
+	<li id="hiddens_22742942" class="hide"></li>
+</ul>
+
+</li><li id="tree_22759168" class="comment">
+<div id="comment_status_22759168" class="commentstatus"></div>
+<div id="comment_22759168" class="oneline">
+	<div id="comment_top_22759168" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22759168" name="comment_link_22759168" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22759168" onclick="return setFocusComment(22759168)">Re:</a>
+
+
+		 	<span id="comment_score_22759168" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22759168); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~BinarySplit">BinarySplit (1256780)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22759168"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22759168">Given that SVO would be a great structure for real-time deformation of models, can we expect to be able to blow dynamically generated chunks out of the flesh of our next non-human adversaries?<br><span class="substr"> </span> <br>I can see SVO, with scalable voxelized normal maps, as being the</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22759168">
+
+</div>
+</div>
+
+<div id="replyto_22759168"></div>
+
+<ul id="group_22759168">
+	<li id="hiddens_22759168" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_22735594" class="comment">
+<div id="comment_status_22735594" class="commentstatus"></div>
+<div id="comment_22735594" class="hidden">
+</div>
+
+<div id="replyto_22735594"></div>
+
+<ul id="group_22735594">
+	<li id="hiddens_22735594" class="hide"></li>
+</ul>
+
+</li><li id="tree_22735694" class="comment">
+<div id="comment_status_22735694" class="commentstatus"></div>
+<div id="comment_22735694" class="oneline">
+	<div id="comment_top_22735694" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22735694" name="comment_link_22735694" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22735694" onclick="return setFocusComment(22735694)">Re:</a>
+
+
+		 	<span id="comment_score_22735694" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22735694); return false">Score:3</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~jmbenjamin">jmbenjamin (1255476)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22735694"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22735694">Huh, I always figured John Carmack would have a sub 1000 uid.  Preconceptions have been shattered!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22735694">
+
+</div>
+</div>
+
+<div id="replyto_22735694"></div>
+
+<ul id="group_22735694">
+	<li id="hiddens_22735694" class="hide"></li>
+</ul>
+
+</li><li id="tree_22735828" class="comment">
+<div id="comment_status_22735828" class="commentstatus"></div>
+<div id="comment_22735828" class="hidden">
+</div>
+
+<div id="replyto_22735828"></div>
+
+<ul id="group_22735828">
+	<li id="hiddens_22735828" class="hide"></li>
+</ul>
+
+</li><li id="tree_22736524" class="comment">
+<div id="comment_status_22736524" class="commentstatus"></div>
+<div id="comment_22736524" class="oneline">
+	<div id="comment_top_22736524" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22736524" name="comment_link_22736524" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22736524" onclick="return setFocusComment(22736524)">Refraction Skeletons</a>
+
+
+		 	<span id="comment_score_22736524" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22736524); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Spy+Hunter">Spy Hunter (317220)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22736524"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22736524">Seems to me the biggest problem with the sparse voxel octree idea is moving objects and characters.  Your mention of "refraction skeletons" interested me; it sounds like an idea I was thinking about but haven't seen implemented anywhere else (and you seem</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22736524">
+
+</div>
+</div>
+
+<div id="replyto_22736524"></div>
+
+<ul id="group_22736524">
+	<li id="hiddens_22736524" class="hide"></li>
+</ul>
+
+</li><li id="tree_22736772" class="comment">
+<div id="comment_status_22736772" class="commentstatus"></div>
+<div id="comment_22736772" class="oneline">
+	<div id="comment_top_22736772" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22736772" name="comment_link_22736772" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22736772" onclick="return setFocusComment(22736772)">Re:</a>
+
+
+		 	<span id="comment_score_22736772" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22736772); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Maexxus">Maexxus (970160)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22736772"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22736772">Apparently this project uses a similar approach to the one you've described, <a href="http://youtube.com/user/xenopusRTRT" title="youtube.com" rel="nofollow">http://youtube.com/user/xenopusRTRT</a> [youtube.com]
+<br> <br><nobr> <wbr></nobr>/me bows down to Carmack</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22736772">
+
+</div>
+</div>
+
+<div id="replyto_22736772"></div>
+
+<ul id="group_22736772">
+	<li id="hiddens_22736772" class="hide"></li>
+</ul>
+
+</li><li id="tree_22736852" class="comment">
+<div id="comment_status_22736852" class="commentstatus"></div>
+<div id="comment_22736852" class="oneline">
+	<div id="comment_top_22736852" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22736852" name="comment_link_22736852" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22736852" onclick="return setFocusComment(22736852)">Re:</a>
+
+
+		 	<span id="comment_score_22736852" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22736852); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~eggnoglatte">eggnoglatte (1047660)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22736852"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22736852">When I saw this summary, I had to think of the <a href="http://ngrain.com/products/new/" title="ngrain.com">nGrain engine</a> [ngrain.com]. Are you familiar with that? What are the differences?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22736852">
+
+</div>
+</div>
+
+<div id="replyto_22736852"></div>
+
+<ul id="group_22736852">
+	<li id="hiddens_22736852" class="hide"></li>
+</ul>
+
+</li><li id="tree_22737204" class="comment">
+<div id="comment_status_22737204" class="commentstatus"></div>
+<div id="comment_22737204" class="hidden">
+</div>
+
+<div id="replyto_22737204"></div>
+
+<ul id="group_22737204">
+	<li id="hiddens_22737204" class="hide"></li>
+</ul>
+
+</li><li id="tree_22738936" class="comment">
+<div id="comment_status_22738936" class="commentstatus"></div>
+<div id="comment_22738936" class="oneline">
+	<div id="comment_top_22738936" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22738936" name="comment_link_22738936" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22738936" onclick="return setFocusComment(22738936)">Re:</a>
+
+
+		 	<span id="comment_score_22738936" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22738936); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Dtag">Dtag (792056)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22738936"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22738936">Would you mind going a bit into detail about what this 'sparse octree' structure you are suggesting really is? I mean I generally know what a sparse octree is but Im not sure whether just dropping the intersection test at leaf level is going to make things</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22738936">
+
+</div>
+</div>
+
+<div id="replyto_22738936"></div>
+
+<ul id="group_22738936">
+	<li id="hiddens_22738936" class="hide"></li>
+</ul>
+
+</li><li id="tree_22739088" class="comment">
+<div id="comment_status_22739088" class="commentstatus"></div>
+<div id="comment_22739088" class="oneline">
+	<div id="comment_top_22739088" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_22739088" name="comment_link_22739088" href="//slashdot.org/comments.pl?sid=485272&amp;cid=22739088" onclick="return setFocusComment(22739088)">Re:</a>
+
+
+		 	<span id="comment_score_22739088" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 22739088); return false">Score:2</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~shutdown+-p+now">shutdown -p now (807394)</a> 
+			<span class="otherdetails" id="comment_otherdetails_22739088"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_22739088">Don't voxels have this problem of not scaling up with display resolution? That is, won't it look bad when the rendered size of most voxels visible on the screen is larger than 1 pixels? I recall it being a problem when trying to play old voxel-based games</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_22739088">
+
+</div>
+</div>
+
+<div id="replyto_22739088"></div>
+
+<ul id="group_22739088">
+	<li id="hiddens_22739088" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_22733726"><noscript><b><a href="//slashdot.org/comments.pl?sid=485272&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=22733726">3 replies</a> beneath your current threshold.</b></noscript></li></ul></li></ul></li></ul></li></ul></li>
+			<li id="roothiddens" class="hide"></li>
+		</ul>
+	
+	
+	
+	
+
+
+<div id="replyto_0"></div>
+<div class="prev-next"><a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_a" class="hide">Check for more</span></a>
+	
+</div>
+
+
+
+
+
+	<script type="text/javascript">
+<!--
+		currents['hidden']   = 5;
+		currents['full']     = 4;
+		currents['oneline']  = 17;
+		// currents_total = 26;
+
+		abbrev_comments      = {22732124:15,22735574:15,22759168:196,22734244:256,22739088:255,22734020:15,22736524:255,22742942:259,22738936:256,22743144:15,22732690:15,22742810:255};
+		noshow_comments      = [22735310,22735540,22735594,22735828,22737204];
+		pieces_comments      = [22732124,22732302,22732690,22734020,22734244,22734788,22735574,22742810,22743144,22742942,22759168,22735694,22736524,22736772,22736852,22738936,22739088];
+		init_hiddens         = [22735310,22734020,22733726];
+
+		finishLoading();
+//-->
+	</script></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>You can't erase a dream, you can only wake me up.
+		-- Peter Frampton</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2008 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script type="text/javascript">
+pageTracker._trackPageview();
+</script>
+<div id="modal_cover" style="display:none" onclick="hide_modal_box()"></div>
+<div id="modal_box" style="display:none">
+        <div class="generaltitle" >
+                <div class="title"><h3><div id="preference_title"></div> <a href="#" onclick="hide_modal_box(); return false"><img src="//images.slashdot.org/sic_close.png" alt="Close"></a></h3></div>
+        </div>
+        <div id="modal_box_content"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+http://www.firingsquad.com/news/newsarticle.asp?searchid=832
+Carmack responds to FS Suggestions
+John Carmack responds to suggestions from Firing Squad
+Firing Squad
+Kenn Hwang
+
+<desc>A few days ago, we sent off an e-mail to John Carmack outlining some further bugs and broken features in Q3A test. Let's just say the man is on top of things! Here is the latest exchange we've had with him, and the results they've produced! </desc>
+
+<q>Hey John, Thanks a lot for being so quick to answer our questions! We got deluged with "bug fix" mail, and here are the few that we felt relevent to the game as it's developing. Scoring: Currently, if 3 people are tied for first, the 4th person down still registers as being in "2nd place" even though they may be significantly lower in frag-count than the ones above.</q>
+
+<a> Ok, changed it. I got the selectable crosshairs and crosshair offsets Dennis requested in, and most of the things you mention.</a>
+
+<q>Many people wrote in about racing someone to a weapon and hearing the pickup, only to find that the client-side predict was off by a fraction of a second, so they actually didn't pick it up. This never happened on any other id game, and we experience it regularly even on LAN. Is this something that can be fixed?</q>
+
+<a> I added a "cg_predictItems 0" option if you don't want predicted pickups, but I like them when playing online.</a>
+
+<q>cg_drawFPS doesn't work in teamplay. Taking out cg_drawtimer is a good thing, but FPS is harmless and people love seeing their framerate.</q>
+
+<a> All status elements now stack above/below each other as apropriate instead of overriding or overdrawing each other. Cg_drawtimer is NOT explicitly removed now. I understand how it is used in timing items, but I don't think it would be right to remove it from a specific mode of play.</a>
+
+<q>Currently, switching teams in teamplay mode subtracts one frag from the team. This even happens if players are going into spectator mode. Is it possible just to make players spawn into spectator mode and allow them to select their team?</q>
+
+<a> Done.</a>
+
+<q>You mentioned the com_maxfps can be changed from the default of 85. Is 100 still a max limit or will people be able to choose to go higher (and voluntarily live with the FPS-induced issues)? </q>
+
+<a>You can set it to any number, or 0 to disable all limits.</a>
+
+<q>Here's a doozy we found while benchmarking the game with different OSs and video cards. Alpha-transparency effects such as invisibility, smoke trails, and even the crosshair vary on different cards, drivers, and OSs. While this isn't really an id issue, it does seriously affect the game because people playing in WinNT will have lighter smoke trails and crosshairs (basically what people were doing in q3test to hack their smoke). In many cases, the invisibility is virtually undetectable on certain configs while it stands out clearly in others. Can this be taken into account as the powerup features get tweaked (perhaps base part of it on a non-alpha effect)? </q>
+
+<a>Not much we can do about that.</a>
+
+<q>Thanks a lot for your time, John. I hope you can bear another argument against footsteps :) In free for all, footsteps rarely make enough of a difference to use as a tactical advantage. However, in 1 on 1, every sound matters, and the game slows to a crawl as people walk around rooms and corners continually. Basically it comes down the fact that by standing still, you can tell where your opponent is and they can't tell where you are. 1 on 1 is such a different game, and whatever id decides WILL become the default for world competition. We're of the opinion of making it as fast and frenzied as FFA/teamplay. Would you consider turning off footsteps only for the tournament mode of gameplay? The weapons idle sounds and item pickups should be enough to keep players on their toes, and a 1 on 1 with footsteps is guaranteed to be much more "dead" and quiet compared to one without. Also, if you think about it, since sound is so important, taking out footsteps can also keep reduce bunnyhopping/strafejumping, since they'll be able to remain silent at full running speed (otherwise the convention goes "why should I run and make footstep sounds when I can go faster by bunnyhopping?") Thanks again, and sorry for the constant badgering! </q>
+
+<a>I have been thinking hard about that. I see your points, and they make sense, but we just added a bunch of character specific footsteps, and for non-professional gamers, we think they add to the experience.
+
+If there were a small set of professional rules that I agree with in theory but have chosen not to pursue because they conflict with more common play, then an official "pro mode" might make sense. Any other suggestions along those lines?</a>
+
+<q>Well, for better or for worse, the fact that id is willing to consider a "professional" mode to suite the smaller elite community is an tremendous step forward!  Remember, if this does get implemented, it wil consist only of small changes and minor tweaks, and will most likely consist of hard-set (or suggested) values for team/tournament play, such as ammo, footsteps, minor weapons tweakage, and such.  Thanks for listening to our pleas, John! </q>

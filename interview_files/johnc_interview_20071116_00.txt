@@ -1,0 +1,100 @@
+http://www.1up.com/do/newsStory?cId=3164439
+1UP Interviews John Carmack on id Mobile
+How the creator of DOOM got hooked on cell phones and DS.
+1UP
+Scott Sharkey
+
+<desc>
+Yesterday, id Software and Fountainhead announced they're opening their own mobile gaming division. That all seems to come a little late, since they've already been making some of the best damn mobile games for the last couple years. Give Doom RPG or Orcs &amp; Elves a shot if you're still clinging to the belief these things universally suck.
+
+We had a chatter about it with id CEO Todd Hollenshead, Fountainhead CEO Katherine Anna Kang, and nerd-everyone-wants-to-grow-up-to-be-just-like, John Carmack. Between making games and blowing up rockets, (it's okay, he has another one) we don't know where he finds the time, but we're glad he could spare some to geek out about the prospects of development on mobile and Nintendo DS.
+
+Some of the more interesting points that came up included the mention of Duke Nukem games in the works for mobile and Nintendo DS, and an incarnation of Quake Arena for DS exclusively. We even talked a bit about a D20 pen and paper module coming out based on Orcs &amp; Elves, which was in turn based on the tabletop RPG campaigns he used to DM a million years ago.</desc>
+
+<q>So, new venture I guess, sort of.</q>
+
+<a>Yeah, it's definitely a "sort of", because we've been doing the mobile stuff now for two years just in partnership between Fountainhead and Id. But we decided we're happy enough with how things have been going, the business has been good, and we think that the potential is really strong looking the next several years ahead, that we decided it's better to just go ahead and build an actual Id software division around this.
+
+Where we think that it's going to help us -- I track more people interested in working on the mobile stuff, it's going to let us use our clout more with the carriers, the handset manufacturers, the chipset manufacturers, and all that. But at least in the immediate future, it's still going to be carrying on as we have been. We've got new titles under development with Wolfenstein, some other projects that we're going to be working on, new IPs and all that. But we do expect to be slowly ramping this up, with pretty substantial commitment over the next several years.</a>
+
+<q>A lot of DS development possibly?</q>
+
+<a>Well, we're definitely very excited to see how Orcs and Elves DS does. It's coming out next week, and that's also the first step&amp; there's two aspects to this, it's our first DS title at all, but also it's the first test of this upward mobility theory about testing out a project on the mobile platform, and then see how it does moving it up to more conventional platforms on there.
+
+The DS development was a lot of fun, in a lot of ways it was kind of the most fun poking at the hardware sorts of stuff that I've done in a long time. So we're currently looking at potentially two more DS titles in the next year a Wolfenstein title and a Quake Arena title. Wolfenstein 1 being done in concert with a mobile title, the Quake Arena title would be DS specific.</a>
+
+<q>So you are going to be doing exclusive stuff for DS sometimes?</q>
+
+<a>Yeah, I mean it all depends on what the title is on there. You can't do a good shooter on mobile. If you picked one mobile phone, you might be able to do a good job on it, if you picked a high end BREW or Symbian phone and targeted it specifically for that, that keypad layout, you could maybe do something decent, but it's not something you can do a broad-based, good game on. So for that type of thing, and Quake Arena is all about the competition, super-fast reactions and all that, that's something that just isn't going to play well on mobile. We're never going to try and cram a square peg into a round hole with this. That's kind of our whole theory behind the mobile stuff, is, we're going to do things that work well on mobile, rather than try to do the things that we're historically known for and push it onto mobile.</a>
+
+<a Todd Hollenshead>In fact, we have significant amount of experience as to how the square peg/round hole stuff doesn't work. We actually made some money off of that, but it was always exercises in how much we could tolerate our games being tortured from a playability standpoint. Because somebody would always come up with some new operating system on a PDA, or some new capability on a specific handset of a cell phone, and somebody would say because whatever game from Id has been open-sourced, I can make a technical case about how this would work. It always ended up being some kind of technical novelty, that sort of looked neat but wasn't anything that people actually wanted to play. What we did with Doom RPG, which was the completely opposite approach: what works on a handset, and let's combine this with something in the Doom universe. And that actually was not only a commercial, but a critical success.</a>
+
+<q>Yeah, I was really happy with that, it really played to the strengths of what you had available.</q>
+
+<a Todd>So that's the model, and we hope to replicate that and improve upon that as we go forward to more advanced handsets, into the DS market, etc.</a>
+
+<a>We want to use as much synergy as we can. With Wolfenstein, this may be a great case where we can have a mobile title out, we can have a DS title out, and both of those should come out in advance of the big cross-platform, high-end Wolfenstein title that's under development right now. And that may come out being almost perfect timing, where we can go out and move maybe a couple million units on mobile and DS, in preparation for the big high-dollar one going out on the PC, 360, PS3 SKUs on there 6 months later or something.</a>
+
+<q>With Orcs and Elves, I think there was some difficulty with the development in porting it down for lower end phones. Is that going to be a problem? Are you going to be developing from the DS down, or from lower end phones up?</q>
+
+<a>Well right now we have made the decision that the next mobile title is dropping the lowest end Java support. I felt that was necessary, where we made good strides from Doom RPG to Orcs and Elves, and Orcs and Elves 2, the game got better each time. It wasn't just that a matter of changing the graphics and making new levels -- there were significant improvements in each step that we took there. I was pretty much convinced that we were at about the limits of what we could usefully do on the lowest end platform. There's still lots of room for us to expand on the high end BREW or Java platforms, but if we're continuing to require that we ship on a 350k Java, it would have kept us from being able to make that kind of step again.
+
+So for Wolfenstein, we cut off the lowest end, which throws away a decent chunk of the market, but we do think things are still moving from a platform migration standpoint. And we think we'll be able to make enough, better of a game that it'll make up for giving some of the low-end away there.</a>
+
+<q>So it should offer a lot more freedom now, then?</q>
+
+<a>Yep. We always look longingly at the possibility of, if we could develop just for high-end BREW, we could make games that would be, really, every bit as good or better than a DS game. Really it's worse on mobile, than any other platform, where the consoles are sort of the best -- you've got a one point target. PC space you might have a factor of four performance that you're scaling for there. But on the mobile we've got well over a factor of ten from the lowest end and the highest end, where you've got something that might be at 16 mhz processor on the low end, and a 300 mhz processor on the high end, or even higher. There are 1Ghz processors going into cell phones right now.</a>
+
+<q>How do you feel about mobile development? I understand there's a lot more opportunities for hands-on individual work, compared to the huge teams and budgets.</q>
+
+<a>So our current teams that have done all these titles have usually been five or six people, and we expect that to still be staying fairly constant through the next year. Now I do think that it's inevitable that if the market grows, and you have bigger and bigger successes on there, that it will inevitably follow the path that PC and console games have had, where ten years from now we'll be talking about the twenty million dollar developed mobile game, probably much less than ten years actually. But I think for the next several years it will grow reasonably slowly.
+
+There's also this interesting phenomenon, where because the gaming isn't what's driving the technical decisions on the cell phones, we're sort of reaching a case where modern high-end cell phones have more resources than we can actually afford as game developers to take full advantage of. Which is a bizarre situation that we've never seen on PC or consoles for a high end game, where you're always trying to eke every last little bit out of the platform. But when we look at a high end phone like an iPhone or something, that might have 128 megs of ram and gigs of storage, if you built a game and said I'm going to do the best possible thing on this platform, you could go ahead and spend 5 or 10 million dollars developing some really lush media platform on there, and you would never be able to sell enough units to go ahead and justify that from a risk standpoint.
+
+So mobile development is going to remain different in interesting ways than the rest of the console or PC development there.</a>
+
+<q>So it's a matter of finding a sweet spot between innovation and expense?</q>
+
+<a>Yeah, if you shot just for the low end, then you can say I'm just going to try to max out the low end platform on here. Although you've still got the issue of, it has to then be customized 150 different times for all the different handsets. That was one of the things that was interesting doing the DS work recently, where for Orcs and Elves DS I personally had a blast working on that because it was this tight, low level hardware thing where you could go in and poke at registers, and if it worked great on this one it would work on every single DS ever made like that. And it was a very different feel from the cell phone development, where you have to do a good sort of strategic job on there, but the tiny little tactical decisions, about programming implementation, you can't get much leverage out of that, because it's going to be different on 150 or 300 different cell phone SKUs that you wind up developing on.
+
+I know when I very first started playing with cell phone development on my personal cell phone, I spent a little bit of time doing Java disassembly, and tweaking things to generate the exact op codes that I wanted, but it was really pointless in terms of a larger, broad scale commercial release, because any tweaks I did on that would only be hitting some minor fraction of what the total market was.</a>
+
+<q>With the lower budgets and few people breathing down your neck, is there going to be more opportunity to do things that we haven't seen before?</q>
+
+<a>Orcs and Elves was the first new IP that Id software has created since Quake about ten years or so. We're working internally on RAGE, our big new high end IP, and the fact was we were able to sneak in and do something we haven't done in a long time, and be successful with it on the mobile platform. I think that's a really good sign, that it's out there, and that it was successful critically and commercially. We're all waiting, eagerly anticipating how Orcs and Elves DS will do, because if that comes out really good also and show how we were able to pioneer a new IP on the low end mobile platform and then step up to a more conventional platform, then we'll probably try moving that again. And that would be a great existence proof for the industry, and I know a lot of people at EA are looking very carefully at this, because it could be a significant new change in the way people think about trying out some of the new IPs on there.</a>
+
+<a Katherine Kang>I think one of the ways that developers can come up with new ideas is, with the mobile market, with the DS market, but particularly the mobile market you can throw a lot of ideas in there with a very low budget and see if people take to it. If they do, then you may already have a fan base that enjoy that game, that may see it as a benefit to go to the more higher end games.
+
+One of the things with Orcs and Elves that will be very interesting is in the cell phone market, nobody really knew anything about it except that it must have orcs and elves. You know it was very special, it was a really good game for the cell phone, and people really liked it, and Orcs and Elves 2 that's coming out in a week, next week, is an even better game than Orcs and Elves. People who played the original Orcs and Elves seem to want more of the Orcs and Elves, the idea being that the DS is still a very good budget to work with, but not extravagant. We give them more, and if people like this approach, then I think a lot of more innovative new type of games will come out of the studios, because they won't have to risk tens of millions of dollars in just trying something they would have liked to try but couldn't afford to.</a>
+
+<a>I think one thing that's kind of worth recognizing is that if somebody played a mobile game, and if they think "Orcs and Elves, that was a great game", and it's in the context of, "this was a great mobile game", that people still have that same positive feeling about it, you're building pretty much the same brand loyalty that you would if you were developing a great game on the 360 that cost 40 times as much to develop.</a>
+
+<q>Do you think that will help in terms of, people will buy Orcs and Elves DS and with the sequel out already on mobile, that people will seek that out?</q>
+
+<a Kathering Kang>That's the idea. The idea is that if the people who played Doom RPG, played Orcs and Elves, that they would go buy Orcs and Elves 2. But with Orcs and Elves 2 out there, the people who perhaps pick up Orcs and Elves DS and enjoy it and go "wow, this is a fun little game, I wish there was more to it", then they can go on the cell phone and be introduced to the same universe, with some of the characters that they became accustomed to, and continue enjoying it. And after playing Orcs and Elves 2 on the cell phone, that they'll be like, "oh boy, can't wait until Orcs and Elves 2 is out on DS" or another platform. But rather than having to wait 3, 4, 5 years, next year they'll be ready to pick it up.</a>
+
+<a>There is a danger there though in that the DS is nicer in a lot of ways. It's very fast and smooth, better graphics, more levels, all this, where especially if somebody had a low end phone, they would be sorely disappointed if they went from playing Orcs and Elves on the DS, to playing Orcs and Elves 2 on a low end Java phone.</a>
+
+<a Kathering Kang>It could potentially go a positive way, though, where the gameplay experience is still fun. So they could play it on the cell phone, and say, I can't wait to see the DS version, to see what more there is that we weren't able to see on the cell phone.</a>
+
+<a>But that would be an interesting situation if we were in, where we have a huge hit on the DS, and then people wind up seeking out the mobile version for the next step in that. Then there would have to be some expectation management in effect there.</a>
+
+<q>It's definitely an interesting experiment. Do you think you might do any development specifically for the DS and then expand that downward?</q>
+
+<a>Well we are definitely right now looking at the Quake Arena title on the DS, which will be a DS exclusive game, again because we don't feel that we could do a good job on a Quake Arena style game across any kind of broad mobile platform. So we're sticking to, we'll do what's appropriate for the different platforms.
+
+You're never going to see us say, well we're now doing, say, RAGE, and we're going to go ahead and do RAGE on all the high end titles, we're going to do a mobile version, we're going to do a DS version, because specifically I don't think we can do a good version of a racing game like RAGE on the cell phone and do a particularly good job at it. It's not outside of the realm of possibility, you could push it and possibly make something happen, but I don't think it's the right thing to do. The same thing with what we were talking about with Quake Arena, and similarly I think that there are things we could do on a mobile title that won't translate well to other games.
+
+We have a lot of ideas that we've talked about, about things that could actually take more advantage of the specifics of the mobile platform, with the always connected nature of it, things that are interacting with live internet connections, or SMS messaging, or any of those things that would clearly be mobile only. Where we want to get the synergies that we can, out of the fact that we have these IPs present on multiple platforms, but it's not going to absolutely drive everything that we do.</a>
+
+<q>One last question about Orcs and Elves, the story was that was a [D and D] campaign that you ran?</q>
+
+<a>Not specifically. Orcs and Elves is Anna's creation, mostly from scratch, but she was inspired by some of the things that I did previously. Certainly the actual gameplay style that we developed for Doom RPG was things that I dredged up out of my early gaming experiences, and the computer games that I remember playing as a teenager, the Wizardry and Bard's Tale and games like that. So we've been tagged as a retro game in that, because people can think about Eye of the Beholder and classic games like that. It's not intentionally being set up like that, it's more a matter of, what was going to work well on the cell phone for play style, and dredging out all the different possibilities, that just came out on the top of my list, that that would work out well.</a>
+
+<q>Do you have any remnants of any of those old games? I'm sure the scenario is different, but It'd be fun to see a character sheet or something.</q>
+
+<a>Yeah, I actually have a bookshelf full of my old campaign notes still in my office upstairs.</a>
+
+<a Katherine>We actually have a D20 coming out based on Orcs and Elves, that I believe should be released either next week or the following week, for the people who are still playing Dungeons and Dragons.</a>
+
+<a>It's actually kind of neat, one of the guys at EA was involved in writing some of the D20 based adventures, and he put a little module together based on something happening at the periphery of the Orcs and Elves game, and I reviewed all that a couple days ago, and passed along a couple of tiny notes. But I thought it was pretty neat, what they did with it. </a>

@@ -1,0 +1,117 @@
+http://archive.gamespy.com/quakecon2003/carmack/
+GameSpy @ QuakeCon 2003 - A Conversation With John Carmack
+id's master programmer speaks candidly about the company, creating games and what's next.
+GameSpy
+Steven Kent
+
+<desc>
+John Carmack sits at the end of an enormous boardroom table in a hotel conference room. He has the room to himself, and that seems like a good arrangement by him. The occasion is QuakeCon, and people have traveled in from around the country, computers in tow, to celebrate the games Carmack helped create.
+
+On this occasion, John Carmack seems very satisfied, and that is something to worry about. In the book "Masters of DOOM," author David Kushner mentions questions about Carmack retiring. With the DOOM 3 engine complete and news that Raven, not id, will create Quake IV, perhaps Carmack is ready to retire.
+
+Fortunately, in his current mood, no subjects were off limits:
+</desc>
+
+<q>
+Are you going to retire after DOOM 3?
+</q>
+
+<a>
+No. I've got at least one more rendering engine to write. The development of rendering engines is driven by two major factors. One of these is, of course, the question, "When you finish a game, is it time to write a new engine?" The answer is based on what is happening in the hardware space.
+
+Previously, it was just about what was happening on CPUs. Do we have 32-bit CPUs? Do they have floating point on the CPUs? Then we got graphics cards and that stayed the same for a number of years. We got some important new features in the graphics which basically engendered the DOOM engine. We had cube-mapping, dot re-rendering, and geometry acceleration. This important set of features, and it was enough to make it worth writing a new engine.
+
+DOOM is going to be in use for a long time, but just this year, hardware has surpassed a really significant point with the floating point pixel formats and generalized dependent texture reads. These are things that demand that a new engine is written.
+
+It's particularly significant because those are the only features that are necessary with temporary buffering to actually implement anything. You can decompose Pixar Renderman shaders into multi-passes. It doesn't mean that they can run in real time, but the fact that they can be calculated on a graphics card has a wide range of implications on what you want to do for the graphics pipeline. It's going to impact both real-time rendering and off-line rendering. There is going to be an interesting convergence.
+
+DOOM does a lot of things to use these features, but it still uses that notchy functionality of previous generation graphics cards where you had this set of features and you could use combinations of them but you could not do exactly what you want. 
+
+The very latest set of cards, with the combination of those features -- floating point and dependent texture reads and the ability to use intermediaries -- you can now write really generalized things and that is appropriate. You might use 50 or 100 potential instructions in some really complex gaming shader; but if the engine is architected right, you would be able to use the exact same engine, media creation, and framework and architect the whole thing to do TV-quality or eventually even movie-quality rendering that might use thousands of instructions and render ridiculous resolutions. The ability to use the same tools for that entire spectrum is going to be a little different from what we have now. 
+</a>
+
+<q>
+How long does it take to create an engine?
+</q>
+
+<a>
+The DOOM rendering engine went surprisingly smoothly, I mean more so than almost any other thing that I have done before. I made absolutely the right calls at the early strategic level. It was good fortune.
+
+I look back at that and see that the very real decisions about what the core rendering technology was going to be, how the architecture was going to be, and what the external interface was going to be did not change in over two years in a fundamental way. I had the core of it done two years ago. We could render a picture and it looks like what the DOOM engine does.
+
+It took another year to add all of the features, but fundamentally, it has not changed in a year. There have been a few changes, a few little optimizations, but mostly it's the rest of the game coming up to par-getting the game technology there, the game system and all of the characters, and the things that make it a real game. 
+</a>
+
+
+<q>
+I am surprised that you do not see Quake IV using this next generation engine.
+</q>
+
+<a>
+Wolfenstein worked out so spectacularly well. Inside id there is a group that really, really does not want to do another sequel. Our next game is not going to be a DOOM, Quake, or Wolfenstein sequel, it's going to be something new and that is a foregone conclusion.
+
+We knew that we were going to license that out and let someone do it.
+
+The work that was done with Wolfenstein, in the end it turned out great, of course, everybody loves it, but it was painful during the development. At one point we had every programmer at id working, trying to stabilize the code base to make things okay for shipping.
+
+But still, we looked at that as a success and we are hoping to replicate that success with Raven doing Quake IV. Raven has always been our lead engine adopter. It was a foregone conclusion that Raven would get the Doom engine early, the only question was what they were going to work on. 
+</a>
+
+
+
+<q>
+Do you see yourself ever straying away from FPS games?
+</q>
+
+<a>
+John Carmack: Occasionally I desire to do a different kind of game. To a large degree, id Software is a prisoner of its own success. Because we are a single-title company, we have a strong obligation to do something that has relatively low risk.
+
+With game development taking multiple years and costing many millions of dollars… I think real innovation will not necessarily come from triple-A titles. Triple-A titles have so much of an investment that it engenders a huge risk-aversion. I think that the real innovation will come from things that are done on a smaller budget, that might be targeted as budget titles. It's okay to risk $500,000 on a development budget where you might say, "This is a clever idea, lets give it a try." Risking $10 million dollars, and some development budgets are going well over that already, is a lot harder.
+
+Even going to another style of game, we have an obligation to make sure that our current distribution of artists, level designers, and programmers are gainfully employed on the next project. We are built around doing first-person shooters with this mix of content creation. 
+</a>
+
+<q>
+Let's switch topics from your job to your hobby. Can you make a rocket to take two people in orbit?
+</q>
+
+<a>
+Orbital is a lot more challenging. The X-Prize is about going up 100 kilometers and coming back down. You leave the atmosphere. You enter space and you remain weightless for 10 minutes or so. You come back in and it's the world's tallest roller coaster ride. That would require about one-eighth of the energy required to go into orbit.
+
+The X-Prize is absolutely obtainable. It is obtainable next year. There is little doubt in the technical ability on that and I think things are okay on the regulatory side. There are issues that we are working there, but we have plans and fallback plans.
+
+Getting there is more fundamentally difficult, but it is not impossible. Rocket science has a mythology about it that isn't correct. Because of the way things evolved, we got our gigantic, expendable space vehicles.
+
+There is a wonderful analogy here with gaming. Remember when I said that we are trapped by our own success? We have something that works. We serve a market. We have a continuing customer base and with a $10 million budget, you can't F*** around with this. 
+
+Elevate that to the orders of magnitude in the aerospace industry. You have a stable customer base. This satellite costs $500 million, do we want to try a little experiment to see if we can do something a little bit better? They are completely stuck.
+
+It doesn't have to be that expensive, but they are not going to make it cheaper because they are in this way where it is stable and profitable. Doing something off the wall is going to need to come from a lower tier, just as it will with the gaming industry.
+
+The only difference is that gaming and computer entertainment are vibrant and competitive. You have hundreds and hundreds of little teams doing this. Aerospace is not. You have two or three monoliths and a few government contractors.
+
+It's weird being in a company that is part of the stable establishment, but we are. We're kind of the blue chips. We're the Boeing of the first-person shooters. It constrains us, but we are. 
+</a>
+
+<q>
+Thesis and anti-thesis become synthesis. Id was once the anti-thesis of the established game order. Now you and the Nintendos of the world have merged to create a new order that can only be challenged by new small companies.
+</q>
+
+<a>
+It's fun being part of the scrappy little start up with rockets.
+
+I am different than a lot of people in the space community in that I am not this life-long visionary about all that. I had a normal geek childhood with science fiction and model rockets, but I didn't think about space for a decade. It's mostly an engineering challenge to me. 
+</a>
+
+
+<q>
+As a triple-A company, can id work on any smaller ideas?
+</q>
+
+<a>
+I thought it would be kind of neat if we took the DOOM renderer, and we had a team take previous games-don't touch the game, just revamp it graphically. Just take Quake II, and just use the DOOM engine to make brand new graphic models and everything. But don't spend time messing with the gameplay because we know that is pretty good. Just release it as Quake II Remix with brand new graphics technology and sell it at a middle-level price instead of a boutique price.
+
+I thought that was a pretty good idea.
+</a>
+
+

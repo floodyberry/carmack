@@ -1,0 +1,54 @@
+http://web.archive.org/web/20040813015408/http://www.beyond3d.com/interviews/carmack04/
+Interview with id Software's John Carmack on Doom3
+Interview with id Software's John Carmack on Doom3
+Beyond3d
+Anthony 'Reverend' Tan
+
+<desc>
+Probably the most eagerly-anticipated game for a number of years is upon us. Four years in development, Doom3 is the latest game by Mesquite-based id Software, a game that id says is the best they have ever done. While the reception to its gameplay is mixed (as is always the case for such a subjective topic of discussion), the majority is in agreement that it is the best looking game ever released on the PC platform.
+
+This reporter, finally getting his hands on a copy of the game after a torturous wait, has been corresponding with id's Technical Director, John Carmack, the man responsible for the engine powering Doom3, on a variety of topics concerning the game. Deciding that the information generated from these correspondences could prove useful to the public, a request was made to turn these correspondences into an unofficial interview and John gave the go-ahead to this "interviewer" (although he voiced his concern to this interviewer that this "interview" may incite lots of other people to send him more emails!).
+
+Some of the following information have been provided by this interviewer in Beyond3D's various forums, scattered as they may be due to the nature of Beyond3D's forums where there are individual forums for discussing technologies and games. The hope is this "interview" would be a single source of information that touches on a few matters raised by this interviewer to John. Let's not waste anymore time.
+</desc>
+
+
+<q>It appears that benchmarking demos (using the "timedemo" command) results in higher performance stats than actual gameplay. Can you explain to me why is this so, regarding the "timedemo" command? Is it because "timedemo" do no calculate AI and physics? What else? Also, if I run in a straight line in normal gameplay and have that entire run logged, total frames is higher than a recorded demo of that same run. Why is this?</q>
+
+<a>Timedemo doesn't do any game logic.
+
+Demos are always recorded at exactly 30Hz.</a>
+
+<q>Okay, timedemo only tests graphics rendering and ignores AI and physics. Even with a high-end CPU system, I have found that timedemo is still very CPU-dependent. In demos with many monsters and/or large/complex monsters, I will have to assume this CPU-dependency in timedemos is a result of CPU skinning (since AI and physics are ignored in timedemo). Correct?</q>
+
+
+<a>CPU skinning, shadow generation, and tangent space reconstruction are the parts of Doom that take up significant time in timedemos, but there is a lot of driver overhead as well.
+
+"r_skipRenderContext 1" will unbind the gl context, so all driver calls become null functions. You can have some timings activated, then enable this, then disable it so things draw again, and compare to see how much time is spent in the driver, assuming the scene is not hardware limited.</a>
+
+<q>What's the situation with regards to depth bounds test implementation in the game? Doesn't appear to have any effect on a NV35 or NV40 using the cvar.</q>
+
+<a>Nvidia claims some improvement, but it might require unreleased drivers. It's not a big deal one way or another.</a>
+
+<q>There are several rendering paths. How do we get to set specific path to use?</q>
+
+<a>"r_renderer [ arb | nv10 | nv20 | r200 | arb2 ]"</a>
+
+<q>(A thread in our forums shows an ATI employee improving performance on ATI hardware by changing a Doom3 shader. There have been widespread discussions on this, not only in that particular Beyond3D thread but on other public forums as well. Please visit this forum post to understand the reasoning behind the following 2 questions. This interviewer pointed John Carmack to that particular forum thread, as did the individual which started the thread.)
+
+Now, without taking anything away from that guy for experimentations, something must be up because:
+
+1) I can't believe you didn't think of this :) ; and
+2) You couldn't do that because it (probably) affects some other stuff (specific lookup tables, for instance)
+
+Any comments on what might be actually happening?</q>
+
+<a>The ARB2 path uses a lookup that exactly matches the bias / square calculations used by the NV10 / NV20 / R200 paths so the surfaces look the same in the different rendering modes.</a>
+
+<q>Does that mean you're using different lookups for different materials? What exponent exactly are you trying to approximate?</q>
+
+<a>The specular function in Doom isn't a power function, it is a series of clamped biases and squares that looks something like a power function, which is all that could be done on earlier hardware without fragment programs. Because all the artwork and levels had been done with that particular function, we thought it best to mimic it exactly when we got fragment program capable hardware. If I had known how much longer Doom was going to take to ship from that time, I might have considered differently.
+
+It should be noted that a power function is a strictly empirical approximation of a surface's specular response, so other specular approximations shouldn't be looked at as just approximating a power function. For instance, especially for broad highlights, it is nice to have a finite cutoff angle, rather than the power limit approach.
+
+The lookup table is constant in Doom, so there isn't any real strong argument against replacing it with code. The lookup table was faster than doing the exact sequence of math ops that the table encodes, but I can certainly believe that a single power function is faster than the table lookup.</a>

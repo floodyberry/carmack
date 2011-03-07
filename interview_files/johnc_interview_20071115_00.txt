@@ -1,0 +1,86 @@
+http://ds.gamespy.com/articles/835/835571p1.html
+The id Mobile Interview
+GameSpy talks to John Carmack, Todd Hollenshead and Katherine Anna Kang about the future of mobile gaming.
+GameSpy
+GameSpy Staff
+
+<desc>id Software and Fountainhead Entertainment announced today that the two developers have joined forces to create a new division of id Software, id Mobile. GameSpy recently had the opportunity to discuss the formation of the new division with id Software technical director and co-founder John Carmack, id CEO Todd Hollenshead, and id Mobile president Katherine Anna Kang.
+
+Read on to learn more about the wand-waving future of Orcs &amp; Elves, the upcoming Wolfenstein handheld games and about working with Steve Jobs on bringing games to the iPhone. </desc>
+
+<q>Tell us about how you got involved in mobile development and the formation of id Mobile.</q>
+
+<a>Well, the whole move into mobile a few years ago was sort of a random fluke. The state of the mobile phone caught my eye, and I was basically looking at the games and thinking, "I could do a lot better than this really quickly."
+
+Initially when we made contact with Jamdat at the time to do Doom RPG it was a pretty speculative venture on our part. We had no idea if this would turn out to be something useful, but Jamdat was behind it enough to go ahead and cover all of our development costs on it.
+
+So we went ahead and made Doom RPG and it turned out to be this great big hit. It really exceeded my expectations for what we would get out of the game. We followed it up with Orcs &amp; Elves, which won a bunch of awards and is doing well. Soon we have Orcs &amp; Elves 2 on the mobile phone and Orcs &amp; Elves for the Nintendo DS, which is the first step of my theoretical plan of upward mobility for new IP's on there.
+
+Overall, it's turned into something that we're now sure that we're committed to this. It wasn't going to be the little one-time thing, experimentally, as we started out. We think that this is going to be a significant aspect of our business going forward.
+
+Even if we look at it as the worst case, right now it's a successful business; we're doing well on it. We're building a lot of favorable impressions from people who are playing the games on mobile. It's sure to be growing, at least modestly, over the coming years. There's a decent chance that some time in the next five years or so that mobile gaming could be a real breakout success. There are certainly lots of possibilities when you look at the numbers. There are at least twenty times as many mobile phones as there are personal computers, and maybe a hundred times as there are consoles, so there's certainly a large potential market.
+
+We're just now getting to the point where the common phones that people have, the phones that there are hundreds of millions of out there, are things that are capable of playing the kinds of games that we like to make and that we have skills at. Obviously there have already been big successes in the puzzle games: the Tetrises and Bejeweled and Pokers and things like that. And that's great that they're doing well, but it's unlikely that we'll start playing in that market because that's just not the type of thing that we do.
+
+The types of games that we do end up working on, the kind of technology-heavy, media-rich games are becoming more credible on those platforms, and I think we're going to be well positioned to make some significant marks there.
+
+Once we reached the conclusion that mobile was going to be a significant part of our companywide strategy in the coming years, it made sense to pull the development team internally. This brings us several advantages.
+
+One of the things that we've had difficulty with over the last couple years is getting good, qualified, talented game developers that actually want to work on mobile projects. In America at least, mobile development is seen as the ghetto of game development. When people say they want to go into the game industry, they're always envisioning working on some cutting-edge high-end Xbox 360 or PC game or something. If they're told, we're going to work on a mobile project, you can usually just see their faces fall. Immediately their position is not something that is highly respected here, even if their sales numbers can be quite large and they can do something that a lot of people will play.
+
+We are expecting that as an id Software division, it will be a little more enticing for people that are interested in development. And it also gives us a better position for dealing with publishers, carriers, hardware vendors, chipset vendors, the whole ecosystem of the mobile space, where we expect to establish ourselves as a significant player.</a>
+
+
+<q>Do you find that people that express interest in working for id Mobile won't just be using this as a stepping stone for future positions within id? What do you plan to do to make mobile development attractive to talented industry professionals?</q>
+
+<a>It's definitely something that we're going to have to pay attention to. If we poach good developers out of the mobile section Anna will hit me.</a>
+
+<a Katherine Anna Kang>I will hit you!</a>
+
+<a>We hope to be able to find people that really love the idea of working on the mobile platform. There is a fundamental coolness to the games living on your cell phone, rather than on a dedicated gaming box. While we can't say that we've run into a whole lot of them yet, I'm still holding out hope that there are people that are incredibly talented and actually specifically interested in the mobile space.</a>
+
+<a Katherine>The thing about the id Mobile division and the relationship with id Software is that it does not preclude the possibility of people working on the id Mobile division and then going on to other projects. For example, one of our programmers has just moved to an id Software project. But the thing is, id Mobile will stay focused on the handhelds and mobile. As id Software and id Mobile grows, that all becomes a part of how the companies allocate their labor force. There's definitely not a specific plan where we bring people in to id Mobile so that they can step up to id Software, but that's definitely not outside the realm of possibility.</a>
+
+<a Todd Hollenshead>Just to be clear from an operational standpoint, id Mobile is operating effectively as a separate company. Now, there are a lot of shared resources, the name is the same, and a lot of the drudgery of the business aspect will be handed off to corporate headquarters, if we can loosely call it that. The idea is that everybody is working at the same company. While that's partially true, effectively there will be a wall operationally to separate the operations of the mobile business from the rest of what id does.</a>
+
+<a>I will say there are some positive encouraging signs for this going on. For instance, my lead programmer on Rage would love to work on an iPhone title. That's probably the first inkling that I've seen of somebody on one of the high-end projects that would actually really like the idea of going and working on a mobile title.
+
+The mobile things are getting cool, and Apple is helping that some with the iPhone. In general, as the technology gets better and the capabilities get better, it's more exciting to work on. A lot of people still have this vision where mobile phones are just good for playing Snake or Tetris.</a>
+
+<q>That's a question we wanted to ask you, John. Do you see any point in the near future where you're targeting specific platforms like iPhones or Blackberries as some of those platforms become more dominant?</q>
+
+<a>It would be great from our point of view if it did reach any kind of level of dominance. But it's like the decisions we face all the time in our development. Just between Qualcomm's BREW and the Java platforms. The BREW platform is tons better for making games. It's a native code platform, it has strong central control of the API, it's just more sensible in just about every way, and you can make much, much better games on it. But it's only about a third of the domestic market, and a tiny fraction of the European market. If we were to make any kind of a jump first, it would be to get rid of Java first and go to BREW.
+
+When we talk about something like the iPhone, they've only sold about one and a half million units. It's a great success for Apple, but it's a tiny drop in the bucket in the mobile market. Interestingly, I've been going back and forth with Steve Jobs about iPhone development on different things. It's a tough situation there, because when you look at the iPhone, where it has 128 MB of ram and gigs of storage, if you were to make a game that was really targeted to the iPhone and made maximum use of its media potential, there's no way you could sell enough units to pay for the development cost of something like that.
+
+So that puts you in a weird situation that no other game platform has had before, where the hardware has more resources than you can afford to fully exploit, just by development dynamics. Historically, on the consoles and PC, we've always been trying to push to what's just barely possible on the platform. At the rate that some of the cell phones are advancing in power, you're going to be mostly stuck by the artificial limit on over-the-air transfer size. So you're stuck with this incredibly powerful system that you can only download 1 MB or two of content for. But the iPhone will probably bypass that with iTunes based sales, if that all works out.</a>
+
+<q>John, you've spoken on multiple occasions on how you've enjoyed developing for the mobile platform, simply because you have a more immediate effect on the smaller projects this way. How much involvement will you have on id Mobile and the games going forward?</q>
+
+<a>The best example of that is certainly the three mobile titles we've gone through, Doom RPG, Orcs &amp; Elves, and Orcs &amp; Elves 2. The games have gotten significantly better each time. I wrote the core stuff for Doom RPG, and updated it a little bit when we moved to the BREW port. I really didn't do that much work on Orcs &amp; Elves and Orcs &amp; Elves 2, aside from a few overview meetings on it. But then it was just recently with the Orcs &amp; Elves DS port where I got to go back in and devote some real quality programming time to laying out the 3D engine and everything on the DS, and that was a lot of fun.
+
+I suspect that now it'll be a similar thing where some groundwork's been laid and there will be another DS project where I only provide technical direction and don't get to actually do too much coding on it, but we'll see. The hope is that in the next year, we'll have four titles from id Mobile, probably two mobile and two DS titles. Probably half of them developed internally and half of them with partner companies.</a>
+
+<q>Is Wolfenstein the next IP coming to id Mobile?</q>
+
+<a>Wolfenstein development is ongoing for mobile phones right now. One of the changes that we're doing for that is we've dropped the lowest end cell phone platform that we've been building for. We felt that was necessary to continue. If we want Wolfenstein to be as much better of a game than Orcs &amp; Elves 2 was than Orcs &amp; Elves, and Orcs &amp; Elves was than Doom RPG, we felt there really wasn't that much more we could do within the low-end Java constraints that we'd been working on. We've chopped out the lowest-end version and slightly upscaled the highest-end version, so it gives us a little more elbow room to do some more creative things and expand the game on there.
+
+None of these future projects have we signed actual deals on yet. We are in a nice position where we don't get locked into any long-term contracts with any publishers. EA is publishing Orcs &amp; Elves 2 for mobile and Orcs &amp; Elves for the DS. We're certainly talking to them about who's going to be publishing the next set of titles, and they're probably the frontrunner. But all of those are still up in the air right now. We do hope to be able to do a simultaneous DS and mobile release of a Wolfenstein-themed game.</a>
+
+<q>What's the strategy for getting id Mobile games on the handheld platforms, like DS and possibly PSP? Are all your major IP's going to be hitting handheld systems?</q>
+
+<a Katherine>In regards to how we develop the game, we don't like forcing the game to a platform. We prefer to create a game that is ideal for a platform. So if a particular game doesn't fit for the PSP, we're not going to push it. If a game works great for a cell phone, but due to the mechanics or just everything involved, we won't try to push it on the DS. But if it seems like there's a really good relationship between a game type that would go well across the cell phone and with additional enhancements and perhaps more media be able to expand it further that it can go on the DS, then we'll do that. If it looks like the game has such a rich universe that we can go all out and create an awesome triple-A title type, then we'll bring it up further, if the popularity of the game merits that. Our core strategy is not to get every single platform out there, but to make every single game unique to its platform.</a>
+
+<a>Here's a couple specific examples. Orcs &amp; Elves going from the highest end cell phone, that basic gameplay style was just barely good enough for the DS. We would not try to port a cellphone game up to the PSP, that would have to be a complete design rethink. Similarly, we're thinking of doing a Quake Arena-themed game for the DS, and there's no way I would try and put that on a cell phone now, because the user input fidelity and speed just isn't good enough to do that type of a game.
+
+When possible, we want to be able to go ahead and have things across different platforms, but we're never going to push it when it doesn't make sense. We do hope that if Orcs &amp; Elves is successful on the DS, we'd like to go ahead and build a brand new Orcs &amp; Elves game scaling up higher to the Wii. There's a great waving a magic wand approach on there, but that would be a game that has nothing but the theme in common with the cell phone game, while the DS game was clearly a super pumped up on steroids enhancement of the cell phone game. A higher end version would have no direct commonality to it.</a>
+
+<q>What sorts of resources are you directing towards mobile development and are id Mobile games developed simultaneously for mobile and handhelds?</q>
+
+<a>Right now, the mobile team is only about five people. I get to poke in and do a little bit of work here and there, and there are some other resources that get claimed in different places. We expect to be expanding that slowly. There's no plan to have a mad rush to hire a whole set of other people, but we do expect it to grow to two complete internal teams, and then working with more partner companies, as id Software has historically done. We build something internally, and then we can work with our partners like Splash Damage or Raven. Some of those companies do similar things to what we do on the high-end, and we want to do the same thing with mobile, where we build a couple solid relationships with outside teams so we can take advantage of everything on mobile at the same time. We do want to see all of our IP's, Wolfenstein, Doom, Quake, Enemy Territory, Rage, all of these will eventually be represented on the mobile and handheld space. We also do want to continue to use this as an opportunity to bring in brand new IP's, like we have with Orcs &amp; Elves.</a>
+
+<q>Are there plans to license out your mobile platform technologies to other developers who want to get into the mobile space?</q>
+
+<a>It's certainly a possibility, but we're not making it part of our core strategy. If people want to talk to us about it, we'd be happy to do that. It's always weird talking about engines or technology on such a small project relative to the large-scale stuff that we do, but it's something that we are open to. As the market matures over the coming years, it's going to follow the same track that the PC space did.
+
+As the development environments get more and more complex, and more effort goes into it, there probably will be a much larger push for licensing. But as it is now, in terms of technical complexity, we're really a lot closer to the original Wolfenstein 3D era on the PC. I wouldn't be surprised as it trends up one more generational notch, we see broader interest in licensing like we did in the original Doom era.</a>

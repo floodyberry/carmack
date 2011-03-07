@@ -1,0 +1,227 @@
+http://web.archive.org/web/20010624154450/http://www.voodooextreme.com/games/interviews/carmack/
+Knee Deep in John Carmack
+Voodoo Extreme interviews John Carmack
+Voodoo Extreme
+Billy "Wicked" Wilson
+
+<desc>
+John Carmack, Co-founder of id Software and Lead Programmer; creator of engines. From the early days of DOOM id has been on the bleeding edge of the first-person-shooter scene, revolutionizing the 3D action genre. Today, we have part three of our lengthy interview series with John, featuring questions submitted by many top industry professionals, including Valve Software's (Half-Life) Gabe Newell, 3D Realms' (Duke Nukem) Programmer Brandon "GreenMarine" Reinhart, Epic Games (Unreal, Unreal Tournament) Designer Cliff Bleszinski, Human Head Studios' (RUNE) Chris Rhinehart and of course your pals -- the Voodoo Extreme chumps (Billy [most of the questions], Apache [editing and HTML], Eidolon [he's just a chump]). Topics include: DOOM III, id Software, games in general, technology, programming and much more.  Enjoy the third part of our series, we hope you enjoyed reading it and can't wait for more DOOM III goodness. 
+</desc>
+
+<q>During the development of Quake III Arena, you released Q3Test. Are you planning on doing something similiar with DOOM 3? If so, when would you plan on doing it (rather, how far along in the development process, not a specific date or time frame)?</q>
+
+<a>There will certainly be a test. I am a firm believer in the benefits to the final product of doing that.
+
+Q3Test was released too far ahead of the commercial product. The game engine was nearly ready to ship, but the bot code was still completely unresolved, and wound up causing the real ship date to be much later than expected. We will probably try to have a test for the next product much closer to full beta time.
+
+Don't hold your breath.</a>
+
+
+<q CliffyB; Epic Games> The climate for a successful FPS has changed dramatically since Doom first hit the market. As great as Doom was, any game that comes out now and features 40 hours of mindless shooting with key/door/switch puzzles will be ravaged in the press and sales will suffer. Half Life didn't just raise the bar for SP FPS gaming, it destroyed it, and with the possible exception of System Shock 2 and Deus Ex no game has come close to capturing the public's heart...and gaming dollar.</q>
+
+
+<a>You won't get any argument from me about the significance of Half Life.</a>
+
+
+<q>We rarely see any major sound advances in games these days, seems most developers focus on the visuals. Are you planning on doing anything different with the sound engine in Doom3? I ask this as, as we've seen in some recent games like System Shock 2, in creating a genuinely creepy game, sound can be an incredible thing.</q>
+
+
+<a>Graeme's primary task is going to be a completely new sound engine. Coupled with the fact that this will be the first project where I am comfortable using threads (previously the cross-platform issues have nixed it for me) for required background streaming, we should have quite literally an order of magnitude more audio richness than in our previous games.</a>
+
+<q>Has id ever thought of doing JUST engines/technology, rather than developing games, or would you get bored with this?</q>
+
+<a>It wouldn't work.
+
+It would be a pretty fair analogy to say that writing a game engine and selling it to someone without having actually built a game with it would be like writing a program and selling it to someone without trying to compile it. Even if you know what you are doing, you are going to miss important things.
+
+Even now, as we test the DOOM renderer, the level designers constantly present me with pathological uses of resources that I would never consider doing, but they did the first day. Programmers tend to avoid doing things that are going to hurt their code. Level designers don't know any better.</a>
+
+
+<q>Support for bump mapping? If there is, can you expand on that? Is it artist produced bumpmaps, or procedural?</q>
+
+<a>Oh, yes.</a>
+
+<q>What's your favorite Arcade / console game?</q>
+
+<a>Hmmm. If I had to pick a number one for each, it would probably be the arcade Super Mario Brothers and the original Sonic the Hedgehog.on genesis. I took a job at a pizza parlor when I was fifteen in part because they had a SMB machine.
+
+I loved most of the classic arcade games. The direct-acting feel of the controls on the old games is almost lost in arcades today, with all of the vaguely-working gun games and the fighting games with their time dependent blind control sequences.</a>
+
+
+<q>Any personal interest in doing a game outside of the FPS realm - I'm thinking of the comments you made on doing a Commander Keen game on the GameBoy.</q>
+
+
+<a>I get the urge to do programming-in-the-small at least once a year, but I don't think I could devote myself to doing a good job on another platform without abandoning more pressing work on the PC platform.
+
+The pace of Moore's law with regards to the history of gaming makes for some interesting thinking. Our data sets and processing are such that every arcade game I ever played as a teenager could be included, and run simultaneously, with the resources that we currently use for a single level. While intellectually I know that throwing an extra dozen rendering passes on all our surfaces now is The Right Thing for our market, part of me would still like to take 64k and really make it count again.
+
+My interest in rocketry over the last year has given me some vague notions of a hard sci-fi game of strategy or role-playing in the solar system a couple hundred years from now, but I doubt I will pursue it.
+
+I do think the time is right to have FPS infrastructure transcend its market niche and become the general infrastructure that VRML and others always envisioned. That was one of my major pitches post-Q3, but it wasn't received with much enthusiasm - most of the people here are game guys, not infrastructure guys.
+
+I have also proposed two other games that were still first person action games, but with different enough play styles to stand apart from our previous work. In the far distant future, when DOOM finally ships, we will certainly go through the whole debate again.</a>
+
+
+<q Gabe Newell; Valve Software> With Gameboy Advanced just around the corner, still not really a 3D capable device, what would John like to see in the way of a handheld gaming platform?</q>
+
+<a>I can't believe there is going to be another gaming device that still has the concept of "tiles". I am really quite shocked. The Atari lynx showed how it should be done YEARS ago: a memory mapped framebuffer, a reasonable CPU, a blitter coprocessor, and unified memory (large form factor and short battery life were it's problems). Several more backwards handheld systems have unfortunately been produced since then.
+
+A device that was basically half or a quarter the speed and memory of the U64, but with a similar architecture, would have made a great handheld. However, I wouldn't be surprised if the hardware optimum involved having 256k or so of embedded video memory on the LCD/graphics controller. It wouldn't be as convenient to program, but it would let it get away with a much lower performance memory subsystem.</a>
+
+
+<q Gabe Newell; Valve Software> Ken Perlin has been working with Microsoft and the hardware developers to incorporate his noise functions into their chipsets. How useful does John think this will be?</q>
+
+<a>At the Hardcore Game Developer's Conference, Ken was giving his talk and he asked the (intended to be rhetorical) question "Who here doesn't think this is a good idea for hardware?" I actually raised my hand. It's not that I have anything against noise functions (although I will admit a bit of a bent towards raw data over proceduralism), but that I am keenly aware of the effect of adding extra features. Even a good or harmless feature will have some impact on the pace of shipping a product, and I would rather have whatever engineering and driver writing effort would have gone to supporting noise functions, instead go to stabilizing and optimizing the existing features. Or work on something truly important, like really solving the shade tree temporary problem in an acceptable fashion, or adding more bits of precision. Heck, more bits of precision are practically a requirement for doing most of the crazy synthesist things you do with lots of noise functions.</a>
+
+
+<q Gabe Newell; Valve Software> What advice would he give other developers to help preempt patent litigation?</q>
+
+<a>I just don't know what to do about software patents. There probably isn't another issue that can make me feel so helplessly frustrated.
+
+Patents are supposed to help promote invention and allow benefits to accrue to inventors. By most definitions, I would be considered an "inventor" of sorts, and patents sure as hell aren't helping me out.
+
+The idea that I can be presented with a problem, set out to logically solve it with the tools at hand, and wind up with a program that could not be legally used because someone else followed the same logical steps some years ago and filed for a patent on it is horrifying.
+
+To laymen, all of programming is alchemy, and trying to convince them that any given software patent is "obvious" or "clearly follows from the problem" is really tough.
+
+The only way to fight it is with legal and political means, and I don't have the skills or tools to even formulate a plan of attack. I give money to causes that try to fight those battles.
+
+The only scenario that I can see would be to have enough truly, blatantly stupid patents prosecuted that someone could make a stand in congress and show the public in an understandable way just how wrong it is.
+
+On a personal level, I refuse to patent anything that I am involved in. Anyone that has ever gotten an idea based on any of my work and done something better with it - good for you.</a>
+
+<q Chris Rhinehart; Human Head Studios> From what I've read, Doom3 is intended to have a strong single-player experience. What do you anticipate to be the biggest design hurdles to overcome while creating Doom3, as opposed to designing a title intended primarly for multiplayer?</q>
+
+<a>We sort of went into Q3 thinking that the multi-player only focus was going to make the game design easier. It turned out that the lack of any good unifying concept left the level designers and artists without a good focal point, and there was more meandering around that we cared for. The hardest thing is deciding what to focus on, because DOOM meant different things to different people. We have decided to make the single player game story experience the primary focus, but many people would argue that DOOM was more about the multi-player.</a>
+
+
+<q>When do you think computers will become fast enough so that developers can dump BSP based VSD algorithms for more flexible ones?</q>
+
+<a>I think this has been mis-characterized for a long time - None of the Quake games have had what I would call a "BSP based VSD algorithm". The visibility associated with quake is a cluster to cluster potentially visible set (PVS) algorithm, masked by an area connectivity graph (in Q2 and Q3), followed by hierarchical frustum culling (which does use the BSP). The software renderers then performed an edge based scan-line rasterization algorithm, which resulted in zero-overdraw for the world.
+
+Early in Q1's development, I pursued "beam trees", which were truly a BSP based visibility algorithm that did exact visibility by tracking unfilled screen geometry going front to back, but the log2 complexity scaling factor lost out to the constant complexity factor from the PVS.
+
+That highlights an important point that some graphics programmers don't appreciate properly - it is the performance of the entire system that matters, not a single metric. It is very easy to go significantly slower while drawing less primitives or with less overdraw, because you spent more time deciding which ones to not draw than it would have taken to draw them in a more optimized manner. This applies heavily to visibility culling and level of detail work, and is much more significant now with geometry processors and static meshes.
+
+The PVS system had two significant benefits: constant time lookup, and complete automation (no designer input required).
+
+Through Q2 and Q3, the "complete automation" advantage started to deteriorate, as designers were coerced into marking more and more things as detail brushes to speed up the processing, placing hint brushes to control the cluster sizes, or manually placing area-portals.
+
+The principle drawbacks of the PVS are the large pre-processing time, the large storage space cost, and the static nature of the data.
+
+The size and space drawbacks were helped with detail-brushes, which basically made a more complex map seem less complex to the visibility process, but they required the level designers to pro-actively take action. It has been interesting to watch the designers' standard practices. Almost nobody just picks a policy like "all small trim will be detail brushes". Instead, they tend to completely ignore detail brushes until the map processing time reaches their personal pain threshold. Here at Id, we usually didn't let maps take more than a half-hour to process (on our huge 16 CPU server.), but I heard tales from other companies and the community of maps that were allowed to take overnight or all weekend to vis. That is a mistake, but the optimize-for-vis-time guidelines are not widely understood.
+
+The static nature of a pre-computed PVS showed up most glaringly when you had your face in front of a closed door, but the game was running slow because it was drawing everything behind the door, then drawing the door on top of it. I introduced areaportals in Q2 to allow designers to explicitly allow large sections of the vis to be pruned off when an entity is in a certain state. This is much more efficient than a more generalized scheme that actually looked at geometric information.
+
+In the Q1 timeframe, I think the PVS was a huge win, but the advantage deteriorated somewhat as the nature of the rendering datasets changed.
+
+In any case, the gross culling in the new engine is completely different from previous engines. It does require the designers to manually placed portal brushes with some degree of intelligence, so it isn't completely automated, but I expect that for commercial grade levels, there will be less portal brushes than there currently are hint brushes. It doesn't have any significant pre-processing time, and it is an exact point-to-area, instead of cluster-to-cluster. There will probably also be an entity-state based pruning facility like areaportals, but I haven't coded it yet.</a>
+
+<q>The shader rendering pipeline [in DOOM 3] - completely re-written from Quake III? How are you going to handle the radically different abilities of todays cards to produce a similar visual effect on each? For example I'm thinking of the presence or non presence of register combiners, and the different implemntations of these extensions.</q>
+
+
+<a>The renderer is completely new, and very different in structure from previous engines. Interestingly, the interface remained fairly close for a long time, such that I was able to develop most of the DOOM renderer using the rest of Q3 almost unmodified. It finally did diverge, but still not too radically.
+
+The theoretically ideal feature set for a 3D accelerator would be:
+
+Many texture units to allow all the lighting calculations to be done in a single pass. I can use at least eight, and possibly more if the reflection vector math needs to burn texture units for its calculations. Even with the exact same memory subsystem, this would more than double the rendering speed over a current dual texture chip.
+
+Flexible dependent texture reads to allow specular power function lookups and non-triangulation dependent specular interpolation. No shipping card has this yet. I was initially very excited about the possibility that the ATI Radeon would be able to do some of this, but it turns out to not quite be flexible enough. I do fault Microsoft for adopting "bumped environment mapping" as a specialized, degenerate case of dependent texture reads.
+
+Dot3 texture blending. This is critical for bump mapping. Embossing and bump env mapping don't cut it at all. GeForce and Radeon have this now, and everyone will follow.
+
+Flexible geometry acceleration. I can't use current geometry accelerators to calculate bumped specular, so the CPU must still touch a lot of data when that feature is enabled. Upcoming geometry processors will be powerful enough to do it all by themselves. I could also use multiple texture units to get the same effect in some cases, if the combiners are flexible enough.
+
+Destination alpha and stencil buffer support are needed for the basic functioning of the renderer. Every modern card has this, but no game has required it yet.
+
+The ideal card for DOOM hasn't shipped yet, but there are a couple good candidates just over the horizon. The existing cards stack up like this:
+
+Nvidia GeForce[2]: We are using these as our primary development platform. I play some tricks with the register combiners to get a bit better quality than would be possible with a generic dual texture accelerator.
+
+ATI Radeon: All features work properly, but I needed to disable some things in the driver. I will be working with ATI to make sure everything works as well as possible. The third texture unit will allow the general lighting path to operate a bit more efficiently than on a GeForce. Lacking the extra math of the register combiners, the specular highlights don't look as good as on a GeForce.
+
+3DFX Voodoo4/5, S3 Savage4/2000, Matrox G400/450, ATI Rage128, Nvidia TNT[2]: Much of the visual lushness will be missing due to the lack of bump mapping, but the game won't have any gaping holes. Most of these except the V5 probably won't have enough fill-rate to be very enjoyable.
+
+3DFX Voodoo3, S3 Savage3D/MX, Matrox G200, etc: Without a stencil buffer, much of the core capabilities of the renderer are just lost. The game will probably run, but it won't be anything like we intend it to be viewed. Almost certainly not enough fill rate.</a>
+
+
+<q>The game side is C++, why not the rest of the code?</q>
+
+<a>It's still a possibility, but I am fairly happy with how the internals of the renderer are represented in straight C code.</a>
+
+
+<q Gabe Newell; Valve Software> John has consistently made very clear decisions about the scope of projects id has undertaken, which I would say is one of the main reasons id has been such a consistent producer over an extended period of time. Not having spoken with John about it directly, I think I understand his rational for focusing id on the Doom project. For the benefit of other developers, are there a couple of heuristics John uses to decide what does and doesn't make sense to undertake on a given project?</q>
+
+<a>The basic decision making process is the same for almost any choices: assess your capabilities, value goals objectively, cost estimate as well as you can, look for synergies to exploit and parasitic losses to avoid. Maximize the resulting values for an amount of effort you are willing to expend.
+
+Computer games do have some notable aspects of their own, though. Riding the wave of Moore's Law causes timeliness to take on a couple new facets. Every once in a while, new things become possible or pragmatic for the first time, and you have an opportunity to do something that hasn't been seen before, which may be more important than lots of other factors combined.
+
+It also cuts the other way, where something that would have been a great return on the work involved becomes useless or even a liability when you miss your time window. Several software rendering engines fell into that category.</a>
+
+<q>Id traditionally provides the fastest engine out there for the game types that it does. Bearing in mind that Doom3 is going to be far more single player focussed, is there any change in focus from making the engine the fastest it can be, to more of a designer / content friendly environment - bearing in mind that probably 75% of a single player content is designer built?</q>
+
+
+<a>Yes. I am spending a huge amount of graphics horsepower to allow the engine to be flexible in ways that game engines have never been before. It is a little scary to drop down from the ultra-high frame rates we are used to with Q3, but I firmly believe that the power of the new engine will enable a whole new level of game content.
+
+I am hoping that the absolute top-of-the-line system available when the game ships will be capable of running it with all features enabled and anti-aliasing on at 60hz, but even the fastest cards of today are going to have to run at fairly low resolutions to get decent frame rates. Many will choose to drop a feature or two to get some speed back, but they still won't be able to get near 60hz.
+
+Remember, the game won't ship for a long time yet, and today's cards will seem a bit quaint by then.</a>
+
+
+<q>How committed is id to producing user modifiable content? Obviously making user modifiable multiplayer games is a long way different from providing user modifiable scripting systems, producing specific animations and so on. What kind of tools will be used to create animations for instance, and will any pre-parsing tools be released to the public?</q>
+
+
+<a>The decisions to integrate all tools (editor and map processing) directly into the executable, and to make map source data required for loading in addition to derived data, make the new game far and away the easiest to create content for. Every installation that can play the game can edit the game.
+
+Also, I have banished the last of the binary file formats, so everything (except standard data files like .wav and .tga) is now in easily explored and understood text files.</a>
+
+
+<q>Given that you've made a public declaration that Id has the strongest programming team it's ever had, what's your personal role in the software development? Up til now it would appear that you've always had your hands in whatever is going on, is this going to change in the development of Doom3?</q>
+
+<a>Jim [ Dose - new programmer, formerly of Ritual] and Robert [Duffy] have large blocks of code in the new game and UI scripting that I haven't ever looked at, and Graeme's sound system will be another one. Jan Paul's bot code in Q3 is one big black box to me.
+
+It has been a strong temptation to just say "I am working with Smart People, they can handle it", but that would not be a good plan. I need to build up more discipline about reviewing all parts of the code, because my global knowledge of all aspects of the project has always been an important part of making good decisions.</a>
+
+
+
+<q>Has video technology advanced as quickly as you would like?  Are you impressed with what nVidia, 3dfx, and others have done, or a tad frustrated (wish they have done more/made more advances)?</q>
+
+<a>Even after all my experience, I find that I still underestimate the rate of progress.  During Q3, I spent some time thinking about what could be done with stencil shadow volumes as a required feature.  I thought about how the technology could be used at a reasonable cost if you designed an outdoor game, because then you would have a simple case with a single orthographic light - the sun.
+
+That would have been a reasonable feature spec for a game shipping this christmas, but turned out to be a drastic understatement of what I wound up doing for DOOM.  Eighteen months ago, I probably would have had a difficult time accepting how much hardware power the new DOOM renderer is exploiting.</a>
+
+<q Brandon Reinhart; 3DRealms> Where do you derive inspiration now that you are the master of your industry?</q>
+
+<a>There are some things lost as you progress through a large learning curve. Early on, there is the bewildering sense of how huge a field is. Then you move into the fun part where you have enough grounding to understand the issues, and you are constantly getting the flashes of insight as you understand the solutions that other people have developed, and you begin to formulate your own approaches.
+
+Eventually, you reach a point where the field starts to dry up a bit, and you find that you can sometimes read an entire book and not feel that you really learned anything new. There are certainly still an infinite number of things to learn, but the mean time between epiphanies increases.
+
+Most of the motivation remains internal. Being able to see The Right Thing, then program it into existence out of thin air is still the core wonder of programming for me.
+
+Another way to supplement things is to start learning something from a completely different field. I have been reading Sutton's "Rocket Propulsion Elements" like I used to read Foley and Van Dam's "Computer Graphics: Principles and Practice" - practically every page has something new for me to integrate into my understanding.</a>
+
+
+<q Gabe Newell; Valve Software> How will you exploit a broadband only design target?</q>
+
+<a>The biggest thing that broadband will do is just save a lot of twitchy programmer time spent optimizing for the modem straw. This will increase flexibility and let developers concentrate on making the environment and game play more fun. Clearly, that is a good thing all by itself.
+
+Voice (probably with several optional vocoders) is a no-brainer once we get more bandwidth, and even talking-head webcam video becomes a useful possibility.
+
+I'm not sure of the exact utility of it, but it becomes feasible to send and receive packets from multiple sources on a real-time basis, which you can't afford to do with a modem. This may enable some architectures that are more clustered instead of the binary boundary of client / server.</a>
+
+
+<q Chris Rhinehart; Human Head Studios> John, you once mentioned years ago that, in hindsight, you had wished that instead of jumping right into Quake that you had combined the Doom render engine and the Quake/Quakeworld network architecture, resulting Doom multiplayer that was internet friendly. However, you also have stated that you like to start with a clean slate when beginning a new project. Are you starting with a clean slate for Doom3, or are there carryover components from Q3A?</q>
+
+<a>With hindsight, I thought that Q1's technology could have been developed in two parts, with QC and client/server infrastructure combined with a tweaked DOOM graphics engine for one game, followed by the full 3D engine in the next game. I think that would have allowed us to produce two games in one year each, instead of spending 18 months on Q1. I still think trying to aim for one year development cycles is a good thing for developers, allowing them to be a little more daring and focused than with 2+ year cycles, but you can't change everything and still build anything in that timeframe.
+
+All of the earlier projects, from Keen1 to Keen4 to Wolfenstein to Doom to Quake had been a completely new codebases each time, but everything since Q1 has involved significant code re-use.
+
+Since then, we have stayed in a framework that has allowed upgrades to different parts of the codebase without rewriting everything from scratch. Its not "modular" in the sense that major improvements get dropped in without disturbing the rest, but even with hacking in lots of places to integrate significant changes, there has still been a huge amount of re-use.
+
+GlQuake brought OpenGL rendering. QW brought new network code. Q2 brought game DLLs and the integrated and enhanced rendering DLL architecture. Q3 brought an almost completely new rendering engine and the QVM support. All of those changes were done without ever "breaking" things in a truly fundamental way.
+
+With the new DOOM renderer, I was able to do all the rendering development with very little change to a copy of the Q3 codebase. It was forked off before the rest of the team started on the Q3 mission pack, and I had to make a few tweaks here and there, but nothing very substantial. It is a huge help to have all the existing facilities of player movement, weapons, third person, noclip, cvars, console commands, etc, all present while I just concentrated on new rendering algorithms.
+
+In the past couple months, the codebase has changed dramatically as Jim Dose completely gutted the old game logic, and I changed the way the entities were communicated to the renderer.
+
+I used to take a lot of pride in the "clean sheet of paper" way of doing things, because it is obvious that there are significant dangers of complacency if you stick with a single codebase. I try to actively address that by making sure that I clearly look at what I am reusing, and make sure that it hasn't slowly become lacking for the current situation. Even simple little things that could hide away in a library forever, like file access and console completion, get looked at and improved, even when they are mostly reused.</a>

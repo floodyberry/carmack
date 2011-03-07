@@ -1,0 +1,107 @@
+http://www.shacknews.com/featuredarticle.x?id=917
+id Software's John Carmack and Marty Stratton Talk Quake Live, PC Gaming, and More 
+Shacknews interviews John Carmack and Marty Stratton
+Shacknews
+Nick Breckon
+
+<desc>Following the release of Doom 3, legendary developer id Software shuffled to the background of the gaming industry for a time. Now the company is readying for a resurgence, on several fronts at once.
+
+id is readying two traditional big-budget titles in Doom 4 and Rage, the latter marking the company's first original IP in some time. Founded late last year, id Mobile will be releasing its first project later this year with Wolfenstein RPG, the follow-up to the Doom RPG. Finally, the company is forging new ground in the web-based gaming sector with Quake Live, a free version of Quake III Arena without all the fuss--or the cost.
+
+Recently I had a chance to talk with id Software co-founder John Carmack, as well as executive producer Marty Stratton. While the theme of the talk was Quake Live, we also covered topics ranging from the state of PC gaming to the potential of iPhone development. </desc>
+
+<q>I had a chance to check out the Quake Live beta last night, and more than the technology or the price point, the thing that impressed me the most was how easy it was to get started and jump into a game. I assume that was a primary goal in development? </q>
+
+<a>Yes, and I'm so happy we're finally talking to somebody that's actually been on the beta and gone and looked at it so I don't have to explain everything from first principle.
+
+But yeah, the idea is that we know that we had a good core gameplay experience there, but, for instance, if somebody was given a copy of Quake Arena right now and they wanted to go play the game and navigate online, they would have a wretched experience. Because we have people that have been playing the game for nine years online, and somebody who just gets the game for the first time and says, "Oh I'm gonna jump on here," there's no way they would have a decent experience.
+
+But so much of what we're trying to do here is to make that possible. To have somebody who is not necessarily a first person shooter player, and would not go and spend 50 or 60 bucks on a brand new AAA title, or might not even own a console or something, but can just, from practically any computer in the country--if not the world--sit down, go to Quake Live, get the things on there, jump in, be led through a new style of play, and have everything catered around what they're capable of doing and what's going to be enjoyable for them.
+
+So that's the hope. We're hoping that we get something that you could basically tell anybody, "Hey, go check this out, you might enjoy it." And if they're willing to spend 20 minutes to go through and play through the basic match, and get a look at it, that they might say, "Hey, I do kind of like this style of game." </a>
+
+<q>Do you see the future of PC game development becoming focused on that challenge of streamlining the user experience? </q>
+
+<a>Yeah, I think that the PC definitely can't.. we can't go on making PC games like we used to. The combination of the dominance of the consoles, as far as market forces there, and piracy.. the traditional AAA, media-heavy boxed game that sells for a bunch of money, and goes out on the PC for a single player experience--it's just not happening. Even if we look at something that had such a push like Crysis, it didn't really do all that well.
+
+While at id Software we're still certainly doing those types of AAA titles on [the PC platform], we have to look at it from a cross-platform product perspective on there, rather than being PC-focused like we used to be. I mean, all the way up to our last major title, which was Doom 3, we were a PC company. We made PC games, and we gave some thought to how they might be deployed on consoles, but that wasn't what we were fundamentally doing. And that has changed with this generation.
+
+But still, there are some things that the PC does fundamentally better than the console. I mean, the internet interaction, as far as displaying and navigating large amounts of information on a website--while you have web browsers on consoles, they suck, you know, they're just not good. It's not like what you've got on the PC.
+
+And from a first person shooter perspective, the keyboard/mouse interface is still just a lot better than a console interface. It's a much more direct position vs. integrating over time.. it's just plain better, and that's one of the things we want to cater to.
+
+So there are strengths that the PC has, and we think Quake Live is very much playing to them. While given infinite resources, yeah, it'd be great to go ahead and do another technology showcase on the PC, because you've got a couple times the power in a modern high-end system than you do in a current generation console.
+
+But it's just not feasible for us as a company to continue taking that route. So we are branching out into some different areas and diversifying a little bit, where we've got our id Tech 5, cross-platform, high-end stuff that we are pushing, and we've also got Quake Live and our mobile products. </a>
+
+<q>Speaking of mobile products, the second generation iPhone launched today. What's going on at id Mobile? </q>
+
+<a>I'm really kind of sad about.. how things played out outside of our real control on that. I'm really bullish on the iPhone market. I think that what they're doing with iTunes, cutting the carriers out of there.. it's a great hardware platform.
+
+It's a market I really want to be in, we just didn't have the resources to go do something for the initial launch.
+
+Robert Duffy and I actually hacked together a kind of a port of some of the Orcs & Elves stuff using the 3D engine, but we just didn't have the manpower to do something that would be what we would consider our best foot forward. We still have a lot of effort going on in the Java and BREW stuff. Wolfenstein RPG is gonna be coming out later this year, and that's really great in a lot of ways. </a>
+
+<q>Does a 3G cellphone connection offer any advantage as far as online gaming?</q>
+
+<a>Bandwidth is good with 3G, but latency is still worse than an old dialup connection. Of course with WiFi, it is as good as any other computer. </a>
+
+<q> So would you say that id committed to developing an iPhone game?</q>
+
+<a>I definitely want to, and we have some experiments running, but the main team is probably going on to a Doom RPG sequal for Java/BREW next. We have been trying to find someone to lead a dedicated iPhone project that we have been discussing. </a>
+
+<q>Getting back to Quake Live--is the plan still for the game to be totally ad-supported? </q>
+
+<a>We think that there may eventually be some kind of--I think that there will likely be some kind of premium subscription at some point, but we really don't know what it is. We don't know what we want to offer.
+
+It would not be eliminating the ads, because the ads are actually--if you turned the ads off in the game, it would look worse. The game is so wrapped around this kind of ESPN-ish look and feel that if all of those turned into blank billboards, it would be a detraction from that experience rather than any kind of enhancement.
+
+But there may be something just in terms of people wanting to separate themselves into tiers, or maybe adding some other stuff, but we really don't know, and we're definitely not rolling out with any kind of subscription-based stuff on there.
+
+But it's not just in-game advertising that's supporting it, there are going to be a lot of specific sponsorship things as well. Sponsored levels, sponsored skins, sponsored tournaments, leaderboards and so on. We just don't know how this is going to play out business-wise. It's a big experiment for us. There aren't any real [comparable examples] for us to point to that are really close to what we're doing here.
+
+We can certainly look at lots of successful things that go on on the web, with free content and various things that have done well. There are lots of casual games that are doing moderately well. But this is a new data point, and I'm sure a lot of people will be watching very closely to see how we do. </a>
+
+<q>As far as capitalizing on the strengths of the PC, will you be planning any kind of community generated content or mod support? </q>
+
+<a> Not initially. That's been one of the toughest questions that people have asked us from day one, is how we're going to be integrating all of that. It is a tough call I expect.</a>
+
+<a Marty Stratton>Yeah, it is. I mean, in making a system easier--and again, as John has said, this is kind of a test case for us, so we're solving these issues to some extent as we go--in making the system easier, it's required us to take control of a lot more things that we normally do. Taking control of servers, taking control of content, delivering that content--as you probably went through the registration process, you downloaded maybe 180 megs of information basically without even knowing it, because it happened while you were playing your warm-up match. Those types of things require us to take control and somewhat close the system a little bit.
+
+On some of the mod stuff, we've actually talked to the mod teams, particularly the competitive mod type stuff, who have maintained a community of people continuing to play the game nine years later. And we've incorporated a number of things that casual players won't know about. In fact, they're things that will actually make the experience a little bit better for players, but also things that experienced players will really appreciate: weapon tweaks, physics tweaks, networking tweaks, anti-lag stuff. Things that have been done in the mod community previously. We talked to those groups, and in some cases contracted those people to roll that stuff in on our site.
+
+As far as content goes, it really is something that I want to bring in as we go forward, and as the product gets successful. My personal feeling is that it will come in more like user-generated content comes into, say, current social website communities. An idea would be like: we make our SDK available, we run a level design contest, a certain period of time passes, we take those levels, weed out the ones that basically aren't up to some level of quality, and then we put those up on the game, and they go out to everybody. So that again, we don't get that fractured community, where this person is running this mod, this person is running this map, and when you connect to the server it doesn't know that you have it--which is kind of the current state of the original Quake III.
+
+But basically we push all this content to everybody, make it available to everybody, and then on the website we can enable people to either automatically, or by their own input, vote on this content, or put it up a ladder of quality or preference. And then either reward or award the people who created that content, or [reward them] just because it's up on the site and it's the most played map out of all of this user generated content, just like a Youtube video has a certain cache when your stuff rises to the top. I think that is probably the future of the way we're going to be able to deliver new content.
+
+And of course I say all that--that won't be what we do initially. What we're initially focusing on for our first release is getting this core experience, this technology all in place to create a great user experience. But I think down the road, as we do roll in that type of content, we're thinking of new ways to integrate it. </a>
+
+<a>But it's worth remembering that Quake Arena is not going away. It's still there, and I can very much see millions of people making Quake Live as their entry into that, and then the mod community will probably have a huge boost from all of this. The people that want to do something different that's not [supported] in Quake Live, well they've still got Quake Arena. It's open sourced and they can do anything want in there, and build whatever new mods they want, and I would expect this to have a positive effect on that entire community on a lot of different levels. </a>
+
+<a Marty Stratton>And because the fundamental engine and really the game hasn't changed, we can actually take Quake III content, a Quake III map--not so much a full mod--but a Quake III map, and it basically comes into the game in a matter of minutes. It's very easy, so, you know, it could be something where it just reinvigorates the Quake III mod scene, and we can continue to take a look at that and bring stuff to market that makes sense.</a>
+
+<q>It sounds like adding content to the game is relatively easy. How much of a challenge has the project been so far? </q>
+
+<a>That's kind of an interesting thing where we announced this at QuakeCon last year, and we started putting our team together, and honestly, we underestimated some of the effort. The idea was, "Oh, we'll take this whole game that we've got, we'll wrap a weapon around it, and put it out and see what happens."
+
+But when we started getting getting down to decisions and saying, we really want to do an absolutely top notch--the game's not state of the art, but the web interface around it really is. And we did not have the experience in website development, database management, and all of that web world type stuff. And honestly, we underestimated the challenge involved in that. So it has been a significant effort taking the game to this point, and I'm sure we're going to run into significant problems as we roll it out and scale it up.
+
+There are challenges there that--it's not that we didn't think there would be any problems, but it's just that we're honestly ignorant of a lot of the challenges. And as far as how successful it is, we can just cross our fingers and hope. We're going to put something really good out there, but in the world of business and everything, sometimes you can have a great product that doesn't succeed. But we can do our side of it, and see what the market thinks of it. But I have some high hopes. </a>
+
+<a Marty Stratton>And you know, even to John's point, we did underestimate--it's become a much larger project. I think we still make the decisions that are going to make it the absolute best product of its kind--it's kind of a one-of-a-kind product, anyway. But a lot of stuff that we're developing right now and rolling out over the next couple of weeks you didn't see yet today when you joined the beta.
+
+I mean the website even still is totally not--when we launch the new website here in about a week, it's completely different looking. It's really pretty dramatic. So we've taken these challenges, but we're still developing it fairly efficiently. We have a team of about eight guys internally and four contractors externally working on it, so still a relatively small team that's been able to put this together. </a>
+
+<a>I would expect that if we are successful, there will be a lot of other people that say, "Hey, we've got games from nine years ago, let's do the same thing," and a lot of them will probably be surprised at how non-trivial it actually is. It's just one of those napkin ideas that you can lay out really quick, sounds really plausible, doesn't sound like too terribly much work, but they always are.</a>
+
+<q>How involved are you in the development of Rage and Doom 4 right now, John?</q>
+
+<a>Essentially all of my programming time is on Rage right now, and I will be talking a lot about Rage development at QuakeCon. I duck out for a few days at a time in "retreat mode" to work on mobile projects a couple times a year. Kevin Cloud is running the Doom project, and I won't be involved on a day to day basis with it, although Kevin does run the core decisions by me. </a>
+
+<q>Have there been any major developments with id Tech 5 since last year's reveal at QuakeCon? </q>
+
+<a> None of the core decisions have changed, it is now just a lot closer to being a game. </a>
+
+<q>Will you be speaking at this year's QuakeCon? And will there be any major announces from id? </q>
+
+<a>We don't have any shocking news, but I will be giving my usual open discussion about all of our software development efforts and experiences on the different platforms. </a>

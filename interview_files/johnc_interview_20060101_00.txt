@@ -1,0 +1,100 @@
+http://www.rage3d.com/board/showthread.php?t=33841622
+"Meet the Graphics Guy" - PC Gamer interviews John Carmack on the future of iD.
+The programming genius behind Doom and Quake on id's future. 
+PC Gamer
+PC Gamer
+
+<desc>
+Industry leaders dictate their own terms: so it is with John Carmack. Legend states that the id founder and programming genius is a workaholic, coding well into the evening. It is 1am in Texas, his home-town. The world is sleeping, yet this is the time chosen by John to talk.
+
+Carmack's career has never been less than astonishing. His code has consistently wrought new opportunities. One of his first projects was to build a side-scrolling routine for the early IBM PCs. As a joke, and to prove his routines potential, Carmack and his friend Tom Hall reproduced the entire first level of Super Mario Brothers 3 over the course of one long evening. That scrolling technology formed the basis of the first Commander Keen game; the title that would eventually lead to Wolfenstein 3D, the Doom and Quake series.
+
+Carmack is undergoing a similar creative resurgence. His own curiosity has led him to the under-powered, under-appreciated world of mobile phone gaming. He's been working on a conversion of Doom for handsets; a task he picked up to sate his own curiosity. That work has implications for the wider world of gaming - implications that John is more than happy to discuss.
+
+John speaks with a rare focus and control. Each answer feels not thought out, but parsed. He cuts directly through to the issues that id, and the PC face, without attempting to obfuscate or misdirect. He is a fascinating subject: concerned not just with technology, but with game design and the business reasoning behind the games industry.</desc>
+
+<q>The world associates John Carmack with the technology, rather than game design. Is that fair? </q>
+
+<a>I think a lot of people have always associated id with technology, but not game design, but that's a surface view that doesn't capture a lot of the important things. Game design isn't necessarily a case of piling things on. A lot of game design is about deciding what you don't need. There is an elegance and beauty in simplicity which has made a lot of id games very successful. That actually is an element of design, it's not throwing everything and the kitchen sink in, it's putting in the right things so that there's an elegance to it.
+
+As an engineer I strive to do that type of stuff in the design side of things. In the mobile platform, because you don't have the resources, it encourages that type of clear headed thinking.</a>
+
+
+<q>How much say do you have in what goes into an id game? </q>
+
+<a>I don't. Not anymore. Post Quake 3 I've stepped a little bit back from the design side on the PC space because I'm really not representative of what most of our market is now. I did realise that my very simplified game design ethic is not really what the market is demanding.
+
+Internally, Quake 3 was viewed as my game. It was a game I wanted to play. It was the id game that I probably spent the most time playing and enjoyed the most, but it was actually one of our less successful titles. The focused minimalism is appealing for me, but probably isn't the best direction for a top-flight commercial game company.
+
+I'm no longer in there vetoing things getting added to the game design. That's probably one of the reasons why Doom might have taken longer to ship, but it was a richer game for it.</a>
+
+<q>Id have always created first person games, since your very early shareware stuff. What's so great about that genre? </q>
+
+<a>Once you make the decision to come out of 2D and into 3D you've got the fundamental choice between first person and third person. I think what it breaks down to is that first person is more immersive, you can have more visceral effects, while third person is more cinematic. I would even say that maybe, third person may be a more popular genre, because you've got a lot more cinematic heritage to fall back on, and it's more of a storytelling, rather than playing experience. Third person games that have your character at the bottom of the screen, though, are not nearly as strong for gameplay reasons. They don't have the shock, they don't let us do as much to the player. Certainly, many companies are successful with their third person games, but I don't feel that we, as a company, or as the individuals that make up the company, have the cinematic underpinnings amongst us to do what would be an epic third person game.</a>
+
+<q>Why mobile phone games?</q>
+
+<a>
+It started out as something I thought was interesting, and might be fun to do, and I found a business rationalisation for it. I bought a mobile phone recently, and saw that it could run Java. Java's an open platform, it's very easy for me to go onto the web, grab development kits, and put together a few little toy applications. I started kicking around a few ideas, well, if this is reasonably straight forward, and it's obviously a small platform, maybe it would be reasonable to actually do a product for it.
+
+I spent a little while thinking of what would fit on the platform. That was one of the things I saw was wrong with most of the games that were already there: they were taking something that might work on another platform and just cramming it on the mobile device without any real regard for what actually plays well from a users perspective. I went through a bunch of different concepts, but the one I settled on was using a 3D engine, because that's the thing I like to do. I knew you can't do a straight conversion, but you could leverage a little bit of 3D, still get some of the interesting immersion that you have in a 3D world, but still playable with just a thumb. I settled on this RPG-ish interface. At the time, something we thought of doing, was "we have the Doom movie coming up out," and we were always kind of sad that we didn't have a PC or console title set up in time for the release, just because the development cycles were too out of skew to let that happen. But I realised that I could toss something together on the mobile phone in just a few months.</a>
+
+<q>Was making the mobile phone game fun? </q>
+
+<a>Yeah, it was a lot of fun. In the PC space, we'd just got off the Doom development last year, which took four years of effort. For this I did a proof of concept in a couple of weekends of work, then I passed it on to Fountainhead Entertainment, which is my wife's company, and the total development time was just about four months. Looking back over things, that's about the same time it took for one of our very early shareware games. It was like stepping back in time ten or twelve years. Since I've gone through the development process I've really become a pretty big booster of the mobile platform for the possibility of doing slightly more creative things in the game design field.
+
+The PC and console space is so risk averse because you're talking of millions upon millions of dollars in game budgets, and everything depends on a make or break decisions. When we look at something like this where it's done for tens of thousands of dollars, rather than tens of millions of dollars, you can afford to maybe pick up a different style, or a clever idea and give it a try.
+
+The other major benefit you get which we're lacking in the PC space is the rapid pace of evolution. You can build a project, get it out the door, learn your lessons from it, and go build something much better. The follow on project we've got going, a sort of fantasy RPG styled game in a similar engine; it's a much improved game. We were able to learn all the lessons from the playtesters, we were able to do apply them. I'm pretty excited about the possibilities.</a>
+
+<q>Where's id at the moment? </q>
+
+<a>We had the Quake 4 getting out the door for the PC was a big thing, and all the 360 work is in submission with Microsoft right now. We should have Quake 4 ready for the Xbox 360 launch.</a>
+
+<q>Are you working on a new rendering engine?</q>
+
+<a>Yeah. For the last year I've been working on new rendering technologies. It comes in fits and starts. Our internal project is not publicly announced on there. We're doing simultaneous development on Xbox 360, PC, and we intend to release on PS3 simultaneously as well, but it's not a mature enough platform right now for us to be doing much work on.</a>
+
+<q>Game engines have their own certain look to them. Quake 3 era games all have a similar lighting and texture model, so do Doom 3 era games, from the high-poly bump maps. Can you predict what the engine is going to look like from the start? </q>
+
+<a>Usually when I set out making the technical decisions I don't know how it's going to turn out. A lot of it is working out what works, and what ideas come to you. It is worthwhile mentioning, as you said, that there's a characteristic look to the new engine, and it's going to be centred around Unique Texturing.
+
+This is an argument I get into with people year after year. Every generation, someone comes up and says something like "procedural and synthetic textures and geometry are going to be the hot new thing". I've heard it for the last three console generations - it's not been true and it's never going to be true this generation too. It's because management of massive data-sets is always the better thing to do. That's what a lot of the technologies we are working on centre around - both the management for the real time use of it, and the management of the efficient content creation side of it. I think that's going to give a dramatically better look than what we're seeing in this generation.</a>
+
+<q>Can you describe how it will look, in a layperson term.</q>
+
+<a>When you start seeing screenshots of games designed like this, it'll be obvious that they're of a new generation. I'm not sure how much it comes through, but Quake Wars: Enemy Territory, the game Splash Damage are working on, that uses an intermediate half-way technique, the Megatexture stuff I did originally. They've really gone and run with that. Some of their screenshots are really starting to show the promise of unique texturing on everything. We've got an interesting combination of techniques on that - they did a procedural offline synthetic synthesis to generate the basis of the terrain, and I built some technology to let artists dynamically stamp things into all the channels in game. We're starting to see some really, really spectacular results out of this, as everyone climbs up the skill curve of using these new tools. The technology we're working on here at id takes that a step further with a terrain texturing system is applied throughout for everything.</a>
+
+<q>I have a quote here from Gabe Newell talking about the next generation of processors and consoles. He says "the problems of getting things running on multicore processors are not solved. We have doctoral theses but no real world applications." Do you agree with him?</q>
+
+<a>The difference between theoretical performance and real world performance on the CPU level is growing fast. On say, a regular Xbox, you can get very large fractions of theoretical performance with not a whole lot of effort. The Playstation 2 was always a mess with the multiple processors on there, but the new generations, with Cell or the Xbox 360 make it much, much worse. They can quote these incredibly high numbers of giga-flop or tera-flops or whatever, but in reality, when you do a straighforward development process on them, they're significantly slower than a modern high end PC. It's only by doing significant architectural work that you even have a chance of finding speed-ups to what the PC can do, let alone it's theoretical performance. It's only through trivial, toy or contrived applications that you can deliver the performance numbers they claim.
+
+The graphics systems are much better than though. Graphics has an inherent natural parallelism. The capabilities of the Xbox 360 and PS3 are really good on the graphics side, although, not any head or shoulders above any PC stuff that you can buy at a higher price point.</a>
+
+<q>When you create a technology, do you build features specifically for a game, or is a case you just testing to see what the silicon can do?</q>
+
+<a>It's somewhere in between. You don't build technology for technology's sake. The people who would just build 3D engines without a game attached, those have never been the really successful products. In any case of engineering, you really need to tailor your design to what you're trying to accomplish. There are always the types of situations when you can say, "we know we want our game to have this type of outdoor stuff, or this type of indoor stuff," and you start trying to write technology for it, but you find out something might be harder than you expected, or you might get a novel idea, and that might feed back into the game design. We commonly switch gears during our development process when a really good opportunity comes up. We're not going to be pig-headed about something, and say "this is what our design spec says, so this is what we're going to do". We'll pick targets of opportunity when we get them, but the technology does very much try to build around what we want to accomplish with our games.</a>
+
+<q>Was there one of these "targets of opportunity" in the development of Doom 3?</q>
+
+<a>
+When we left Quake 3 I had several different directions of technology that I considered potentially useful for next generation game engines. One of those was uniquely texturing the surfaces, and one of them was this bump-mapped and unified lighting thing that wound up in Doom. The decision I made at the time was that something that made less quality screenshots but a more dynamic environment would make a better game, which is why I took that direction, but it's interesting, now that the technology of the hardware has progressed, I can combine both of what I wanted to do with the unique texturing and the fully dynamic environments.</a>
+
+<q>Do you ever miss shareware?</q>
+
+<a>
+I think that the mobile business is giving me some of the vibe I had missed from the old days. I am really getting some enjoyment from working on that. Now, Fountainhead is doing most of the work on the titles, but it's been a situation for me where I can go in, do some core pieces of technology, provide some core design guidance out of that. I'll spend one day a week managing that project. It's kind of fun - the way that I built both major pieces of technology for this, I would go on a vacation with my wife, baby, and laptop and sit there and write technology while they went off and did something. When I got back to id, we could take that and work on it. That's been fun. There's a lot of potential with it. Shareware blew off and took id to a very influential position. The mobile game market it similar - it's an interesting game design space, an interesting technology space, and it may very well be an interesting market space.</a>
+
+<q>Is the Xbox 360 id's primary development platform?</q>
+
+<a>[pause] It probably will be. As it is right now we would get the game up on the 360. When I would do major hack and slash architectural changes it was back on the PC, but it's looking like the Xbox 360 will be our target. All of our tools are on the PC, and we're maintaining the game running on the PC, but probably all of our gameplay development and testing will be done on the Xbox 360. It's a really sweet development system.</a>
+
+<q>At an event recently, your colleague Tim Willits said that id were seriously hurt by piracy. Has that influenced your decision to move to Xbox?</q>
+
+<a>The PC market in general is getting really, really torched. Todd mentioned a statistic: last year was half the gross revenue of three years ago. A really grim number. People in the PC space are looking at games that, one way or another, require subscription or internet connection.</a>
+
+<q>Does moving to the Xbox change any of your open source support? You've been practically deified in that community for the way you allow them to work on your game engines. </q>
+
+<a>It makes it less of a priority to structure things in a way that they can be easily modified. But I think, already in the PC space, there's been a downswing in the modding scene. As projects got more and more complex the modifications that have gone on in the user community have got sparser and sparser because the teams have had to conglomerate into these super-groups to put something together. I think, looking back, Quake was the golden age of user-modifications. It was still crude enough that you didn't need an art director to produce a significant mod. That's saddening, but just the way the platforms have evolved.
+
+Our PC version will probably continue, for ever after, to have significant modification capability. We'll release large chunks of source code for people to hack up any way they want. I intend to continue my practice of releasing complete engine source code sometime after the next major game is released. One year after our next game is out, I may very well be releasing the Doom 3 source code.</a>

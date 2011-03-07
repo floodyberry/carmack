@@ -1,0 +1,785 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>The Rutan SpaceShipOne Revealed</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://science.slashdot.org/science/03/04/18/1830219.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,space,science';
+		var parent = 'http://slashdot.org/articles/03/04/18/1830219.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=space;tpc=science;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//science.slashdot.org/article.pl?sid=03/04/18/1830219">The Rutan SpaceShipOne Revealed</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>404</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=61269">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 404 comments</option>
+	<option value="0">0: 379 comments</option>
+	<option value="1" selected>1: 294 comments</option>
+	<option value="2">2: 194 comments</option>
+	<option value="3">3: 73 comments</option>
+	<option value="4">4: 37 comments</option>
+	<option value="5">5: 23 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="61269">
+		<input type="hidden" name="cid" value="5761791">
+		<input type="hidden" name="pid" value="5761791">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_5761791" class="comment">
+<div id="comment_status_5761791" class="commentstatus"></div>
+<div id="comment_5761791">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5761791">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5761791" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5761791">		
+		on Friday April 18, @04:39PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5761791">#5761791</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5761791">We have obviously been eagerly waiting for this unveiling.  Nobody has denied that Rutan is the odds-on favorite for the X-Prize, but I take a positive thing away from this unveiling -- I have always contended that being an "airplane guy" is going to hurt Rutan in the X-Prize, and this is definitely a "winged thing".  I would have been more concerned if it was just a purely ballistic capsule being air launched.  I have little doubt that they will fairly rapidly have successful zoom climbs to somewhat above 100,000',  but it is far from the simplest design to go to 350,000'.  It is certainly true that complex designs can be made to work with enough talent, experience, testing, and money, which Rutan has all of, but there is plenty of room for things to screw up.<br> <br>I don't expect that they will make any flights to 100km this year, but I can certainly be proven wrong...<br> <br>I am quite happy with our current design, and we are committed to following through irrespective of what Rutan does.  Even if he makes it, we have a different ecological niche in terms of vehicle capabilities -- our entire launch infrastructure can be towed by a light truck, and launched from anywhere.  If he does win the X-Prize before us, we will ditch the monopropellant propulsion system and move to something more cost effective (at the expense of more development time) for the long term.  We may be forced to do that anyway, if our peroxide situation doesn't resolve itself.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5761791">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761355">Parent</a>
+ ]
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+		<a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Re:Burt Rutan vs. John Carmack?</a> by John Carmack (Score:5)
+
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">1</th>
+		<th align="left">&nbsp;point</th>
+	</tr>
+
+
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Moderation</td>
+		<td>&nbsp;</td>
+		<td align="right">+4</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Karma-Bonus Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">+1</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_5761875" class="comment">
+<div id="comment_status_5761875" class="commentstatus"></div>
+<div id="comment_5761875">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5761875">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5761875" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~SuperDuG">SuperDuG (134989)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5761875">		 &lt;<a href="mailto:%5Bkt.celce%5D+%5Bta%5D+%5Beb%5D">[kt.celce] [ta] [eb]</a>&gt;
+		on Friday April 18, @04:49PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5761875">#5761875</a>)
+		<small><br>(<a href="http://www.eclec.tk/">http://www.eclec.tk/</a> | Last Journal: <a href="//slashdot.org/~SuperDuG/journal/">Tuesday December 25, @04:37PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5761875">Hey!  Quit posting to Slashdot and release Doom III already.<br> <p> <br>*smile*<br> </p><p> <br>Does EVERYONE read slashdot instead of working?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5761875">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5762037" class="comment">
+<div id="comment_status_5762037" class="commentstatus"></div>
+<div id="comment_5762037">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5762037">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5762037" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Moofie">Moofie (22272)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5762037">		 &lt;<a href="mailto:lee+AT+ringofsaturn+DOT+com">lee AT ringofsaturn DOT com</a>&gt;
+		on Friday April 18, @05:14PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5762037">#5762037</a>)
+		<small><br>(<a href="http://moofie.lastcoolnameleft.com/">http://moofie.lastcoolnameleft.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5762037">It seems to me that Mr. Rutan is trying to design a multi-trick pony, though.<br> <br>The design you guys are using is certainly far simpler, but it seems to me like the carrier aircraft is going to allow for a bunch of different mission profiles that perhaps your capsule won't be able to perform<br> <br>I certainly wouldn't argue that one system is better than the other, just that they're designed to scratch different itches.  From where I sit, it looks like you all at Armadillo are (at this point in your design evolution) aiming directly for X-Prize, while Rutan is designing something that will be more commercially viable outside the requirements for the prize.<br> <br>I love Rutan's designs, but I sure would like to see you guys beat him to 60kft.  : )</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5762037">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5762170" class="comment">
+<div id="comment_status_5762170" class="commentstatus"></div>
+<div id="comment_5762170">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5762170">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5762170" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Agar">Agar (105254)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5762170">		
+		on Friday April 18, @05:38PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5762170">#5762170</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5762170">Thanks for the response, and for answering a question I didn't ask: How Armadillo's plans change if someone else claims the X-Prize first.<br> <br>It's good to know that you'll continue the work, whether because it's an interesting hard problem, or because you believe in the importance of accessible, inexpensive space flight.  Both are certainly compelling reasons.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5762170">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5762173" class="comment">
+<div id="comment_status_5762173" class="commentstatus"></div>
+<div id="comment_5762173">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5762173">B-52 - X15 comparison</a></h4>
+
+
+		 	<span id="comment_score_5762173" class="score">(Score:2, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Dethpickle">Dethpickle (593107)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5762173">		
+		on Friday April 18, @05:39PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5762173">#5762173</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5762173">This seems kindof a modern shot at the X15 program.<br> <br>
+The X15 got piggybacked up to 40k feet and then would fly/rocket up to 350k feet.  Rutan's craft is going to be starting out almost twice as high.<br> <br>Granted, part of the purpose of the X15 was going fast in addition to going high.  Rutan's probably won't go that fast as low, but all those draggy airfoils won't be so bad higher up.<br> <br>Perhaps someone with some aerodynamics knowledge could comment on exactly how benificial the higher starting altitude is.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5762173">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5762173#5763667">Re:B-52 - X15 comparison</a> by hubble29 (Score:2) Friday April 18, @11:44PM
+</li></ul></li><li id="tree_5762381" class="comment">
+<div id="comment_status_5762381" class="commentstatus"></div>
+<div id="comment_5762381">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5762381">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5762381" class="score">(Score:3, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Reality+Master+101">Reality Master 101 (179095)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5762381">		 &lt;<a href="mailto:%60RealityMaster101'+%60at'+%60gmail.com'">`RealityMaster101' `at' `gmail.com'</a>&gt;
+		on Friday April 18, @06:12PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5762381">#5762381</a>)
+		<small><br>(<a href="http://slashdot.org/">http://slashdot.org/</a> | Last Journal: <a href="//slashdot.org/~Reality+Master+101/journal/">Saturday August 25, @03:53PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5762381"><p> <i>We may be forced to do that anyway, if our peroxide situation doesn't resolve itself.</i> </p>
+
+<p>Have you looked into <a href="http://www.tecaeromex.com/ingles/indexi.html" title="tecaeromex.com">this guy</a> [tecaeromex.com]? It looks like he has Peroxide concentrators ready to go. I think you bought one of his engines, didn't you?</p>
+
+<p>It might not be a high volume, long-term solution, but it might at least get you flying again.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5762381">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5763877" class="comment">
+<div id="comment_status_5763877" class="commentstatus"></div>
+<div id="comment_5763877">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5763877">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5763877" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Muhammar">Muhammar (659468)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5763877">		
+		on Saturday April 19, @01:16AM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5763877">#5763877</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5763877">Question to John Carmack:<br> <br>What is the big deal about 90% peroxide? People have been distilling it from comercial 50% or 30% stuff using a one-step, simple vacuum low-temp distillation. There are hazards with oxygen -fuelled fires and the system has to be super-clean to avoid catalytic decomposition. But nothing that unusual in industry.<br> <br>Transport may be heavily regulated, so it is better to have the "peroxide distillery" close to the launching pad. I would not like to operate a large-scale peroxide still on my back-yard, but why is it so hard to get a lot of this material? Seems like much lesser problem than building the rocket.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5763877">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5777561" class="comment">
+<div id="comment_status_5777561" class="commentstatus"></div>
+<div id="comment_5777561">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5777561">Re:Burt Rutan vs. John Carmack?</a></h4>
+
+
+		 	<span id="comment_score_5777561" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~sean23007">sean23007 (143364)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5777561">		
+		on Monday April 21, @09:00PM (<a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5777561">#5777561</a>)
+		<small><br>(<a href="http://seancode.blogspot.com/">http://seancode.blogspot.com/</a> | Last Journal: <a href="//slashdot.org/~sean23007/journal/">Monday April 21, @05:40PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5777561">John -- I don't know if you are willing to disclose this information (and I don't want to try to pry secret data out of you), but how much is yours going to cost and how are you funding it? Just curious.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5777561">
+[ <a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5761791">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=5777561">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=61269&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=5761791">1 reply</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

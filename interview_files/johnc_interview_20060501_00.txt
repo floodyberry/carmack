@@ -1,0 +1,113 @@
+http://www.gamerwithin.com/?view=article&amp;article=1319&amp;cat=2
+MegaTexture Q&amp;A
+Activision released interview with John Carmack on the details of "MegaTextures"
+Gamer Within
+Cain Dornan
+
+<desc>
+One of the most respected and well-known game developers in the world, John Carmack hardly needs any introduction. Having mastered the skill of game programming, Carmack co-founded developer id Software, and has also worked on such classic series as Doom, Quake and Wolfenstein 3D.
+
+In this Question &amp; Answer with Carmack, he discusses the new MegaTexture technology, which will be used in the upcoming Enemy Territory: Quake Wars for PC. Definitely a worthy read for any programming, designing or general development enthusiast, as well as any gamer slightly interested in the development process behind games.
+</desc>
+
+
+<q>What is MegaTexturing technology?</q>
+
+<a>MegaTexture technology is something that addresses resource limitations in one particular aspect of graphics. The core idea of it is that when you start looking at outdoor rendering and how you want to do terrain and things in general, people almost always wind up with some kind of cross-fade blended approach where you tile your textures over and blend between them and add little bits of detail here and there. A really important thing to realize about just generally tiling textures, that we're so used to accepting it in games, is that when you have one repeated pattern over a bunch of geometry, the texture tiling and repeating is really just a very, very specialized form of data compression where it's allowing you to take a smaller amount of data and have it replicated over multiple surfaces, or multiple parts of the same surface in a game since you generally don't have enough memory to be able to have the exact texture that you'd like everywhere.
+
+The key point of that is what you really want to do is to be able to have as much texture as you want to use where you have something unique everywhere. Now normally, you just can't get away with doing that, because if you allocate a 32,000 by 32,000 texture, the graphics curve can't render directly from that. There's not enough memory in the system to do that, and even when you have normal sized textures, games are always up against the limits of the graphics card memory, and system memory, and eventually you've got hard drive or DVD memory on there, but you wind up with a lot of different swapping schemes, where you'll have a little low-res version of a texture, and then high res versions that you bring in at different times, and a lot of effort goes into trying to manage this one way or the other.
+
+So when Splash Damage was starting on, really early with Enemy Territory: QUAKE Wars, they were looking at some of these different ways to render the outdoor scenes with different blends and things like that. And one of my early suggestions to them was that they consider looking at an approach where you just use one monumentally large texture, and that turned out to be 32,000 by 32,000. And I - rather then doing it by the conventional way that you would approach something like this (i.e. - chopping up the geometry into different pieces and mapping different textures on to there and incrementally swapping them for low res versus high res versions), just let them treat one uniform geometry mesh and have this effectively unbounded texture side on there, and use a more complicated fragment program to go ahead and pick out exactly what should be on there, just as if the graphics hardware and the system really did support such a huge texture.
+
+In the end what this winds up getting us is the ability to create a great outdoor terrain texture that has far more complex interactions than anything that you would get with any kind of conventional rendering, where you've built it up out of pieces of lots of smaller textures on there, where they do some sophisticated things with growing grass up between bump maps. And then you can go back and do hand touch ups in a lot of different places to accent around features that are coming out of the surface. And this type of thing is, I'm very sure, going to become critically importance as we go forward into kind of next generation technologies on there. We've seen this over and over as we've gone through graphical technology improvements over the years, where there will be certain key elements that you start looking at in games that look really dated because they don't have the capabilities that people are seeing in sort of the cutting edge things there. And this type of unique texturing over the coming generation of games, I think, is going to be one of those, where when people start looking back at a game that's predominantly tiled and doesn't have that unique artist touched sense about all of the scenes, it's going to look very previous generation.</a>
+
+<q>What's the benefit on the top most level just for gamers, of the MegaTexture. And the second part of that is what's the benefit as the developer?</q>
+
+<a>Well for the user the bottom line is just that it looks better. You wind up with something that has the diversity that you don't get with more conventional terrain generation systems out there. As the developer, looks are still important for games. If you look at a game and you make it look better, it's a better game, so long as you don't impact the gameplay negatively. So it's nothing profound and fundamental, it's just one tiny little aspect of graphics rendering that's just better now.</a>
+
+
+
+<q>Aside from the visual aspect of the terrain looking better, do you think there will be any other foreseeable differences to us gamers that are playing MegaTexture games?</q>
+
+<a>It's just the variety and the diversity of it. Like I said at the very beginning, this is only a very small aspect of graphics, let alone of games in the larger sense. It's a specific little piece of technology that addresses texture resource limitations, and this entire technology would not need to exist if you had four gigabyte graphics cards, and lots more RAM. In fact, so much of programming and graphics programming in particular is just trying to pretend that we've got hardware that's five or 10 years more advanced than what we've got right now by making various algorithmic trade offs.</a>
+
+<q>How is the MegaTexture a major step forward for game graphics?</q>
+
+<a>My core comment here is that any repeating use of a texture is just very specialized data compression. Any time you have one set of texture data, and it's present in more than one place on the screen, it's really an approximation to what an ideal infinite resource video game would provide. Because in the real world, there aren't any repeats-even things that look like they repeat, like bricks or dry wall, are uniquely different. The subtle differences that you get are the things that distinguish a rendering, especially a game rendering, from something that's very realistic.
+
+The MegaTexture allows us to have terrain in QUAKE Wars that does not require any repeated textures for resource limitation reasons. There may still be some areas where a texture is repeated just because they didn't feel like doing anything better, but there was no resource limitation that encouraged them or required them to do that. They are perfectly capable of having an artist go in and add 10 million little tiny touches to the level if they chose to do so. It's taken it from being a resource constraint to something that becomes a design trade off.</a>
+
+<q>Does MegaTexturing technology bring any specific limitations with it?</q>
+
+<a>No. There's no limit to dynamically changing it. That's one of the neat things about it - to the graphics engine, it looks like you're just texturing on top of arbitrary geometry. You can move it around and all of that. With the technology in Enemy Territory: QUAKE Wars, there are some issues with deforming the texture coordinates too much. You'll get areas that are blurred more than you would expect with a conventional texturing, and that's something that's fixed in my newer rev of technology.
+
+There are some minor things you have to worry a little bit about. If you stretched up too steep a cliff slide, there would be some blurring involved there, even if you adjusted the texture coordinate somewhat. And you can crutch around that a little bit. That's also a problem that's been fixed by a newer rev of technology that we've got right now.</a>
+
+
+<q>So would you consider the fact that the MegaTexture paints all of the terrain with one enormous texture an advantage to level of detail or a limitation?</q>
+
+<a>Level of detail wise, the terrain does not render with any sophisticated geometry morphing situation. That's one of those things that for years I think most of the research that's gone into has been wasted. Geometry level of detail on terrain.. there have been thousands of papers written about it, and I honestly don't think it's all that important. The way the hardware works, you're so much better off setting down a static mesh that's all in vertex and index buffers, and just letting the hardware plow through it, rather than going through and having the CPU attempt to do some really clever cross blended interpolation of vertices.
+
+In and infinite sized world, you would have to include some degree of level of detail. The Quake Wars levels are not infinite size. They're bounded. And it generally turns out to be the best idea to just have the geometry at a reasonable level of detail and very efficiently rendered.
+
+But the MegaTexture would work just fine if you wanted to use that on something where you were dynamically level detailing the terrain. That is one of the nice aspects of it, where to the application it just looks like you can texture with an infinite size texture. You don't have to worry about breaking it up on particular boundaries of anything special like that.</a>
+
+<q>How do you see the mega texture developing in the next few years?</q>
+
+<a>The particular version that's in the Splash Damage code is essentially already abandoned, where the newer version of the stuff that I've got is a super setup that allows us to use it for arbitrary textures and has a few other nice benefits. It was one of those things where, if I had thought about it at the beginning, then I probably would have done it back then.
+
+But from a technology development standpoint, content wise, the technologies that Splash Damage developed for creating these terrains ,and some of the stuff that I was working on to modify MegaTextures artistically, those are the corner stones of what we're using going forward for content creation.</a>
+
+<q>Do you think that since it's a solution that's working with Enemy Territory: QUAKE Wars, it's eventually going to be used in other software.</q>
+
+<a>Correct. What's exciting is that I did this stuff a long time ago, when I first did the initial MegaTexture stuff for Splash Damage, which is specialized for terrains. The MegaTexture works for things that are topologically a deformed plain, like an outdoor surface, and it has certain particular limitations on how much you can deform the texture mapping there. For the better part of a year after that initial creation, I have been sort of struggling to find a way to have a similar technology that creates this unique mapping of everything, and use it in a more general sense so that we could have it on architectural models, and arbitrary characters, and things like that.
+
+Finally, I found a solution that lets us do everything that we want in a more general sense, which is what we're using in our current title that's under development. That was one of those really happy programmer moments, where I knew that this sense of unique texturing was a really positive step forward for what we could do artistically with the game. I just hadn't hit on the right thing for a long time, and then, finally, when I did settle down and come up with a technology that works for all of that, it was a good moment.</a>
+
+<q>Do you think it is inevitable that this would be a wheel that the other guys are going to have to reinvent, too?</q>
+
+<a>Yes. Although most graphics rendering stuff is not that incredibly mysterious and difficult. It used to be that people were always looking for the black magic in the code, some place, but it's not that big of a deal. And especially now there are hundreds and hundreds of graphics programmers out there who, as soon as they see this type of stuff and read and article about it, they can go out and start implementing some of the same things. I expect that pretty much will happen.
+
+I would say that the greater differentiation will be in the two ((inaudible)) that go into allowing people to take effective use of this because the core technology to do this is tiny. There's one file of source code that manages the individual blocks, and then the fragment program stuff for this is like a page. It's not that big of a deal. It's an architectural and mind set change that you have to make to decide to actually build a project that's going to leverage this type of technology.</a>
+
+<q>Why do you think other developers haven't done anything like this before?</q>
+
+<a>One aspect of it is certainly the fear of unboundaried development time. That's something that you can look at and say, "Oh my gosh, we make this many megabytes of textures. If we uniquely texture the entire world, it's going to be 50 times that. How are we going to get that done?" Generally that's a bad way to look at things, because while you now have the ability to uniquely texture everything, nothing is forcing you to. You can still set up and use the technology just like any old system where you repeat pictures; it's just that now you have the ability to do it everywhere you want to, anywhere your fancies strike you or your artist wants to go in and touch everything up to make an area look better. But, the worry about development time certainly is an issue and has been an issue for many years now. Specifically a significant concern about the fact that it's not such a good idea to develop a technology that is only going to make a game finish later and later. Anything that you're going to include that allows more capabilities will take longer to optimize. There are very, very few things that you can do that just automatically take the same effort, but produce something drastically better.</a>
+
+<q>Did you create the MegaTexture technology with PC hardware in mind? Or were you also planning for next gen consoles when you started coming up with it?</q>
+
+<a>It was done on the PC. But we know that next-gen consoles are essentially PC graphics renderers.</a>
+
+<q>Would the consoles having less memory than a PC pose a problem for the MegaTexture? Or is something that you guys have already started to work around?</q>
+
+<a>If anything, it works out better for the next-generation consoles, because on the PC you could often get away with not doing texture management if you were targeting fairly high end, while on the consoles, you've always had to do it. And especially my newer paged virtual texturing which applies to everything instead of just terrain, allows you to have a uniform management of all texture resources there, as well as allowing infinitely sized texture dimensions. So this is actually working out very nicely on the Xbox 360.</a>
+
+<q>Do you think the MegaTexture is a technology that will push hardware forward, in terms of gamers having to buy new upgrades for PCs, or not?</q>
+
+<a>Interestingly, this isn't as performance demanding as a lot of things we've done before. While the exact implementation that I've done for ETQW wouldn't have been possible until the modern generation of cards, the fundamental idea of unique texturing is something that could have been done at any point all the way back to the 3DFX cards. And when I was originally starting the DOOM development five to six years ago, unique texturing was something that I looked at as a viable direction to go to make a next-generation step, but I instead chose to go with the bump mapping and the dynamic lighting and shadowing because I thought, for game play reasons, that they were going to work out better. It's a technology that I'm surprised that no one else wound up pursuing, because I picked my direction way back in the DOOM 3 days and I kind of saw this other viable path that people could be pursuing. I was kind of surprised that five, six, years later, nobody else had really taken that task, because it always looked good to me.</a>
+
+<q>Do you think that the MegaTexture technology will be accessible to mod teams? I'm making the connection there in terms of thinking of some of the smaller teams out there.</q>
+
+<a>It doesn't help them. In general, all the technology progress has been essentially reducing the ability of a mod team to do something significant and competitive. We've certainly seen this over the last 10 years, where, in the early days of somebody messing with DOOM or QUAKE, you could take essentially a pure concept idea, put it in, and see how the game play evolved there. But doing a mod now, if you're making new models, new animation, you essentially need to be a game studio doing something for free to do something that's going to be the significant equivalent. And almost nobody even considers doing a total conversion anymore. Anything like this that allows more media effort to be spent, probably does not help the mods.</a>
+
+
+
+<q>Has the MegaTexture been a really rewarding breakthrough for you in the scope of some of your other accomplishments?</q>
+
+<a>It's hard to put everything in comparison against all the different things I've done. Certainly in this generation of technologies that I'm working on I've done dozens and dozens of little experiments with lots of different graphics technologies. I do think that the unique texturing technologies are the most important of all of the things that I've done and are going to have the most significant impact.
+
+There's a ton of little graphics technologies that you can experiment with, different rendering technologies, and ways of drawing things with silhouette lighting or deformation maps - just all sorts of things that are interesting when you look at them in a particular light, and may have some great use in a game. But any texturing technology is something that applies to everything, and I've always wanted to do technologies that have a more general application, rather than things that I always considered artifact effects that you put on a particular object. I'm probably more accepting of eye candy like that on particular objects now than I used to be, because people do find things like that catchy, and it will make an impact on people when they see something special. But I've generally preferred to set up technologies that effect everything uniformly across the entire game world and this is one of those.</a>
+
+<q>Public perception of you is sometimes centered around your love of technology in making games, and maybe more so for right or wrong, than the finished product. What do you think of that assessment?</q>
+
+<a>Well, the gameplay really is intertwined with the presentation. I've never pursued a technology that I thought would negatively impact gameplay. It's always in the context of "how will this technology improve the game?" And it is true that I'm not the final arbiter of what's necessarily going to make our games fun, gameplay-wise. I don't necessarily consider myself representative of our target market. And the game play decisions are generally now made by Tim.
+
+But I do still care about making sure that the technology that I help provide, which is sort of the canvas that everything is painted on, is something that will only have positive improvements to the whole game play experience. So I am focused more and more narrowly now, than I used to be, on the graphics technology and my little aspect of this. It's true that I used to write essentially all of the code for everything. But as the demands of the technology have improved we have to have more and more people and it gets more and more specialized. So I've sort of retrenched into the area where I have the most to offer and I put in the time that I can to it.</a>
+
+<q>Is there anything else that you'd like to add?</q>
+
+<a>It's still very exciting the capabilities that are continuously being added to our arsenal here. I am having a really good time working on the Xbox 360 right now, graphic technology-wise. As for the MegaTexture stuff, it is kind of funny that it's not super demanding of the hardware. As I mentioned, I was kind of surprised that something like this hadn't been pushed before we got around to it. There are lots more exciting possibilities for the graphics research and we're still toying around with some fairly fundamental architectural design issues on the Xbox 360.
+
+And, the PC space is going to be moving even faster than the consoles. The graphics technology is still exciting and they're still going to be significant things that we can show to people that will make them look at this and say "wow, this is a lot better than the previous generation." I do think unique texturing is the key for the coming generation.
+
+There are lots and lots of graphics technologies that we can look at. And maybe you add five or six up and they wind up being something that really gives it a next generation wow. But just by itself, even with no newer presentation technologies, allowing unique texturing on lots and lots of surfaces, I think, is the key enabler for this generation.</a>

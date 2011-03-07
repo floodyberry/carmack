@@ -1,0 +1,3277 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Latest 24 of 146 Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=302231&amp;cid=20671657">A direct response</a>&nbsp;</td><td valign="top"><nobr>&nbsp;Wed Sep 19, '07 02:35 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;10</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=07/09/19/1237204">Is id Abandoning Linux?</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=253065&amp;cid=19934453">Re:This Is Rumor Control - Money Grab In Progress</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jul 20, '07 07:10 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=07/07/20/1325231">Silicon Knights Says Unreal Engine is Broken</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=207072&amp;cid=16891904">Probably the CS degree.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Nov 17, '06 06:49 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;4</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//ask.slashdot.org/article.pl?sid=06/11/17/1221207">A Master's In CS or a Master's In Game Programming?</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=194351&amp;cid=15930493">Re:John Carmack disagree's with the article</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Aug 17, '06 04:54 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;4</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=06/08/17/1858222">Are Liquid Explosives on a Plane Feasible?</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=166027&amp;cid=13853244">I liked it.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Oct 22, '05 01:22 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;7</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=05/10/21/2259225&amp;tid=97">Doom Takes A Shot At Gamers</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=159570&amp;cid=13365414">Re:And that's why id Software rocks.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 21, '05 02:03 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=159570&amp;cid=13365387">Re:Hmm</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 21, '05 01:50 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;4</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=159570&amp;cid=13365346">Re:Unreal Engine 4</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 21, '05 01:33 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=05/08/20/1329236&amp;tid=112">Quake 3: Arena Source GPL'ed</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=152606&amp;cid=12808204">Rapid prototyping, etc</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Jun 13, '05 07:15 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;5</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//books.slashdot.org/article.pl?sid=05/06/13/2118258&amp;tid=126">Fab</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=152533&amp;cid=12808374">Re:No problems here</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Jun 13, '05 07:33 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=05/06/13/1150251&amp;tid=160">Jeff Bezos's Space Company Reveals Some Secrets</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=152340&amp;cid=12784181">game performance</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 10, '05 04:07 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;6</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//apple.slashdot.org/article.pl?sid=05/06/10/1950252&amp;tid=166">Is Apple &amp; Community Evangelizing Into Uncoolness?</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=151312&amp;cid=12701745">Parasites.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jun 01, '05 11:07 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;8</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=05/06/01/126228&amp;tid=98">Are Video Game  Patents Next?</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=148578&amp;cid=12456790">Re:The Blind Watchmaker -- great book on this subj</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri May 06, '05 03:57 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=05/05/06/1438229&amp;tid=146">Kansas Challenges Definition of Science</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=143998&amp;cid=12074071">Re:That's gonna give the Java fanbois an aneurysm</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Mar 29, '05 03:08 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=05/03/28/156219&amp;tid=207">John Carmack's Cell Phone Adventures</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=132876&amp;cid=11098250">Award shows</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Dec 15, '04 06:31 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;4</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=04/12/15/1637255&amp;tid=166">Editorial: On the SpikeTV Video Game Awards</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=119283&amp;cid=10074872">Almost had one in Quake</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 25, '04 09:19 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=04/08/25/1342207&amp;tid=98">In-Game Advertising Breaks Out</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=117282&amp;cid=9920808">Re:doom3</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Aug 09, '04 11:09 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Funny</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=04/08/09/053237&amp;tid=160">1 Amateur Rocket Crashes, Another Explodes</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9876672">I'm proud of it.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 04, '04 02:56 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;48</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=116699&amp;cid=9876519">Re:Quake3 engine open-source? When?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 04, '04 02:13 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;11</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//games.slashdot.org/article.pl?sid=04/08/03/2315236&amp;tid=206">Doom 3 Gets Reviews, Piracy Questions, Exultation</a></td></tr> <tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=111496&amp;cid=9470516">Re:This is what a rocket ship SHOULD look like....</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 18, '04 11:14 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=111496&amp;cid=9468631">Re:This is what a rocket ship SHOULD look like....</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 18, '04 06:29 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=111496&amp;cid=9465755">Various responses</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 18, '04 02:09 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><a href="//slashdot.org/comments.pl?sid=111496&amp;cid=9461296">The full scale vehicle is also flying, sort of</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 18, '04 05:04 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;22</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=04/06/18/0416235&amp;tid=">John Carmack's Test Liftoff a Success</a></td></tr> <tr class="data_hl1"><td valign="top"><a href="//slashdot.org/comments.pl?sid=97099&amp;cid=8302715">Re:Why?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Feb 17, '04 03:32 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+				<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=04/02/16/2337240">Steve Jobs' Grand Vision</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=24">122 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>25</b> <a href="//slashdot.org/comments.pl?sid=89547&amp;cid=7743718">We aren't being held up by regulatory issues.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Dec 17, '03 06:08 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=03/12/16/2134235&amp;tid=">X-Prize Progress Update</a></td></tr> <tr class="data_hl1"><td valign="top"><b>26</b> <a href="//slashdot.org/comments.pl?sid=83365&amp;cid=7297889">Peroxide rocket propellants</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Oct 24, '03 12:59 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/10/23/1810258">Slashback: Diebold, Peroxide, Comdex</a></td></tr> <tr class="data_hl2"><td valign="top"><b>27</b> <a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6818036">Re:Cost</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Aug 28, '03 03:46 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;9</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>28</b> <a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6817712">Re:Two Words</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Aug 28, '03 03:20 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;6</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/08/28/1722241">X Prize and John Carmack</a></td></tr> <tr class="data_hl1"><td valign="top"><b>29</b> <a href="//slashdot.org/comments.pl?sid=75948&amp;cid=6790245">Re:stop making space planes, dammit</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Aug 25, '03 08:39 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/08/24/2227251">European Shuttle Program Update</a></td></tr> <tr class="data_hl2"><td valign="top"><b>30</b> <a href="//slashdot.org/comments.pl?sid=73807&amp;cid=6631439">Re:No need for GPS</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 06, '03 10:10 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/08/06/1913242">11-Pound Model Plane Vs. The Atlantic, Again</a></td></tr> <tr class="data_hl1"><td valign="top"><b>31</b> <a href="//slashdot.org/comments.pl?sid=71467&amp;cid=6467018">In The Wating Line</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Jul 17, '03 07:43 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/07/17/1656208">On-line Documentary on Machinima</a></td></tr> <tr class="data_hl2"><td valign="top"><b>32</b> <a href="//slashdot.org/comments.pl?sid=69089&amp;cid=6315174">Re:A thought or two...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 27, '03 04:47 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/06/27/0536237">Solar Powered Helios Plane Destroyed in Test Flight</a></td></tr> <tr class="data_hl1"><td valign="top"><b>33</b> <a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6051216">Driver strategies</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue May 27, '03 03:31 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;21</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/05/27/1529237">Futuremark Replies to Nvidia's Claims</a></td></tr> <tr class="data_hl2"><td valign="top"><b>34</b> <a href="//slashdot.org/comments.pl?sid=61573&amp;cid=5783979">Re:Physics?!?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Apr 22, '03 03:30 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;5</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/04/22/1344219&amp;tid=97">New Trailer for The Hulk</a></td></tr> <tr class="data_hl1"><td valign="top"><b>35</b> <a href="//slashdot.org/comments.pl?sid=61269&amp;cid=5761791">Re:Burt Rutan vs. John Carmack?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Apr 18, '03 03:39 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;8</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//science.slashdot.org/article.pl?sid=03/04/18/1830219">The Rutan SpaceShipOne Revealed</a></td></tr> <tr class="data_hl2"><td valign="top"><b>36</b> <a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237264">Re:Carmack is fragbait.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Feb 05, '03 09:43 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;5</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>37</b> <a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5236440">Not exactly general interest news, but...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Feb 05, '03 07:42 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;10</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=03/02/05/2243243">Carmack Needs Rocket Fuel</a></td></tr> <tr class="data_hl1"><td valign="top"><b>38</b> <a href="//slashdot.org/comments.pl?sid=52311&amp;cid=5191377">Re:Once again...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Jan 30, '03 04:26 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//developers.slashdot.org/article.pl?sid=03/01/30/0452245">Carmack on NV30 vs R300</a></td></tr> <tr class="data_hl2"><td valign="top"><b>39</b> <a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4591655">Damnit.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Nov 03, '02 09:15 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;101</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/11/03/1520240&amp;tid=127">Doom 3 Alpha Leaked</a></td></tr> <tr class="data_hl1"><td valign="top"><b>40</b> <a href="//slashdot.org/comments.pl?sid=40899&amp;cid=4348529">Re:Fuel and funds? (correction)</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Sep 27, '02 10:18 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>41</b> <a href="//slashdot.org/comments.pl?sid=40899&amp;cid=4348515">Re:Fuel and funds?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Sep 27, '02 10:13 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>42</b> <a href="//slashdot.org/comments.pl?sid=40899&amp;cid=4348243">Re:amateur rocketetry is irresponsible</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Sep 27, '02 08:34 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/09/27/1917248&amp;tid=160">Amateur Rocket Launch a Failure; NASA Debuts Shuttle-cam</a></td></tr> <tr class="data_hl2"><td valign="top"><b>43</b> <a href="//slashdot.org/comments.pl?sid=38207&amp;cid=4091362">Re:different backends useless then?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Aug 17, '02 11:17 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>44</b> <a href="//slashdot.org/comments.pl?sid=38207&amp;cid=4091191">Re:"Non-high-end-comp-owning geeks rejoice!"?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Aug 17, '02 10:36 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>45</b> <a href="//slashdot.org/comments.pl?sid=38207&amp;cid=4091151">Re:Rendering - two generations from done?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Aug 17, '02 10:16 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/08/18/015214&amp;tid=127">Carmack Expounds on Doom III</a></td></tr> <tr class="data_hl1"><td valign="top"><b>46</b> <a href="//slashdot.org/comments.pl?sid=37931&amp;cid=4067767">Originality, creativity, etc</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Aug 13, '02 11:58 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;5</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>47</b> <a href="//slashdot.org/comments.pl?sid=37931&amp;cid=4067566">Re:Softdisk</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Aug 13, '02 11:02 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/08/13/1931212">The Technology Behind ID's Games</a></td></tr> <tr class="data_hl2"><td valign="top"><b>48</b> <a href="//slashdot.org/comments.pl?sid=35189&amp;cid=3805371">Re:Exotic Fuels</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Jul 01, '02 10:28 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+				<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/07/01/1733231">Ask 'Rocket Guy' Brian Walker</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=48">98 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>49</b> <a href="//slashdot.org/comments.pl?sid=34863&amp;cid=3784210">Realtime and offline rendering ARE converging</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Jun 27, '02 09:51 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/06/25/2220243">Improv Animation as an Art Form?</a></td></tr> <tr class="data_hl1"><td valign="top"><b>50</b> <a href="//slashdot.org/comments.pl?sid=33453&amp;cid=3619372">High end hardware reasoning</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri May 31, '02 03:23 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;22</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>51</b> <a href="//slashdot.org/comments.pl?sid=33453&amp;cid=3619007">Misrepresented.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri May 31, '02 02:21 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;6</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/05/30/2151254">Carmack on Doom 3 Video Cards</a></td></tr> <tr class="data_hl2"><td valign="top"><b>52</b> <a href="//slashdot.org/comments.pl?sid=32424&amp;cid=3501134">Re:Straight from the horse's mouth</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat May 11, '02 12:50 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>53</b> <a href="//slashdot.org/comments.pl?sid=32424&amp;cid=3501111">Re:RocketGuy!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat May 11, '02 12:41 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>54</b> <a href="//slashdot.org/comments.pl?sid=32424&amp;cid=3501085">Re:I'll comment later...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat May 11, '02 12:29 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>55</b> <a href="//slashdot.org/comments.pl?sid=32424&amp;cid=3501075">Re:It won't be cheap</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat May 11, '02 12:23 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>56</b> <a href="//slashdot.org/comments.pl?sid=32424&amp;cid=3499718">I'll comment later...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri May 10, '02 05:32 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;3</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Funny</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/05/10/1916223">Maverick Rocketeers Pursue Space Access</a></td></tr> <tr class="data_hl1"><td valign="top"><b>57</b> <a href="//slashdot.org/comments.pl?sid=27412&amp;cid=2951313">A few corrections</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Feb 04, '02 01:46 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;28</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/02/04/0219236">Carmack: Lord of the Games</a></td></tr> <tr class="data_hl2"><td valign="top"><b>58</b> <a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2777806">Re:Definitions of terms</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Jan 03, '02 03:01 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>59</b> <a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775698">Re:Definitions of terms</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jan 02, '02 04:52 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;30</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>60</b> <a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2774808">Comments</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jan 02, '02 02:18 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;21</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=02/01/02/1721235">The Rise And Fall of Ion Storm</a></td></tr> <tr class="data_hl1"><td valign="top"><b>61</b> <a href="//slashdot.org/comments.pl?sid=25432&amp;cid=2762972">Re:Bali and Odyssey... *sigh*</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Dec 29, '01 02:52 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;6</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/12/29/0410245">SGI Sets Sights On Turnaround</a></td></tr> <tr class="data_hl2"><td valign="top"><b>62</b> <a href="//slashdot.org/comments.pl?sid=25213&amp;cid=2741917">Thanks</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Dec 22, '01 02:40 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;11</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/12/22/053211">Quake 2 Source Code Released Under The GPL</a></td></tr> <tr class="data_hl1"><td valign="top"><b>63</b> <a href="//slashdot.org/comments.pl?sid=23937&amp;cid=2586323">Re:CIA Investors</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Nov 19, '01 04:01 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/11/19/1515214">Safeweb Turns Off Free Service</a></td></tr> <tr class="data_hl2"><td valign="top"><b>64</b> <a href="//slashdot.org/comments.pl?sid=22276&amp;cid=2393182">Re:Rocket Racing!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Oct 05, '01 01:58 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/10/05/0232230">Private Rocketplane Test A Success</a></td></tr> <tr class="data_hl1"><td valign="top"><b>65</b> <a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195211">Re:I don't think it's really been established...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 19, '01 06:22 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;6</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Insightful</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>66</b> <a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2194363">The present and the future</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 19, '01 02:05 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;32</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/08/18/2210259">What is Happening with OpenGL?</a></td></tr> <tr class="data_hl2"><td valign="top"><b>67</b> <a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2113842">Re:Doom expandability</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Aug 13, '01 06:32 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;2</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Interesting</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>68</b> <a href="//slashdot.org/comments.pl?sid=20235&amp;cid=2124628">Errors.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Aug 13, '01 02:31 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;13</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/08/13/1629258">3D First-Person Games, So Far</a></td></tr> <tr class="data_hl1"><td valign="top"><b>69</b> <a href="//slashdot.org/comments.pl?sid=19782&amp;cid=2176112">Re:Question for Carmack</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Aug 02, '01 08:56 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/08/02/1730223">Canadian Team Plans Balloon-Aided X-Prize Entry</a></td></tr> <tr class="data_hl2"><td valign="top"><b>70</b> <a href="//slashdot.org/comments.pl?sid=13518&amp;cid=30502">Performance benefits</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 01, '01 04:36 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;1</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5, Informative</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/08/01/1220230">ATI & Nvidia Duke It Out In New Gaming War</a></td></tr> <tr class="data_hl1"><td valign="top"><b>71</b> <a href="//slashdot.org/comments.pl?sid=13355&amp;cid=69480">Re:TANJ! It makes me angry!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Jul 22, '01 09:09 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/07/22/1251241">Another Space Tourist In Training</a></td></tr> <tr class="data_hl2"><td valign="top"><b>72</b> <a href="//slashdot.org/comments.pl?sid=13192&amp;cid=91708">Re:Just use a parachute!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jul 11, '01 10:51 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+				<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/07/11/1613255">Japan Tests Reusable Rocket</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=72">74 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>73</b> <a href="//slashdot.org/comments.pl?sid=13192&amp;cid=91709">Re:carmack</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jul 11, '01 09:51 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/07/11/1613255">Japan Tests Reusable Rocket</a></td></tr> <tr class="data_hl1"><td valign="top"><b>74</b> <a href="//slashdot.org/comments.pl?sid=13011&amp;cid=118675">Re:Liquid-fueld rockets are no child's plaything</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Jun 30, '01 10:58 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/06/29/2223214">YAPSLP: Yet Another Private Space Launch Plan</a></td></tr> <tr class="data_hl2"><td valign="top"><b>75</b> <a href="//slashdot.org/comments.pl?sid=12955&amp;cid=126507">Manned rocket ships and the X-Prize</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Jun 26, '01 08:31 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/06/26/2221214">Slashback: Shooters</a></td></tr> <tr class="data_hl1"><td valign="top"><b>76</b> <a href="//slashdot.org/comments.pl?sid=12916&amp;cid=131998">History, etc</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 22, '01 02:35 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>77</b> <a href="//slashdot.org/comments.pl?sid=12916&amp;cid=131997">Re:What about Marathon?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jun 22, '01 01:59 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/06/22/2019226">Five Years of Quake</a></td></tr> <tr class="data_hl2"><td valign="top"><b>78</b> <a href="//slashdot.org/comments.pl?sid=12733&amp;cid=159370">Re:faa</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Jun 11, '01 04:14 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/06/11/2338200">Getting Into Space, One Way Or Another</a></td></tr> <tr class="data_hl1"><td valign="top"><b>79</b> <a href="//slashdot.org/comments.pl?sid=12564&amp;cid=179978">I do this every year...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Jun 03, '01 10:40 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/06/03/1811238">x86 vs PPC Linux benchmarks</a></td></tr> <tr class="data_hl2"><td valign="top"><b>80</b> <a href="//slashdot.org/comments.pl?sid=12004&amp;cid=250292">Re:If you want financial information about the FSF</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed May 02, '01 01:24 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/05/02/1919238">On the Subject of Ximian and Eazel</a></td></tr> <tr class="data_hl1"><td valign="top"><b>81</b> <a href="//slashdot.org/comments.pl?sid=11952&amp;cid=256724">Thanks, slashddot!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Apr 30, '01 10:36 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>82</b> <a href="//slashdot.org/comments.pl?sid=11952&amp;cid=256723">Re:VTOL problems</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Apr 30, '01 10:23 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>83</b> <a href="//slashdot.org/comments.pl?sid=11952&amp;cid=256722">Re:VTOL problems</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Apr 30, '01 09:42 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>84</b> <a href="//slashdot.org/comments.pl?sid=11952&amp;cid=256721">Re:I was at the meeting</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Apr 30, '01 09:36 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/04/30/1221232">Rockets of Doom From Carmack And Friends</a></td></tr> <tr class="data_hl2"><td valign="top"><b>85</b> <a href="//slashdot.org/comments.pl?sid=11648&amp;cid=294140">Re:The clipper was a joke!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Apr 13, '01 03:55 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>86</b> <a href="//slashdot.org/comments.pl?sid=11648&amp;cid=294139">Re:At least the Japanese are keeping DC-X alive...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Apr 13, '01 12:49 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/04/13/1243252">US Military May Resurrect X-33</a></td></tr> <tr class="data_hl1"><td valign="top"><b>87</b> <a href="//slashdot.org/comments.pl?sid=11293&amp;cid=340423">Re:The significance of this</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Mar 26, '01 01:03 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/03/26/0028213">Telemetry Made Simple: Rocket Phone Home</a></td></tr> <tr class="data_hl2"><td valign="top"><b>88</b> <a href="//slashdot.org/comments.pl?sid=10775&amp;cid=402556">Re:Question to JC about the video</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Feb 26, '01 01:11 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/02/26/1551257">Carmack on D3 on Linux, and 3D Cards</a></td></tr> <tr class="data_hl1"><td valign="top"><b>89</b> <a href="//slashdot.org/comments.pl?sid=10729&amp;cid=407384">Re:Long overdue</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Feb 23, '01 01:28 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/02/23/2050213">Yamauchi Puts the Game Industry In Its Place</a></td></tr> <tr class="data_hl2"><td valign="top"><b>90</b> <a href="//slashdot.org/comments.pl?sid=10702&amp;cid=410728">Re:A question, John?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Feb 22, '01 09:12 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>91</b> <a href="//slashdot.org/comments.pl?sid=10702&amp;cid=410703">Re:Competitive clock speed???? Did I miss somethin</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Feb 22, '01 05:11 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>92</b> <a href="//slashdot.org/comments.pl?sid=10702&amp;cid=410678">Re:Shades of Grey</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Feb 22, '01 02:46 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/02/22/1744231">GeForce 3 Demoed - Running DOOM 3</a></td></tr> <tr class="data_hl1"><td valign="top"><b>93</b> <a href="//slashdot.org/comments.pl?sid=10469&amp;cid=442429">Re:Quadratic surfaces</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Feb 10, '01 11:29 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>94</b> <a href="//slashdot.org/comments.pl?sid=10469&amp;cid=442428">Re:Quadratic surfaces</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Feb 10, '01 11:25 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>95</b> <a href="//slashdot.org/comments.pl?sid=10469&amp;cid=442407">Re:Quadratic surfaces</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Feb 10, '01 11:23 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/02/10/0245242">A Brief History of NVIDIA and SEGA</a></td></tr> <tr class="data_hl2"><td valign="top"><b>96</b> <a href="//slashdot.org/comments.pl?sid=10101&amp;cid=438419">How much do you value these methods?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Feb 12, '01 12:40 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+				<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/01/22/162213">Pride Before The Fall</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=96">50 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>97</b> <a href="//slashdot.org/comments.pl?sid=10469&amp;cid=442403">Quadratic surfaces</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Feb 10, '01 12:07 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/02/10/0245242">A Brief History of NVIDIA and SEGA</a></td></tr> <tr class="data_hl1"><td valign="top"><b>98</b> <a href="//slashdot.org/comments.pl?sid=9797&amp;cid=526741">Re:I've re-installed my Windows partition</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Jan 06, '01 09:48 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=01/01/06/1424243">Linux Gaming: Looking Back and Looking Forward</a></td></tr> <tr class="data_hl2"><td valign="top"><b>99</b> <a href="//slashdot.org/comments.pl?sid=9265&amp;cid=573583">The Official Position</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Dec 08, '00 10:02 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/12/07/209245">id on Linux: "disappointing" and "support nightmar</a></td></tr> <tr class="data_hl1"><td valign="top"><b>100</b> <a href="//slashdot.org/comments.pl?sid=8572&amp;cid=663139">It's harder than it sounds</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Oct 31, '00 10:22 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/10/31/1251232">Cheap Launch Ends in the Drink</a></td></tr> <tr class="data_hl2"><td valign="top"><b>101</b> <a href="//slashdot.org/comments.pl?sid=7826&amp;cid=757349">Re:nope</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Sep 25, '00 08:00 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>102</b> <a href="//slashdot.org/comments.pl?sid=7826&amp;cid=757356">Re:3Dfx vs nVidia vs The World</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Sep 24, '00 10:21 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>103</b> <a href="//slashdot.org/comments.pl?sid=7826&amp;cid=757350">Re:nope</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Sep 24, '00 09:44 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/09/25/0121242">The Good Old Days of 3Dfx</a></td></tr> <tr class="data_hl1"><td valign="top"><b>104</b> <a href="//slashdot.org/comments.pl?sid=7754&amp;cid=765520">Re:Portals ?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Sep 20, '00 01:11 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/09/20/2020210">VoodooExtreme Interview With John Carmack</a></td></tr> <tr class="data_hl2"><td valign="top"><b>105</b> <a href="//slashdot.org/comments.pl?sid=7341&amp;cid=819205">Developers all want a royalty.  NOT.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Aug 29, '00 12:36 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/08/29/175249">Salon on the XBox</a></td></tr> <tr class="data_hl1"><td valign="top"><b>106</b> <a href="//slashdot.org/comments.pl?sid=7066&amp;cid=860053">Re:Vector quantization compression?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 13, '00 08:29 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>107</b> <a href="//slashdot.org/comments.pl?sid=7066&amp;cid=859964">Re:The PS2 Is Screwed</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Aug 12, '00 02:35 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/08/12/1528230">Carmack About Q3A on Dreamcast</a></td></tr> <tr class="data_hl2"><td valign="top"><b>108</b> <a href="//slashdot.org/comments.pl?sid=7064&amp;cid=860236">Page flipping should not be supported.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Aug 12, '00 02:59 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/08/12/1513254">Tom's Hardware Linux NVidia Benchmarks</a></td></tr> <tr class="data_hl1"><td valign="top"><b>109</b> <a href="//slashdot.org/comments.pl?sid=7003&amp;cid=868912">Linux gaming market</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Aug 09, '00 08:46 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/08/09/0334254">John Carmack on Consoles vs. Personal Computers</a></td></tr> <tr class="data_hl2"><td valign="top"><b>110</b> <a href="//slashdot.org/comments.pl?sid=6950&amp;cid=876742">Re:That wasn't the carmack we know..</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 06, '00 09:06 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>111</b> <a href="//slashdot.org/comments.pl?sid=6950&amp;cid=876736">Re:That wasn't the carmack we know..</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Aug 06, '00 08:28 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/08/06/0217254">New Doom Details</a></td></tr> <tr class="data_hl1"><td valign="top"><b>112</b> <a href="//slashdot.org/comments.pl?sid=6542&amp;cid=931977">Substantiated.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Fri Jul 14, '00 07:37 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/07/14/2245217">John Carmack on the X-box Advisory Board?</a></td></tr> <tr class="data_hl2"><td valign="top"><b>113</b> <a href="//slashdot.org/comments.pl?sid=6284&amp;cid=972208">Re:What kind of unstable?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jun 28, '00 11:02 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>114</b> <a href="//slashdot.org/comments.pl?sid=6284&amp;cid=972130">Re:What kind of unstable?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Jun 28, '00 08:53 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>115</b> <a href="//slashdot.org/comments.pl?sid=6284&amp;cid=972170">Aerodynamically unstable!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Jun 27, '00 10:50 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/06/28/0041238">Inventor Building Rocket In Backyard</a></td></tr> <tr class="data_hl1"><td valign="top"><b>116</b> <a href="//slashdot.org/comments.pl?sid=6227&amp;cid=978882">Re:It's Too Late For OpenGL</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Jun 24, '00 10:31 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>117</b> <a href="//slashdot.org/comments.pl?sid=6227&amp;cid=978955">Re:It's Too Late For OpenGL</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Jun 24, '00 10:21 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/06/24/1458252">Programming OpenGL Articles</a></td></tr> <tr class="data_hl2"><td valign="top"><b>118</b> <a href="//slashdot.org/comments.pl?sid=5917&amp;cid=1017200">Re:About Quake3's serial numbers....</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Jun 08, '00 09:04 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/06/08/0647212">Copyrant</a></td></tr> <tr class="data_hl1"><td valign="top"><b>119</b> <a href="//slashdot.org/comments.pl?sid=5586&amp;cid=1058389">Re:I don't get it</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun May 21, '00 10:18 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>120</b> <a href="//slashdot.org/comments.pl?sid=5586&amp;cid=1058386">Re:Remember...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun May 21, '00 10:02 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+				<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/05/21/1030223">Mac OS Mach/BSD Kernel Inseparable: No 'lite' vers</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=120">26 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>121</b> <a href="//slashdot.org/comments.pl?sid=5073&amp;cid=1122746">Re:Reality check</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Apr 19, '00 04:52 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/04/19/2020234">Hasbro And Game-Design Lawsuits</a></td></tr> <tr class="data_hl1"><td valign="top"><b>122</b> <a href="//slashdot.org/comments.pl?sid=4904&amp;cid=1140786">Re:Performance issues.</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Apr 11, '00 07:16 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/04/11/0832216">The End Of The Road For Magnetic Hard Drives?</a></td></tr> <tr class="data_hl2"><td valign="top"><b>123</b> <a href="//slashdot.org/comments.pl?sid=4822&amp;cid=1149294">Time to contribute</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Apr 05, '00 05:50 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/04/05/149218">Apple Announces Darwin 1.0</a></td></tr> <tr class="data_hl1"><td valign="top"><b>124</b> <a href="//slashdot.org/comments.pl?sid=4780&amp;cid=1153805">Re:Wow</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Apr 03, '00 05:22 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/04/03/1116214">The Dual 1GHz Pentium III Myth</a></td></tr> <tr class="data_hl2"><td valign="top"><b>125</b> <a href="//slashdot.org/comments.pl?sid=4535&amp;cid=1187298">Nvidia's drivers will have strong points</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Mar 21, '00 12:05 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/03/21/0955231">NVidia and Linux Troubles</a></td></tr> <tr class="data_hl1"><td valign="top"><b>126</b> <a href="//slashdot.org/comments.pl?sid=4215&amp;cid=1225547">Re:Fanatics, zealotry, and dead platforms</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Mar 04, '00 05:48 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>127</b> <a href="//slashdot.org/comments.pl?sid=4215&amp;cid=1225538">Re:Way off topic, but I'm curious since it's "you"</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Mar 04, '00 04:59 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>128</b> <a href="//slashdot.org/comments.pl?sid=4215&amp;cid=1225537">Re:Ah, the Jaguar...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Mar 04, '00 04:55 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>129</b> <a href="//slashdot.org/comments.pl?sid=4215&amp;cid=1225529">Ah, the Jaguar...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Mar 04, '00 04:18 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/03/02/1430232">New Atari Jaguar Game Running $1,225 on eBay</a></td></tr> <tr class="data_hl2"><td valign="top"><b>130</b> <a href="//slashdot.org/comments.pl?sid=4202&amp;cid=1231728">Supercomputers</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Mar 02, '00 11:45 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/03/02/0834256">Tera Will Buy Cray Research</a></td></tr> <tr class="data_hl1"><td valign="top"><b>131</b> <a href="//slashdot.org/comments.pl?sid=4184&amp;cid=1236699">Re:Very true</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Feb 29, '00 07:03 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/02/29/2138248">Squid, FreeBSD Rock the House at Caching Bake-Off</a></td></tr> <tr class="data_hl2"><td valign="top"><b>132</b> <a href="//slashdot.org/comments.pl?sid=4118&amp;cid=1244669">Re:What the hell is ID doing?</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Feb 26, '00 03:17 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/02/26/0724230">Dave 'Zoid' Kirsch Leaving id Software</a></td></tr> <tr class="data_hl1"><td valign="top"><b>133</b> <a href="//slashdot.org/comments.pl?sid=4084&amp;cid=1249412">Re:Secure Quake</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Feb 23, '00 05:11 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/02/23/2014205">John Carmack Enforcing the GPL on Quake Source</a></td></tr> <tr class="data_hl2"><td valign="top"><b>134</b> <a href="//slashdot.org/comments.pl?sid=3660&amp;cid=1337004">Re:Who says,,,</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Jan 25, '00 02:25 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=00/01/25/150238">Tim Sweeney On Programming Languages</a></td></tr> <tr class="data_hl1"><td valign="top"><b>135</b> <a href="//slashdot.org/comments.pl?sid=3105&amp;cid=1442678">Re:how netrek really works</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Mon Dec 27, '99 10:33 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;3</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/12/27/1127253">ESR on Quake 3 Troubles</a></td></tr> <tr class="data_hl2"><td valign="top"><b>136</b> <a href="//slashdot.org/comments.pl?sid=3095&amp;cid=1444146">Some more depth</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Dec 26, '99 10:24 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/12/26/1255258">Quake GPL Release Causing Cheating</a></td></tr> <tr class="data_hl1"><td valign="top"><b>137</b> <a href="//slashdot.org/comments.pl?sid=3040&amp;cid=1455106">Re:Just thought this was important to say</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Wed Dec 22, '99 03:30 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>138</b> <a href="//slashdot.org/comments.pl?sid=3040&amp;cid=1454924">Re:Level maps *are* GPL'd</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Dec 21, '99 06:07 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>139</b> <a href="//slashdot.org/comments.pl?sid=3040&amp;cid=1454845">Re:Just speculation...</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Dec 21, '99 04:58 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top"><b>140</b> <a href="//slashdot.org/comments.pl?sid=3040&amp;cid=1454804">Mac glquake should be pretty easy now</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Dec 21, '99 04:33 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/12/21/2210251">Quake 1 GPL'ed</a></td></tr> <tr class="data_hl2"><td valign="top"><b>141</b> <a href="//slashdot.org/comments.pl?sid=2683&amp;cid=1498848">More comments</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Nov 28, '99 11:50 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>142</b> <a href="//slashdot.org/comments.pl?sid=2683&amp;cid=1498441">The straight answer</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sun Nov 28, '99 02:14 PM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/11/28/1516222">Another Software Spy</a></td></tr> <tr class="data_hl1"><td valign="top"><b>143</b> <a href="//slashdot.org/comments.pl?sid=2678&amp;cid=1500858">Re:Too bad</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Sat Nov 27, '99 10:36 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;4</nobr></td></tr>
+
+		
+		<tr class="data_hl1"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/11/27/1158228">Review:Toy Story 2</a></td></tr> <tr class="data_hl2"><td valign="top"><b>144</b> <a href="//slashdot.org/comments.pl?sid=2639&amp;cid=1505821">Re:Changing Market</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Thu Nov 25, '99 11:59 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;2</nobr></td></tr>
+
+				<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/11/24/0925210">SGI Steps out of the Visual Workstation Market</a></td></tr>
+					<tr class="data_hl2"><td >
+						 	<a href="/users.pl?op=userinfo&amp;uid=101025&amp;min_comment=144">2 More Comments...</a>
+					
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+
+					<td></td>
+					<td></td>
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+
+</div></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>John Carmack - Slashdot User</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/firehose.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var reskey_static = '1bdfe58c03ab1f673c525fd63b58665b';
+</script>
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a href="//slashdot.org/~stx-doom/" title="Hello stx-doom!">stx-doom</a></li>
+					<li><a href="//slashdot.org/users.pl?op=edituser" title="Adjust your information, comment settings, layout and more">Preferences</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="Adjust your subscription options">Subscription</a></li>
+					<li><a href="//slashdot.org/firehose.pl">Firehose</a></li>
+					<li><a href="//slashdot.org/my/journal" title="Your space on Slashdot.  Write whatever you want.">Journal</a></li>
+
+					<li><a href="//slashdot.org/my/tags" title="BETA! - Brief labels that you think best describe an article">Tags</a></li>
+					<li><a href="//slashdot.org/my/bookmarks" title="Slashdot Bookmarks exist to give you a quick place to save URLs for later, to share them with the Slashdot Community, and to submit them to the Slashdot Editors for consideration for posting.">Bookmarks</a></li>
+					<li><a href="//slashdot.org/my/password" title="Change your password">Password</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/my/logout" title="See you later stx-doom.">Logout</a></li>		
+				
+				
+				</ul>
+
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<script src="//images.slashdot.org/sectionprefs.js?T_2_5_0_175" type="text/javascript"></script>
+
+<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			<a href="//slashdot.org/users.pl?op=edithome" onclick="configSectionPopup(); return false;">Sections</a>
+
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+
+	</div>
+	
+	<div id="sectionprefsmenu">
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+			
+			
+		</div>
+
+		<div id="contents">
+
+<div class="lb"></div>
+
+		
+			<div id="users" class="aduserbox"><div id="slashboxes">
+<div class="block">
+	<div class="title" id="user-info-title">
+		<h4>
+			John Carmack (101025)
+		</h4>
+	</div>
+
+	<div class="content" id="user-info-content">
+		<a href="//slashdot.org/~John+Carmack/">John Carmack</a> <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span><br>&nbsp;&nbsp;(email not shown publicly)
+	</div>
+</div>
+</div>
+
+<div id="users-blocks">
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+
+			John Carmack (101025) <span class="zooicon"><a href="//slashdot.org/zoo.pl?op=check&amp;uid=101025&amp;type=friend"><img src="//images.slashdot.org/neutral.gif" alt="Neutral" title="Neutral"></a></span>
+			
+		</h3>
+	</div>
+</div>
+
+
+<div id="usermenu">
+<ul class="menu">
+<li class="selected"><b class="begin"><a href="/~John+Carmack/" class="begin">Info</a></b></li><li><a href="/zoo.pl?op=check&amp;uid=101025">Relation</a></li><li><a href="/~John+Carmack/journal/">Journal</a></li><li><a href="/~John+Carmack/firehose/">Firehose</a></li><li><a href="/~John+Carmack/friends/">Friends</a></li><li><a href="/~John+Carmack/fans/">Fans</a></li><li><a href="/~John+Carmack/foes/">Foes</a></li><li><a href="/~John+Carmack/freaks/">Freaks</a></li><li><a href="/~John+Carmack/tags/">Tags</a></li><li><a href="/~John+Carmack/bookmarks/" class="end">Bookmarks</a></li>
+
+</ul>
+</div>
+	<div class="generalbody">
+	
+	</div>
+	
+	<div class="generalbody">
+	
+				<p>
+					<i>
+						(No journal entries.)
+					</i>
+				</p>
+
+			
+
+
+	</div>
+</div>
+<div id="users-lists">
+			<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			John Carmack's Comments
+			
+		</h3>
+	</div>
+</div>		
+	
+	<table width="100%" border="0" cellpadding="3" cellspacing="0" class="data">
+
+	<tr class="data_head">
+		
+		<th>Subject</th>
+		<th>Datestamp</th>
+		<th></th>
+		<th>Replies</th>
+		<th></th>
+		<th></th>
+
+		<th>Score</th>
+	</tr>
+	
+	
+	
+		<tr class="data_hl2"><td valign="top"><b>145</b> <a href="//slashdot.org/comments.pl?sid=2626&amp;cid=1510864">Re:Off the rails at last!</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Nov 23, '99 10:34 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+		
+		<tr class="data_hl2"><td valign="top"><b>146</b> <a href="//slashdot.org/comments.pl?sid=2626&amp;cid=1510863">Re:More Open Source than we give him credit</a>&nbsp;</td><td valign="top"><nobr>&nbsp;*Tue Nov 23, '99 10:20 AM</nobr></td><td></td><td valign="top" align="right"><nobr>&nbsp;</nobr></td><td align="right"></td><td></td><td valign="top"><nobr>&nbsp;5</nobr></td></tr>
+
+				<tr class="data_hl2"><td valign="top" colspan="7" align="right">&nbsp;&nbsp;&nbsp;attached to <a href="//slashdot.org/article.pl?sid=99/11/23/0838208">Where Carmack Goes Next</a></td></tr>
+					<tr class="data_hl2"><td >
+					</td>
+<td></td><td></td>
+					<td align="right"></td>
+					<td align="right"></td>
+					<td></td>
+					<td></td>
+
+					</tr>
+					<tr class="data_hl2"><td colspan="7" align="center">
+						Logged in users can choose whether or not they'd like comments shown grouped by discussion on their 
+						<a href="//slashdot.org/users.pl?op=editcomm">comment settings page</a><br>
+											 
+						 
+					</td></tr>
+						
+		</table>
+        		
+			
+</div></div>	
+		</div>
+			<div id="footer">
+
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="//slashdot.org/users.pl?op=edituser">preferences</a></li>
+			<li><a href="http://slashdot.org/index.pl?content_type=rss&amp;logtoken=623584%3A%3ABcqqslOTdIdRepfIoxQgWS">rss</a></li>
+		</ul>
+
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

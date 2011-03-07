@@ -1,0 +1,27 @@
+http://web.archive.org/web/20000815070142/http://www.stomped.com/published/jcal9654375651.html
+John Carmack Interview
+Stomped interviews John Carmack at QuakeCon
+Stomped
+John "JCal" Callaham
+
+<desc>John Carmack was here at QuakeCon earlier today doing an TV interview for Gamespot TV and generally wandering the QuakeCon grounds. However, Carmack was nice enough to take some time to do an interview for Stomped.</desc>
+
+<q>What do you think of the convention so far? Is it gratifying to see all these people here to basically celebrate a game that you helped to create?</q>
+
+<a>Well, the whole history of QuakeCon has been wonderful. I mean, just from the very first get-together about lots of people with poor planning crowding into a hotel and everything to the pretty well put together, well run convention in the past couple of years. It's impressive to see them growing continuously in size and to have more and more people attending and more vendors. Tim (Willits) came in and said "It's like a mini-E3 this year."</a>
+
+<q>The first Quake 3 engine based games are now beginning to appear. Star Trek Voyager: Elite Force and F.A.K.K. 2 are already out in some form and others are coming out. What do you think about the quality of the games that are using your engine?</q>
+
+<a>Well, Star Trek has been nice in that they (Raven Software) actually got a reprieve on their deadline push. They were able to go in and put in that extra set of polish that game developers always wish they had, while F.A.K.K. was kind of in the opposite sense were they (Ritual Entertainment) were really kind of like right up to the wire to fix the last things before they get it out, which I hope works out OK for them. People seem to be really enjoying playing F.A.K.K. and it look gorgeous; they have wonderful stuff. There is definitely the danger, though, that they have maybe been a little bit to close to the wire and we will see how that plays out.</a>
+
+<q>You must also be gratified by the interest that Sega has in Quake 3 Arena. What do you think of their port of your game to the Dreamcast?</q>
+
+<a>Well, actually Sega didn't do it. It was done by Raster Entertainment. It look spectacular, doesn't it? I mean, when you look at it across from there it looks like the PC version in many cases. In fact, for a lot of people it will end up looking better than the PC version because we used compressed textures on the Dreamcast where the average person starting up Quake 3 get the slightly blurred textures on there unless they got a 32 meg card and they crank everything up, while on the Dreamcast you get most of that detail just kind of out of the box. Of course, a lot of types of games just tend to look better on a TV set with the kind of blurred together very cheap anti-alising.</a>
+
+<q>Sega is also playing up the fact that you can play the Quake 3 port with Dreamcast players and PC players on the Internet. Do you think that's an important feature to have to bring more of a mainstream player over to Quake 3 in this regard?</q>
+
+<a>Well, I actually think it will be important to keep them fairly separated. We are probably going to have two masters where one is Dreamcast-only and one is kind of open, because there is going to be such a huge delta between the people who are going in playing with the joypad versus the people going in playing with the mouse and keyboard. I just think that would not be a whole lot of fun to be playing with your joypad unless you got really, really good and want to go out to the open tournament area.</a>
+
+<q>I know you can't talk about your current project, but how are things at id right now?</q>
+
+<a>Well we got lots of really interesting technology coming out. We have got the strongest programming team we have ever had in the company where we've got programmers that are working on areas that we have conventionally short-shrifted. Some of the things like sound and game logic are things where I would just always do something that's acceptable that would get the job done. There was never like a primary focus for it. Now we've got expert programmers dedicated to it. We've got a programmer dedicated to making great sound; a programmer dedicated to making great game technology; a programmer dedicated to great tools. Of course, we are going to have great graphics and great networking and all this type of stuff we have always been known for, but a lot of the areas that have been kind of our secondary strength are going to be brought to primary level and that's going to be really cool.</a>

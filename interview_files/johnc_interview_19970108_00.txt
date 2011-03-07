@@ -1,0 +1,86 @@
+http://www.bluesnews.com/cgi-bin/articles.pl?show=11
+John Carmack Interview
+A rare and informative interview with id Software lead programmer John Carmack by DR_Bone, Clan Dark Requiem
+Blues News
+Bone
+
+<desc>
+I originally sent my questions to American McGee with the firm intention of wrapping an article around them. American, it seems, was too busy to do interviews at this moment, so I risked bothering John Carmack with the same questions. I did not do this lightly, taking about 5 days to consider whether he should be bothered or not. However, I thought my questions were sufficiently well thought out enough that John might actually WANT to answer them. Boy was I surprised when I looked in my email this morning.
+
+I originally thought I'd get a sentence or two in response to my questions and base my article on those answers. It looks like John Carmack decided to write the article for me. I want to thank him for the time it took to answer my questions so thoroughly. He is an incredibly busy man who has a very active fanbase that sends him 50 emails a day. Please take note of his PS note at the bottom. Respecting this, I will ask for no more interviews from him until at least 1998 :). I think he would appreciate it if everyone else took his caution to heart and not start sending him a lot of email with questions.
+
+This interview and further editorial articles will be posted on Dark Requiem's homepage as soon as DR_|2| has enough free time to devote to the new "Dark Tribune" section of the page. This has been in the works for a while, and already has several articles ready to go. DR_|2| is also a busy man, and his professional concerns take precedence over the "Dark Tribune". It'll be up "when it is finished" :)</desc>
+
+
+<q>Just a recent development. Shawn Green has left id for Ion Storm. It seems that there have been a LOT of defections from id over the past few months. How does this affect id in terms of workload? Id has always been a small development community, but aren't you guys reaching critical mass where the workload becomes too much?</q>
+
+<a>Lots of people will read what they like into the the departures from Id, but our development team is at least as strong now as it has ever been.
+
+Romero was pushed out of id because he wasn't working hard enough.
+We have hired Paul Steed, a new artist.
+
+That is the balance of changes to our development team. I believe that three programmers, three artists, and three level designers can still create the best games in the world.
+
+The other departures have been from our biz/support side, which doesn't have anything to do with product creation. We are scaling back our publishing biz so that we are mostly just a developer. This was always a major point of conflict with Romero -- he wants an empire, I just want to create good programs.
+Everyone is happy now.</a>
+
+<q>As always, id leads the industry in technical terms, and others follow behind. However, isn't there a boundary to how much more you can do given current input/output technologies? Doesn't it then fall to the point of "artistry"? What prompts this question is many of the screenshots I've seen of Unreal. Some of the texture-mapping and monsters are just stunning in their artistry. How can id compete with companies that employ dozens of artists in their 3d efforts? It just seems that the "push the technology farther" answer is simply not much of an option anymore until the next input/output technological breakthrough comes along.</q>
+
+<a>The official codename for the next generation game engine is "trinity". There is no information to be gleaned from that, we just need something to call it when it is discussed.
+
+The architecture for trinity is well underway, and it will be dramatically better in many ways. In fact, this next generation has more distinction than any before it, because it is the first of the transition from the pixel to the texture mapped triangle. Assumptions change and new capabilities arise beyond what a simple processor speed increase would have given. Pushing the technology is a long way from over, trust me.
+
+As far as unreal goes, we can't compete with an unreleased product, because a non existent product does everything you dream of and has no faults. Think back to what everyone thought quake was before anything was released. I wish Epic well, in any case. Unlike some other companies, the principle developers at Epic have not involved themselves in any mudslinging.
+
+It is also a mistake to think that Id's games ride on technology alone. DOOM and Quake aren't just the minimum work required to make a 3d and networking engine a game -- they are the right game elements as well.
+
+A user always wants more of everything -- more features, more artwork, more levels. The assumption that hiring more people gives a better product is often incorrect. It might (but not always) get you MORE product, but not necessarily BETTER product.</a>
+
+<q>In the heyday when Quake was about to be released id had a strong presence on the net with informative .plan files, and romero would actually appear on the undernet sometimes to brave the IRC nightmare to answer questions and just be involved. It seems that id has closed up since then and not been as involved with communicating with their end-users. Some of the people complain that id has stopped being interested in getting the community *involved* with the process of software development. They feel left out. I have not felt this personally, since I was part of the beta program for QW, but I was in the extreme minority. Is this lack of info simply because you are too busy with Quake II or is it a reaction to the fact that the main ego at id (Romero) had left and there simply wasn't a spokesperson left?</q>
+
+<a>Romero was going on IRC when he should have been working, from my point of view.
+
+I listen a lot to the user community, but I make no apologies for prioritizing heavily. A suggestion or opinion from Blue, Scary, Disruptor, or one of the many people that publicly devote much time and effort to the quake community gets orders of magnitude more weight than Joe Random User's one-liner on IRC.
+
+I get about 50 emails a day, which chews up quite a bit of time that could be used for programming. I'm not willing to sacrifice any more of my time to be active on newsgroups or IRC.
+
+BTW, I rejected two other interviews today.</a>
+
+
+
+<q>I know that the Next Generation Technology is tightly under wraps, and probably you have only the vaguest feel for what you to do next, and I will not ask about specifics. However, there are certain limitations that seemed to have been introduced into Quake while trying to make it work on a 486 with 8 megs of RAM. Due to the fact that the Pentium has taken off and that RAM prices have gotten so low that 16 megs is standard and 32 megs is VERY common, those limitations seem to be not needed anymore. There is one overriding example of this that I can come up with off the cuff. You can't see into water or out of water, yet the Unreal pictures show that realistic looking pools of water CAN be made. Other, more nebulous limitations, include size of the levels, specifically I have seen levels with HUGE open spaces that "gray out" due to limitations in VIS-ing those large areas. Also dynamic shadows seems to have been included in Unreal but are static in Quake. Is there any plans at all to get rid of these limitations by increasing processor speed requirements and RAM requirements?</q>
+
+<a>Note that it is easy for an enthusiast to have a rather self centered view of the market. 32 meg systems are NOT common in the general population right now. Basically, everyone wants the games to be designed for their own systems. :-) The system spec for trinity would probably sound excessive to you right now. Your current system almost certainly isn't up to par, but you will probably buy a new system be the time a game ships.
+
+Quake will have some new features added to the engine during Quake 2, but it will not change drastically. Drastic changes are in new technology generations.
+
+I start fresh with a blank edit window for each generation, and architecturally the next generation will bear about as much resemblance to quake as quake did to doom. This is the right way (as I see it, in any case) to add features: a cohesive whole that is deigned to offer a well balanced experience, not one feature at a time just to play catchup or leapfrog.
+
+Glquake has shadows and mirrors, but those are novelty features and not rigorously implemented. The game wasn't designed around them, and we won't exploit them.
+
+I could add transparent water to glquake pretty easy, but the vis information in the current maps breaks at water boundaries (it saves a LOT of polys in many scenes), so you would never be able to see it in existing maps without re-vising them with a different utility.
+
+&lt; ok, I just went and added optional transparent water to glquake and the utilities (American had been bugging me about that for a while as well...). You can set r_blendwater 1 and run either a novised map or a map processed with qbsp2 -watervis.
+Yes, it looks sort of neat. No, it's not earthshaking. I'll release a test map when glquake goes public. &gt;
+
+The greyouts in huge scenes don't happen in glquake, and can be avoided in software by increasing the surfaces and edge arrays. That was a tough balancing act to run on 8 meg systems. Actually, building those large intermediate tables was probably not The Right Thing in the quake engine. I feel that could have been done a little better with a different approach. We might try some other things out in quake 2.</a>
+
+<q>While there is no doubting that Quake excels at DeathMatch play, and indeed might be the best DeathMatch game ever created, people were really expecting some more "world dynamics" to coin a phrase. The lack of interactive elements in the game had somewhat marred single-player Quake games (but oddly enough provided just the right balance between simplicity/complexity for DeathMatch). Are there any plans in the future for making future levels more dynamic in single player mode? I hesitate to give any examples here since it is a question of game design and purely your province. Perhaps more ambient sounds? (gurgling pools, dripping water, metal tapping against rocks) Not my strong suit, so I'll just leave it at that.</q>
+
+<a>I will always take an aggressively simple approach to things, but yes, I agree that we should add more interactive elements in the future.
+
+Another major way to improve the single player experience is with more skill and timing based actions, but the wide range of computer performance in our audience makes that a lot dicier than on a fixed game console platform. I intend to multi-thread the control in trinity, which should allow proper timing based maneuvers on any speed system.</a>
+
+<q>Aside from the base desire for dominance and violence, do you have any higher goals for the technology that is being developed for Quake? I once read an article where it was stated the Mike Abrash was lured away from Microsoft by the promise of using the Quake technology to advance his goal of creating a "Snow Crash" type of environment with a virtual world that people can "live" in and create avatars to walk around in. I myself find this scenario somewhat compelling. Sort of a graphical, 3D realtime IRC. With Quake this seems to be tantalizingly within our grasp. What are your thoughts about using Quake for communication purposes other than just a game?</q>
+
+<a>There will probably be some work in this area by other people with quake technology. Trinity will be even more flexible in this regard.</a>
+
+<q>Clans seem to be a totally unexpected phenomenon in the history of computer gaming. It's predecessors in MUDs seem to totally pale in comparison in terms of popularity. Although id played somewhat of a bystander role in the development of clans, are there any plans to become more involved with the clan phenomenon?</q>
+
+<a>It was so odd the way it happened -- internally, we had talked of clans of warriors before the game was released, but I don't think we ever publicly talked about it, and to have the same terminology apparently spontaneously evolve in the user community was pretty weird. I love it.
+
+I don't want id to "involve" itself in much of anything on an official basis. I want to make the tools and capabilities available to the user community and let them self organize. We would need more people at id to stay involved with all the cool stuff going on, and I really don't want to grow the company.
+
+John Carmack
+
+ps: this really did take quite some time and effort to answer, so please don't take my response as an invitation to regularly interview me -- I don't like refusing people, but it just becomes necessary.</a>

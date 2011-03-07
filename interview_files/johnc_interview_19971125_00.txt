@@ -1,0 +1,244 @@
+http://web.archive.org/web/19980130151620/www.bootnet.com/youaskedforit/lip_16_outtakes.html
+John Carmack - The Boot Interview
+Boot Magazine Interviews John Carmack &amp; Brian Hook
+Boot Net
+Alex St. John
+
+<desc>
+Be sure to log onto the bootNet site everyday and read these exclusive, never-before-seen outtakes from boot magazine's interview with id software's John Carmack and Brian Hook.
+
+The interview was conducted by the architect of DirectX, Alex St. John, a monthly columnist for boot.
+
+At the end of the countdown, the entire Lip interview that ran in the print version of the magazine will be posted. Be here!
+</desc>
+
+
+<section>Page 1</section>
+
+<q>Lets talk about DirectX.</q>
+
+<a>DirectX had all the right goals and, for the most part, it achieved those goals. Certainly it didn't turn out perfect, and there's lots of things that could have been improved, right? But the things that were absolutely necessary--DirectDraw, DirectSound--they basically work.</a>
+
+<q>Is John being a little gratuitous in his praise here?</q>
+
+<a Hook>He's being nice.</a>
+
+<q>Do you have a problem with DirectX?</q>
+
+<a Hook>No. But you should have been here last night while we were trying to work out some DirectDraw stuff--I don't think John would've been liking DirectX pretty much then, right?</a>
+
+<a>It could be better. But I'm glad it's there, rather than nothing at all. I would separate Direct3D as a totally separate issue because that wasn't part of the original spec.
+
+I'm on the side of it being really simple and doing it right. And Microsoft has a lot of pressure to drift toward supporting everything and the kitchen sink approach. But it's just like the issue of software reliability and usability: The further down there you go, the more things fall apart.</a>
+
+<q>I've read a bunch of the e-mail boot gets from people raving about D3D sucking and OpenGL being awesome. And then they substantiate it with really weak paraphrasing of all the stuff John has said in his plan file.</q>
+
+<a>You wind up getting this sense of partisanship or just taking sides. It's human nature, I suppose, but when it gets away from a strict technical discussion, then you start getting your "army of followers." I suppose that's part of having influence, but it's not a part that I'm particularly comfortable with.</a>
+
+<a Hook>That does bother me, because there are a lot of people who will mindlessly listen to what John and I say, and say, "Yeah, yeah. Completely." And they haven't stopped to apply the critical thinking the way I would like it. And they're free to disagree because I'm not a God. I don't have some comprehensive understanding of the Universe that no one else does. So what I say is definitely going to be incorrect at times, and people need to stop and think about that.
+
+Quake followers are sort of understandable but it's so weird seeing products like Prey and Unreal that already have rabid followings, but they haven't even been released. Not that they don't deserve it, but the fact that people can band together behind something that hasn't happened yet is kind of weird. And it shows this aspect of human nature to… I don't even know what aspect it shows.</a>
+
+<a>There are people on the Unreal or Prey bandwagon that just write off anything we say out of hand because we're the enemy. That's just screwed up.</a>
+
+<section>Page 2</section>
+
+<q>Brian, we understand you weren't John's first choice for the job. Are you Mike Abrash's replacement?</q>
+
+<a Hook>I'm not Mike Abrash's replacement--let's get that real clear.</a>
+
+<a>We don't have job slots. We have talented people that work to achieve the best product we can. And Brian fits in differently than Michael did.</a>
+
+<q>Brian used to work at 3Dfx, right?</q>
+
+<a Hook>Yeah. After 3Dfx I went and contracted for eight months or a year. And that was fun, but it kind of sucks working at home. There's none of the camaraderie, you can't talk to people, bounce ideas around. It's cool because it's really the most relaxing thing in the world, working 20 hours a week and making twice as much as you did working 80 hours a week. But after awhile, you just get bored. And miraculously about that same time, I got e-mail from John saying, "Would you be interested in contracting down here for like a week or two?" And that was going a little too slowly, so he said "Well, would you be willing to come down here and interview and meet some people and maybe talk about a job?" And then like a day later he said "Fuck, do you want the job or not?" And I was like "Oh shit, that puts a spin on things." And I said "I guess." And, boom, I was here.
+
+Everybody has this picture of how id is the most wonderful place to work but I came from a different perspective. There were issues... everybody was abandoning id, right? So I was a little distressed and I called up Michael and said "Before I commit, I need to know the reason you're leaving id." And he was like "Dude, I would work for id if they were in Seattle." That sold me.</a>
+
+<a>Two years ago I had the actual honest thought that "You know, it's really good when we get these sharp new people in here. Maybe there should just be this plan to fire the little man on the totem pole every year and bring in fresh blood."</a>
+
+<q>So how is Brian holding up here?</q>
+
+<a>Brian's done really well because he's probably working the longest hours of anyone here… like 90 hours a week. I've been holding my 70 hours for six years now. Two years ago, I was the only person here at night. It's just wonderful now to have some other people that are here as much as I am, working hard on things.</a>
+
+<a Hook>It really isn't necessarily the number of hours you work--it's the how productive you are. When I first got here, I wasn't particularly productive even though I worked long hours. There's a huge ramp-up phase where you can't get much work done because you don't understand the system, and you don't know how the code base works. Now we're on the same wavelength and I'm a forced multiplier, right? It's just like John and I agree on so many things. And it's spooky. I'll be sitting there trying to change OpenGL drivers on-the-fly, and at the exact same time we'll both say, "Hey, that's cool!" It's trivial, but the fact that we can swap going from 3Dfx to the Intergraph on-the-fly, and we're both thinking "Yes, that's so cool!" It's just really neat working in an environment like that.</a>
+
+<q>How do you feel about the phenomena of female Quake players?</q>
+
+<a>I was really shocked by the size of the female Quake players.</a>
+
+<q>Shocked by the size of them? [everyone laughs]</q>
+
+<a>Shocked by how many... I never would have guessed that there were so many women that played Quake. And the fact that some are so damn good, like out of the top 10 or 20 players, probably two or three of them are female. Figuring about 1% of the players are females, but maybe 10% of the very best players are female. That's interesting.</a>
+
+
+<section>Page 3</section>
+
+
+<q>What do you think of the Talisman architecture?</q>
+
+<a>The Talisman architecture is based on a fundamental assumption that turned out to be wrong: memory prices and speeds and densities are going along this slow stable, path where all the processing elements are drastically outpacing them.
+
+Now we've got 100+MHz SDRAMs at $3/MB for commodity prices.
+
+But even if their assumptions were right, there are different critiques that can be made of the architecture. The most classically Talisman thing is the compositing of multiple layers to produce a scene, saving time by caching one layer and reusing it. Now I've worked on a couple of things similar to that. With Atari Jaguar programming, there was a way you could program their video controller to do layers, similar in a primitive way to what Talisman could do. A chain of layers could be combined, they could be scaled and translated, but they couldn't be rotated, they weren't anti-aliased. But the concepts are identical. You can build something with that.</a>
+
+<q>So the industry is stuck on an old Atari concept?</q>
+
+<a>Yeah. And it was really a pretty clever concept in the constraints of 2D games, especially because you've got your parallax layers and they had this neat way of generalizing a sprite-based architecture. It was a more general-purpose architecture where you could use the same thing for your background as for your objects. And for 2D games it had wonderful advantages, but in a 3D environment a lot of those assumptions on reusability do not follow nearly as well.</a>
+
+<q>Do you feel the Talisman architecture will become the pervasive 3D chip technology?</q>
+
+<a>I don't think it will because it's more expensive than other things which do the job right. And if you don't specifically optimize for layers, what you've got is a 3D accelerator with compressed textures and anistropic filtering, which are both good things that I expect everyone to eventually adopt. But if you look at their chunked architecture, the performance has some interesting things you can say about it. PowerVR does a lot of the things that Talisman hopes to do some time in the future. In some cases it performs better than I'd expect. But in the end, it's fundamentally not going to be as good as something you directly feed vertexes to, because it involves chunking, copying, and scatter gathering to memory. All these things compromise it at the high-end.
+
+We investigated an amazing number of things in Quake. One was, "Alright, rendering these 3D models composed of several hundred triangles takes a lot of time and we can't have these huge scenes all the fire fights like we had in Doom. And that's a bad thing." So one thing we looked at was "Well, let's cache it into a sprite and then re-use that sprite for a few times." That's exactly the Talisman architecture. Now we went and put it in, and not only did we notice all these visual anomalies. One of the most wonderful things in Quake is that you're there in the 3D world. But if you're caching a sprite and re-using it, it's not like that.
+
+We saw that technology and it kind of sucked. And then we ran into all these other things we hadn't even thought about, like where you place the sprite projection plane. If you put it at the front, then it actually extends below the ground on there. You run into these weird clipping problems. And turning a 3D object into a 2D poster then integrating with a 3D world is trickier than it might look. Lighting is obviously not going to be right any time you re-use it. That may not be a big deal, but the inter-penetration occlusion is the biggest part. And what we found is you just can't re-use it for many frames.</a>
+
+<q>So what should Microsoft do with Talisman?</q>
+
+<a>It should just quietly go away, because there's wrong fundamental assumptions. There's some really great thinking and engineering that went into it, but if you start with this straightjacket of memory, it's just going to get worse by this horrible bandwidth problem. We need to be really clever to get around it. You can defend a lot of these things by saying "If we need this level of performance and quality and we cannot have this memory, then this may be the only way to achieve it." There may be other viable things--caching and all that--and I can respect a lot of the science that went into it, but the world changed and it's not appropriate anymore.
+
+The key to Talisman was layering, which was just a bad idea. Then they had a bunch of things like shadow buffer algorithms and foretelling how important a multipass was going to be, and those are all right on. There's a lot of right things in there.
+
+The jury is still out on chunking--it may or may not be a good thing. PowerVR and Oak are following that line and 3Dfx is not. And they both seem to be doing well. So that's a debatable point. </a>
+
+
+<section>Page 4</section>
+
+<q>What do you think of Sega's decision to use PowerVR instead of 3Dfx for its next-generation console?</q>
+
+<a>Well if you compare the two, interesting trade-offs are being made. Look at it in the PC space: 3Dfx costs almost twice as much as the PowerVR. So in a console space, $100 difference could be crucially significant. You can say that's a strong argument for PowerVR, but that's not really a truthful case. PowerVR is only cheaper because it uses other components already in the PC--the video scan out, main memory for chunking buffers, and all this stuff--which would have to be present in a console anyway. It does use a less aggressive memory subsystem, so the PowerVR system might have a slight cost edge. But one hidden cost is that chunking requires a large main memory buffer to specify your entire scene database in Primitive. To get maximum performance, you have to do double buffering. You have to have enough memory to get two entire scenes worth of rendering commands in main memory. In a PC with 32MB and games that only have 5,000 triangles, that's not that bad. It's a few hundred K. But look at the performance we're going to expect of these next-generation chips, we're going to have games that are doing 15,000 or 20,000 or 30,000 polygons a second and reasonable frame rates. Now, run through the numbers. 30,000 triangles at 100 bytes per triangle. That's quite a bit right there. And then you have to double buffer it. Chunking imposes, on average, a 25% penalty. And now it's like "Wow! To do this high-performance game, I need 3MB just in memory." And consoles don't have that much memory. They're certainly going to go up in the next generation. I don't know how much it's going to be, but a good guess would be 16MB. And you're going to cut-off three megs just because you're using this architecture chip? I think that's a bad call. </a>
+
+<q>How do you feel about the possibility of Sega's operating system being a Windows CE subset of DirectX?</q>
+
+<a>An operating system on game consoles does not help you get better games. I stand by that quite resolutely.</a>
+
+<q>Very few best selling games on the PC don't use 3D--Myst, Diablo, Barbie, Scrabble, Monopoly.</q>
+
+<a>3D is going to be separate from the operating system issue. An operating system does not provide 3D, really. It may provide an API. For a good example, look at the OS on the 3DO. It was a horribly bad idea. It sucked-up resources, it kept programmers from doing the most impressive things and going directly to the hardware, it had this vague notion of being portable across multiple implementations and evolving. And none of that really panned-out. And I don't think it ever will.
+
+What a game developer would most like to see is an architecture exposed to the metal and then lots of libraries. Developers don't want to write a TCP/IP stack for a modem. It would be a ton of work and it wouldn't really be that good. By the same token, they'd like to have that provided, but they don't want an operating system that's going to disable write permission to the hardware registers. "Oh developers shouldn't be touching those things."
+
+That's throwing away the best benefit of consoles.
+
+You can just optimize the hell out of consoles and you don't have that on the PC because you've got this staid, mushy, amorphous space to work on. So it makes people lazy. You can always say "Well, we slipped a little bit here, but computers are getting faster and we'll just let it slide." On the console you say "We're missing our frame rate here. This sucks right here--you need to make it better." And you've got the low-level access, you've got a memory map, you've got registers you can go down, and you can get a level of tuning that's just not possible on the PC. At least not in any economically viable sense. The few people that do that, like the demo crews, don't make money at it because it's tightly constrained. And it would be a criminal shame to just turn the console into a weak, underpowered PC with no hard drive.</a>
+
+<q>But wouldn't it make the transition from one generation of console to the next better if existing content continued to run on it?</q>
+
+<a>I don't think that is beneficial to the consumer. Having last year's games on your new system doesn't really help. They tried that before, like the Sega Master System plug-in for the Genesis. Nintendo was going to have compatibility with the Super Nintendo. They chose the same processor generation and all, but in the end it never happened and nobody cared because nobody cares about last year's games. And for the consumer, it's not like they have to throw away their old game machine when they upgrade.
+
+Each generation of console is like 5 times better than the previous one and there are scalability limits to all projects. Everybody talks about infinite scalability, but it doesn't exist because you choose a target and then do something appropriate for that. And maybe you've got a factor of 5 scalability, but that's really pushing it and it's clearly not that appropriate on the end of your spectrum. So content is not going to scale over two separate hardware generations. If consoles turn the same thing as the PC, where you've got this amorphous mess with "This is a 166MHz and this is a 200MHz," then it's just back to being a cheap PC. </a>
+
+
+<section>Page 5</section>
+
+<q>id doesn't permit magazines to distribute the demo Quake shareware.</q>
+
+<a>Right.</a>
+
+<q> So you guys kind of pioneered the whole shareware thing. What happened to the "share" part?</q>
+
+<a>Well, okay. We found out that all these people are making tons of money, in some cases millions of dollars, distributing our games. It really started sinking in that people are buying this CD just because it's got our product on it. We looked at that and said "Okay, you're going to have to pay us $6 per CD." And we did that for a little while and that was something that we didn't do particularly well for a large number of reasons.
+
+But it turned out that people were willing to pay for it.</a>
+
+<q> You're not a shareware company anymore.</q>
+
+<a>Free distribution is great because the more people that see this stuff, the better. And the Internet distribution is still free. On the Internet, no one else is making money from it. Part of it is, "Well, that's our money!" And that's caused a number of arguments at id about how far we pursue that analogy, because it can get us into all sorts of areas that I personally don't want the company getting into. But it turns out that we made a quarter of a million dollars on top of everything else. It was just, "Well, why not?"</a>
+
+<q>So you won't allow boot to publish the shareware, because it helps sell the magazine, and it should be you getting the money?</q>
+
+<a>To a degree. It always used to be presented like, "Look, we're doing you guys a favor by distributing your software." And we looked at it like "No, we're doing you a favor," and there's no good rational reason why we should do that because we still got free distribution on the net. We get the money. It's not a religious issue one way or the other. We've just kind of started doing it.</a>
+
+<section>Page 6</section>
+
+
+<q>When are you going to do a Java version of Quake?</q>
+
+<a> Java has a lot of wonderful advantages as a program development language and I do plan, after we finish Quake 2, to go off and develop something significant in Java to feel-up the language. I haven't done hands-on work with Java, but I think there's really something there to be gained. We don't have a lot of ties holding us back at id and we developed on this crazy NextStep platform for a long time and we're willing to push OpenGL or maybe jump to Rhapsody. And if Java pans out the way I think it might, then we might write a lot of things in Java.</a>
+
+<q>Do you think Java is fast enough for games?</q>
+
+<a>  This is one thing that I don't really understand about the whole Java marketplace and the way it's being presented. It also ties to this bytecode portability stuff and there's no damn good reason for that. Why don't we just have Java and X86 compilers? I like the language--I don't care about bytecode.</a>
+
+<q> The portability of Java isn't a feature. It's just a language, and it would be nice to have a better compiler.</q>
+
+<a>  Exactly. I think it's a language that in many ways is better than
+
+C++ and I'd rather develop something in that, but it's all tied-up in this non-proprietary, run-anywhere type of thing, which is not what I care about.</a>
+
+<q> The whole Java virtual machine thing doesn't turn you on?</q>
+
+<a>  No, not at all. I like the language.
+
+In general, I'm willing to spend performance to make a better product. And that's one thing that has taken me awhile to kind of mature to because all game programmers start off on "I can do this in 10 cycles!" And games have gotten so complex where Quake is practically an operating system. It's this architecture, with all these different things that plug-in different ways, and it's not just this little thing that draws to the screen. So design and the implementation of things in robust ways is really important. And we've still got lots that we can improve here. I'm trying to learn and teach myself to be better in these ways, but performance is not the only criteria.
+
+When it comes to this sort of thing, I think Nintendo and Sega can make a better consumer network computer than like Oracle or Sun can. They know what they're doing better in that segment and the computers are certainly powerful enough. An Ultra 64's got a 100MHz processor, several megabytes of memory, excellent display output. You can do great things with that. And I think modem peripherals are going to be extremely significant in this coming generation. I know they're on the current generation of Saturns and whatever, but it's not the cornerstone yet. But when it becomes the cornerstone that's when things are going to get interesting. There's some wonderful things people can do if they own modems. There's certain modulation things they can do at a hardware level to get rid of some of the crap that goes on the PCs, so you get a better connection to play real-time games.
+
+They can do things asynchronously on their end.
+
+And then there's wonderful possibilities if they cut a deal with say Ascend or one of the digital emulation modem banks that ISPs use and you can negotiate a real-time protocol that gets less bandwidth but at much less latency.</a>
+
+<q> Communicating directly through the POPs, without going over the net?</q>
+
+<a>  Yeah. You still have to go analog to handle the POP line, but you can avoid going back on the ISP side, which is what 56K modems are talking about doing. Those are still optimized for bandwidth. If you took the same decisions, the same technical bases, and optimized for latency--not caring about dropped packets or bandwidth--that would be wonderful for games. And it could even be done with total compatibility.
+
+The things I think are going to be sticky are the political realities of Sega and Nintendo. They're closed boxes, and they make all their money by forcing anyone running on their platform to pay through the nose. And I absolutely hate it. But the net is 180 degrees away from that. If a browser supports Java or something, then all of the sudden, you've got people writing programs on that system. Sure, they're not accessing their hardware, they're not efficient... but still, it's like this horrible foot in the door that I'm sure is going to make all of them really sick to think about. You have somebody running a program and that money is not funneling through them in a license. And I'm afraid that's going to make them do so horribly wrong.</a>
+
+<q> Proprietary technology will prevent any of that. </q>
+
+<a> And that is so appallingly wrong. It's hard to express how wrong that really is. I've got this feeling things like that are going to happen. I don't think Sega has the guts to be this network computer that does all these wonderful things in addition to just play games.</a>
+
+<section>Page 7</section>
+
+<q> How do you feel about the top 10 list of PC games being saturated with non-3D games such as Scrabble, Barbie Fashion Designer, and Myst?</q>
+
+<a> We've never claimed to represent the majority of the market. It's not something that we even care about. We don't want to write Myst or something like that, and even if somebody said "Look, we can give you five times as much money to do that" It's not enough draw. We're not trying to own the market. It's nice to have millions of people like the product and all, but not if you're doing something you don't care about, you're just selling out to please the most number of people.</a>
+
+<q> Certain large game companies seem to attempt to dominate every inch of the game market by generating a product that fits each niche.</q>
+
+<a> I had this really bizarre conversation once with a couple of lawyers and they were talking about "How do you pick your target market? Do you use focus groups and poll people and all this?" It's like "No, we just write games that we think are cool." They're from such a different world that they fundamentally did not get that. We are not running things the way a business should be run, that that's just not the way things work. It can't work like that, but it does. It works that way for us.
+
+There's plenty of starving artists that are probably talented and hard working, they're just doing something that nobody cares about. I happen to be good at something that makes me millions of dollars.</a>
+
+
+<section>Page 8</section>
+
+
+
+<q>I understand that when you guys saw the Into the Shadows demo, you were pretty traumatized.</q>
+
+<a> I looked at that and said, "Their characters look better than ours." But even though it was an impressive demo, it's a perfect example of the difference between a technology demo and a shipping product. And shipping a product is just horrid. People don't realize it. You get so many people that are from an EEU background and don't know what they're talking about. And they think just because, "Wow I did my senior project on this, I know everything it takes to do a game..." The graphics technology everybody looks at is only a quarter of Quake's code, and it's not even the hard part of it. Look at the things that are really unglamorous but really important, like the file extension architecture in Quake: I rewrite everything down to my disk reads and file I/Os between technology generations. And the decisions I made on Quake were just crucially important because I looked at what we've been doing in the past, and I made the right decisions in the data structure file system to allow it to be extended completely.</a>
+
+<a Hook>Quake is far more popular today than when it was released. Easily. And you almost never see that. Games have that spike in popularity. Everybody solves it, then it drifts away.</a>
+
+<a> Yeah, like Diablo. There was a huge spike where everybody was playing Diablo and now? It's basically gone.</a>
+
+<a Hook>And with Quake, the number of people of playing it has just kept rising and rising and rising as people get turned on to it on the Internet. You should see these add-ons! There's Quake Rally, Quake Golf, and there's Quake Soccer. It's just crazy what these people are doing. People are just going insane! There's even that Descent clone people did with Quake.</a>
+
+<a>And Quake 2 is going to be even better, because all the things that frustrated people in the architecture of Quake are fixed now. Things like exact control over the view camera. That was always short-circuited on the camera. But now you can take precise control over that. Mostly it's a matter of making the client dumber and moving more control onto the server side where they can use it.</a>
+
+<q>So what platforms will you support with Quake 2?</q>
+
+<a Hook>Just to quickly go through: We're supporting Win32, x86, Win32 DEC Alpha, Linux x86, Rhapsody--both PowerPC and Intel.</a>
+
+<a> It'll probably wind up on all the crazy Linux flavors, although some of those get really debatable. The intersection of people that run Quake on Linix, SPARC, and Light [?] is probably a dozen people. But if it's just a matter of compiling, we'll do it anyways.</a>
+
+<a Hook>And we do this, not because it makes any particularly good business sense, but because it's cool. All this is an ego thing. The more platforms you port to, the more people are playing your game. And it's a cool thing that someone can say "Yeah, I was playing Quake 2 on a SPARC Linux box."</a>
+
+<a> It doesn't make good business case, but it does help us to be better programmers.</a>
+
+<q>What do you think of AGP?</q>
+
+<a>AGP is not going to make any difference on titles shipping right now, but in two years, it's going to be absolutely necessary just for command bandwidth. The use of texturing over AGP is kind of a separate issue, where AGP can be looked at as just a multi-clock CPI. And in that case, it's clearly a pure benefit. Nothing in the world wrong with it. AGP's not going to provide tangible benefits to people right now, but it's going to enable the evolution of everything that's going to be significant in the future.
+
+Opening up 32MB of main memory for textures will be good.
+
+Some of the main memory bandwidth is going to have benefits, or some drawbacks that you won't see in a benchmark. A benchmark you'll just see like raw fill rate. And they can clearly do pretty well there, but there'll be some other drawbacks. The highest performance things will still have dedicated texture buses. The biggest problem we have on 3Dfx right now is texture paging. Not triangle rate, not fill rate, it's textures.
+
+And that broaches on another issue. We had a version of Quake that used portals. In fact, a month before Quake shipped I had a brainstorm that I thought might cause me to rewrite the engine along passages, which is kind of an extension of portals, and I tried it. In some cases it worked well, but overall it wasn't as good as what I was doing.</a>
+
+<q>When you say "portal," do you mean a teleporting base?</q>
+
+<a> No, portal technology is being in an area and only drawing the area after it if you can see the portal that leads between the two areas. It's valid, and it's something that I'm going to re-evaluate again for Trinity because the situation has changed, but with the Quake level of technology, it was not the right thing. There are a few cool tricks you can do with portal, you can have your window sitting in space and you can walk around and you see another area through it. There are good technical reasons for doing that, but 3D Realms and the press wound up touting portals. They say things like "The previous-generation VSP technology and current-generation portal technology." It's not really a matter of one being more advanced than the other, but this what non-technical people spin it as because they need something to talk about. You need some controversy, you need the sound bite that people will associate with. And you can't have this long thing about the technical trade-offs between doing things with statically computed things vs. dynamics because most people don't care enough to really get it. It's the job of the marketing person to condense it all down into one word.</a>

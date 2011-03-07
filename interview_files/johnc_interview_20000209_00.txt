@@ -1,0 +1,379 @@
+http://www.firingsquad.com/features/carmack/
+John Carmack Interview
+FiringSquad's Bob "CalBear" Colayco questions Carmack on a wide variety of topics.
+Firingsquad
+Bob "CalBear" Colayco
+
+<desc>
+John Carmack is a man who almost needs no introduction - a founder of id software, the company that invented the first person shooter and single handedly revolutionized what PC action gaming means. From Commander Keen to Doom to Quake, Carmack/id's games have captivated millions of bleary eyed gamers into spending hours on end at the computer, blasting away at their on screen opponents.
+
+Late last December, Firingsquad and Gamers.com had the unique opportunity to conduct a lengthy face to face interview with John Carmack. We took the opportunity to find out more about John the man as opposed to John the programmer. We also asked John about his and id's plans for the future as well as his take on the gaming industry and where it might be headed. Questions are in bold; John's responses are in plain text. 
+</desc>
+
+<section>The Man Behind the Phenomenon</section>
+
+<q>So how old are you?</q>
+
+<a>29</a>
+
+<q>Do you think that being married will detract from your programming?</q>
+
+<a>No, I wouldn't be getting married if I thought that.</a>
+
+<q>So what's a typical date between you and Anna [Kang]?</q>
+
+<a>Lately we've been building some model rockets. I did an interview one time and someone asked me about my teenage years, and I mentioned rockets and bombs and stuff like that. And I was thinking, you know, that was kind of fun, I liked that. Of course nowadays you can just go on the internet and say "I want one of these and one of these and one of these." They now have powerful rockets that we never had back when I was doing it - these high powered rockets with something like 2000 Newton/seconds of thrust!</a>
+
+<q>Do you and Anna ever 1on1 deathmatch?</q>
+
+<a>Just yesterday we were out at Apple, and Anna was playing one of the Apple guys - she was kicking his ass. I was in a meeting with some other people, so they were playing for a while, and she was just waling on him. But then when I finished that meeting, they snuck me into that guy's room and they sat me down and I came back to a narrow victory. I expected to hear her cursing from the other side of the building. She still thought it was the other guy magically acquiring skills at the end of the game!</a>
+
+<q>I've read some earlier interviews where you said you were into bombs and stuff. You were a miscreant kid, right?</q>
+
+<a>Yeah in a lot of ways I looked back and I was an arrogant little jerk when I was a teenager. I matured over the years and when I look back now, I don't think THAT highly of myself as a teenager. I mean, I was really smart, I was already programming computers in a lot of ways. But I was amoral at many times.</a>
+
+<q>What would you say if you were giving advice to people who have kids like you in their school?</q>
+
+<a>Well I already knew exactly what I wanted to be doing. I wanted to be programming, and I knew this even when I was around 12. I knew that that's what I wanted to be doing and I had these clear ideas of what I wanted to get. You can't just say the world owes me whatever I want to get. But there are times when some things are necessary to help a kid along. My parents never really understood that about me, so I never got the computers I wanted and needed. I held that against my mother for like a decade, but we're all past that now
+
+It was frustrating because I clearly knew what I wanted to be doing but it wasn't available to me at the time. It was always: if you want to do computers you need to go to MIT then you go work at a corporation as an engineer and follow "the path." But I dropped out of college, and started my own company. My brother followed a more conventional path. He got a degree and became a stock broker and that's what my mother expected that you're supposed to do. And he's doing OK for himself, but there's nothing like a few Ferarris to rub your parents face in."
+
+I can say that everything's fine with my mother at this point in my life. We can talk about these things, look back and she recognizes that she was kinda wrong, but what good does that do? She's not raising another child or anything.</a>
+
+
+<section>Carmack on Money</section>
+
+<q>You have a good deal of money now - how does that affect you?</q>
+
+<a>I have sufficient money that I don't need to work anymore; I really don't have to. That's a nice freedom, the freedom from anyone having the ability to have any leverage over you, as long as you've got the money to take care of yourself and you aren't wrapped up in having more and more money. There are a lot of people even though they have a lot of money, they can still be manipulated by the carrot of having more money.
+
+In my position I have basically everything I want. I've got enough money to take care of myself and family so nobody, not any company, can have a significant leverage on me.</a>
+
+<q>So is there some area where you thought you could use your money to have leverage in other situations?</q>
+
+<a>I try not to think about it that much. I try not to be too proactive in terms of trying to make other things happen. I like to work directly on the technical aspects of things and while there probably are some things I can do like leverage the money in other ways, I'm much more interested in trying to accomplish things directly.
+
+That's one reason why I'm not a very good manager. I'm an engineer, so I want to fix things directly. I want to set the circumstances up such that they become fixed even though in many cases I recognize the larger projects that need to get done. But it's not something I'm uniquely suited for.
+
+There's a specific area that I'm very good at and I happen to enjoy it a whole lot, so I don't feel a whole lot of desire to go out and exploit other aspects. I do have a pile of money sitting around to do things with, but I'm happy with how things are.
+
+I feel bad for some companies out there. The founders, who are these incredible engineers, are now directors of their departments doing management rather than engineering. At the same time most of the people they are managing are nowhere near as good as they were at doing the actual work."
+
+That's what I hope never happens to me. I want to stay in the trenches working on the things all the time. There is some benefit to sitting back, reading and researching and getting some broader scope on it. But if you're divorced from the low level nuts and bolts of things, like how this actually applies to the real world, then you're just an academic. You get these huge disconnects between what an academic can do and what somebody in production can do.
+
+In the last two projects, my time has been split. I'd have about 3 months of pure research. I'm in that phase right now, playing around with different stuff. And then after that it's about 16 months of work on the project. It would be nice to shift that more towards research, but I would never want to devote a majority of my time to research. The whole point of research in my mind is you figure out a new way to do something, but then you want to go actually do something with it, not just have the knowledge that it's possible to do something.</a>
+
+
+
+<section>Focus and Inspiration</section>
+
+<q>Your focus is astonishing. It seems that you're uniquely suited to this time and place.</q>
+
+<a>Focus is extremely useful. As far as this specific time and place, I do think software is an almost uniquely wonderful medium. But if it wasn't here, I'd be some other type of engineer or some kind of scientist. I could have a fine time working in any kind of hard science
+
+Software is so wonderful in a unique way. The people who set up for a physics experiment spend a year of preparation time, tooling around doing things. And then you spend another year analyzing it. With software you can have an epiphany and just sit down and hash it out. You can make it happen right there. It's the most malleable media to be working in for any kind of intellectual pursuit. I do feel fortunate that I'm around in a time when all this is going on.
+
+I can remember again when I was a lot younger, and I didn't have the computer I wanted. I had this frustration. I felt like I was "missing it." I felt like I should be writing these games, like the early Apple II games. I was genuinely frustrated because I felt like I was missing the golden opportunity. Of course at the time I didn't know that I was going to come in on the "later" golden opportunity.
+
+You read the book "Hackers" by Steven Levy?</a>
+
+<q>Yeah it was a great book!</q>
+
+<a>I read that as a teenager. At that third section I was like "Goddamnit, I should be here!" Then about 10 years later, I thought back about it: "you know, if there was a fourth section in that book, maybe I would be in there!" That's a nice thought.
+
+It was just interesting to see that. I honestly thought I was missing my shot when I was a lot younger, like it was a golden age in the early development on PCs, and I was really frustrated that I wasn't there.</a>
+
+<q>Do you think that it's the very act of programming and the very act of making your ideas into code that's inspiring for you? Or were there actual games that you can name that you were playing on the Apple II and PC early on that inspired you?</q>
+
+<a>I can name off the games that I really liked at the time, but programming in the abstract sense is what I really enjoy. I enjoy lots of different areas of it
+
+In the gaming industry, there are a lot of people that are specifically in it because they love games and they want to create things.
+
+My love for programming is a more abstract thing. I'm taking a great deal of enjoyment writing device drivers for Linux. I could also be having a good time writing a database manager or something because there are always interesting problems. There are some things that are inherently more rewarding than others. Graphics and games are probably the most generally rewarding area of programming.</a>
+
+<q>How so?</q>
+
+<a>Because you get really nice feedback. When you write a graphics algorithm, it draws a picture for you. While data can be rewarding in its own way, in general the human species is wired to respond much more strongly to visual things and things that have to be interpreted from symbols. So there's something fundamental there why it's a neat thing. But we do get to work on a whole lot of areas. I enjoy all aspects of it, but games have always been one place where there are challenging things and it has its own reward at the end, aside from the problem itself.
+
+Early on I was really into the RPGs, like the Ultimas, the Wizardrys and all those things. Some of the very early games I wrote for the Apple II were basically Ultima ripoffs. I also loved all the straight arcade games, all the classic games.</a>
+
+
+
+<section>Epiphanies</section>
+<q>In some ways, don't you think Dungeons and Dragons is just a program that you put yourself into, with words and tables, etc? A structure to tell stories in, like the Quake engine?</q>
+
+<a>It's a similar thing about being able to create things completely from scratch, a media where you don't have built-in limitations.
+
+In fact, the original story of Quake was supposed to be an RPG, well not an RPG exactly, but a fantasy game. It completely diverged from that because of Quake's sordid development process. Since then we've been much more honest about our goals from the beginning on what we're doing. They've been very different games but I've been happy with the results. It's unlikely that we'd ever go and do a fantasy/role playing game type thing.</a>
+
+<q>I've heard that you've cut back on your personal dungeon mastering</q>
+
+<a>Up through Wolfenstein, the entire company played every weekend. It tailed off basically in Doom. We ran a couple of games last year just for fun. It takes so much time though. To do a good job you spend a day playing and a day preparing, but there's no way now that I can sacrifice 20% of my hours for anything now.</a>
+
+<q>You have a special focus, an inspiration - how you can improve an algorithm or something. How often do these epiphanies come to you?</q>
+
+<a>Well, I think a lot of people put too much emphasis on the epiphanies. Epiphanies are there, you do get them where you see clearly into something and all that. But it really is true that most great works aren't a result of epiphanies, they're the result of lots of hard labor. That is a trap that a lot of people fall into where you think that the epiphany is the important thing. Sometimes it is, but in 95% of cases it's just a matter of smooth, calm integration of everything you know.
+
+It's not the one brilliant decision, it's the 500 smart decisions that really make things good. It's more a matter of being able to keep making smart decisions. Making one brilliant decision and a whole bunch of mediocre ones isn't as good as making a whole bunch of generally smart decisions throughout the whole process. And there's so many of them that have to be made.
+
+Even at the end of Quake 3, I had a to-do list of a thousand things that could potentially be improved on. So it's a matter of going through and knowing all these things that could be done, and prioritizing what the "sweet spots" are. Like "This amount of effort would get this batch of things done and it would have this side effect." Or "it would take all day to do this thing but it would probably destablize something else, so I'm not going to do it."
+
+I definitely enjoy the epiphanies when they come - when I can be working on something and just realize that there's a much better way of doing it. That's very rewarding but I can't say that those happen every day. To a lesser degree, there's some insight where I can actually come home and tell Anna, "I figured something new out today!" That happens fairly often, and that's good.</a>
+
+
+
+<section>On Open Source</section>
+
+<q>Most people would say you're one of the world's foremost gaming engineers. Do you think that in this world that there's enough of a range of tasks and depth to keep you intrigued for years to come?</q>
+
+<a>Sure, there are a lot of different things. Right now, I'm spending more of my time in this lull or break, working on some things in Linux. One of the things I've done is written two 3D drivers for Linux or done a good chunk of the coding on them. That's useful for me as a developer, because I certainly do the high level stuff, the API level programming, but it's also good to go ahead and take it underneath that. Doing some implementation level stuff on the device driver down to programming the hardware gives me more scope, looking at things through the entire process. There are a lot of programmers who only know things from the top and don't realize why things are sometimes the way they are because of the structure that's "invisible" to them.
+
+One of the other things that I'm considering doing is (because I like knowing things very clearly from the highest to the lowest level) spending some time implementing my own network stack for the research and the learning experience. I've also got some experiments I want to try, finding out how much overhead the operating system actually imposes on the routing time and queuing things down to a serial driver level and a packet driver level. There's some information that I'd like to get from below the layers that you're normally communicating with.</a>
+
+<q>Just in Linux or Windows and Mac also?</q>
+
+<a>Well the thing is that it's just easier to do under Linux because you've got the ability to take anything you want out. While Linux is clearly not ready for replacing Windows on people's desktops, there is something fundamentally cool there.
+
+The whole way I got into this is that someone had written a Linux driver for the Matrox cards. I had been reading about it for a while. Apparently they had it working barely with Quake 3. So I finally got around to downloading it and checking it out. I was pretty impressed by how well it worked. It was slow but it was pretty nearly feature complete, good quality implementation. But there was this really obvious bug with the way textures were swapping. They were swapping most recently used instead of least recently so you'd see it thrash on the screen.
+
+I knew exactly what it was doing so I said "OK, this has the source code available." So I figured out how to download it, get access to the CVS repository and all that, worked my way through the code, found the bug and fixed it! That's just fundamentally neat.
+
+The corollary of that is that Apple had exactly that same bug in their driver for a while. So here we had a case of the same bug appearing in two drivers, but the Linux one I was able to just go in and fix it. While there are certainly a lot of barriers to entry on a lot of levels with that, it's nice to have that ability. Fundamentally if you know that if you're working on this system that's all open source, if anything annoys you enough, you can spend the time to go fix it yourself. You don't have to wait for anyone. You don't have to ask nicely for it, or wait for a patch.
+
+It's not usually cost effective time wise to go do it. But if something's really pissing you off, you just go find the code and fix it and that's really cool. </a>
+
+
+<section>More on Linux</section>
+<q>So that's exactly your kind of attitude, hands on. You don't wait for anyone to issue an update, you'd rather do it yourself.</q>
+
+<a>Right, so that's why if I was to be doing some networking research or whatever, it would be something where you could do it in Linux, where if you want to you can go and gut parts of the operating system and say "OK I'm just going to grossly cut all of this out right now because I want to be doing something experimental." There's a lot of freedom there.
+
+And I do think over the course of the next couple of years, the usability stuff will be straightened out. There are a lot of economic trends that make it relevant. You start looking at PCs costing under $500 and there's a $90 Windows license in there. If people are just using it for the basic stuff, I think there will probably be a fairly significant demand for a free operating system.
+
+There are a lot of zealots in the Linux space that just don't have rationality in their viewpoints, but there is some truth behind the hype on how good it [Linux] actually is.</a>
+
+<q>So you're very focused and you drive yourself. But have you thought about taking on a boss to help you learn new skills?</q>
+
+<a>I can see there is some benefit to having management on some things. We brought Graeme on at the end of Q3 to help manage some aspects. It didn't wind up having any real impact on the way I was doing things, because Graeme's not fiercely organized enough to stay on top of every little thing. It turns out that my personal organization is greater than what most managers would wind up imposing on me.
+
+I am aware of the limits of my personal organization skills. I have that list of a thousand things, and every once in a while I start bubble sorting things up to the top. I do think that it would be great if somebody were here whose primary job was to make sure they knew and understood all of those because everyone has their own weaknesses in organizational skill. You don't recognize yourself doing it but there are some things that you don't want to deal with that end up bubbling down. I recognize the benefit of having somebody who's kind of a conscience for you on the workload.
+
+Recently I put out a call for someone to be doing some conformance testing on the OpenGL aspects of things, specifically the Linux driver stuff. I'm doing a reasonable amount of coding on that, and I'm trying to be reasonably conscientious about it, but I know that I'm directing things in certain ways to meet my goals. I have the ideal desire to do the perfect implementation, but I recognize that in my limited time I wind up directing myself not necessarily in the best coverage.
+
+So sometimes it is good to have someone who can sit back and be a conscience for your effort. But it's all still a theoretical issue to me. I believe that there can be benefit but I've yet to see it demonstrated.</a>
+
+<section>Carmack the Student</section>
+
+<q>Less about organization then, what about a boss as a teacher? Is there anyone from whom you feel you could learn from?</q>
+
+<a>I actually learn things from almost anyone. This is one of the major differences between me as a teenager and me now. My views as a teenager were that "I am smarter than all these people around me, and therefore I will completely ignore anything that anyone has to say." I went through a couple semesters of college classes like that. I look back on it now and realize that I was not treating things in the right way. Yeah, maybe I was smarter than the professor but it didn't mean that there weren't things I could learn from him.
+
+The way I go about things now is that everyone I work with in the programming level I learn something from. I can look at the time I spent with Brian Hook. I learned some better C coding standards and stricter use of struct and const that I wouldn't normally do. That's been a positive thing that I've improved on because of him. And then there's Graeme - I'm seeing him put some things together very quickly from the Java libraries - things that I would have rolled from scratch and taken longer to do.
+
+So it doesn't take someone that's necessarily a "better" developer or programmer for them to have things that you can learn from; that's a really important lesson that I've learned over the last decade. There's knowledge waiting to be gained all around you in just about everything. There's benefit to putting yourself in an information rich environment like a university IF you've got the right attitude. If you're looking for anything to be learned from anywhere you can get it, rather than looking for the one "motherlode" of useful information where you've got everything together. You have to glean things. You have to be able to grab things from anywhere you can get it.
+
+During the development of Quake when we hired Michael Abrash, I was really psyched about that because I learned a lot of my early PC programming skills - assembly language and graphics - from his articles in Dr. Dobbs. So that was really great to bring him on. I did pick up some further things from him but it was interesting.. it was almost uncomfortable for a while because he got fairly deferential on the programming side to me about things. Michael knew an immense amount of stuff, but I've still been on this very quick learning curve.
+
+So almost all the programmers I've worked with, I've learned something from.</a>
+
+<q>OK you mentioned gleaning things from the world around you. How about non-technical sources - recent books and movies.</q>
+
+<a>My favorite book in recent years has been A Deepness in the Sky by Vernor Vinge. As far as movies go, I'm not sure what I'd say is really inspiring. I see most of the reasonably good movies that come out. Toy Story 2 was wonderful - I really enjoyed that.</a>
+
+<q>The Matrix?</q>
+
+<a>Matrix was wonderful. All the great sci-fi, action movies and everything. I'm not too big into deep meaning movies, I go to movies for entertainment and a lot of that basically plays out in our games also. We are kinda the Arnold Schwarzenegger movie of computer games.</a>
+
+
+
+<section>Quake and Simplicity</section>
+
+<q>Why do you think people like Quake 3?</q>
+
+<a>Specifically what we set out to do with Quake 3 was just a completely eyes-wide-open-focus on the game just being fun while you're playing it. There's no sense of hubris about the grand design or anything about it, or trying to impose a story or a tale on top of all this. It's looking at a game in it's fundamental sense of what you're doing has to be fun. It's not a matter of beating the game into submission or accomplishing something, the actions have to be fun.
+
+There has to be something that you wanna just go out and do. People don't play softball because they want to beat the game of softball; it has to be an action that's fun by itself. I think that we succeeded in a lot of ways there. We expected and did receive a lot of feedback from the incestuous core of our fanbase.
+
+There certainly are people who want more and more complexity and sophistication in things. That is a viable direction to go for games, but it does lead towards a stagnant core. You get like what you have in the flight simulators, where you have games that require you to read this giant manual before you can get in and have fun. There have been flight simulators where you just jump in, fly around and shoot things, and those are fun and interesting. Then there are these serious simulators where you have to convince yourself that you're being entertained.
+
+It's possible to do a first person shooter like that, where it requires so much knowledge about what's going on, how things are supposed to work, strategies of all of these things, that it's just not fun to sit down and play. And there would be probably a couple of hundred thousand people that would like that, but I wouldn't actually be one of them. I don't have the time to sit down and learn it. I never got into any of the complex mods that would require like a whole bunch of complex stuff to learn. I still like playing a simple, fast game, where you jump in and have a good time, and I think there are five times as many people in the game buying world that also feel that way. But those 200,000 people that want the extremely sophisticated, complex games, they've got my email address and they make themselves known. We set out expecting that.</a>
+
+<q>So what was the last non-id game that you spent more than 2 hours playing?</q>
+
+<a>Probably F-Zero X on the Nintendo 64 - racing cars.</a>
+
+<q>have you ever thought of making a driving game?</q>
+
+<a>We talked about it right after Wolfenstein. I was working with some voxel-landfield technology and we did a really brief demo of a little car driving thing. But we've never taken anything close enough to proof of concept. But if we did do a driving game, it would almost certainly be in the fun genre, like the F-Zero games, rather than the really serious driving simulations. And again, there are many valid paths to games, but I have my personal biases, and they happen to be broadly held enough that we can do successful games and still be doing games that I consider entertaining for me.</a>
+
+
+
+<section>The Next id Game</section>
+
+<q>So you would describe your personal biases as not necessarily so much driving but more about rocket launchers?</q>
+
+<a>The games are for fun. And simulation games have never been that big for me, as far as flight simulators, driving simulators and all of that. I recognize in some aspects the element of entertaining there, and it's certainly not like I'm saying "these are no fun, nobody can enjoy these," but it's just they haven't been my personal favorites.
+
+Early on I loved the RPG games, but as my life got busier and busier with other stuff, I didn't have that much time to spend on those. I've always loved the simple straightforward arcade games. And while they've changed a lot in going from Gauntlet to Quake 3, they're still the same kind of fundamental things - you run around, you fight your enemies, you pick up stuff, you make it to the next level in time. It's a fundamentally valid, core, primal gameplay element there, and I don't feel bad about even making relatively similar games like Quake, Quake 2, Quake 3 on the different styles of things. Just like there have always been driving games and flying games, there's always going to be action first person shooters now, and I think we've made good steps in each of our projects. We probably are going to be going a different way with our next game, because not everyone at the company does feel the same way I do about that. So we're likely going to be doing something a bit different next time, but we haven't exactly settled on it yet.</a>
+
+<q>Have you decided if it's going to still be a first-person game?</q>
+
+<a>It's very likely to still be a first person game, but it may not be an action game. Graeme and I have been sitting around talking about game design ideas for different things, and they cover a pretty fair range, exploring a few different choices that we've got, but we're not prepared to talk about any of them yet. They are likely to be first person, almost certainly.</a>
+
+<q>I just thought it would be interesting if id went into RTS or something else, the same way that Blizzard went from RTS into creating the action RPG.</q>
+
+<a>I'm not a real good real time strategy player. Actually, I've never really sat down and played much of one. Just not my type of thing. It's just a whole difference of - the first person games are the most immersive kind.
+
+Real time strategy games are among the least immersive, you're directing your forces, and it's clearly not you in the game. I think it's very likely that we'll be doing something that's still first person. It's a small step to third person, but I actually think there's probably other companies that are better suited to do third person, companies that have more directorial ambitions.
+
+Unlike many people in the games industry, I have absolutely zero desire to be making movies that go on the computer. And that's the downfall of a lot of companies. A lot of game designers wish they were directors, but I think you should make up your mind. And I'm clearly in the game designer part, rather than the director part. That's also the draw that puts a lot of people towards third person games. Third person is definitely better for showing off things like character animation. Steed would definitely love to go to something that was much more animation focused, but it's probably not going to be the next step. That's not completely out of the question, but I would bet on staying with something first person.</a>
+
+
+
+
+<section>On the Gaming Industry</section>
+
+<q>So it's interesting that you say movies on your computer are the "downfall of some companies," because a lot of the 3D card companies like 3dfx and Nvidia actually use that as their mantra - putting Hollywood on the desktop.</q>
+
+<a>There are interesting aspects to that - one thing is that the amount of labor required to do the highest quality utilization of today's 3D engines is very quickly approaching what you need in Hollywood set design. Like right now, Quake 3 wasn't really even close to pushing the limits of what we could do if we were aiming for lush visuals, because we had to maintain this fast speed throughout the whole thing.
+
+But if somebody took basically this year's level of technology, this Christmas's products and said "I want to do the most visually stunning thing that's going to be the closest to the movies," it's possible to do that right now beyond the level that people have really seen. The technology's there. And that's where it's been going for the past year or so on there, specifically some things like full texturing of the levels where set designers have to go in and airbrush their sets in the different ways and build all these things up with models. That level of effort can now be spent in computer games. It didn't used to be that way.
+
+In the days of Doom and Quake, you didn't have the ability to put that much labor into it. If you've got a room and a hallway and another room, it's like: hallway, block block ceiling. And that's it, that's all the possibility you have to do, so there are limits to how much work can be done there.</a>
+
+<q>So you're always going to be in favor of creating games with smaller teams of people; so that keeps the door open for the kid in his garage with his friends down the street...</q>
+
+<a>It's not like we've tapped out all possible game genres. A lot of people do complain about the industry in various ways, and there is some real truth to the fact that the publishers don't want to publish a new idea. Chris Hecker from Definition 6, he's one of the guys pushing physics in a lot of ways; he does a lot of the geniusy stuff. He's had this little game demo that he's been working on that's a novel idea. And it's using physics as the core principle, but it's not like "let's take physics into a first person shooter," it's a completely different game. It's actually a good game design to tie in with the physics. But the publishers just aren't interested in that.
+
+And that's too bad, but on the other hand, there are some positive signs from some other things, like the guys who do simple little games, and sell them over the internet and make a lot of money, like a couple hundred thousand dollars a year on downloaded stuff. I'm heartened by that, because it is neat to see that there are some people that can make good money doing games that are outside the mainstream; that's possible because of the internet.
+
+We were successful in shareware early on. With the original Keen trilogy, we were making $100, 150 thousand a year on that. With the second trilogy, we were up to making half a million a year from shareware. And that was before we had any commercial boxes. And it looks like it's possible to do even better than that nowadays. So that's kinda cool. But the mainstream boxes on the shelves, buying your endcaps and shelf space, there's not a lot of desire from the publishers to do interesting new things. I'm sure there are new genres that are ready to pop up, but there's some resistance to that.</a>
+
+
+
+<section>id is not a publisher</section>
+
+<q>Are you interested in Halo at all?</q>
+
+<a>I've watched the movies of it; it looks pretty good. The one problem right now is that there's no way to really judge anything from screenshots because any halfway competent rendering engine can render any given scene. And it's only in how things tie together that there's any differentiation. Certainly the Bungie people, they've got a lot of talent. And they've been doing this basically as long as we have. They were kind of id's Mac shadow for many years. But now that they've gone ahead and had some mainstream PC success, they're doing pretty well.</a>
+
+<q>Going back to creating new genres, and the resistance from the publishers, is that something you'd be interested in promoting, to help get new genres out there, maybe supplying money to publish these games?</q>
+
+<a>I'm positively not interested in being a publisher. That was a multi-year argument at id. If you think back 5 years ago, all the game developers wanted to break in to become publishers because there were lots of the little teams. This was before everything consolidated down to the few major ones. We argued over that for a long time, and we self-published the original Quake shareware stuff, and when all was said and done, we probably lost money on it because of colossally bad business management in different aspects of that. But finally everyone agreed, especially as we see the publishers consolidating, coming down, that it is much better to be a developer than a publisher. Because being a software developer is this clean part of the industry, you hand off your CD and you get your checks in the mail. While, being a publisher, it just takes you into all these messy parts of the business that you really don't want to be, like getting people to pay you after they've taken and sold your product. I don't want any part of that side of the business.</a>
+
+<q>What about using your influence to say to some publisher, hey you know, maybe you should give this a chance?</q>
+
+<a>I don't push a lot. I can toss an offhanded comment about something like that, but I try not to undertake things that I know that I won't have the time and energy to push hard for. In fact that's very key to a lot of my focus. I'm willing to just ignore a whole lot of things. And that's pretty important, because so many things come in that are potential demands on my time, and it's just easy to see how people that are in a similar situation, wind up just getting their entire days spoken for, and not being able to do any work because every day, there's phone calls and emails from people that want to do something, they want to have an interview, or pitch a business proposal.
+
+Sometimes I wind up feeling guilty that I'm not doing more. Especially this coming year, there are going to be a lot of divergent hardware designs, and there's not a clear direction where everybody thinks things should be going. I'm telling myself that I should be out there, evangelizing things, and trying to bring a consensus, because I am in a fairly good position to do that type of stuff. Microsoft listens to me on a lot of stuff. And certainly all the hardware companies do, and there's a good general level of respect and all that. But during the development of Quake 3, the time just wasn't there; I couldn't go do it.
+
+And now I'm running around, trying to go hit a bunch of things, but I know that even now I'm not going to be able to really follow through, because it would practically be a full time job to just try and do that, to try and shepherd some of the things in the industry in a direction that I want it to go. I don't have the hubris to think that the world's going to hell if I don't help it. So I can look at that and say, I'll do my best to help in a little way, but I'm not going to be able to give it the full attention.</a>
+
+
+
+<section>The Trinity Thing</section>
+
+<q>Switching gears a bit, I was reading some stuff about how now that Quake 3 has been put to bed, that you're going to spend a little more time doing more research on engines.</q>
+
+<a>I've got a couple of engine things that I'm working on, as far as research.</a>
+
+<q>So is one of those things Trinity? I think there's been a little confusion about "Trinity."</q>
+
+<a>I was never really certain how this got as confusing as it did to everybody. After Quake, when I was starting on new rendering technologies and everything, everybody was just calling it "the next engine" or whatever. Michael Abrash suggested we just take Intel's tack of naming your next project after a river near you. We have the Trinity River in Dallas, and so it was just like "Trinity Engine," the next step. And of course we wound up not rolling that into a project because Quake II was derivative of Quake I, and I wound up stopping [Trinity] to work on Quake II, so there was never a specific project that was on. It was just like when we were talking about the work that I was doing, and at the start of Quake III, I went and did like six different research engines, for different rendering techniques and everything.
+
+But it's still just the research work that I'm doing. It was like two voxel things, a spacewarping thing, a lumigraph thing, and then some of the stuff that actually turned into the Quake III engine, and some other stuff like that.
+
+That's one thing that's been one of the real strengths of id and my technical direction in particular. You see companies that are wed to a clever idea; there are some specific games that you can probably name where they have their idea and that's what everything's wrapped around. I'm not tied to any of the particular ideas. Like I said, at the start of Quake III I had like six different things to go on, and I looked at all of them and said, "these are more intellectually neat," but what we're doing for Quake III actually turned out to be kind of a righter path in many ways. And I've got a couple of things that I'm going on right now. But there's no one that's like got some magic tag on it, they're just all the different things that I'm going to be examining.</a>
+
+
+
+
+
+
+<section>Voxels and Curves</section>
+
+<q>You mentioned voxels and you're doing some research on that, do you think 3D hardware companies should be working on voxel acceleration? And what do you think of the voxel games that have come out, like Delta Force?</q>
+
+<a>The Voxel stuff in software.. I've written a few voxel engines at one point, actually the early version of Shadowcaster, Raven's Origin title, actually had voxel floors in it at one time. But we wound up taking that out when we rewrote the stuff to be more polygon based. There are some real advantages to voxel representations of things, because it gives you complete texturing and detail geometry in many ways. But I did these two voxel engines at the beginning of Quake III and it got to the point where I thought that I could almost make them run in software, but it would be at a fairly low resolution and compared to what you could do, at that speed with hardware polygons, it doesn't pay off in that case.
+
+I did do an analysis of what the memory access patterns would be and everything; you could do a voxel ray-tracer in hardware with drastically less hardware than what we're actually using right now for all the triangle rasterizers and I think it could be a much more compelling visual representation in a lot of cases. But it's gonna be really difficult to see, I almost hesitate to tell people to pursue something like that. I know that I did some walkaround demos and everything, but the reason the PC industry is as good as it is right now in hardware is because we all had the example of SGI to look up to. We had working existence proofs of "this clearly works, look they've done it" and then it's just a matter of matching and then exceeding their performance.
+
+To recommend something completely different, like saying "You should go have your fab make you a voxel chip, you should just go try this, spend millions of dollars on this," I'm really hesitant to do that because we don't have a complete existence proof that says this is a necessary and sufficient rendering primitive to do a complete engine or something with. Now if somebody did do a voxel caster there, you could go ahead and get depth value and intermix it with current triangle stuff and that would be an interesting intermediate step, but I honestly don't think it would take that much hardware, and someone right now, in this time of chaos when everyone's crazily trying to diversify their product, maybe someone will try something like that, just on a lark, because they're just fumbling around for something to do.
+
+I think there are some potential good things there, but I can't conclusively say this is the future direction, because while it works really well for environments, and there's some great stuff you can do with that, it's less clear how well it works for characters. You wind up saying, "well maybe you have to build them in a deformation matrix around them, and then when you raycast into it bend the rays as it hits the deformation lattice." But I haven't written a software version of that. I'd be hesitant to tell someone that this is clearly a good idea until I can present a simulation showing that it works, and that it looks more impressive than anything you can do directly. And that's not on my schedule right now to spend the time to do because I've got a couple of things that are immediately pressing in terms of research.
+
+But I do think there is at least some significant potential for that being an interesting direction. Now the thing that I actually want to play down on everyone is higher-order surface rendering, like curves and Nurbs and subdivision surfaces and all of this stuff, which everyone's all crazy about now. After working with them for two years, they're not all they're cracked up to be; there are all these issues. You don't see them from the outside, and this is the thing about being in the trenches as a developer.
+
+If you just read the research papers and you understand how Bezier patches and all this stuff works, and you think, wow, this is neat, this is just the next step up from triangle primitives. And you don't recognize all of these "in practice" problems, like with invalid normal but degenerate edges. How you can't do an arbitrary cut of a patch without raising it to like the square of the order of the side, you can't stitch two junctions by fixing the other things, there's all of these little things that actually wind up being a fairly significant pain in the ass in different cases that you're just not aware of from this bird's-eye view of it. And there may very well be all those issues with voxels too, which is again why I'm hesitant to just get up on a pulpit and say this is the future, because a lot of things look great from the outside and aren't necessarily so great when you get down to it.</a>
+
+
+
+
+
+
+
+<section>Looking at the Competition</section>
+
+<q>So since you're going back to your research, is this going to have an effect on when the next id game is going to come out?</q>
+
+<a>It depends on what we wind up choosing for the next step. Both of the technologies that I'm working on are stuff that can fit fairly well into the existing Quake 3 framework, so there is a possibility that new technologies will wind up going into the next product. Currently we have this wonderful opportunity where we've got this rock solid, stable, expandable, flexible engine where we could do a game design and not touch much of the engine... and that would be really nice from a management standpoint. However, if we do that the stuff that I'm doing today probably wouldn't see store shelves for like three, four years or something, and that's just a long time for something to go. So there's going to be a really strong incentive to push some of the technology into the next product.</a>
+
+<q>Do you do much research by playing other games, looking at competitors' products?</q>
+
+<a>I played Unreal most of the way through, I'll probably play Unreal Tournament most of the way through, although I haven't yet, aside from some of the demo stuff. I don't do a really thorough canvassing, play everything that's out there. Usually I watch over someone's shoulder when they're playing the hot new game. But I don't spend that much time actually playing other games. I certainly play more Quake 3 than any other games out there.</a>
+
+<q>Is there someone in the company that does do that?</q>
+
+<a>Christian and Graeme play most of the new games. It used to be Brandon who played every game, when he was at id, everything funneled through there. Tim does it more for some kinds of like research purposes; Tim's fairly conscientious about looking through the other stuff, but Graeme and Christian probably play the other games more for fun.</a>
+
+
+
+
+
+<section>Carmack's Research</section>
+
+<q>Can you give us an overview on what you are researching now?</q>
+
+<a>One of the rendering engine things that I'm working on specifically is a better lighting model. Quake 2 added radiosity lighting to the calculations where you would get realistic bouncing of light on there, but a lot of people actually didn't like that because it took away from some of the harder shadows where it kind of murked out more things, even if it was in a more realistic way - a lot of people liked the stronger shadows. In Quake 3 we went back to just a direct cast light, at least partially because I didn't want to do the finite element radiosity on the curve patches. The other thing is allowing us to manually make things look better by giving the artist the ability to texture and cut geometry everywhere. So those are the two directions and in fact, they can be combined or used together. They both have interesting technical challenges associated with them. Those are things which may very well show up into our next project.
+
+There's some other research stuff I'm working on which isn't game engine related. I'm working on some vision research with webcams, like some head tracking stuff. There might be some kind of gimmick things I can integrate into games with that. Like when you're bobbing and shaking your head, your character can do that. Or maybe like the holographic window scenes where you move your head and it actually changes the view for you. I don't think the webcams have a fast enough latency to do that without some lag, but that's still some interesting stuff. There are other levels you can take this to, with facial expressions, etc.
+
+I think there are probably more applications for all this than I can think of. All the little interesting discontinuities happened with changes in input/output devices. Things changed when people started using the mouse for everything. I think "computer vision" is practical enough that it may very well have a "mouse-like" effect on things. After all, there were things that you could do with the mouse that you wouldn't do with the keyboard. That's still in the random guess phase of things.
+
+There are interesting things now that we have enough CPU power to do some pretty good stuff. And it also, unlike a lot of the graphics stuff, has a lot of unsolved research problems. There's active research going on but we don't have "that SGI example" to know how to put things together and just worry about making it fast.
+
+The last direction I'm interested in is getting some more generalization of 3D technology, moving towards being able to do things with other rendering stuff like HTML inside 3D worlds, and being able to build little cyber space things that are not specifically game related. I believe there's an infrastructure framework that we can build. We can build a first person shooter, but the framework is general enough that we can do other things with it.
+
+All the existing software is built clearly as a first person shooter game, but then people do other interesting things with the technology. It always costs a bit to generalize. You can always make something more efficient by specializing, but at some point you reach a decision where the cost to generalize is not that painful and the benefits by having a more general platform can be pretty significant. I think we're at that point for 3D games right now.
+
+We clearly weren't two years ago. We were still caring about every last little frame to squeeze out any bit of performance. This isn't the case anymore with the trends in hardware acceleration, especially with geometry acceleration, much faster CPUs, more RAM, etc. I think we can do things that are 90% or more as fast as the specialized version, and still have the possibility to do a ton of other interesting things with it.</a>
+
+
+<section>Miscellaneous Bits</section>
+
+
+<q>So you might be thinking of a persistent Quake world where people are having conversations and such.</q>
+
+<a>Yeah, not even necessarily Quake related. I think there are some interesting things to be done in communication with the medium. You see people follow each other around, meet on a server, etc. There's a lot of potential directions there. I wouldn't tag it with virtual reality because VR is a term laced with death and destruction. There's never been a successful VR company, but I think a lot of that was really because the time wasn't right technically. In a lot of cases, creativity and innovation are constrained by technical curves.
+
+Specifically this comes up a lot with Doom. It took a lot of cleverness, creativity, and smarts to do Doom but all that cleverness, creativity, and smarts five years previously wouldn't have mattered because it just wasn't possible at the time. There are times that are appropriate for new innovations to happen.
+
+I think that the next couple of years will be one of those times for some of those innovations to happen, like the generalizing of 3D interfaces. Everyone goes on and says that at some point the internet and the web will have a 3D interface, in this vague, airy sense. But the concrete details never come out on what actually needs to be done. It may be time for something like that and it may not.
+
+I'm looking at these different directions on things and I'm going to pursue all of them, and I'm going to wind up following through on the ones that are most promising.</a>
+
+<q>Is Jan Paul (Mr. Elusive) going to continue on with the company?</q>
+
+<a>He is dead set on finishing up his college studies. He won't commit to it yet, but we're probably going to have him back. We're certainly going to be working with him on various things, but we have officially offered him a job if he wants it.</a>
+
+<q>Do you recommend that people go to school or not?</q>
+
+<a>If you go into it for the right reasons, it can be a good place. University can be a very information rich environment. I do look back and realize that I wasted some of the time I had there. I could have been going in and using their graphics workstations and other facilities that I didn't take advantage of.
+
+If it's just a matter of going in to get a degree so you can get a job, then I'm not wild about that. If you're going there to meet smart people, expand horizons, and learn some things, then I'm all for that. Some people learn so much better like that. Me, I've always been the type that reads a manual or something like that. I just prefer to learn that way, but not everyone's like that. I don't think college is a bad thing, but I would not hold to some truth that "you must go to college, it's the only way to succeed" because clearly it's not.
+
+I do think that at least for young and fast moving industries like the internet and game design, talent and a resume that shows you've done some things means more than a degree. I've never asked someone "do you have a degree?" It's more a matter of "what have you done?" If it's a choice between sitting in a lecture hall and taking a test or staying at home to write a game mod to prove you have some talent, then I think that can be a reasonable way to go.</a>
+
+<q>One last quickie - what consoles do you have access to right now?</q>
+
+<a>The only one I have hooked up at home now is the Nintendo 64, but wrapped up in cords, we have Playstation and Saturn and others.</a>

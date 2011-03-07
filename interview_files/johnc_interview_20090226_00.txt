@@ -1,0 +1,12 @@
+http://www.gamasutra.com/view/feature/3946/building_quake_live_carmack_speaks.php
+Building Quake Live: Carmack Speaks
+Gamasutra sits down with Id's John Carmack and Marty Stratton to discuss its conception, technical specifics, and iPhone plans
+Gamasutra
+Chris Remo
+
+<desc>id Software's just-debuted browser-based FPS Quake Live is a very interesting proposition. It allows id to enter the uncharted territory (for the developer) of free-to-play, ad-supported browser gaming, and it reinvigorates a classic PC game -- Quake 3 -- that was a titan in its time.
+
+Here, John Carmack discusses, along with Marty Stratton, executive producer of the project, exactly what the inspiration for this project is, the challenges that id faced in bringing the project from conception to reality, and its hopes to contribute to the continued success of the PC platform.
+
+Carmack and Stratton also discuss how they expect to see the product evolve down the road -- giving a roadmap to how one of the top developers on the platform sees the market evolving over the next several months, at the very least. </desc>
+

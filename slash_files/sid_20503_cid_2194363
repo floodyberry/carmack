@@ -1,0 +1,1288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>What is Happening with OpenGL?</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://ask.slashdot.org/askslashdot/01/08/18/2210259.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,askslashdot,software,graphics,technology';
+		var parent = 'http://slashdot.org/articles/01/08/18/2210259.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=askslashdot;tpc=software;tpc=graphics;tpc=technology;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=01/08/18/2210259">What is Happening with OpenGL?</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>576</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=20503">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 576 comments</option>
+	<option value="0">0: 541 comments</option>
+	<option value="1" selected>1: 347 comments</option>
+	<option value="2">2: 120 comments</option>
+	<option value="3">3: 37 comments</option>
+	<option value="4">4: 20 comments</option>
+	<option value="5">5: 11 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="20503">
+		<input type="hidden" name="cid" value="2194363">
+		<input type="hidden" name="pid" value="2194363">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_2194363" class="comment">
+<div id="comment_status_2194363" class="commentstatus"></div>
+<div id="comment_2194363">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2194363">The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2194363" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2194363">		
+		on Sunday August 19, @03:05PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2194363">#2194363</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2194363">I'm still developing everything with OpenGL, and I'm still targeting mac and linux as well as windows, but I want to rationally address some points in the API debate:
+<br>
+<br>D3D is clunky, etc
+<br>
+<br>Not really true anymore.  MS made large strides with each release, and DX8 can't be called a lousy API anymore.  One can argue various points, but they are minor points.  Anti-Microsoft forces have a bad habit of focusing on early problems, and not tracking the improvements that have been made in current versions.  My rant of five years ago doesn't apply to the world of today.
+<br>
+<br>I do think that the world would be a slightly better place if Microsoft had pulled an embrace-and-extend on OpenGL instead of developing a brand new API that had to be rewritten a half dozen times, but its water under the bridge now.
+<br>
+<br>Open for more sales, etc
+<br>
+<br>It has been pretty clearly demonstrated that the mac market is barely viable and the linux market is not viable for game developers to pursue.  Linux ports will be done out of good will, not profit motives.  From an economic standpoint, a developer is not making a bad call if they ignore the existence of all platforms but windows.
+<br>
+<br>DX8 Gives more features
+<br>
+<br>Some people have an odd view that an API gives you features.  Assuming you don't care about software emulation, hardware gives you features, and an API exposes them.  If you try to use vertex programs or bump env map on a TNT, DX8 doesn't magically make it work.   DX8's hardware independence is also looking a bit silly now as they make point releases to support ATI's new hardware.  They might as well say D3D-GF3 or D3D-R200 instead of DX8 and DX8.1.
+<br>
+<br>All of Nvidia's new features have showed up as OpenGL extensions before they show up as new D3D features.
+<br>
+<br>Divergent extensions haven't been a problem up until very recently.  All of the vendors tended to support all the extensions they could, and if they had unique functionality, like register combiners, they made their own extension.  The current status of vertex programs does piss me off, though.  I really wish ATI would have just adopted Nvidia's extension, even if it meant not exposing every last bit of their hardware.
+<br>
+<br>Abstraction in a high performance environment can be dangerous.  If you insist that all hardware behave the same, you prevent vendors from making significant improvements.  If the spec for behavior comes from people that aren't hardware oriented, it can be a huge burden.  D3D still suffers somewhat due to this, with some semantics and odd features that make hardware guys wince.
+<br>
+<br>The Good News
+<br>
+<br>We are rapidly approaching a real golden age for graphics programming.  Currently, cards and API's are a complex mess of hundreds of states and function calls, but the next two years will see the addition of the final primitive functionality needed to allow arbitrarily complex operations with graceful performance degradation.
+<br>
+<br>At that point, a higher level graphics API will finally make good sense.  There is debate over exactly what it is going to look like, but the model will be like C.  Just like any CPU can compile any C program (with various levels of efficiency), any graphics card past this point will be able to run any shader.  Some hardware vendors are a bit concerned about this, because bullet point features that you have that the other guy doesn't are a major marketing feature, but the direction is a technical inevitability.  They will just have to compete on price and performance.  Oh, darn.
+<br>
+<br>It's a Turing machine point.  Even if OpenGL 2.0 and DX10 don't adopt the same shader description language, they will be functionally equivalent, and could be automatically translated.
+<br>
+<br>There is lots of other goop like texture specification and context management that will still be different between API, but the core day-to-day work of a graphics programmer will be basically above the disputes.
+<br> <br>John Carmack
+<br>
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2194363">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">5</th>
+		<th align="left">&nbsp;points</th>
+	</tr>
+
+
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_2194668" class="comment">
+<div id="comment_status_2194668" class="commentstatus"></div>
+<div id="comment_2194668">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2194668">c good model for high level graphics programming?</a></h4>
+
+
+		 	<span id="comment_score_2194668" class="score">(Score:2, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~yerdaddie">yerdaddie (313155)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2194668">		
+		on Sunday August 19, @04:39PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2194668">#2194668</a>)
+		<small><br>(<a href="http://bentham.k2.t.u-tokyo.ac.jp/notebook" rel="nofollow">http://bentham.k2.t.u-tokyo.ac.jp/notebook</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2194668"><i>At that point, a higher level graphics API will finally make good sense. There is debate over exactly what it is going to look like, but the model will be like C.</i> <br> <br>
+
+It seems odd to adopt C as a model for universality. I was working with a co-worker of mine who was having trouble compiling some good-old-fashioned ANSI-compliant C code on MSVC 6.0, because it isn't standards-compliant. While most architectures seem to be able to compile a dialect of C, I dunno if one can really say C is universal. While the rate of change for introduction of incompadabilities with C seems to be slowing, it acts very much like an organism continually mutating and diversifying itself.<br> <br>
+
+An interpreted language like Python may be a better model, because it behaves transparently in spite of the underlying architecture. That and some <a href="http://python.oreilly.com/news/disney_0201.html" title="oreilly.com" rel="nofollow">folks</a> [oreilly.com] are already <a href="http://www.alice.org/" title="alice.org" rel="nofollow">using</a> [alice.org] it as a high-level graphics language.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2194668">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194668#2194778">Re:c good model for high level graphics programmin</a> by Rothron the Wise (Score:1) Sunday August 19, @05:16PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2194668">3 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2194874" class="comment">
+<div id="comment_status_2194874" class="commentstatus"></div>
+<div id="comment_2194874">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2194874">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2194874" class="score">(Score:5, Funny)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_2194874">		
+		on Sunday August 19, @05:42PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2194874">#2194874</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2194874">Boy do you not know what you are talking about! It never ceases to amaze me when some 15 year old kid who's only experience with real game programming is writing dupe macros for Ultima Online decides to jump into a discussion on slashdot and make all these sweeping generalizations like they actually have a clue.
+<p>
+The whole tone of your comment has this ridiculous tone of authority like you and only you among slashdot's readership is qualified to make intelligent points about the topic. Well guess what? Slashdot is a <i>democracy</i>, and you are no better positioned to trash Linux gaming than the rest of us. As a matter of fact, I bet you are some lame Wind0ze user who doesn't know the first thing about Linux! There are lots of Linux games and they totally rock. It is just stupid for the majority of game developers to ignore the best OS out there just because Bill Gates has a total monopoly and all the stupid people use his product.
+</p><p>
+All you moderators who voted this up to +5 just prove that you are total suckers for some shill from Micros~1 who can write with a fake semblence of authority. You are hurting Linux by giving credence to someone who obviously has ulterior motives. Stop rewarding people who just write 15 paragraphs and start realizing that what makes Slashdot so great is that we can <i>all</i> offer our professional opinions about stuff. We don't need to rely on some long winded, self-important person to tell us what's going on, because we know best!
+</p><p>
+The one thing that really makes the internet a great place is that we have ripped down the barriers to publishing, and by doing so we have proven that we don't need self-described "experts" to tell us what to think.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2194874">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2195501">Re:The present and the future</a> by John_Booty (Score:3) Sunday August 19, @08:52PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195501#2196442">Even funnier...</a> by Angelwrath (Score:1) Monday August 20, @03:59AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196442">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195501">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2196095">Re:The present and the future</a> by Stepto (Score:1) Monday August 20, @12:28AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2196247">Re:The present and the future</a> by coolhand1969 (Score:1) Monday August 20, @01:41AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2196417">Oh, man! This is so goddamn funny, it hurt.</a> by Jeremy Lee (Score:1) Monday August 20, @03:41AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2197783">Re:The present and the future</a> by grammar fascist (Score:2) Monday August 20, @12:47PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2197783">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874#2226867">Re:The present and the future</a> by mcdorantes (Score:1) Tuesday August 28, @04:17PM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195199#2195799">Re:The present and the future</a> by mr100percent (Score:1) Sunday August 19, @10:48PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195799#2196030">Re:The present and the future</a> by Pub_Producer (Score:1) Monday August 20, @12:03AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196030">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195799">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196101#2196253">Re:The present and the future</a> by coolhand1969 (Score:1) Monday August 20, @01:43AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195930#2196257">Re:The present and the future</a> by coolhand1969 (Score:1) Monday August 20, @01:45AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195687#2196859">Re:Open mouth, insert foot, make an *ss of oneself</a> by Steeltoe (Score:1) Monday August 20, @08:47AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196859">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196437#2198393">Re:The present and the future</a> by Flabdabb Hubbard (Score:1) Monday August 20, @02:25PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2198393">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2194874">12 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2194921" class="comment">
+<div id="comment_status_2194921" class="commentstatus"></div>
+<div id="comment_2194921">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2194921">I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2194921" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Svartalf">Svartalf (2997)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2194921">		
+		on Sunday August 19, @05:59PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2194921">#2194921</a>)
+		<small><br>(<a href="http://www.earlconsult.com/" rel="nofollow">http://www.earlconsult.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2194921">I think it's only been established that Id didn't do well with the Linux gaming market (Admittedly, that's NOT a good thing) and it's been pointed out repeatedly by myself and others what went down with the sales of Quake III:Arena- and it wasn't because you did a bad game or did bad by us.  (On the contrary, you and the great people at Id given us all KINDS of things- including the initial 3D support for the ATI RagePRO, etc.)
+<br>
+<br>When you lag the release of the game by a bit, offer a way for Linux users to buy the Windows version and then "convert" it to the Linux version, and have a situation of mixed quality support of 3D (Some of the blame can be laid at the community's feet for that- some of it can be laid SQUARELY at the feet of the chip vendors...) sales are going to be most certainly in the toilet.  One has to wonder how many of the sales for the Windows SKU were really impatient Linux users.  You're never going to know- because there's no way for you, or any of the other management there at Id to know for sure because you didn't have a framework for keeping track of the "conversions" in place (Should you have?  I'm not so bold as to say you should have- but it would have helped to know for certain that the Linux market was a washout at that time or not.  I <em>tried</em> to buy it at the rollout for Linux, to no avail- and in Dallas, one of the larger markets...)
+<br>
+<br>I don't think anybody would blame you for not seeing Q3A on Linux as a success or viable for gaming- I sure wouldn't and I completely understand the position you're taking on this.  I just don't see it the way you are because I'm seeing different data points.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2194921">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li id="tree_2195211" class="comment">
+<div id="comment_status_2195211" class="commentstatus"></div>
+<div id="comment_2195211">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195211">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2195211" class="score">(Score:5, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195211">		
+		on Sunday August 19, @07:22PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195211">#2195211</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195211">&gt; I think it's only been established that Id didn't do well with the Linux gaming market
+<br>
+<br>All linux games sales EVER don't add up to one medium selling windows title.  We are one of the creditors that aren't likely to see money that Loki owes us, so we have some idea just how grim it is.
+<br>
+<br>That isn't saying that it can't change in the future, or that doing linux ports isn't a Good Thing, but it isn't an economic motivator at the present time.
+<br>
+<br>John Carmack
+<br>
+
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195211">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194921">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211#2195823">Re:I don't think it's really been established...</a> by mr100percent (Score:2) Sunday August 19, @10:55PM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211#2199506">Re:I don't think it's really been established...</a> by Svartalf (Score:2) Monday August 20, @05:15PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2199506#2200258">Re:I don't think it's really been established...</a> by Com2Kid (Score:1) Monday August 20, @08:17PM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211#2201544">Re:I don't think it's really been established...</a> by js9999us (Score:1) Tuesday August 21, @03:01AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211#2201622">Re:I don't think it's really been established...</a> by barfex (Score:1) Tuesday August 21, @03:55AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211#2203274">Re:I don't think it's really been established...</a> by Some Dumbass... (Score:1) Wednesday August 22, @02:21AM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195403#2195550">Re:I don't think it's really been established...</a> by RatBastard (Score:2) Sunday August 19, @09:13PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195550#2195618">Re:I don't think it's really been established...</a> by BrerBear (Score:2) Sunday August 19, @09:41PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195618#2195709">Re:I don't think it's really been established...</a> by Anonymous Coward (Score:1) Sunday August 19, @10:21PM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195618#2200925">Re:I don't think it's really been established...</a> by Ghost_5316 (Score:1) Tuesday August 21, @12:10AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2200925">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195403#2196911">Re:I don't think it's really been established...</a> by MrDolby (Score:1) Monday August 20, @09:07AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196911#2197645">Re:I don't think it's really been established...</a> by MrDolby (Score:1) Monday August 20, @12:17PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2197645#2198985">Re:I don't think it's really been established...</a> by MindStalker (Score:2) Monday August 20, @03:47PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196911">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2194921#2195520">Re:I don't think it's really been established...</a> by TotallyUseless (Score:2) Sunday August 19, @08:59PM
+</li></ul></li><li id="tree_2195283" class="comment">
+<div id="comment_status_2195283" class="commentstatus"></div>
+<div id="comment_2195283">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195283">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2195283" class="score">(Score:1, Informative)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_2195283">		
+		on Sunday August 19, @07:42PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195283">#2195283</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195283">&gt;The current status of vertex programs does piss
+<br>&gt;me off, though. I really wish ATI would have
+<br>&gt;just adopted Nvidia's extension, even if it
+<br>&gt;meant not exposing every last bit of their
+<br>&gt;hardware.
+<br>
+<br>Perhaps Carmack didn't see where it says "NVIDIA Propietary" under "IP Status" on the vertex program spec.  I'm not lawyer, but wouldn't that make it illegal for ATI to adopt the extension?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195283">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195283#2196324">Re:The present and the future</a> by djohnsto (Score:1) Monday August 20, @02:35AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195283">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2195563" class="comment">
+<div id="comment_status_2195563" class="commentstatus"></div>
+<div id="comment_2195563">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195563">thank you for writing here =)</a></h4>
+
+
+		 	<span id="comment_score_2195563" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Sayke">Sayke (45013)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195563">		
+		on Sunday August 19, @09:20PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195563">#2195563</a>)
+		<small><br>(<a href="http://www.ugcs.caltech.edu/~phoenix/vinge/vinge-sing.html" rel="nofollow">http://www.ugcs.calt...inge/vinge-sing.html</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195563">
+<br>you make slashdot suck considerably less.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195563">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2195848" class="comment">
+<div id="comment_status_2195848" class="commentstatus"></div>
+<div id="comment_2195848">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195848">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2195848" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~mr100percent">mr100percent (57156)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195848">		
+		on Sunday August 19, @11:01PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195848">#2195848</a>)
+		<small><br>(<a href="http://www.everything2.com/index.pl?node=mr100percent" rel="nofollow">http://www.everythin...pl?node=mr100percent</a> | Last Journal: <a href="//slashdot.org/~mr100percent/journal/">Tuesday June 05, @11:11PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195848">What about consoles? Don't they sell far more than PC games?
+<br>
+<br>I wouldn't worry too much about the mac, there are many porting houses that port the mac version over, at the expense of looong delays for a mac version, usually 6 months minimum.
+<br>
+<br>Q3A is the only game I really enjoy the mac port of, the patches are extremely prompt, thanx.
+<br>
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195848">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195848">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2196566" class="comment">
+<div id="comment_status_2196566" class="commentstatus"></div>
+<div id="comment_2196566">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196566">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2196566" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Dalantech">Dalantech (181338)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196566">		
+		on Monday August 20, @05:09AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196566">#2196566</a>)
+		<small><br>(<a href="http://www.dalantech.com" rel="nofollow">http://www.dalantech.com</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196566">I've been asked on my own forum why people who bought the Windows version of Quake couldn't get some kind of discount on the Linux version. I said that because of the distribution costs id has to charge for the game, even if you bought the Windoze copy.
+<br>
+<br>Granted Unix based games have not sold well. But are you sure your numbers for Q3 are accurate? How many people "borrowed" a copy cause they felt justified in doing so after paying for the Windows version?
+<br>
+<br>Sad but true: People will whine and complain about the cost of comercial software, and then turn around and crack shareware... (yes, I know Q3 isn't shareware... you get my point). How many of you out there didn't show your support for the Linux version of Q3 by paying for your copy?...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196566">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196566">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2196720" class="comment">
+<div id="comment_status_2196720" class="commentstatus"></div>
+<div id="comment_2196720">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196720">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2196720" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~nathanh">nathanh (1214)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196720">		
+		on Monday August 20, @06:55AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196720">#2196720</a>)
+		<small><br>(<a href="http://www.manu.com.au/" rel="nofollow">http://www.manu.com.au/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196720"><blockquote><div><nobr> <wbr></nobr></div><div><i>... </i></div> </blockquote>
+
+<p>Excellent summary. I'd like to add one more point. OpenGL isn't supported nearly well enough on Windows. Only 3 popular cards (ie, affordable consumer grade) have a decent implementation. But pretty much all Windows cards have a workable Direct3D implementation. It's little wonder that Direct3D is targetted first by games developers.
+
+</p><p>The OpenGL spec is difficult to write a fully compliant driver against. The state of OpenGL would be immensely boosted if there was an open source direct rendering OpenGL implementation for Windows. Then all video cards from all manufacturers would at least have some minimum quality for their entry level drivers.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196720">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196720#2196989">Re:The present and the future</a> by MrDolby (Score:1) Monday August 20, @09:30AM
+</li></ul></li><li id="tree_2196905" class="comment">
+<div id="comment_status_2196905" class="commentstatus"></div>
+<div id="comment_2196905">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196905">Re:The present, the future *nix and OSX</a></h4>
+
+
+		 	<span id="comment_score_2196905" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~stoneskimmer">stoneskimmer (516647)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196905">		
+		on Monday August 20, @09:05AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196905">#2196905</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196905">Just a quick comment
+
+Given that Apples new OSX shares a lot of code with the various *nixes out there won't that reduce the cost of developing for non Windows platforms. I don't know how OpenGL is implemented on the different platforms but some Linux games have alreadybeen ported.
+
+This should give developers a larger customer base for their games with minimal development costs
+
+stoneskimmer</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196905">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2196949" class="comment">
+<div id="comment_status_2196949" class="commentstatus"></div>
+<div id="comment_2196949">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196949">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2196949" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Nexum">Nexum (516661)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196949">		
+		on Monday August 20, @09:19AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196949">#2196949</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196949">Thinking about Linux, I had always assumed that the wisdom behind a Linux port was not so that people could play Quake at home on their Linux box, but so that Linux machines could be used as Quake servers.
+<br>
+<br>This brought me on to thinking about MacOs, as some have already mentioned in this thread. With MacOS X based on Unix and not a proprietary kernel any more, surely this will aid porting of games, with both Linux and OS X based around similar operating systems it should add credence not only for id, but for other games developers to see the 'alternative' operating system market as more financially viable.
+<br>
+<br>If i'm not mistaken, using Unix with such a powerful and complete layer of OpenGL built into the operating system was more than just a design feature, but a serious attempt at attracting games developers to give quality support for the platform.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196949">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196949#2200243">Re:The present and the future</a> by iollmann (Score:1) Monday August 20, @08:12PM
+</li></ul></li><li id="tree_2199514" class="comment">
+<div id="comment_status_2199514" class="commentstatus"></div>
+<div id="comment_2199514">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2199514">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2199514" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~MrBomb">MrBomb (467263)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2199514">		
+		on Monday August 20, @05:16PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2199514">#2199514</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2199514">I'm not a programmer or anything, but maybe what game developers need is a higher level graphics API that works over OpenGL. something like these folks are doing (http://www.quesa.org/) but highly optimized for gaming.  What do you think?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2199514">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2199946" class="comment">
+<div id="comment_status_2199946" class="commentstatus"></div>
+<div id="comment_2199946">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2199946">Direct3D versus OpenGL</a></h4>
+
+
+		 	<span id="comment_score_2199946" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Zobeid">Zobeid (314469)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2199946">		
+		on Monday August 20, @06:54PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2199946">#2199946</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2199946">One comment there really drove me up the wall.  Carmack admits that it took years and many major revisions to make DirectX 8 into a decent graphics API -- competitive with OpenGL -- but then he waves his hand and dismisses that as merely "water under the bridge" and says people shouldn't harp on it.
+<br>
+<br>The reason that bugs me is because I remember years ago when the whole OpenGL versus Direct3D issue first came up.  Somebody wise in the ways of software development (sorry, I don't recall who it was) posted a prediction.  He said: Direct3D is pitiful compared to OpenGL.  Somewhere several years down the road, after several major revisions, Microsoft will finally get Direct3D to work as well as OpenGL already does today.  A few smart developers will use OpenGL, but the vast majority of them will let Microsoft lead them around by the nose for a few years before finally getting basically the same thing -- except without cross-platform portability.
+<br>
+<br>And it happened exactly the way that guy predicted.  And I watched it happen, helplessly.  The question I have is, why do developers go along with this kind of thing?  I mean, are they STUPID?  Don't they ever LEARN?  John Carmack calls this "water under the bridge".  Sure. . .  It's all in the past now -- until Microsoft rolls out their next "de facto standard" (dot-net, anyone?) in a half-completed state, expecting developers to sign onto it en masse.  Which most of them will, just because it's from Microsoft.  Then wait four or five years for Microsoft to get it working right -- and oh, by the way, it only works on M$'s operating system.
+<br>
+<br>I don't get it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2199946">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2199946#2247509">Re:Direct3D versus OpenGL</a> by Reztarn (Score:1) Monday September 03, @03:14AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2199946">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2200745" class="comment">
+<div id="comment_status_2200745" class="commentstatus"></div>
+<div id="comment_2200745">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2200745">OpenGL</a></h4>
+
+
+		 	<span id="comment_score_2200745" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~willywalloo">willywalloo (516869)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2200745">		
+		on Monday August 20, @11:09PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2200745">#2200745</a>)
+		<small><br>(<a href="http://www.willywalloo.com/" rel="nofollow">http://www.willywalloo.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2200745">Why support only one API rather than multiples? What your proposing is that we only support Walmart like company (implying: let that we should let them take over). And we already know that when an object trys to take over the world i.e. Shredder in the Teenage Mutant Ninja Turtles, or in a more real-world sense Hitler, they will thankfully be brought down.
+
+It seems that a man of such knowledge wouldn't only support on group of people, but as many as possible.
+
+<b>Why?
+
+-walloo</b></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2200745">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2200745#2200767">Re:OpenGL</a> by willywalloo (Score:1) Monday August 20, @11:16PM
+</li></ul></li><li id="tree_2200813" class="comment">
+<div id="comment_status_2200813" class="commentstatus"></div>
+<div id="comment_2200813">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2200813">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2200813" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Flaming+Death">Flaming Death (447117)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2200813">		
+		on Monday August 20, @11:31PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2200813">#2200813</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2200813">Great. Lets start an OGL vs D3D war again.
+<br> <br>Thanks John.
+<br> <br>Back to some more interesting, technical articles on slashdot now....
+<br>
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2200813">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2206671" class="comment">
+<div id="comment_status_2206671" class="commentstatus"></div>
+<div id="comment_2206671">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2206671">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2206671" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~NitroSR">NitroSR (517269)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2206671">		
+		on Thursday August 23, @12:03AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2206671">#2206671</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2206671">I've seen this argument pop up time and time again, and it has come to the point where it induces nausea!
+<br>
+<br>There is no doubt that Microsoft is a monopoly.  But unless I am mistaken, all of those here have chosen to develop applications for personal computer class machines knowing full well what kind of tyrannical power MS wields.
+<br>
+<br>But you have to ask yourself one question as a game developer.  What are you trying to develop?  When a user runs a well developed game, do they give a rats ass if the rasterization code calls glDrawElements() or g_D3DDevice-&gt;DrawPrimative()? No! They see the interaction of objects in a universe created by the developer.  They experience the rules of physics or psuedo-physics that go into play upon their interaction with the game engine.  What will make a good game has NOTHING to do with the graphics API in use.
+<br>
+<br>Concentrate on GAME programming.  Graphics APIs are interchangable; good game play is priceless!  If you can use your graphics API of choice, be proud of your accomplishments.
+<br>
+<br>I've suffered the same wracking back and foward between API's myself, forgetting what was important.  I've decided to develop my rasterizer as seperate from my game engine as possible!  This way I can replace the graphics API any time I want without changing anything having to do with game logic.
+<br>
+<br>If you make a crappy game you can not blame it on the graphics API.  A crappy game is a crappy game no matter what it looks like.  Making a top selling game is a matter of playing the capitilistic game and simply going with the flow no matter how polluted the water is.  Money is the devil's special blend of poison.  If this is what you want from developing games, so be it!
+<br>
+<br>Daniel Piron</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2206671">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2213483" class="comment">
+<div id="comment_status_2213483" class="commentstatus"></div>
+<div id="comment_2213483">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2213483">Divide and conquer</a></h4>
+
+
+		 	<span id="comment_score_2213483" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~paulmoham">paulmoham (517600)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2213483">		
+		on Friday August 24, @11:35AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2213483">#2213483</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2213483">I don't think anyone has ever pointed it out...from Analyst on Wall street and the US government to software developers....time and time again, Microsoft has beaten its competition by dividing them and than conquering them one at a time...Now it's the game-developers turn... xbox is just the beginning...they'll do with the xbox what they did with windows with one distinct exception...this time they're going after the hardware side of the equation as well.
+
+The issue isn't if there is a market in Linux or Mac for making games....The issue is you as developers need to feel obligated to support multiple platforms...unless you the developer take it upon yourself to give choices to your user base, they'll continue to  be channeled in to one company's corner! And when you have them in one corner you just limited your own choice...you just gave another company reason to come after you...I wonder if the poor souls at WordPerfect, Apple, Lotus, Aldus...etc...ever saw what hit them in the head!
+
+Don't worry cause you wont see it either...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2213483">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194363">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2196261" class="comment">
+<div id="comment_status_2196261" class="commentstatus"></div>
+<div id="comment_2196261">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196261">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2196261" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~coolhand1969">coolhand1969 (516605)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196261">		
+		on Monday August 20, @01:50AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196261">#2196261</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196261"> OH, I guess john pays you to be his Cyber Portector? Maybe his Cyber Condom? Go back to pumping your fist and shut up.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196261">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195742">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196261#2197265">Re:The present and the future</a> by Zeitgeist01 (Score:1) Monday August 20, @10:38AM
+</li></ul></li><li id="tree_2196456" class="comment">
+<div id="comment_status_2196456" class="commentstatus"></div>
+<div id="comment_2196456">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196456">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2196456" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Lord+Kenja">Lord Kenja (45995)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196456">		
+		on Monday August 20, @04:04AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196456">#2196456</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196456">I donno about being a legend. But I think we can safely say that Carmack is one of the best 3D programmers out there. And a person who seriously considers the current alternatives and oppertunities in his field.
+<br>
+<br>As for making new stuff... Well. No offence. But I wouldn't define Carmack as a game developer. As far as I can see. It seems he is much more interrested in pushing the limit of how good 3D a computer can generate. In many ways it seems much more like personal research than making games. As I see it that's what all the other guys at id is doing... Using his work to make games.
+<br>
+<br>As for id doing something new... Well... I'm not sure if I would take anything else serious from id than FPS games... Right now it is not exactly a company known for it's rich storylines or huge details of realism... I'm not sure their current team would do very well at doing much else than great looking action games with perhaps a couple of good excuses to blow everything in sight to pices.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196456">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2196029">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196456">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2200714" class="comment">
+<div id="comment_status_2200714" class="commentstatus"></div>
+<div id="comment_2200714">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2200714">Re:The present and the future</a></h4>
+
+
+		 	<span id="comment_score_2200714" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Flaming+Death">Flaming Death (447117)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2200714">		
+		on Monday August 20, @10:57PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2200714">#2200714</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2200714">Son, whats a Carmack.. sounds like something I have lying on the floor of my toyota crown.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2200714">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2197045">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2194363">16 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

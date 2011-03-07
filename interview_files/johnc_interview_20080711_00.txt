@@ -1,0 +1,106 @@
+http://pc.gamespy.com/web-games/quake-zero/888676p1.html
+Quake Live: Frantic and Free
+id Software's John Carmack discusses bringing Quake III Arena to your nearest web browser, where you'll get to play it for free.
+GameSpy
+Sal 'Sluggo' Accardo
+
+<desc>
+GameSpy's ties to the Quake franchise go back pretty far, starting with the release of the QSpy server browser over 10 years ago. PlanetQuake served as home to countless mods as the franchise grew, and here in the office, games were played nightly for years. In Quake III's heyday, it was a regular occurrence for someone to yell "INSTAGIB" into the intercom at 5 p.m., and a local server would fill up instantly.
+
+So it's not without some excitement and interest that we're watching one of id Software's latest projects: Quake Live. Originally dubbed "Quake Zero" when announced at QuakeCon last year, the concept is to make Quake III playable in a web browser, where it'll run on almost any PC in a matter of seconds and be completely free to play, through the use of advertising. With E3 just a few days away, we chatted with id Software's John Carmack and Marty Stratton, who filled us in on the state of the project and what we can expect from it.</desc>
+
+<q>It's been a while since we last talked about Quake Live; can you give us a quick overview of the game and where it's at now?</q>
+
+<a>What we've done is taken the Quake III Arena game that we released nine years ago, but still has tens of thousands of people playing online on a regular basis, we've taken the core of the game, stripped out all the antiquated user interface stuff, and wrapped it in a web browser interface, so that all the things you used to do with configuration, and especially finding a game to play and dealing with updates, are all handled by a modern web interface.
+
+The game itself, once you get inside it, is not drastically changed from the original, although it's been brought up to a modern level of quality without changing the core rendering engine in any particular way. But what you do is, you go to the website, it's just a couple of clicks, it automatically happens, it brings the game down, you don't have to go off and install anything, update any drivers, this kind of stuff, you click on it, just like you would a Java or Flash game, but it is actually a full native game that was state-of-the-art AAA when it was released with a full development team going at it rather than a more amateur small-time development system on there.
+
+Once you're into the system on there, it has all the things that you would expect from a social community thing: friends list, forums, matchmaking, teams, different things that you can set up there, an incredible amount of stats that are tracked on things. It's got leaderboards, and you can go back and scout how certain people have done in previous games; you can look at your ratios versus other people; and dig down as deep as you want in all of these kinds of baseball-like statistics on everything.
+
+What we've done is take a game that was fundamentally good at its core, cleaned it up a little bit, and wrapped it in an absolutely modern 2008 state-of-the-art kind of web experience that guides the player through it. We've taken, in the nine years that it's been sort of playtested with people, we've incorporated a lot of the small changes that the hardcore pro players like -- minor things like weapon tuning and air control and anti-lag, different things like that -- but most of the effort has gone into making this an experience that anybody who's never even played the game can just follow a few clicks, someone could give them a URL, go there, poke around, and be handheld through the early parts of the game and get in and start playing with people of similar skill level.
+
+If we gave you a boxed copy of Quake III Arena today, you could install it and if you tried to go online and play, you'd have to find whole sets of patches to download, mods to get, servers to go to, find a group of people who haven't been playing for nine years straight and are a hundred times better than you -- that's not a real viable experience. Everything we're setting up on the Quake Live project allows anyone, from anywhere, to get into the game quickly and easily with no hassle on their part and start taking, what we think were good about the original game and removing all the things that weren't great or were obstructions to enjoying it, and wrapping it up in what's good about the modern web experience.</a>
+
+<q>Will Quake Live play out fullscreen, or just confined to a window in your browser?</q>
+
+<a>It launches in the browser -- it's a native plug-in -- but it goes fullscreen. Because this is such an old title, and was used as a graphics benchmark for so long, on any reasonable system it runs at 120Hz. So when you go fullscreen, it looks at your desktop settings, and does drop down to 640x480 like the old game used to do. If you're running at a 2 megapixel display, it's running at 2 megapixels and it still runs really great, which is kind of an interesting thing relative to all the modern games including the things that we do that are leaning so heavily on the graphics card. This one does very much cruise on any computer you've bought in years.</a>
+
+<q>In terms of content, will this be a full conversion of everything in Quake III, or just some of the maps? </q>
+
+<a>It's everything that was in Quake III Arena, and also the content from Team Arena, which a lot of people hadn't seen because it was an add-on expansion.
+
+Every map has been touched, where it's not just maps copied over, but we took current level designers, and had them go through every single map. Everything has been touched up -- the lighting's been improved, texture alignments, all these little things. When Quake III Arena came out, it was the first major hardware acceleration-required game, and it kind of got by on a lot of "wow, this is fast, colorful, anti-aliased graphics acceleration" stuff, and when we went back to look at it with a critical eye, we see a lot of things like "oh, these textures don't match along the walls, this area is too dark." All that type of stuff has been cleaned up as they integrated the sponsorship billboards, scoreboards and things like that inside the game.
+
+Fundamentally, no changes have been made to the graphics engine, other than minor stuff about focus capture and full-screen modification and things like that. But the media has been touched in every case, the models have been tweaked, there are some new model skins, but the core content is basically in the style of the original Quake III Arena, just polished up a lot.</a>
+
+
+<a Marty Stratton>There are a couple of new maps, too. We have a young level designer that created a duel map that's really popular with our beta testers; a lot of pros really like it. We've created a couple of maps that are similar to existing Quake III arenas, but are different enough that they're pretty new experiences. So we'll go out the door with over 30 arenas and the full line of Quake III Arena characters.
+
+We've added bright skins to a number of the characters, as well as what we call team skins. They're more green and white. Bright, but not fullbright. We've also done what some of the more advanced players wanted -- pro-looking bright skins that are more of a solid bright color. And then when you see the opening of the game, you'll meet a new version of Crash who shows you around. She's our Quake Live version of Crash; she was reskinned to look like what the final website will look like (not what you'll see in the beta). The final website has a very ESPN-ish sports vibe to it.</a>
+
+<a>The project did get more ambitious over the last year. We announced it at QuakeCon last year, which was shortly after we had the original idea, at that point, we were sort of thinking, we're going to take Quake III Arena, strip out some stuff and wrap a website around it, and we'll do it in six months. Of course, here we are, almost a year later, and it's just rolling into beta.
+
+Some of that was underestimation on our part, where we did underestimate the task of doing a modern website with a database backend and some of the server management issues, but some of this was also that we went out and made the game better than we originally planned to. More effort did get put on all the different media, more effort went into the testing -- it's been running in beta, for how long now?</a>
+
+<a Marty Stratton>It's been about four to five months now. Now we're at the point where we're adding about 1500 players per week, and once we get moved over -- we're hosting that back end here at id, and our IT manager is starting to get grumbly about the amount of bandwidth we're taking, so we're in the process of making a final decision on our data center -- we'll actually start adding 10,000 people per week or more, going through more of an open beta through July, through August, growing it up to 150,000-200,000 people, making sure that when we remove the gate from the site, that we have a solid experience that can support a huge number of people hammering the site.</a>
+
+<q>On the mapping side, is there any chance we'll see a remake of [Quake II map] "The Edge" in Quake Live?</q>
+
+<a Marty Stratton>It's like you're downstairs with us! (laughs) We're talking about it; I don't think we'll have it for launch, but we've already started to experiment with some stuff.</a>
+
+<a>One of the great things about this is because the content is streamed through the web interface, it's all set up so that we'll be adding stuff continuously. As long as the market can support the product, we'll have people on it creating new things and managing the experience there.
+
+And that's the big open question. This is a very speculative experiment, and at the beginning, we really had no clue how many people might be interested in this. Reasonable arguments could be made for anything from 50,000 to 5,000,000 potential users. There was certainly a fear early on that we might spend, even if we were thinking six months at the time, we'd go out and open it up and there'd be crickets chirping -- you'd have 50,000 people that sign up and you get only a few hundred people on at any given time. At least that fear has been allayed by the fact that we've had over 100,000 people sign up for our beta with no promotion and really no way to get in and take a look at it right now.
+
+So we're leaning more towards the high end, so now we do have some fear about, well, if we do have some hiccups with several thousand people, what happens when we have five million people? You don't want to have the experience where people say "hey, go take a look at this" and people go and say "oh, it crashed."</a>
+
+<q>Will Quake Live also include bots for people who want to get in and practice on their own? </q>
+
+<a Marty Stratton>Yes, there are bots. Our interface for joining a game is divided between two tabs. One shows you online games, presented as thumbnails where you can filter out games -- they'll always be presented with the best quality in mind, games happening at your skill level, with the lowest ping, and if you have friends in those games, they'll bubble up to the top, and you can narrow your search by all the different factors -- friends, or just free-for-all, those types of things.
+
+And then you can go and practice against all of the bots in any of the arenas. John Dean, who's kind of our resident AI programmer, spent some time and added some functionality to the bots, where they actually dynamically scale their skill based on your skill. That's actually how we do the initial warmup match: We have a bot that scales their skill to you, and then we set your initial skill ranking based on that. But then you can go in and play against those same bots and choose the setting that says "keep it close" and the bot will adjust based on how well you do. Believe me, he's tuned them up a little bit where they can just hammer you.</a>
+
+<a>The bots are one of the few areas inside the game where some programming resources have been expended. We hired John Dean for Enemy Territory development work, and he has done some really useful work on this project.</a>
+
+<q>As far as community aspects like a friends list, are you looking to build a closed system, or are you looking to tie into any existing systems like AIM or Steam, etc.</q>
+
+<a Marty Stratton>It's a closed system, but it's built on a Jabber network from a chat perspective, so if you have a Jabber client, we have the ability to allow you to chat between your Quake Live account and your Jabber client.
+
+There's a friends list built into the website, and if you choose to play within the web browser window, there are three resolutions you can use based on your screen size, and your chat window stays persistent to the right side of your game window, so you can see the presence of your friends logging in. You'll get messages in-game when they log into the site; if they join your game, you'll see that. If they're on the website and send you a chat message, you'll get that chat message in-game and vice versa. So it's a very interwoven experience, and it's one of the areas that, as we progress the project, and if it's successful and we keep a team on it over six to eight months, will really be adding to that social aspect.
+
+You go to QuakeCon and you've been part of the community a long time -- you know that the social aspect of Quake III is as much as any other game. The way we've developed this website and the things we can do by centralizing all of this information and this experience really allows us to take new approaches but also existing approaches to that social experience and apply them into this game experience.</a>
+
+<a>It is worth saying we don't have any intentions about becoming some kind of online gaming portal. The Quake Live system, it's Quake Live. We don't have any plans or pretentions about it being something more encompassing than that.</a>
+
+<q>You mentioned stats, which have become more common in modern games. In that same vein, are there plans to add other features like achievements, which have proven popular in things like Call of Duty 4 or Team Fortress 2? </q>
+
+<a Marty Stratton>Achievements will be a big part if that's what drives you to play. We actually already have a list of 150 achievements: We'll probably pare that down to 30 or 40 for launch. For us, it's as easy as web development to create a new achievement, and adding that stuff to the back end is simple.
+
+The idea is that we'll add achievements continually, and we can even have sponsored achievements. That really gets into how integrated the advertising partners are into the entire experience -- not only can they have billboards in the game and ads on the website, but they can have sponsored skins, where, for the length of a campaign, you're playing with their skin. They can run contests, leaderboards, tournaments -- that stuff is all integrated into this system; if you're playing in a tournament that's sponsored by X, they'll probably own all the advertising in the arenas that you're playing in. So it's really an interwoven way of approaching this stuff, far more extensive than just throwing an ad up on a wall. It really is a totally integrated way of doing things and unlockables totally will work. We actually plan to unlock quite a bit of content over the course of the project.</a>
+
+<q>So, on that topic, can you go into a little more detail on how the advertising will work? </q>
+
+<a>Inside the game, every level has been geometrically modified to have tastefully-done billboards and stuff in there. If you had a switch to turn off all the advertising, everything would look worse, because it's built around expecting to have those things in there. There's ads on the scoreboards when you die, there's all the traditional website advertisements and all the things Marty talked about in terms of sponsorship.
+
+What's great about this is that it would be silly to try and integrate this into something like Doom or Rage, where in most cases, it would be damaging to the gameplay experience, but it totally fits within Quake III Arena, because it was always this sports-arena sort of thing, where you're playing a sport rather than progressing through a movie. It's not tastefully-done product placement -- it's the billboards you would expect to see in an arena and we really haven't seen any negative feedback from the users. It's not something that's annoying and pushed in your face, like "click here and watch this ad for 30 seconds so you can play our game" -- there's none of that going on.</a>
+
+<q>Is there any ballpark release date set for Quake Live yet?</q>
+
+<a Marty Stratton>We're taking a baby-steps approach, releasing over a period of time so we're not flipping a switch and getting hammered and the site goes down and nobody has a good experience. So the plan right now is we're sitting around 4000-4500 beta testers, we invite about 1500 a week, and as soon as we're moved to our managed hosting solution, we'll start to grow it by 10,000 players per week. As the infrastructure supports it, we'll make sure that we can grow the way we want to, but take a measured approach to it, upwards of 150,000-200,000 people before we remove the gate. That is planned to happen through July and into late August before we would kind of remove the front gate and open the site broadly.</a>
+
+<a>The nice thing is that, unlike a packaged goods model, we don't have to have our two-week media blitz timed to when things hit the store shelves. We expect this to grow more by positive word of mouth, people passing it on, but we want it to be an easy enough thing so that you can just tell someone in a chatroom or email, just visit quakelive.com and follow the instructions and you really don't need to give them much more than that. We think it'll have significant growth through the first six months of development -- we should know by the end of six months whether this whole thing is panning out or not.</a>
+
+<q>Before we run out of time, can you describe the evolution of the project? Was someone just fooling around running Quake III in a browser, or was it a case where id was looking to dabble in the online space and Quake III was just the best fit? </q>
+
+<a>There are a lot of things that led to it, but it was mostly me thinking about trying to do something on the PC that played to the PC's strengths, rather than treating it as an expensive console with driver problems. If you take a PC game like Call of Duty or something, it's not catering to the PC's strengths, it's using it as a different type of console.
+
+Historically, at id Software, all the way up through Doom 3, we were a PC development house. We thought of consoles as an afterthought for us, and there really has been a sea change there, where our big titles, what we're doing with Rage and id Tech 5, are cross-platform, with consoles honestly being the more important brethren there. But there are still things the PC does better than the consoles: browsing the web, displaying a lot of information, the keyboard-mouse interface for first-person shooter gameplay, the ubiquity of computers being everywhere and being able to access the same data sets from lots of different places.
+
+It's never been a secret that Quake III Arena was my favorite game internally at id Software. It was a pure-play game, not necessarily as media-heavy and awesome in some ways as some of the other stuff we were doing, but I really liked that type of experience. And it doesn't look like that type of a pure-play experience can stand as a $50-60 AAA title now no matter what you do with it. I was recently looking at Unreal Tournament III, which is a damn fine game in many ways, but not a blockbuster saleswise. So the idea of being able to take the core of what's good on that, and try out a new business model on the PC has been pretty appealing.
+
+And it also has secondary benefits. Even if it turns out to not be a business success, we've taken a new team of people and put them through the entire concept-design-develop-deploy-test-manage cycle in a relatively short time, and if we need to grow another team around them, or take them over as more senior people into a follow-up Doom project, we could certainly do that.
+
+Obviously, I hope that this works out well as a business model, that we can be successful, that we can leave the team on Quake Live and they can continue to nurture and support it for years to come, but even if it doesn't, we think it's a good play, a worthy gamble that we're making.
+
+And if we're successful, I bet there's going to be a lot of companies that go out wanting to take some old title and wrap a web interface around it, and most of them are going to find it's harder than it sounds, and most games aren't nearly as well-suited for it as Quake III Arena is.</a>
+

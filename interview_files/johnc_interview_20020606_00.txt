@@ -1,0 +1,66 @@
+http://web.archive.org/web/20020623092357/http://www.beyond3d.com/interviews/carmackdoom3/
+John Carmack on DOOM3 rendering
+John Carmack on DOOM3 rendering
+Beyond3d
+Anthony 'Reverend' Tan
+
+<desc>id Software's demonstration of the work-in-progress of DOOM3 at the recently concluded E3 have left many breathless when it came to the graphics aspect. While John Carmack, main programmer and the man responsible for various game engines of past id Software classics, have given us his thoughts on the technological aspects and hardware requirements in past dot plan files and random postings and email replies, many are still curious about DOOM3's engine and hardware compatibility.
+
+I'd picked a few interesting questions raised by Beyond3D forum members, re-phrased them a little for clarity and sent them off John's way. A few of John's answers were original posted by me in a thread in the forums while some are new. I'd asked John for short, to-the-point answers since he'd said he doesn't have much time for interviews. Here we go:
+</desc>
+
+<q>It appears the models are low in poly count. Knowing what I know, it would appear that the reason for this, specifically with regards to your engine, is because of the shadow volume based lighting. With higher poly counts, your engine's speed would suffer. Am I correct? And how would ATI's TruForm look?</q>
+
+<a>The game characters are between 2000 and 6000 polygons. Some of the heads do look a little angular in tight zooms, so we may use some custom models for cinematic scenes.
+
+Curving up the models with more polygons has a basically linear effect on performance, but making very jagged models with lots of little polygonal points would create far more silhouette edges, which could cause a disproportionate slowdown during rendering when they get close.
+
+TruForm is not an option, because the calculated shadow silhouettes would no longer be correct.</a>
+
+
+<q>Higher precision rendering. It appears that the GF3/GF4Ti clamps the results (including intermediate ones) when some part of the calculations goes over 1.0. The Radeon 8500, with up to 8.0 higher internal ranges, can keep higher numbers in the registers when combining, which allows for better lighting dynamics. How much will this have an impact in DOOM3's graphics?</q>
+
+<a>At the moment, it has no impact. The DOOM engine performs some pre modulation and post scaling to support arbitrarily bright light values without clamping at the expense of dynamically tossing low order precision bits, but so far, the level designers aren't taking much advantage of this. If they do (and it is a good feature!), I can allow the ATI to do this internally without losing the precision bits, as well as saving a tiny bit of speed.</a>
+
+
+
+<q>Multiple passes. You mentioned that in theory the Radeon8500 should be faster with the number of textures you need (doing it in a single pass) but that the GF4Ti is consistently faster in practice even though it has to perform 2 or 3 passes. Could this be due to latency? While there is savings in bandwidth, there must be a cost in latency, especially performing 7 textures reads in a single shader unit.</q>
+
+<a>No, latency should not be a problem, unless they have mis-sized some internal buffers. Dividing up a fixed texture cache among six textures might well be an issue, though. It seems like the nvidia cards are significantly faster on very simple rendering, and our stencil shadow volumes take up quite a bit of time.
+
+Several hardware vendors have poorly targeted their control logic and memory interfaces under the assumption that high texture counts will be used on the bulk of the pixels. While stencil shadow volumes with zero textures are an extreme case, almost every game of note does a lot of single texture passes for blended effects.</a>
+
+<q>As I understand it, DOOM3's rendering pipeline works by, first, rendering the complete scene without ambient light nor textures (so that this pass is very quick) and then filling the z-buffer with correct (and final) depth information for each pixel on screen and z-writes are turned off.</q>
+
+<a>Yes.</a>
+
+<q>And then, for each per pixel light :
+1. Render shadow volumes of all shadow casters into stencil buffer. This is again a quick pass (no textures used), but potential fill rate burn because of overdraw (btw, what sort of optimizations are you doing to reduce overdraw?).
+2. Add light contribution to pixels that have stencil=0 (when they are not in shadow). This looks something like this for diffuse point light:
+Temp=NormalMap dot3 LightDirection
+Temp=Temp mul AttenuationMap
+Temp=Temp mul LightColor
+Result=Temp mul MaterialTexture</q>
+
+<a>That is basically correct for the diffuse map, although you have to sort by light and clear the effected regions of the stencil buffer as well. Adding the specular map requires a half angle cube map, another access of the normal map, some random math, and a specular map access.
+
+There are some subtleties with sorting to allow some extra shadowing features, but they aren't critical aspects.</a>
+
+
+<q>Basically, your engine draws z-buffer in one quick pass and then the z buffer does not change anymore. Total number of render passes is (greatly) influenced by the number of per pixel lights used. Correct?</q>
+
+<a>Yes.</a>
+
+<q>You said there are two passes on GeForce 3/4 and one on Radeon 8500. Are these number of passes *per light*? Say we take 30fps as basis - GeForce3 or 4 could handle about 3 or 4 per pixel lights per frame which actually means 8-10 passes! Radeon 8500 would take 5-6 passes which saves some T&amp;L work. Again, correct?</q>
+
+<a>Yes, the primitive code path is a surface+light "interaction". We guestimate 2x lights per surface average and 2x true overdraw, for 4x interaction overdraw (times 5,3,2,or 1 passes, depending on the card and features enabled).</a>
+
+<q>The Kyro (or specifically, the Kyro2). With lack of cubemap support, and with LightDirection being a cube map texture, would disabling per pixel normalization of LightDirection enable the Kyro2 to run DOOM3? Would you do this?</q>
+
+<a>I doubt it, but if they impress me with a very high performance OpenGL implementation, I might consider it.</a>
+
+<q>GeForce1/GeForce2/Radeon7500. All would be able to run DOOM3 at lower resolutions with fewer per pixel lights per frame. What about per pixel normalized LightDirection? No cube maps and LightDirection can be stored in diffuse or specular color component of vertex but I'd appreciate a clarification/confirmation from you.</q>
+
+<a>That is actually on my list of things to benchmark, but I rather doubt it will make a difference. I don't think there are enough combiners on a GF1/2 to do it, and I don't expect much of a speedup by skipping a rather low-res cube map access on GF3/4.
+
+John Carmack</a>

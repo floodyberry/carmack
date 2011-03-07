@@ -1,0 +1,1921 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Doom 3 Alpha Leaked</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://games.slashdot.org/games/02/11/03/1520240.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,games,entertainment';
+		var parent = 'http://slashdot.org/articles/02/11/03/1520240.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=games;tpc=entertainment;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=02/11/03/1520240&amp;tid=127">Doom 3 Alpha Leaked</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>819</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=44077">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 819 comments</option>
+	<option value="0">0: 791 comments</option>
+	<option value="1" selected>1: 438 comments</option>
+	<option value="2">2: 186 comments</option>
+	<option value="3">3: 63 comments</option>
+	<option value="4">4: 40 comments</option>
+	<option value="5">5: 30 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="44077">
+		<input type="hidden" name="cid" value="4591655">
+		<input type="hidden" name="pid" value="4591655">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_4591655" class="comment">
+<div id="comment_status_4591655" class="commentstatus"></div>
+<div id="comment_4591655">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4591655">Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4591655" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4591655">		
+		on Sunday November 03, @10:15PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4591655">#4591655</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4591655">No, this was not leaked on purpose.<br> <br>Yes, we are upset about it, and it will have some impact on how we deal with some companies in the future, but nothing drastic is going to change in terms of what support is going to be available.<br> <br>Making any judgements from a snapshot intended for a non-interactive demo is ill advised.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4591655">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">5</th>
+		<th align="left">&nbsp;points</th>
+	</tr>
+
+
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_4591753" class="comment">
+<div id="comment_status_4591753" class="commentstatus"></div>
+<div id="comment_4591753">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4591753">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4591753" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~traskjd">traskjd (580657)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4591753">		
+		on Sunday November 03, @10:39PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4591753">#4591753</a>)
+		<small><br>(<a href="http://blog.bluecog.co.nz/" rel="nofollow">http://blog.bluecog.co.nz/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4591753">I think it's a damn shame that this has happened. I for one won't be downloading it.
+
+You must be gutted. I mean I feel bad that this has happened and I have nothing to do with the product so I can only imagine how you must feel.
+
+The screen shots I have seen look great. Keep up the good work and don't let this bother you too much. I look forward to the actual release and hope I have enough money for an upgrade by then<nobr> <wbr></nobr>:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4591753">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591770#4591786">Re:Damnit.</a> by traskjd (Score:1) Sunday November 03, @10:49PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592100#4592342">Re:Damnit.</a> by josegenerico (Score:1) Monday November 04, @01:06AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592342">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4591753">5 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4591763" class="comment">
+<div id="comment_status_4591763" class="commentstatus"></div>
+<div id="comment_4591763">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4591763">re: Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4591763" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_4591763">		
+		on Sunday November 03, @10:42PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4591763">#4591763</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4591763">Why don't you guys act positively then in this situation? <br> <br>The leak is out, and known about it. Instead of having websites that are desperate to cater to id's wish (eg, Shacknews.com) by buying their heads in the sand and pretending this doesn't exist, or sending Christian around like a good little stormtrooper to cease and desist sites hosting pictures.... <br> <br>Why not officially release some pictures? Why not just make an official announcement thats somethings been leaked?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4591763">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4591763">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592227" class="comment">
+<div id="comment_status_4592227" class="commentstatus"></div>
+<div id="comment_4592227">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592227">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592227" class="score">(Score:4, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~ShooterNeo">ShooterNeo (555040)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592227">		
+		on Monday November 04, @12:37AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592227">#4592227</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592227">Maybe this is begging the question, but WHY are you mad?  It seems rather unlikely that this leak will hurt you in the slightest way in terms of sales of the future game.  The people who have the hardware capable of trying it and are savvy enough to download it mostly know what "alpha" means.  Anyway, if you were really worried about fans losing interest because of buggy demos, why release tech demos?  I recall some of the Quake tech demos were extremely buggy and almost unplayable on some computers, yet it didn't seem to dampen fan enthusiasm.<br> <br>The only thing I see that might be irritating is that ATI seems to have broken trust with you.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592227">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4592254">Re:Damnit.</a> by junkgrep (Score:2) Monday November 04, @12:44AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4592262">Re:Damnit.</a> by Anonymous Coward (Score:2) Monday November 04, @12:48AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592262#4592298">Re:Damnit.</a> by junkgrep (Score:2) Monday November 04, @12:56AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592262#4592922">Re:Damnit.</a> by Moofie (Score:2) Monday November 04, @04:17AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592922#4596093">Re:Damnit.</a> by Synic (Score:2) Monday November 04, @07:19PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596093#4640152">Re:Damnit.</a> by swv3752 (Score:2) Sunday November 10, @11:21PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596093#4648142">Re:Damnit.</a> by plague3106 (Score:1) Monday November 11, @11:34PM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592922#4596098">Re:Damnit.</a> by JebusIsLord (Score:2) Monday November 04, @07:19PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596098#4596288">Re:Damnit.</a> by Moofie (Score:1) Monday November 04, @07:46PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596288#4596769">Re:Damnit.</a> by Apotsy (Score:1) Monday November 04, @09:24PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596769#4597150">Re:Damnit.</a> by Moofie (Score:1) Monday November 04, @10:59PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4596769#4648192">Re:Damnit.</a> by plague3106 (Score:1) Monday November 11, @11:40PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4596288">2 replies</a>
+ beneath your current threshold.</b></li></ul></li></ul></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592262">3 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4592411">Re:Damnit.</a> by Naikrovek (Score:2) Monday November 04, @01:25AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4592434">Re:Damnit.</a> by junkgrep (Score:2) Monday November 04, @01:30AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592434#4592912">Re:Damnit.</a> by Moofie (Score:1) Monday November 04, @04:14AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592434">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592586" class="comment">
+<div id="comment_status_4592586" class="commentstatus"></div>
+<div id="comment_4592586">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592586">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592586" class="score">(Score:5, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~tcc">tcc (140386)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592586">		
+		on Monday November 04, @02:05AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592586">#4592586</a>)
+		<small><br>(<a href="http://slashdot.org/" rel="nofollow">http://slashdot.org/</a> | Last Journal: <a href="//slashdot.org/~tcc/journal/">Wednesday April 23, @12:21AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592586">&gt; Maybe this is begging the question, but WHY are you mad? <br> <br>You're working on a project for over a year<br> <br>You want gamers and other end-people to see and experience the FINAL result, maybe create some noise by having CONTROLLED (i.e. being very precise about what you want and don't want to show yet) demos.  <br> <br>You do some deals with some Hardware companies because hardware/drivers development is getting more and more complex and at some point in the development, it's easier to send an alpha build for the hardware company to do the QA on their drivers or reproduce specific bugs that you don't want to explain or make a little application to reproduce it (especially when it's getting to a point where it's a pile of little bugs left and right).  <br> <br>This is a good thing for the Game dev team and a good thing for the hardware team: they get to demo their technology in closed doors and the Game dev team gets better feedback and optimizations from the vendors where it can get optimized at the driver level.  Also having more people on the QA testing of the engine doesn't hurt.<br> <br>Naturally, all of this is confined with NDAs and closed environment, and I am sure the Vendors are in the obligation to make any investors or customers viewing anything more than what was shown publicly at E3 or any other demos to sign NDAs.<br> <br>Now, every users can download UNFINISHED work, probably a RUSHED build so that they could make the demo on time, and have first hand EXPERIENCE with this build, while having first hand experience with a final build would be even better, now it will be only an "evolution" instead of a bigger bang that what people experienced with this leaked build.  <br> <br>While everyone here LOVES John's work, I don't want to speak for him, but personally I'd be seriously pissed at the person/company ruining the momentum I wanted to bring with a FINAL POLISHED product, in such a fashion.  Of course the final will rock and people will love it, but until then, this shouldn't have happened and some head will fall for this.  The people responsible for this leak will obviously have their head chopped off and better be looking for a job outside the graphics/game industry.<br> <br>Anyways, we'll probably never know the whole truth on this but early reports seems to point at ATI... I'll wait for the official confirmation but if it would be them, as a (small) shareholder of ATI in my RSPs, I sure would be VERY disapointed at them.  <br> <br>I wouldn't be surprised for this to come from a hardware vendor, expecially after seeing some Drivers QA labs, When you hire "kids" to play games and do a bit of work, pay them a "kid" salary, and have more or less supervision, you can't ask them for being highly professionnal people and act like if they were CEOs with the same responsiblities and engagement, like one of my friend says (working at another company), you get what you pay for.  Still, it's a shame if it would be ATI.  <br> <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592586">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592227">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592586#4592711">Re:Damnit.</a> by Nogami_Saeko (Score:2) Monday November 04, @02:43AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592711#4595525">Re:Damnit.</a> by rikkards (Score:1) Monday November 04, @05:55PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592711">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592586">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4592640">Re:Damnit.</a> by DragonMagic (Score:2) Monday November 04, @02:21AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4595419">Re:Damnit.</a> by Spytap (Score:1) Monday November 04, @05:22PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592227#4596159">Re:Damnit.</a> by Synic (Score:1) Monday November 04, @07:27PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4596159">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li><li id="tree_4592266" class="comment">
+<div id="comment_status_4592266" class="commentstatus"></div>
+<div id="comment_4592266">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592266">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592266" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DeathPenguin">DeathPenguin (449875)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592266">		
+		on Monday November 04, @12:48AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592266">#4592266</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592266">&gt;&gt;Making any judgements from a snapshot intended for a non-interactive demo is ill advised.<br> <br>I certainly agree with this point, but many people are going to judge it and start spreading FUD anyway. You're gonna think I'm a loon for saying this, but I think it would be wise for id to release an official demo with the E3 maps rather than having people turn to piracy groups to satisfy their curiosity.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592266">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592266">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592341" class="comment">
+<div id="comment_status_4592341" class="commentstatus"></div>
+<div id="comment_4592341">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592341">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592341" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Simulant">Simulant (528590)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592341">		
+		on Monday November 04, @01:06AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592341">#4592341</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~Simulant/journal/">Thursday February 17, @01:20PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592341">
+Don't worry. We'll still all buy it.  Looks great.  Can't wait!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592341">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592354" class="comment">
+<div id="comment_status_4592354" class="commentstatus"></div>
+<div id="comment_4592354">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592354">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592354" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Downtym">Downtym (618298)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592354">		
+		on Monday November 04, @01:10AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592354">#4592354</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592354">&gt; Making any judgements from a snapshot intended for a non-interactive demo is ill advised.<br> <br>I haven't downloaded the demo, nor do I intend to, but I did cheat and look at some screencaps posted on any one of the thousands of websites out there. I have to say that the judgement I'm making on Doom III so far is favorable. Much more so than when I first saw the alpha screencaps of Quake II. It looks like a great game and I can't wait to get it into my hands to play for real.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592354">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592522" class="comment">
+<div id="comment_status_4592522" class="commentstatus"></div>
+<div id="comment_4592522">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592522">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592522" class="score">(Score:2, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Derleth">Derleth (197102)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592522">		 &lt;<a href="mailto:chbarts+AT+gmail+DOT+com">chbarts AT gmail DOT com</a>&gt;
+		on Monday November 04, @01:50AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592522">#4592522</a>)
+		<small><br>(<a href="http://slashdot.org/" rel="nofollow">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592522">Mr. Carmack, I think I'm going to buy the next Quake for Linux. I'm not a big gamer. I, in fact, rarely game. But I do enjoy supporting certain kinds of companies. Companies that give active support to Linux to the point of accepting and responding to the Linux community deserve my money.<br>
+<br>Sitting, as I am, behind a slow modem connection, I'm not going to download an alpha pre-release. I would download it from the official venues, and I'm surely not going to download it from possibly disreputable ones. Even if I was sitting at the end of a fat T1 or DSL, I wouldn't want to: I like surprises. I like not knowing precisely what is going to be there. I haven't kept up with gaming since Duke Nukem 3D, so the next Quake should be a pleasant surprise.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592522">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592522#4596067">Re:Damnit.</a> by Synic (Score:1) Monday November 04, @07:15PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592522">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592564" class="comment">
+<div id="comment_status_4592564" class="commentstatus"></div>
+<div id="comment_4592564">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592564">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592564" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Pfeiffer">John Pfeiffer (454131)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592564">		
+		on Monday November 04, @01:58AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592564">#4592564</a>)
+		<small><br>(<a href="http://giantpachinkomachineofdoom.com/" rel="nofollow">http://giantpachinkomachineofdoom.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592564">Like many others reading this thread, I too find it hard to see how this could possibly hurt the game in any way (I can tell you, it ensured that I'LL be in line for a copy, or two.), I can understand your being upset with those who leaked it, but people have been waiting for something, anything, substantial about this game. Unless you were AT E3, about the best you could do was that ATI promo vid for the radeon 9700, and it only had a few seconds of footage. Unfortunately, 'something substantial' came from someone else before it came officially from id.<br> <br>I must say however, even in it's earliest stages of development this is the coolest (Not to mention graphically amazing) thing I've ever seen, and it's going to blow away every other game out there come release day.<br> <br>Keep up the good work, and try not to dwell on this little incident too much. Hell, it's not like many of us even have systems that CAN play it.<nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592564">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592564">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592631" class="comment">
+<div id="comment_status_4592631" class="commentstatus"></div>
+<div id="comment_4592631">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592631">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592631" class="score">(Score:2, Insightful)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_4592631">		
+		on Monday November 04, @02:18AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592631">#4592631</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592631">Come on people - Perhaps id being 'upset' has little to do with their concern over the sales of the game. You and I both know, the game is not going to have any problems with sales or popularity. Have you ever thought for just one moment, that they're a bit upset that their baby got out too early? It's their artwork, I surely wouldn't want mine out, regardless of if people loved it or not, before I wanted it out.<br> <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592631">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592851" class="comment">
+<div id="comment_status_4592851" class="commentstatus"></div>
+<div id="comment_4592851">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592851">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592851" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~alseia">alseia (622679)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592851">		
+		on Monday November 04, @03:46AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592851">#4592851</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592851"> john it shouldn't come to you, all this wasn't going o happen it was just when. having a onon-interactive demo out on the web. will not hurt the game in any way. Yes we all know the one that is out isn not a complete in any way. Think of it this way yes everyone is waiting for just a tech demo from Id software. to see where they stand, with there current system. To make any nessary upgrades. If you wanted everyone no one to have a chanse to get there hands on a leaked demo. then you should have never ever to no companies show that you guys where working on the game.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592851">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592951" class="comment">
+<div id="comment_status_4592951" class="commentstatus"></div>
+<div id="comment_4592951">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592951">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592951" class="score">(Score:4, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Chicane-UK">Chicane-UK (455253)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592951">		 &lt;<a href="mailto:%5Bmoc.dlrowltn%5D+%5Bta%5D+%5Bku-enacihc%5D">[moc.dlrowltn] [ta] [ku-enacihc]</a>&gt;
+		on Monday November 04, @04:32AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592951">#4592951</a>)
+		<small><br>(<a href="http://www.slashcode.org/" rel="nofollow">http://www.slashcode.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592951">John,<br> <br>Whilst it is unfortunate that this was leaked, I think you should take some comfort in the fact that just about everyone who has tried this out is absolutely blown away by it. Not just by the stunning visuals, but by the scary atmosphere, the awesome sound, and just about everything else. This is the first game that has scared the hell out of me in ages.. <br> <br>The game rules.. I cannot WAIT to buy the full version.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592951">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592951#4593203">You ass kisser...</a> by SexyKellyOsbourne (Score:1) Monday November 04, @06:07AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4593203#4593212">Re:You ass kisser...</a> by Chicane-UK (Score:1) Monday November 04, @06:14AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4593212">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592951#4597759">Re:Damnit.</a> by neafevoc (Score:1) Tuesday November 05, @02:38AM
+</li></ul></li><li id="tree_4592964" class="comment">
+<div id="comment_status_4592964" class="commentstatus"></div>
+<div id="comment_4592964">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592964">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4592964" class="score">(Score:4, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Greyjack">Greyjack (24290)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592964">		
+		on Monday November 04, @04:37AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592964">#4592964</a>)
+		<small><br>(<a href="http://greyjack.com/" rel="nofollow">http://greyjack.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592964">A thought for those of y'all wondering why id might be piqued (to put it mildly) that this was released early:  <br> <br>Sure, you're still going to buy the game.  However, have you thought that perhaps iD doesn't want their competitors to have a detailed look at what's coming?<br> <br>In an industry where a technological lead for your graphics engine == mucho $$$ from engine licensing sales, the less their competitors know, the better.<br> <br>I'm sure that *nobody* at Epic or Monolith has pulled this down from edonkey and checked it out yet.  No sir, no way.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592964">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592964#4596889">Re:Damnit.</a> by LamermaN (Score:1) Monday November 04, @09:56PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592964#4597522">Re:Damnit.</a> by gotak (Score:1) Tuesday November 05, @12:56AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592964">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4593345" class="comment">
+<div id="comment_status_4593345" class="commentstatus"></div>
+<div id="comment_4593345">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4593345">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4593345" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~greymata">greymata (622710)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4593345">		
+		on Monday November 04, @07:38AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4593345">#4593345</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4593345">well as you know mr carmack, you are one of the true gods of the FPS genre. it is a shame that this was leaked, but i think i am correct in saying that this game is bringing games into the limelight and finally showing us where the industry is going.<br> <br>i am not condoning this leak at all, but i do think that people will not be disappointed from the alpha, i have not seen this personally but from what i have been told about it, it is the muts nuts, i will personally wait for the demo to arrive in good time and wait for an official statement or demo to hit the net.<br> <br>keep up the good work mr carmack, doom has been away for too long<nobr> <wbr></nobr>:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4593345">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4593345#4593374">Re:Damnit.</a> by greymata (Score:1) Monday November 04, @07:51AM
+</li></ul></li><li id="tree_4593460" class="comment">
+<div id="comment_status_4593460" class="commentstatus"></div>
+<div id="comment_4593460">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4593460">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4593460" class="score">(Score:1, Redundant)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Bartmoss">Bartmoss (16109)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4593460">		
+		on Monday November 04, @08:43AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4593460">#4593460</a>)
+		<small><br>(<a href="http://geek.pandemonium.de/" rel="nofollow">http://geek.pandemonium.de/</a> | Last Journal: <a href="//slashdot.org/~Bartmoss/journal/">Monday May 16, @05:32AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4593460">John, don't be too pissed about this. Yeah I can see that from a corporate standpoint you'll have to deal with this, I just want to let you know that back when Doom first came out, my friends and I had some sort of beta as well (I am sure it got spread very widely if it made its way to Germany back then). And what can I say, it was an absolutely insanely great experience. It was rough and unfinished and it crashed now and then, but boy were we impressed. I remember the guys crowding around my 486/33 and taking turns blasting away those filthy demons. And you know something? When we got the full game, we didn't love it any less because it. In fact the anticipation was this much bigger than it had been otherwise.<br> <br>I can see that you'd probably have preferred a real demo release or whatever, but remember that for the "end users" this is a treat and will likely just whet people's appetites.<br> <br>Best wishes,<br>- Nils<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4593460">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4594686" class="comment">
+<div id="comment_status_4594686" class="commentstatus"></div>
+<div id="comment_4594686">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4594686">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4594686" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~husker59">husker59 (622789)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4594686">		
+		on Monday November 04, @02:52PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4594686">#4594686</a>)
+		<small><br>(<a href="http://qf.planetquake.gamespy.com/" rel="nofollow">http://qf.planetquake.gamespy.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4594686">
+I'm sorry, but I'm one of the denizen's from hell that downloaded this alpha. It's like having a naked girl in front of you and telling you not to look! Come on, of course you are going to look.
+
+Don't worry too much John this hasn't hurt id software's image any. Sure they guy who did it should be horse whipped. But once the cat is out of the bag, there isn't anything you can do about it.
+
+This is without a doubt the most incredible thing I've ever seen. I've been an avid gamer since Battlezone on the arcade (yes I'm older than dirt). I also have all of the id titles ever made. This IS the new standard in gaming. You have set it so high, it will be hard for others to reach. Words cannot describe incredible world you have created. You have to see this in real time to really appreciate it.
+
+Even though it isn't ready, it still made me wet my pants. I wanted to stop and look at all the pretty things but the monsters wouldn't let me. Even though you didn't release it, I want to thank you for making the best game in the world become a reality. We will be in line to buy this game on day one!
+
+Signed - Husker (a Quake 3 junky)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4594686">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4595571" class="comment">
+<div id="comment_status_4595571" class="commentstatus"></div>
+<div id="comment_4595571">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4595571">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4595571" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~LafinJack">LafinJack (9054)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4595571">		
+		on Monday November 04, @06:08PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4595571">#4595571</a>)
+		<small><br>(<a href="http://lafinjack.livejournal.com/" rel="nofollow">http://lafinjack.livejournal.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4595571">John Carmack = JC = Jesus Christ<br> <br>Coincidence?<br> <br>I think not.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4595571">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4595571#4599935">Re:Damnit.</a> by cyberdrek (Score:1) Tuesday November 05, @12:28PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4595848#4596481">Re:Damnit.</a> by LafinJack (Score:1) Monday November 04, @08:18PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4595950#4640703">Re:Damnit.</a> by Deosyne (Score:1) Monday November 11, @01:55AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4595571">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4595888" class="comment">
+<div id="comment_status_4595888" class="commentstatus"></div>
+<div id="comment_4595888">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4595888">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4595888" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~ssassen">ssassen (613109)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4595888">		
+		on Monday November 04, @06:56PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4595888">#4595888</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4595888">John,
+
+<p>Appreciate you taking the time to address this matter publicly as many of us were wondering what was going on. I've been one of the 'lucky' few to have downloaded this leaked alpha before the fan-sites and media started reporting on it.
+
+</p><p>From what I can tell id has come a long way, if set up properly the alpha looks spectacular, and very playable. I can see this has implications for the company that caused the leak but from an end-user and analyst perspective I can tell you it is all good.
+
+</p><p>What I think is a far greater problem is the fact that many of the fan-sites kept quiet about it as they feared loss of advertisement opportunities or repercussions from the developer in question. I don't have to tell you that this severely undermines their journalistic integrity and freedom of speech.
+
+</p><p>I'm guessing id software tried to limit the damage by calling in some favors with these websites and the moderators of their forums, but really isn't that simply adding to the problem? Making something hard to come by and secretive will only increase the demand.
+
+</p><p>I'd say a short blurb on the id website and news posting on these websites explaining what happened and stressing the fact that this is an alpha version that's nowhere near the final release in terms of features, graphics or performance would certainly put matters back into perspective.
+
+</p><p>De duobus malis, minus est semper eligendum
+
+</p><p>Sander Sassen
+
+</p><p>Email: ssassen@hardwareanalysis.com
+<br>Visit us at: http://www.hardwareanalysis.com</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4595888">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4597205" class="comment">
+<div id="comment_status_4597205" class="commentstatus"></div>
+<div id="comment_4597205">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597205">hi jon</a></h4>
+
+
+		 	<span id="comment_score_4597205" class="score">(Score:1, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~GoatPigSheep">GoatPigSheep (525460)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597205">		
+		on Monday November 04, @11:14PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597205">#4597205</a>)
+		<small><br>(<a href="http://137.222.110.150/calnet/Lfoot/page3.htm" rel="nofollow">http://137.222.110.150/calnet/Lfoot/page3.htm</a> | Last Journal: <a href="//slashdot.org/~GoatPigSheep/journal/">Saturday December 14, @03:36AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597205">Jon Carmack: dooming society?<br> <br>Lets talk about Jon Carmack. Jon is the legendary programmer of such classic PC games as Wolfenstein, Doom, Duke nukem 3d, Quake 1, 2, and 3, unreal, and the upcoming doom3. Jon has single handedly created the genre known as the first-person-shooter. He has also popularized the Direct3d 3d format over Microsoft's competing Opengl format, as well as caused public interest in 3d cards when he first released accelerated quake for the s3 virge chipset. Jon carmack has redefined gaming on PC's.<br> <br>Now stop for a moment and think... What would have happened if Albert Einstein had worked creating amazing pinball games instead of creating the theory of relativity? Humanity would suffer! Jon carmack is unfortunately doing JUST THIS, using his gifts at computer coding to create games instead of furthering the knowledge of humanity. Carmack could have been working for NASA or the US military, but instead he simply sits around coding violent computer games. <br> <br>Is this a waste of a special and rare talent? Sadly, the answer is yes.<br> <br>Unfortunately, it doesn't stop there. Not only is Jon carmack not contributing to society, he is causing it's downfall. What was the main reason for the mass murder of dozens of people in columbine? Doom. It's always the same story... Troubled youth plays doom or quake, he arms himself to the teeth, he kills his classmates. This has happened hundreds of times in the US alone. Carmack is not only wasting his talents and intelligence; he is single-handedly causing the deaths of many young men and women. How does he sleep at night? <br> <br>Carmack is a classic example of a very talented and intelligent human being that is bent on total world destruction. Incredibly, he has made millions of dollars getting people hooked on psychotic games where they compete on the internet to see who can dismember the most people. I believe there is something morally wrong when millions of people have computerized murder fantasies, and we have Jon Carmack to thank. Carmack has used his superior intellect to create mayhem in society. Many people play games such as quake so much that their minds are permanently warped. A cousin of mine has been in therapy for 6 months after he lost a 'death match' and became catatonic.<br> <br>It is unfortunate that most people do not realize how much this man has damaged all the things we have worked hard for in America. Jon has wasted his intelligence, caused the deaths of innocent children, and warped this country forever. To top it off, he got rich in the process and is revered by millions of computer users worldwide. Perhaps one day the US government will see the light and confine Jon Carmack somewhere with no computers so he can no longer use his intelligence to wreak havoc on society.<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597205">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205#4597697">Re:hi jon</a> by Spunkee (Score:1) Tuesday November 05, @02:15AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205#4598035">Re:hi jon</a> by shogun (Score:2) Tuesday November 05, @05:04AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205#4607117">Re:hi jon</a> by nobbist (Score:1) Wednesday November 06, @09:52AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4607117">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205#4621817">Re:hi jon</a> by natemacc (Score:1) Thursday November 07, @09:03PM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205#4640719">Re:hi jon</a> by Deosyne (Score:1) Monday November 11, @02:00AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597330#4597557">SexyKellyOsborne Is A Troll</a> by SexyKellyShutTheFuck (Score:1) Tuesday November 05, @01:11AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4597557">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4597205">18 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4597316" class="comment">
+<div id="comment_status_4597316" class="commentstatus"></div>
+<div id="comment_4597316">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597316">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4597316" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Iratius">Iratius (622949)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597316">		
+		on Monday November 04, @11:45PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597316">#4597316</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597316">Read over all the replies, and did not see anyone mention this, but have you ever thought about how many of their competiors want to get ahold of this game? This is Next Generation Stuff, and i'm sure most of the tech in the game hasnt been submitted for pattening yet, so their competiors could "steal it" and get away with it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597316">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4597438" class="comment">
+<div id="comment_status_4597438" class="commentstatus"></div>
+<div id="comment_4597438">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597438">kewl</a></h4>
+
+
+		 	<span id="comment_score_4597438" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~tulmid">tulmid (622959)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597438">		
+		on Tuesday November 05, @12:21AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597438">#4597438</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597438">Firstly I was one of the first people to get this demo.<br>I have spent along time playing this game.<br>I must tell you that this is the "best game" I have ever played.<br> <br>But it must be TONED DOWN.<br> <br>the game is dangerous for young minds.<br>ID i am asking you to tone down a level or make sure that you get a doctor to check the game. It can cause mental problems, anyone who has played this game will understand.<br> <br>I foresee this game becomming a CULT classic ( old version excluded) <br>Dude I dont buy games, but I do play them.I think I will be giving this one a miss as its far to much mental tromma</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597438">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597438#4635960">Re:kewl</a> by RansomArceihn (Score:1) Sunday November 10, @03:42AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4597438#4641040">Re:kewl</a> by Smeghead Dave Lister (Score:1) Monday November 11, @03:22AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4597438">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4597562" class="comment">
+<div id="comment_status_4597562" class="commentstatus"></div>
+<div id="comment_4597562">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597562">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4597562" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~tkato">tkato (622976)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597562">		
+		on Tuesday November 05, @01:13AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597562">#4597562</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597562">johan man i download the game and i know! that the game will be rocks there are some grafhic fuls but in my country alot of ppl like it! its not bad and if u think about it in the end u gave ppl to play the game that been in e3 i didnt be thare and never been but johan the grafic are greats and u can ashore u that im going to get these blody game amn i love shotting that doog down great thing with the pipes one of my favrite!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597562">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4597634" class="comment">
+<div id="comment_status_4597634" class="commentstatus"></div>
+<div id="comment_4597634">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597634">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4597634" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~travbrad">travbrad (622986)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597634">		
+		on Tuesday November 05, @01:43AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597634">#4597634</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597634">I can see why he would be dissapointed that it got leaked, especially such and early version of it that is not really meant for the public.  However these graphics are just completely mind blowing.  Ive never seen graphics this good before (not even close).  I wanted Doom III A LOT before, but now I want it even more<nobr> <wbr></nobr>:)
+
+P.S.  Stop judging the game by the framerates in an ALPHA version.  Remember the UT2003 leak?  My framerates doubled from the leak to the final version.  Faster computers will be out by the time it's released also<nobr> <wbr></nobr>:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597634">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4597805" class="comment">
+<div id="comment_status_4597805" class="commentstatus"></div>
+<div id="comment_4597805">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597805">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4597805" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~TinCan+P">TinCan P (623001)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597805">		
+		on Tuesday November 05, @02:58AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597805">#4597805</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597805">BIG BANG PPL!!!!!!
+
+the longer u wait for something the better and more exciting it is when u get the final thing!!!!!!!!
+
+thats y mr. carmack is pissed!!!!
+wake up!!!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597805">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4598671" class="comment">
+<div id="comment_status_4598671" class="commentstatus"></div>
+<div id="comment_4598671">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4598671">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4598671" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~tr00p3r">tr00p3r (623047)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4598671">		
+		on Tuesday November 05, @08:56AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4598671">#4598671</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4598671">I just wanted to add something to this thread! You all might remember that a couple of months ago there was a leaked demo of Unreal Tournament 2003 too. People downloaded it at once and were at once disappointed about the game. It had a lot of bugs and was slow! But you should look at the number of sales right now. UT2K3 hit the stores as a bomb and just like with the new Star Wars episodes: people were waiting in front of the retail stores to be among the first people to get a copy of it. So I don't think it will harm id or the game's "reputation". I think there will be a whole bunch of histerical Quake player sleeping in sleeping bag in front of those stores! And I count myself to them!
+Also remember that UT2K3 had a multiplayer demo a few weeks earlier as the actual game was released! Why dosen't id think about this? I think it would be the best advertiseing for Doom 3! We could play this demo then until the images are burned into our monitors. Finally, when this great game comes to the shelves we'll all go and buy it!!!
+I think a lot of users lose their interesst on some games, because there is too much secrecy about the game (release date, engine, no screenshots, etc)
+Anyway, sorry to hear that it also happend to you Mr. Carmack and I can assure you in the name of a whole bunch of Hungarian Quakers: WE WILL BUY IT!
+tr00p3r</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4598671">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4599358" class="comment">
+<div id="comment_status_4599358" class="commentstatus"></div>
+<div id="comment_4599358">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4599358">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4599358" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~DarkEdgeX">DarkEdgeX (212110)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4599358">		
+		on Tuesday November 05, @11:03AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4599358">#4599358</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~DarkEdgeX/journal/">Tuesday July 27, @02:15AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4599358"><blockquote> <div><i>Making any judgements from a snapshot intended for a non-interactive demo is ill advised.</i></div> </blockquote>Even if such judgements are positive in nature, and very much increase the desire of purchasing the product when it's finally released?  =)  You guys have a lot of fans on here, and I imagine it's a testament to how popular your games are (not just for their play value, but for the more obvious visual / eye-candy value) that this E3 demo version is spreading like wildfire.<br> <br>I think it's safe to say that come release date though, you guys will enjoy the same scale of sales as you always have from game to game.  And on this note, having seen the demo myself, I'm very impressed with the visual quality, and while my system clearly needs an upgraded video card (though I'll take some comfort from the fact that in the final rev it'll probably run faster), I see where you guys are going and am very impressed.<br> <br>Good demo, good work, look forward to the full package.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4599358">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4600978" class="comment">
+<div id="comment_status_4600978" class="commentstatus"></div>
+<div id="comment_4600978">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4600978">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4600978" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~d4gny">d4gny (623167)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4600978">		
+		on Tuesday November 05, @03:22PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4600978">#4600978</a>)
+		<small><br>(<a href="http://www.isle-of-ewe.com/" rel="nofollow">http://www.isle-of-ewe.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4600978">hey at least space craft plans can't be leaked on the internet<nobr> <wbr></nobr>:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4600978">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4600978">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4603417" class="comment">
+<div id="comment_status_4603417" class="commentstatus"></div>
+<div id="comment_4603417">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4603417">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4603417" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Tabre+Perez">Tabre Perez (623260)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4603417">		
+		on Tuesday November 05, @07:25PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4603417">#4603417</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~Tabre+Perez/journal/">Thursday December 05, @11:49AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4603417">I really don't know what to say about this whole Doom 3 leak. I'm caught between two opinions here-
+1. I can see why the ID team is so upset about this because people getting their hands on Doom 3 at this point in time is like allowing the public to view an unfinished painting (And this could give a negative impression.
+
+2. The effect of the "leaked" Doom 3 is that it will cause people to see what the new engine is capalbe of with it's bump-mapping, "unified" lighting technology, realistic physics, and overall jawdropping effect will cause people to want the new Doom title even more.
+
+Even with what I stated in opinion two, I still think that the leak was wrong because ID should be able to release a Demo when they feel the time is right and not have to worry about these leaks. Whether this will hurt or benifit ID, I cannot say. What I can say for sure is I WILL play the leak (Sorry John). And when the full game comes out I will for sure purchase it (I'm a collector and a HUGE fan of ID Software's electronic artwork). And so the leak had no effect on my actions. I'm just very anxious to see what ID has for us this time.
+
+Tabre Perez</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4603417">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4613062#4655822">Re:Damnit.</a> by Tabre Perez (Score:1) Tuesday November 12, @09:13PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4603417">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4604763" class="comment">
+<div id="comment_status_4604763" class="commentstatus"></div>
+<div id="comment_4604763">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4604763">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4604763" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Alamandorious">Alamandorious (623323)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4604763">		
+		on Tuesday November 05, @10:36PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4604763">#4604763</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4604763">  I've been a doomer since I was 13 years old; it disgusts me that someone would leak the Doom 3 alpha out to the public.  <br> <br>
+  Mr. Carmack, the only thing I can say is that I'm still looking forward to the FULL Doom 3, and WON'T be downloading the leaked demo...I'm only one person, but I think, and judging from what I've seen, that a lot of people think like I do when it concerns this...I've been anticipating this game for YEARS, and I'm not about to let some jerk ruin it for me.<br> <br>
+  Keep up the good work, Mr. Carmack!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4604763">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4604763">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4608755" class="comment">
+<div id="comment_status_4608755" class="commentstatus"></div>
+<div id="comment_4608755">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4608755">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4608755" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~strictnein">strictnein (318940)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4608755">		 &lt;<a href="mailto:strictfoo-slashdot.yahoo%40com">strictfoo-slashdot.yahoo@com</a>&gt;
+		on Wednesday November 06, @01:00PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4608755">#4608755</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~strictnein/journal/">Sunday September 07, @04:00AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4608755">Now this is interesting:<br> <br>Moderation totals for John Carmacks post:<br> <br> <i>Moderation Totals: Redundant=1, Informative=4, Total=5.</i> <br> <br>How is that redundant? I don't remember him posting anything before.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4608755">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4615530" class="comment">
+<div id="comment_status_4615530" class="commentstatus"></div>
+<div id="comment_4615530">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4615530">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4615530" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~bigoshi">bigoshi (623712)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4615530">		
+		on Thursday November 07, @06:44AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4615530">#4615530</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4615530">Dear Mr. Carmack!<br>
+<br>
+I have to admit that the moment I heard of this (not intended) alpha-pre-release of DOOM3 I started the download - I couldn't hold it - I just wanted to see and to actually experience what I had read so much about.<br>
+<br>
+I know what "alpha" means and, okay, nonetheless was quite shocked to see this demo running at awfully slow 14 fps on my just upgraded system.<br>
+<br>
+BUT - <b>IT ROCKS!!!</b> <br>
+<br>
+This "demo" once and for all made me look for pre-order opportunities every coming day!<br>
+As soon as possible I WILL buy this game (hopefully, this won't be too long any more) and possibly I will upgrade my system again just to meet DOOMs requirements as I did with DOOM I in the old days!<nobr> <wbr></nobr>;)<br>
+<br>
+You see, though this demo was not leaked on purpose (at least not on yours), it already started to influence people (well, at least me!).<br>
+<br>
+<b>Go on! Make this game the best there ever was!</b> <i>(...again)</i> <br>
+From what I have seen so far this shouldn't be that difficult!<nobr> <wbr></nobr>;)<br>
+<br>
+Yours sincerely<br>
+BiG OSHi, <i>a great admirer of your work</i></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4615530">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4633914" class="comment">
+<div id="comment_status_4633914" class="commentstatus"></div>
+<div id="comment_4633914">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4633914">People are still posting to this fucking thing?</a></h4>
+
+
+		 	<span id="comment_score_4633914" class="score">(Score:1, Flamebait)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~SexyKellyOsbourne">SexyKellyOsbourne (606860)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4633914">		
+		on Saturday November 09, @06:08PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4633914">#4633914</a>)
+		<small><br>(<a href="http://www.wilwheaton.net/" rel="nofollow">http://www.wilwheaton.net/</a> | Last Journal: <a href="//slashdot.org/~SexyKellyOsbourne/journal/">Thursday January 08, @05:28PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4633914"><b>1)</b> Your god John Carmack is a skinny, nasal-voiced, lisping, limpwristed, pretentious faggot who whores himself out to all the nerds who write his sloppy code for him. <br> <br> <b>2)</b>Doom III sucks and is an uninspired ripoff of Resident Evil fueled by the <b>HYPE</b> that's hoodwinking all you people who read ve3d, anandtech, and blues news and post on their forums all day. It will run slower than old people fuck even on that Radeon 9700 waffle iron that you blew $400 on, and it still is going to be a shitty, uninspired game that you will beat in one cum-splattered Onanistic sitting.<br> <br> <b>3)</b>All of you who came here from your little game-worshipping rasterbation websites looking for some insight can lick my fucking gooch.<br> <br> <b>Fuck you.</b></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4633914">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4633914">4 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4649134" class="comment">
+<div id="comment_status_4649134" class="commentstatus"></div>
+<div id="comment_4649134">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4649134">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4649134" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~-5010-">-5010- (625029)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4649134">		
+		on Tuesday November 12, @02:54AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4649134">#4649134</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4649134">John,<br> <br>man, first i should say my english sux. about the only thing im good at is FPS games so plz dont judge me by it. when i was 10 years old i bought doom1 the shareware i was only 10 an always wished i had enough money for the full version even the shareware cost 7.00$ cdn an i only had 4 and a 1$ cdn bill my mom gave me. the man at the computer store in the mall let me give him that bill for difference my version was the goldstar one with no nightmare, and it took me 2 weeks to learn to run memmaker on the 486/33 with 4 megs of ram my parents just blew 4 thousand dollars on so i could play it. but when i got it to work i wouldnt stop playing to this day i bet ive logged more fps hours than any other human alive.. atleast i hafta be close. im not going to talk about doom3 on here what ive seen of it etc.. i dunt think ud appreciate it much. instead im thanking u for all the work uve done. DOOM hooked me when i was 10 and in 2003 i will be 20 years old, when i was 12 i met a guy called -=edge=- who taught me to stop using the doom cheat codes to play an we played serial games together until i moved he showed me that using cheats would make me suck in multi an to this day i have not cheated since. MY SOLID WORD! not that u really care, but your engines r some of the few things i can find a rewarding challenge in. i used to map for doom1 alot which is almost as much fun as playing the game i must say. "i really enjoyed legos too<nobr> <wbr></nobr>:P" so John man.. THANX!!! an i mean it with all the thankfullness ive got!<br> <br>-Solo<br>])own-System<br> <br>p.s. if u ever have a job opening that requires a person with alot of fps experience could i have it plz??? ill work for food!!!<nobr> <wbr></nobr>:P cya dude<br> <br>p.s.s i really will work for food!!!<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4649134">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4684346" class="comment">
+<div id="comment_status_4684346" class="commentstatus"></div>
+<div id="comment_4684346">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4684346">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4684346" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~0phd4">0phd4 (626705)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4684346">		
+		on Saturday November 16, @03:42AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4684346">#4684346</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4684346">Dear id (or whomever is reading this really),<br> <br>
+     Am i the only one dissecting this leak inside and out?<br> <br>I haven't had much time yet, but ive been fiddling around and looking at file types and changing vars around in the scripts and stuff. Unfortunately the Map Editor crashes every time i run it:(<br> <br>I think I will be one of the first ones to comment on the great artwork displayed here. The mapping is really cool and futuristic, the skins and textures are stylized and thematic, the models are scary, yet realistic, and the artwork in this game is just plain beautiful.<br> <br>This is truly the work of not only great engine coding, but great artists.<br> <br>The map editor will serve its purpose but i would REALLY like to see a 3dsmax exporter for models (and maybe a<nobr> <wbr></nobr>.3ds importer built into the map editor too:)). Hopefully an SDK will be availible to download directly after the release of the full game.<br> <br>I really look forward to modding this game, but I have no desire to write file format converters, and I don't believe many artists are much of coders themselves... so to see some good documentation (hell, even a step-by-step walkthrough or two) would be a great relief, and would save modders alot of time.<br> <br>So basically I am asking for a COMPLETE SDK:)<br> <br>P.S. - I love this game. I didn't believe it was possible to create this kind of survival horror immersion (especially in an FPS), but the Doom team has done it. I am more excited about this game AFTER playing the alpha than I was before.<br> <br>P.P.S. - Something is a little fishy... the empty map has a few comments. Why would you go in and manually comment an e3 tech demo... perhaps you were showing them your cool new file type? haha thats a little hard to believe.<br> <br>P.P.P.S - As to exactly why i put in post scripts... i dunno<br> <br>
+     - 0phd4</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4684346">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591655">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4591921" class="comment">
+<div id="comment_status_4591921" class="commentstatus"></div>
+<div id="comment_4591921">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4591921">Re:Damnit.</a></h4>
+
+
+		 	<span id="comment_score_4591921" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~shadowofdarkness">shadowofdarkness (578100)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4591921">		
+		on Sunday November 03, @11:35PM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4591921">#4591921</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4591921">Do you really think anyone is going to believe you are John Carmack
+
+plus to the real one keep up the good work. I have loved Doom ever since I played Doom 1 and I plan on buying Doom 3 for PC AND Xbox</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4591921">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4591895">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921#4592026">Re:Damnit.</a> by shadowofdarkness (Score:1) Sunday November 03, @11:53PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592026">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921#4592183">The real one</a> by Dave_bsr (Score:2) Monday November 04, @12:26AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921#4592194">Re:Damnit.</a> by Billly Gates (Score:2) Monday November 04, @12:30AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4592194#4592240">Re:Damnit.</a> by shadowofdarkness (Score:1) Monday November 04, @12:40AM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921#4592557">Re:Damnit.</a> by Maul (Score:1) Monday November 04, @01:56AM
+</li><li><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921#4592604">Re:Damnit.</a> by spoco2 (Score:1) Monday November 04, @02:10AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592604">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4591921">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592549" class="comment">
+<div id="comment_status_4592549" class="commentstatus"></div>
+<div id="comment_4592549">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592549">Re:Different Perspective</a></h4>
+
+
+		 	<span id="comment_score_4592549" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~fault0">fault0 (514452)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592549">		
+		on Monday November 04, @01:55AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592549">#4592549</a>)
+		<small><br>(<a href="http://localhost/" rel="nofollow">http://localhost/</a> | Last Journal: <a href="//slashdot.org/~fault0/journal/">Monday November 24, @07:05PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592549">&gt; Those games have demos you could have played for free and that were provided by the software makers.<br> <br>Except that in many cases, the demos are old and not representive of gameplay. The Quake3 demo, for example, was based on Quake3 1.11 (I beleive). The current build of Quake3 is 1.32, and has had many tweaks over the ages.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592549">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592344">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4592549">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4592559" class="comment">
+<div id="comment_status_4592559" class="commentstatus"></div>
+<div id="comment_4592559">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592559">Re:Different Perspective</a></h4>
+
+
+		 	<span id="comment_score_4592559" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Synic">Synic (14430)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592559">		
+		on Monday November 04, @01:56AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592559">#4592559</a>)
+		<small><br>(<a href="http://kunikos.blogspot.com/" rel="nofollow">http://kunikos.blogspot.com/</a> | Last Journal: <a href="//slashdot.org/~Synic/journal/">Monday March 08, @02:35AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592559">Agreed... you may think you are being "utilitarian," but that philosophy only works when the happiness of *everyone* is considered, not just your own selfish desires. Two weeks is a lot of gameplay for some of the titles that come out these days. If you are short of cash use your brain instead of pirating games. Play demos, read reviews, and above all else listen to what people say about the game. All of which are perfectly legal. Hell, there's nothing wrong with just waiting a few weeks after a game is *officially* released to see what saps who blew their money on the game think of the pile of code.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592559">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592344">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592908" class="comment">
+<div id="comment_status_4592908" class="commentstatus"></div>
+<div id="comment_4592908">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592908">Re:heh</a></h4>
+
+
+		 	<span id="comment_score_4592908" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Rothron+the+Wise">Rothron the Wise (171030)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592908">		
+		on Monday November 04, @04:13AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592908">#4592908</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592908">What's eatin' you, pal? Who's twisting your arm to buy Doom3? "Poorly desgined new graphics features", and I suppose you can do better?<br> <br>I'm pretty confident that Id will release something before the game is out, as they always have in the past. You'll be able to test the finished thing and then decide if you want to buy the game or not. I cannot envision why it should bother you the least that people have high hopes for Doom3 and are eager to try it out, unless you're upset because your hardware can't keep up.<br> <br>Something a wise man once told me: No matter how smart you are, never make fun of people who are happier than you are. They must be doing something right. <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592908">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592882">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4592966" class="comment">
+<div id="comment_status_4592966" class="commentstatus"></div>
+<div id="comment_4592966">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4592966">Re:heh</a></h4>
+
+
+		 	<span id="comment_score_4592966" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Chicane-UK">Chicane-UK (455253)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4592966">		 &lt;<a href="mailto:%5Bmoc.dlrowltn%5D+%5Bta%5D+%5Bku-enacihc%5D">[moc.dlrowltn] [ta] [ku-enacihc]</a>&gt;
+		on Monday November 04, @04:37AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4592966">#4592966</a>)
+		<small><br>(<a href="http://www.slashcode.org/" rel="nofollow">http://www.slashcode.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4592966">You ass... why is it so many people keep making this same comment.<br> <br>No, it DOESNT run at 20fps on a brand new machine - on a modest GeForce4 Ti4400 &amp; Athlon XP2000+ the game runs perfectly (40fps+) with 4x antialias. This is not a 'new' machine by any stretch of the imagination, but it still works just fine.<br> <br>I dont see how you are trying to make judgements based on this leaked code... the game is still alpha - it is NOT FINISHED YET. SO ITS HARDLY GOING TO RUN LIKE A FINAL RELEASED GAME! Optimisations have not been added - the code was designed to run on a fast platform, built specifically for E3.<br> <br>Sheesh... &gt;:|</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4592966">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592882">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4593108" class="comment">
+<div id="comment_status_4593108" class="commentstatus"></div>
+<div id="comment_4593108">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4593108">Re:heh</a></h4>
+
+
+		 	<span id="comment_score_4593108" class="score">(Score:2, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Mac+Degger">Mac Degger (576336)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4593108">		
+		on Monday November 04, @05:24AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4593108">#4593108</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~Mac+Degger/journal/">Wednesday March 05, @06:56PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4593108">And that is exactly the reason why iD is pissed at a leak. Alpha software, even beta software, is just that: it's not finished, it's not polished, it's not optimised. It's not even feature rich, let alone feature complete. <br> <br>Normal people, who have even a passing interest in software, any kind of software, know that. You on the other hand are just a troll who has no clue. You're complaining about low frame rates for a game which hasn't been optimised yet. The guys at iD are just happy to have stuff show up on screen and not crash most of the time at this point (well, they're further than that, but the point stands). It'll get fixed, but that takes time. This is exactly the reason why iD is "upset"; morons like you making a presumption that framerates are low now, so they'll be low when the game comes out (in more than half a years time, which also means a new generation of gfx hardware, btw).<br>You're complaing about gameplay for something which has not half of the features, weapons and AI (which is always tackled last, as it needs to be designed with every feature and more importantly the implementation of those features in mind).<br> <br>"keep believing that all those pixel shaders and stencil shadows actually make anything besides the models look better"<br> <br>No, they make the environment around the model look pretty too. You don't even seem to know what those things do...I'm impressed by your overall lack of knowledge, insight and your mastery of stupidity.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4593108">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592882">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4593108">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4593788" class="comment">
+<div id="comment_status_4593788" class="commentstatus"></div>
+<div id="comment_4593788">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4593788">CIA</a></h4>
+
+
+		 	<span id="comment_score_4593788" class="score">(Score:2, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Snardly+Dinkerton">Snardly Dinkerton (603915)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4593788">		
+		on Monday November 04, @10:07AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4593788">#4593788</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4593788">If the CIA were in charge of this the source code would be posted on telephone poles by now, with a "Have you seen me?" headline.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4593788">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592903">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_4597463" class="comment">
+<div id="comment_status_4597463" class="commentstatus"></div>
+<div id="comment_4597463">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4597463">stealing the game</a></h4>
+
+
+		 	<span id="comment_score_4597463" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~tulmid">tulmid (622959)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4597463">		
+		on Tuesday November 05, @12:30AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4597463">#4597463</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4597463">I remember halo
+(remember that lie) I remember waiting two years to see a lie.
+
+We were promised lots of things in halo 10 000 km of level free gaming etc. After I finished halo in 6 hours, I realized that I got ripped "stealing a game is not unethical" lying to your clients is, I will never get a game again without trying it out first.
+
+the coin has two sides. if one side is rotten then both are.
+
+peace man</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4597463">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4592299">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4597463">3 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_4623040" class="comment">
+<div id="comment_status_4623040" class="commentstatus"></div>
+<div id="comment_4623040">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="4623040">Re:why are people saying, I wont DL demo etc???</a></h4>
+
+
+		 	<span id="comment_score_4623040" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~3QE+Doug">3QE Doug (624016)</a> 
+			<span class="otherdetails" id="comment_otherdetails_4623040">		
+		on Friday November 08, @12:32AM (<a href="//slashdot.org/comments.pl?sid=44077&amp;cid=4623040">#4623040</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_4623040">I was in AWE after checking out the leak. It was simply amazing, and I seriously can't wait for the finished product. It literally blew my mind seeing it in action and not in a<nobr> <wbr></nobr>.MPEG file. John is a GRAPHICS GOD!!!
+
+I WILL be definitely buying this game just from the WoW Factor it already has.
+
+Sorry about the leak John, but hey.... it's like life in the X-Files:
+
+"Trust No One."</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_4623040">
+[ <a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=4615213">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4623040">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=44077&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=4591655">68 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

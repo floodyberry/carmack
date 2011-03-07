@@ -1,0 +1,1271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>The Rise And Fall of Ion Storm</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://games.slashdot.org/games/02/01/02/1721235.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,games,entertainment';
+		var parent = 'http://slashdot.org/articles/02/01/02/1721235.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=games;tpc=entertainment;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=02/01/02/1721235">The Rise And Fall of Ion Storm</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>377</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=25551">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 377 comments</option>
+	<option value="0">0: 333 comments</option>
+	<option value="1" selected>1: 225 comments</option>
+	<option value="2">2: 97 comments</option>
+	<option value="3">3: 39 comments</option>
+	<option value="4">4: 19 comments</option>
+	<option value="5">5: 8 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="25551">
+		<input type="hidden" name="cid" value="2774808">
+		<input type="hidden" name="pid" value="2774808">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_2774808" class="comment">
+<div id="comment_status_2774808" class="commentstatus"></div>
+<div id="comment_2774808">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2774808">Comments</a></h4>
+
+
+		 	<span id="comment_score_2774808" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2774808">		
+		on Wednesday January 02, @03:18PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2774808">#2774808</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2774808">From the article:
+<br>
+<br>&gt;But with great success came great antipathy, not just for John, but also for many of his
+<br>&gt;employees.
+<br>
+<br>The employees did sort of get a raw deal by association, but to ascribe all of the antipathy towards Romero to jealousy is really missing the point.
+<br> <br>&gt;Daikatana and Deus Ex were finally released in 2000. Predictably, Daikatana was slammed while
+<br>&gt;Deus Ex received many awards. Both made money for Eidos
+<br>
+<br>Deus Ex made money.  Daikatana lost an immense amount of money.  We followed the PC-Data sales numbers for a little while, and it was really, really grim.  It might have made a comback when it went to the bargain bin, but even if it had turned into the best selling game of the year, it wouldn't have covered the sunk costs at Ion.
+<br>
+<br>My view:
+<br>
+<br>Ion storm failued due to lack of focus, which came from the top.  They had some great employees (we hired some of them!), but games don't get done without someone in a position of authority forcing everything together.  Romero's primary mistake was believing that abstract creative design was a primary, or even significant, part of a successful game.  The "strategic creativity" in a game is less than 1% of the effort, and if you put that on a pedestal, you will deephasise where all the real work needs to be done.
+<br>
+<br>I think Romero has a chance at a comeback with his current foray into handheld games.  I don't think he ever lost the enthusiasm for games, but if he can recapture the personal work ethic that he had early on, he can probably still do some pretty cool things.
+<br>
+<br>John Carmack</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2774808">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">5</th>
+		<th align="left">&nbsp;points</th>
+	</tr>
+
+
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_2774928" class="comment">
+<div id="comment_status_2774928" class="commentstatus"></div>
+<div id="comment_2774928">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2774928">But dude...</a></h4>
+
+
+		 	<span id="comment_score_2774928" class="score">(Score:2, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Doktor+Memory">Doktor Memory (237313)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2774928">		
+		on Wednesday January 02, @03:39PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2774928">#2774928</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~Doktor+Memory/journal/">Tuesday March 25, @05:35PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2774928">...didn't you hear?  <b>Design is law!</b></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2774928">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2774928#2787690">Re:But dude...</a> by Cuthalion (Score:1) Friday January 04, @04:54PM
+</li></ul></li><li id="tree_2775010" class="comment">
+<div id="comment_status_2775010" class="commentstatus"></div>
+<div id="comment_2775010">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775010">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2775010" class="score">(Score:3, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~JWhitlock">JWhitlock (201845)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775010">		 &lt;<a href="mailto:John-Whitlock%40i3.1415926eee.org+minus+pi">John-Whitlock@i3.1415926eee.org minus pi</a>&gt;
+		on Wednesday January 02, @03:55PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775010">#2775010</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775010">Whoa - it seems a little unfair to have John Carmack reply.  Still, I'd love to see Romero's response, if he feels up to it.
+<p>
+I have to admit, lack of top-down leadership seems plausible.  How else can you explain Half-Life being so good, and Daikatana being so bad?  Same basic engine, but one lacked the ability to pull off the added extras.
+</p><p>
+Still, there's a great book to be written on game design theory, from concept to box.  I'd love to see some insight into id, which seems to have done well from shareware like Commander Keen all the way into the present, vs. the other teams that didn't quite make it.  I'd love to hear what happened at Origin after Ultima 7.  Anyone else have favorite untold game design stories?
+</p><p>
+In my line of work, the boss has a saying - There's a time to shoot the engineer and ship the thing.  Maybe in game design, there's a time to shoot the designers and let the programmers get it right.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775010">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775010#2775152">Re:Comments</a> by ewhac (Score:2) Wednesday January 02, @04:22PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775152#2775176">Re:Comments</a> by JWhitlock (Score:2) Wednesday January 02, @04:27PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775176#2787662">Re:Comments</a> by Cuthalion (Score:2) Friday January 04, @04:49PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775176">3 replies</a>
+ beneath your current threshold.</b></li></ul></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775010#2775266">Day of Defeat</a> by sheetsda (Score:2) Wednesday January 02, @04:40PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775266#2775484">Re:Day of Defeat</a> by Hard_Code (Score:2) Wednesday January 02, @05:16PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775266#2788426">Re:Day of Defeat</a> by Matt Boone (Score:1) Friday January 04, @06:58PM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775010#2809486">Re:Comments</a> by Satori80 (Score:1) Wednesday January 09, @11:34AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775010">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2775142" class="comment">
+<div id="comment_status_2775142" class="commentstatus"></div>
+<div id="comment_2775142">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775142">the real problem</a></h4>
+
+
+		 	<span id="comment_score_2775142" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~daVinci1980">daVinci1980 (73174)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775142">		
+		on Wednesday January 02, @04:20PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775142">#2775142</a>)
+		<small><br>(<a href="http://www.lexical-ambiguity.com/" rel="nofollow">http://www.lexical-ambiguity.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775142">&gt; Daikatana lost an immense amount of money.<br>
+<br>As both a player and programmer of games, I can suggest four words that caused this: electric powered gas hands.
+<br> <br>That's it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775142">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2775235" class="comment">
+<div id="comment_status_2775235" class="commentstatus"></div>
+<div id="comment_2775235">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775235">Re: Design</a></h4>
+
+
+		 	<span id="comment_score_2775235" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Rocketboy">Rocketboy (32971)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775235">		
+		on Wednesday January 02, @04:36PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775235">#2775235</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775235"><i>The "strategic creativity" in a game is less than 1% of the effort</i>
+<br>
+<br>Goes a long way toward explaining why so many games are loser copies of old shit, doesn't it?  Coding is easy; coming up with a worthwhile, original idea -- that's harder.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775235">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775235#2790831">Re: Design</a> by The Raven (Score:1) Saturday January 05, @01:19PM
+</li></ul></li><li id="tree_2775319" class="comment">
+<div id="comment_status_2775319" class="commentstatus"></div>
+<div id="comment_2775319">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775319">Definitions of terms</a></h4>
+
+
+		 	<span id="comment_score_2775319" class="score">(Score:1, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~robson">robson (60067)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775319">		
+		on Wednesday January 02, @04:49PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775319">#2775319</a>)
+		<small><br>(<a href="http://www.doublefine.com/" rel="nofollow">http://www.doublefine.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775319">I'd like to know exactly how J.C. defines "abstract creative design" and "strategic creativity".  I'm a game designer, and most projects I've seen suffered from a *lack* of a clear, comprehensive design up front.  I don't know if that's what he means or not.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775319">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li id="tree_2775698" class="comment">
+<div id="comment_status_2775698" class="commentstatus"></div>
+<div id="comment_2775698">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775698">Re:Definitions of terms</a></h4>
+
+
+		 	<span id="comment_score_2775698" class="score">(Score:5, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775698">		
+		on Wednesday January 02, @05:52PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775698">#2775698</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775698">To elaborate a bit:
+<br>
+<br>Probably everyone reading this has done some "game design" while talking with friends.  In an evening, you can lay out the basic character of a game -- what the player does, what the environments are like, what the obstacles are, what the tools in the game are like, what the plot is, what the style of the game is, and a few unique hooks for the game.
+<br>
+<br>There is not a hell of a lot of difference between what the best designer in the world produces, and what a quite a few reasonably clued in players would produce at this point.  This is the "abstract creativity" aspect.  This part just isn't all that valuable.  Not worthless, but it isn't the thing to wrap a company around.
+<br>
+<br>The real value in design is the give and take during implementation and testing.  It isn't the couple dozen decisions made at the start, it is the thousands of little decisions made as the product is being brought to life, and constantly modified as things evolve around it.  If you took two game designs, one good and one bad, and gave them to two development teams, one good and one bad, the good dev team could make a good, fun product out of a bad design, but the bad dev team could ruin the most clever design.  The focus should be on the development process, not the (initial) design.
+<br>
+<br>The games with 500 page design documents before any implementation are also kidding themselves, because you can't make all the detail decisions without actually experiencing a lot of the interactions.
+<br>
+<br>Putting creativity on a pedestal can also be an excuse for laziness.  There is a lot of cultural belief that creativity comes from inspiration, and can't be rushed.  Not true.  Inspiration is just your subconscious putting things together, and that can be made into an active process with a little introspection.
+<br>
+<br>Focused, hard work is the real key to success.  Keep your eyes on the goal, and just keep taking the next step towards completing it.  If you aren't sure which way to do something, do it both ways and see which works better.
+<br>
+<br>John Carmack</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775698">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2775319">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2775771">Re:Definitions of terms</a> by Osty (Score:1) Wednesday January 02, @06:05PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775771#2776051">Re:Definitions of terms</a> by Jagasian (Score:2) Wednesday January 02, @06:52PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2776051">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775771#2776161">Please, lets keep our thumb where it belongs</a> by dacloo (Score:1) Wednesday January 02, @07:10PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2776161">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775771">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2775932">Re:Definitions of terms</a> by DeathTongue (Score:1) Wednesday January 02, @06:32PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2775995">Re:Definitions of terms</a> by Rick Genter (Score:2) Wednesday January 02, @06:43PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775995#2814213">Re:Definitions of terms</a> by Scott Warner (Score:1) Wednesday January 09, @10:05PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775995">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2776041">Re:Definitions of terms</a> by tasq (Score:1) Wednesday January 02, @06:51PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2776041#2777394">Re:Definitions of terms</a> by robson (Score:1) Thursday January 03, @01:04AM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2776041#2785504">Re:Definitions of terms</a> by iainl (Score:1) Friday January 04, @12:18PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777527#2778181">Re:Definitions of terms</a> by Dehumanizer (Score:1) Thursday January 03, @07:39AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2776041">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2777567">Re:Definitions of terms</a> by riant (Score:1) Thursday January 03, @02:22AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777567#2797409">Re:Definitions of terms</a> by yifin (Score:1) Monday January 07, @06:33AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2777567">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2777611">Re:Definitions of terms</a> by Anonymous Coward (Score:1) Thursday January 03, @02:42AM
+<ul><li id="tree_2777806" class="comment">
+<div id="comment_status_2777806" class="commentstatus"></div>
+<div id="comment_2777806">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2777806">Re:Definitions of terms</a></h4>
+
+
+		 	<span id="comment_score_2777806" class="score">(Score:4, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2777806">		
+		on Thursday January 03, @04:01AM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2777806">#2777806</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2777806">&gt; Clever design + bad dev team = Deer Hunter, so there is an argument to be made for both sides
+<br>
+<br>That is a really good example.  I might quibble that that was market creativity, rather than game design creativity, but it is still a good point.
+<br>
+<br>John Carmack</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2777806">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2777611">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777806#2779179">Re:Definitions of terms</a> by Anonymous Coward (Score:1) Thursday January 03, @12:26PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2779179#2779814">Re:Definitions of terms</a> by Reality Master 101 (Score:3) Thursday January 03, @01:54PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2779179#2780055">Re:Definitions of terms</a> by 19Buck (Score:3) Thursday January 03, @02:35PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2779179#2780338">Re:Definitions of terms</a> by XombieWire (Score:1) Thursday January 03, @03:17PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2779814#2780092">Re:Definitions of terms</a> by Anonymous Coward (Score:1) Thursday January 03, @02:41PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2779179">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777611#2777871">Re:Definitions of terms</a> by robson (Score:1) Thursday January 03, @04:43AM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2786488">Re:Definitions of terms</a> by Gelfin (Score:1) Friday January 04, @02:18PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2790005">Re:Definitions of terms</a> by IQpierce (Score:1) Saturday January 05, @03:49AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2790005#2790905">Re:Definitions of terms</a> by drinkypoo (Score:1) Saturday January 05, @01:54PM
+</li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2790903">Re:Definitions of terms</a> by UtherP (Score:1) Saturday January 05, @01:53PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2794833">Re:Definitions of terms</a> by cadallin451 (Score:1) Sunday January 06, @06:09PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698#2795121">Re:Definitions of terms</a> by Tokens (Score:1) Sunday January 06, @07:34PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777046#2778782">Re:Definitions of terms</a> by RagManX (Score:1) Thursday January 03, @11:03AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2778782#2814345">Re:Definitions of terms</a> by Scott Warner (Score:1) Wednesday January 09, @10:35PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2778782">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775698">19 replies</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775319">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2775367" class="comment">
+<div id="comment_status_2775367" class="commentstatus"></div>
+<div id="comment_2775367">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775367">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2775367" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~EnVisiCrypt">EnVisiCrypt (178985)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775367">		 &lt;<a href="mailto:groovetheorist%26hotmail%2Ccom">groovetheorist&amp;hotmail,com</a>&gt;
+		on Wednesday January 02, @04:56PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775367">#2775367</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775367">Pardon, but I have to ask why you feel that <i>"strategic creativity is less than 1% of the effort"</i>?
+<br> <br>
+Perhaps I'm misunderstanding here, but success can be borne of creative development being primary thrust in a gaming project. Certainly technical issues/successes are paramount to keeping a game cutting edge and therefore buzzworthy, but to completely denigrate the role of the creativity in a game is to ignore an entire subsect of gaming.
+<br> <br>
+Surely ID games will continue to find success with it's fantastic engines, but I think that you guys could stand some of the creativity exhibited in games like Deus Ex and to a lesser extent Anachronox. Don't misunderstand, I'm a huge fan of ID and I will play all three Quakes until my fingers bleed, but if I'm looking for an story based, consuming game, I know I won't find it at ID (for now).
+<br> <br>
+That's not to say that idle creativity does anyone good. Standing around saying "Boy that would be cool if..." or "gee wouldn't this be great..." doesn't ship games, but a certain measure of that, I feel, is good for the process.
+<br> <br>
+I tremendously respect ID and what you do, and I'm a huge fan, but I have to take exception as it sounds like the ID way is the only way.
+<br> <br>
+I think I may be missing something, but as it stands, that's how I see it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775367">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775367#2775398">Re:Comments</a> by jjohnson (Score:1) Wednesday January 02, @05:02PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2775398#2775435">Re:Comments</a> by EnVisiCrypt (Score:1) Wednesday January 02, @05:08PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775367">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2775611" class="comment">
+<div id="comment_status_2775611" class="commentstatus"></div>
+<div id="comment_2775611">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775611">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2775611" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~nrc">nrc (112633)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775611">		
+		on Wednesday January 02, @05:39PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775611">#2775611</a>)
+		<small><br>(<a href="http://slashdot.org/" rel="nofollow">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775611">
+<br>Huh?  You mean a company run by slackers, for slackers isn't a good business model?  Rats, there goes my whole business plan.
+<br>
+<br>The sad irony is that the idea of bringing a cinematic story line into the FPS genre was good, but Valve executed faster and better.  Maybe as a new company Ion Storm should have figured out how to take a few steps forward before they got so caught up in the idea of a making a quantum leap.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775611">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2775683" class="comment">
+<div id="comment_status_2775683" class="commentstatus"></div>
+<div id="comment_2775683">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775683">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2775683" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~cappy4">cappy4 (547502)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775683">		
+		on Wednesday January 02, @05:49PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775683">#2775683</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775683">Agreed.  What Romero and others fail to realize is that creativity for its sake alone is nice but will rarely result in a finished and cohesive product without focus.
+
+ group of creative people benefits from having someone focus their efforts toward a conclusion.  Picture an orchestra without a conductor or someone to decide which piece of music they will practice or perform, venues, etc.
+
+Or, picture an IT department isolated from its end-users which doesn't meet deadlines or complete products that are useful.  I've been fortunate enough to work with IT staff that produce unbelievable amounts of finished products in short time with limited staff, simply because they remain connected with the end-users and recognize that it's a synergistic effort.
+
+Romero got into a  and as such his primary responsibility was to ensure that he played by the rules of the business, which is to complete products.  If he wanted to play around with cool ideas and produce nothing, simply basking in the act of creating (like the first three weeks of a new romance) he shouldn't be wasting other people's money doing it.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775683">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2775850" class="comment">
+<div id="comment_status_2775850" class="commentstatus"></div>
+<div id="comment_2775850">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2775850">Ion Dallas</a></h4>
+
+
+		 	<span id="comment_score_2775850" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~AbortRetryIgnore">AbortRetryIgnore (547508)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2775850">		
+		on Wednesday January 02, @06:17PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2775850">#2775850</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2775850">The main problem I have with the article is that in the nine months I spent employed/indentured at Ion Storm Dallas, I never once saw or heard of the author coming into the building, much less working on actually developing the so-called "plot" of Daikatana.  (I realize that may not be a huge deal... after all, if anything in game development can be done remotely, it's hacking together a story for the action to take place in light of, but it's still rather interesting to me to note that...)
+<br>
+<br>As far as Daikatana making money, there's no way it could have without being by FAR the best selling of all PC titles to date.  I remember tossing numbers around with a few other colleagues, and based on a very generous $8 per-unit-sold profit, to break even Daikatana would have had to have sold somewhere near 4.5 million units (at full launch price mind you) to have broken even, based on the amount of money fronted to IS by Eidos for startup costs and such.  Those are insane numbers in the PC market as I'm sure you all know, even with the best-selling flagship titles.
+<br>
+<br>As for Romero being without ego and a level-headed individual, that had a lot to do with how far you were willing to debase yourself in order to be allowed into his little inner-circle.  Many of us simply weren't willing to do that I suppose.
+<br>
+<br>I can say that my time there was well-spent, if only as a way of teaching myself that not all is wine and roses in the industry, and to allow myself the knowledge to look for red flags before getting into a similar situation later down the road.  I'm glad to see that Ion-austin survived and flourished on its own, and didn't get mired down by the crap that happened in its brother to the north.  They did it the right way -- knuckling down, being quiet, and focusing on the job at hand, rather than the celebrity that those in Dallas seemed to want.  I really think if the 'Storm in Dallas had paid more attention to the way Warren Spector and Co. did things, Ion Storm would have been much different, and this article wouldn't need to exist.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2775850">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2775850">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2776626" class="comment">
+<div id="comment_status_2776626" class="commentstatus"></div>
+<div id="comment_2776626">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2776626">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2776626" class="score">(Score:4, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~NelnoTheAmoeba">NelnoTheAmoeba (184600)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2776626">		
+		on Wednesday January 02, @09:08PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2776626">#2776626</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2776626">&gt;Ion storm failued due to lack of focus, which came from the top.
+<br>
+<br>As someone who knows firsthand, I just have to say that John couldn't be more correct on that point.
+<br>
+<br>After devoting nearly every waking hour of my life to Daikatana for a year and a half I found that in the end it's goes nowhere if the effort was not applied toward a consistent goal.
+<br>
+<br>Imagine a single point with hundreds of random vectors originating from it.  Add them together and they essentially cancel one another out.
+<br>
+<br>That point is Daikatana and those vectors represent the effort myself and others put into it over several years.
+<br>
+<br>Direction is important.
+<br>
+<br>And to maintain direction, you need focus.  And that, truly, is what Ion lacked.
+<br>
+<br>Jonathan E. Wright</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2776626">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2776626">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2776789" class="comment">
+<div id="comment_status_2776789" class="commentstatus"></div>
+<div id="comment_2776789">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2776789">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2776789" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Angrycoder">Angrycoder (525226)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2776789">		
+		on Wednesday January 02, @09:46PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2776789">#2776789</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2776789">I love John Carmack and all, he is without a doubt a brilliant man, but....He reminds of the Silent Bob of the gaming commmunity. Everytime he has something to say everyone just flocks to it.
+<br>
+<br>Jay: "He thinks just because he don't say anything, it'll have, like, this huge impact when he does open his fucking mouth."
+<br>-- Chasing Amy</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2776789">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2776789#2777573">Re:Comments</a> by Wumpus (Score:1) Thursday January 03, @02:25AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2780262#2782225">Re:Comments</a> by Wumpus (Score:1) Thursday January 03, @07:40PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2783243#2787865">Re:Comments</a> by Wumpus (Score:1) Friday January 04, @05:19PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2799708#2800447">Re:Comments</a> by Wumpus (Score:1) Monday January 07, @05:15PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2787865">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2782225">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2777573">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2776789#2778146">Re:Comments</a> by abdulla (Score:1) Thursday January 03, @07:16AM
+</li></ul></li><li id="tree_2777504" class="comment">
+<div id="comment_status_2777504" class="commentstatus"></div>
+<div id="comment_2777504">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2777504">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2777504" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~rune2">rune2 (547599)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2777504">		
+		on Thursday January 03, @01:45AM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2777504">#2777504</a>)
+		<small><br>(<a href="http://www.fragtopia.com/" rel="nofollow">http://www.fragtopia.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2777504">With both Carmack and Romaro at id the games were that much better and neither is the same without the strengths of the other.
+<br>
+<br>Carmack has always been about the drive and focus of getting the game done (especially from the technical side of things) while Romero has been all about the design and experience of a game.
+<br>
+<br>I think that the games that each one have released since Romero left id speak for themselves. In id's past few games it noticibly felt like something was missing. The feel of the game wasn't quite the same without Romaro.
+<br>
+<br>Similarly the problems Romero had with Daikatana showed that free form design in and of itself does not necessarily make a good or complete game.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2777504">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2777504">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2777643" class="comment">
+<div id="comment_status_2777643" class="commentstatus"></div>
+<div id="comment_2777643">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2777643">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2777643" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Julian+K">Julian K (547604)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2777643">		
+		on Thursday January 03, @02:54AM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2777643">#2777643</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2777643">Well, all my respect to J. Carmack, but his statement leaves a shallow taste. You don't have to be a genius to figure that no however great and creative idea isn't worth much if it the lacks the work and focus to get it executed.
+But it really takes both, the creativity, the " vision" and the patience, discipline and work to do it.
+I have worked 90 % of my life in all kinds of different creative , even artistic areas, from doing paintings on my own, working in teams in the theater, doing performances and now more and more working on games. One thing I sure have learned ( and often the hard way) is that if you don't have a decent idea, if there's total lack of creativity then you are also in trouble. I have seen to many productions in every area  falling apart in front of an audience because they had just the body, but no "soul". well executed, hard worked on, but with no interesting original concept, no capturing idea, leaving the public completely unimpressed. Yes of course, you can have a hit with a rather shallow game that delivers great technology. Dish out another " Aliens_have_taken_over_our_planet_and_you_gotta_k<nobr>i<wbr></nobr>  ck_their_ass" game or the next CS Clone (which already cloned rainbow six) and it might be selling well with a great engine, delivering super duper visuals. But.. how long will this go on? More and  more Games, more and more Movies are one and the same idea beefed up with "special fx", being showcases of technology. Maybe I am wrong but I can't get rid of the feeling that it starts to wear off.  People get used to things looking better and better with every hardware generation, it will become harder and harder to impress. I'm already bored by just another load of great looking screenshots of whatever upcoming game and mind you I am a very visually oriented person. I think it's creativity which will be a higher value in the future . Look at Hollywood, they are paying incredible amounts for a good script and they are desperate for it. And again, of course the best script doesn't do shit without the hard work needed to make it a finished product that actually brings the idea to life.  It simply needs BOTH and to value creativity with less than 1 % ( ?????) is not a bit shortsighted IMHO.
+Sure John C is right with "... the good dev team could make a good, fun product out of a bad design,..." , but it will probably be a very mediocre fun product and how many more of those do we need? How many can we sell??</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2777643">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777643#2777834">Re:Comments</a> by Julian K (Score:1) Thursday January 03, @04:16AM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2777643#2787551">Re:Comments</a> by Jesse Miller (Score:1) Friday January 04, @04:29PM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2787551">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2782080#2784493">Re:Comments</a> by Julian K (Score:1) Friday January 04, @08:42AM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2777643">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_2784299" class="comment">
+<div id="comment_status_2784299" class="commentstatus"></div>
+<div id="comment_2784299">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2784299">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2784299" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~wilf+1970">wilf 1970 (523415)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2784299">		
+		on Friday January 04, @06:47AM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2784299">#2784299</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2784299">Without truly knowing the sorded internal affairs of Ion Storm it's difficult to pass any kind of judgement on a personal level. <br> <br>
+All I know is that the product was damaged long before it hit the shelves. (Little wonder that Deus Ex followed it shortly after. Presumably some kind of damage limitation excersise from Eidos.)<br> <br>
+The more Romero et al exposed themselves to the public the more they got shot!<br>
+You either learn from this or you fail.<br> <br>
+I liken it to the success of some of the biggest bands we've seen in recent years. Following an overnight success band members are forced to respond in the way that they know best. Those that handle this situation (usually by hiding) continue to create quality. Those that don't fade away. Occasionaly such forgotten types re-emerge and create something stunning and unexpected. I hope that this is the case for Romero.<br> <br>
+I still believe in his ability as a designer as he had a hand in 2 of the games that I still play regularly. What I think he misses is the single minded focus and genuine talent from a team such as id.<br>
+Finally, he's got Tom Hall with him. That has to be a good thing. Doesn't it?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2784299">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2791221" class="comment">
+<div id="comment_status_2791221" class="commentstatus"></div>
+<div id="comment_2791221">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2791221">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2791221" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Panajev2001a">Panajev2001a (548539)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2791221">		
+		on Saturday January 05, @03:35PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2791221">#2791221</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2791221">Game design IS imporatnt... I agree with John that initial game design isn't SO significant but I also have to say that looking at what the kinds of designers like Miyamoto that they can do much better than what common gamer a bit clued in can put together... that is also because they're able to have this vision and being able to communicate it to the development team... the capability of following progresses and difficulties of the developers and adapt your vision to the platform you're targeting... the capability of studying how the game is playing and how it can be even more enjoyable and not a frustrating senseless technological demo which many games nowadays are( a good game designer is also a gamer, he enjoys games )and to tigthetn the controls to be just perfect... Mario 64, Yoshi's Island are examples of that...
+<br>
+<br>I'm not taking anything away from the developers/coders, they put a lot of hardwork and patience into the game and they have to be intellignet to take the good game design and bring it into reality ( a good game designer helps them and make sure they get as close to the initial vision as possible )... An enjoyable game can also be a  beautiful one<nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2791221">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2774808">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2791221#2791347">Re:Comments</a> by spaanoft (Score:1) Saturday January 05, @04:23PM
+</li><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2791221#2794012">Re:Comments</a> by Panajev2001a (Score:1) Sunday January 06, @01:29PM
+</li></ul></li><li id="tree_2776845" class="comment">
+<div id="comment_status_2776845" class="commentstatus"></div>
+<div id="comment_2776845">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2776845">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2776845" class="score">(Score:1, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~AbortRetryIgnore">AbortRetryIgnore (547508)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2776845">		
+		on Wednesday January 02, @10:04PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2776845">#2776845</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2776845">&gt;&gt;Truly inovative games will always sell well. Look at max payne. I was really pissed that it was not first person view, but after getting around the feel, the game was damn near perfect.
+<br> <br>Tell that to the developers who go out and try to make anything other than yet another FPS or RTS and go bankrupt because they either sell poorly, or the publisher wants them to revamp the game to become more of the same.
+<br>
+<br>Tell that to Bungie who had to rape the original idea of what Halo was intended to be to fit Microsoft's plans and have it be yet another FPS game.
+<br>
+<br>Tell that to any developer that has to fall back onto making more of the same in order to try and bankroll something truly original, just to have it die miserably because damn it, it's not another version of WarCraft/C&amp;C/Quake/whatever.
+<br>
+<br>And then you bring up Counterstrike which is just a variation on more of the same (HalfLife meets rainbow six).  Way to bury your own argument there.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2776845">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2776186">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2776845#2777038">"raping" Halo</a> by Doktor Memory (Score:3) Wednesday January 02, @11:18PM
+</li></ul></li><li id="tree_2777044" class="comment">
+<div id="comment_status_2777044" class="commentstatus"></div>
+<div id="comment_2777044">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2777044">Re:Comments</a></h4>
+
+
+		 	<span id="comment_score_2777044" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~YourGarbageMan">YourGarbageMan (537956)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2777044">		
+		on Wednesday January 02, @11:20PM (<a href="//slashdot.org/comments.pl?sid=25551&amp;cid=2777044">#2777044</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2777044">I have the feeling I'm responding to a troll but wtf.
+<br>
+<br>1st off, Nali Healing Fruits were from the game Unreal not Daikatana.  I have to wonder if you actually *did* play Daikatana.
+<br>
+<br>2nd, you praise innovative games but you were "really pissed" that Max Payne wasn't 1st person?  Can you only appreciate innovation retroactively?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2777044">
+[ <a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2776186">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li><b><a href="//slashdot.org/comments.pl?sid=25551&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2774808">6 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

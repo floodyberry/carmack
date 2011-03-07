@@ -1,0 +1,44 @@
+http://www.firingsquad.com/news/newsarticle.asp?searchid=828
+Carmack Q&amp;A on Q3A changes
+John Carmack responds to questions from Firing Squad
+Firing Squad
+Kenn Hwang
+
+<desc>John Carmack's recent .plan update included some exciting news for Quake 3 Arena players, consisting of gameplay changes, bug fixes, and more. In response to the sometimes technical-sounding worklog, we shot off a few questions to JC to get the straight scoop on what's been done.</desc>
+
+<q>In your recent plan, you mentioned that com_maxfps has been limited to 85. Were there still high-framerate problems that were cropping up at 100fps?</q>
+
+
+<a>Yes. Some poor modem connections still had problems.</a>
+
+<q>Do you think this will be detrimental to people planning on buying new video cards capable of putting out twice the framerate (particularly at low detail settings)? For advanced players, more FPS makes a huge difference (being able to see and dodge fast-moving projectiles such as the hyperblaster, plasmagun, etc.).</q>
+
+<a>You are free to turn off com_maxfps if you want, the default is just a safe level.</a>
+
+<q>How will you fix low-fps problems such as the no-fall telelport (from the lightning room into the RL room) in q3tourney? How hard is it to fix the source of the problem (bugs occuring due to different framerates), rather than applying kludges such as arbitrary framerate limits?</q>
+
+<a>The way to make everything completely framerate independent is to use fixed timeslices for simulation, but that comflicts with trying to get very high framerates. DOOM used a fixed 35 hz simulation cycle, so it never varied at different speeds, but it could never run faster than 35 hz.
+
+Quake has always used a msec variable simulation time, which allows any framerates without stuttering, but has some time dependent behavior.
+
+In theory, all itterative behavior can be calculated parametrically at arbitrary times, but in practice there are difficulties.
+
+I just added a maximum simulation time option, which subdivides frames larger than 66 msec into two moves, which prevents large changes in behavior.
+
+This fixes the no-fall exploit.
+
+The simulation timeslice is definately a tradeoff -- the smaller it is, the less variation is allowed, but it involves more cpu work, which can make it go even slower, feeding in upon itself.</a>
+
+<q>You also mentioned "removing some latency from lightning endpoint." Could you give us a little more detail on this? Is it the slight delay between shooting and hitting sound effects, or how the shaft appears onscreen? </q>
+
+<a>The amount of lag when turning has been slightly (average 25 ms) reduced.</a>
+
+<q> Currently in 1.08, walking backwards is still fast enough to produce footstep sounds. Will this be fixed? </q>
+
+
+<a>I had forgotten about that. I just fixed it. Anything else on the firing squad's "annoying bugs in q3test" list?</a>
+
+<q> PS - I'm going to ask for Dennis since he'll never ask himself - what are the chances of getting footsteps reduced/removed for 1 on 1? :) </q>
+
+<a>We had them out for a while, but we put them back in because the levels felt more "dead" without player movement noises.</a>
+

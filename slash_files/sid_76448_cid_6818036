@@ -1,0 +1,919 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>X Prize and John Carmack</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://science.slashdot.org/science/03/08/28/1722241.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,space,science';
+		var parent = 'http://slashdot.org/articles/03/08/28/1722241.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=space;tpc=science;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=03/08/28/1722241">X Prize and John Carmack</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>340</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=76448">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 340 comments</option>
+	<option value="0">0: 331 comments</option>
+	<option value="1" selected>1: 248 comments</option>
+	<option value="2">2: 150 comments</option>
+	<option value="3">3: 48 comments</option>
+	<option value="4">4: 31 comments</option>
+	<option value="5">5: 21 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="76448">
+		<input type="hidden" name="cid" value="6818036">
+		<input type="hidden" name="pid" value="6818036">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_6818036" class="comment">
+<div id="comment_status_6818036" class="commentstatus"></div>
+<div id="comment_6818036">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6818036">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6818036" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6818036">		
+		on Thursday August 28, @04:46PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6818036">#6818036</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6818036">Just building the vehicle costs less than $100k, most of the money is in building multiple iterations of everything as you figure out exactly how you actually need to spend the money:<br> <br>$ 6k    850 gallon fiberglass tank<br> <br>$ 2k    High pressure carbon fiber pressurant tank and regulator<br> <br>$ 1k    Honeycomb composite panels<br> <br>$ 5k    Aluminum fabrication for cabin<br> <br>$15k    Redundant parachutes, drogues, drogue cannons, releases<br> <br>$13k    Fiber optic gyro based IMU<br> <br>$ 8k    Unrestricted (supersonic / high altitude) GPS<br> <br>$ 2k    PC104 systems<br> <br>$ 5k    video, audio, and data communications<br> <br>$20k    Engine machining, catalysts, laser cut plates<br> <br>$ 5k    Plumbing, valves, etc<br> <br>$ 5k    Fastblock external insulation<br> <br>For powered landings instead of parachute landings, delete the parachutes and add:<br> <br> <br>$ 4k    Laser altimeter<br> <br>$ 4k    Wire rope isolator landing gear<br> <br>You could trivially spend an order of magnitude more by just using "space certified" versions of everything, but the important point is that standard industrial versions of many things are perfectly adequate.  In many cases, todays standard industrial practice is far ahead of the best that could be done at any price in the early sixties.<br> <br>This is all with free labor for assembly and testing, but that is still only a couple hundred man hours for a full vehicle.  We are expecting to destroy the first vehicle in some (unmanned) testing mishap along the way, and build another one mostly from scratch.  That will take less than two months, depending on lead times for some items.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6818036">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6816586">Parent</a>
+ ]
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+		<a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Re:Cost</a> by John Carmack (Score:5)
+
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">1</th>
+		<th align="left">&nbsp;point</th>
+	</tr>
+
+
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Moderation</td>
+		<td>&nbsp;</td>
+		<td align="right">+4</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Karma-Bonus Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">+1</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_6818243" class="comment">
+<div id="comment_status_6818243" class="commentstatus"></div>
+<div id="comment_6818243">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6818243">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6818243" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~wdavies">wdavies (163941)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6818243">		
+		on Thursday August 28, @05:04PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6818243">#6818243</a>)
+		<small><br>(<a href="http://slashdot.org/">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6818243">*BUMP*<br> <br>Are mods asleep on the job...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6818243">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6819078" class="comment">
+<div id="comment_status_6819078" class="commentstatus"></div>
+<div id="comment_6819078">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6819078">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6819078" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Wes+Janson">Wes Janson (606363)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6819078">		
+		on Thursday August 28, @06:18PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6819078">#6819078</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~Wes+Janson/journal/">Tuesday May 04, @12:25AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6819078">Thanks for replying to<nobr> <wbr></nobr>/., it's really quite cool to see someone as busy as you taking the time to not only read slashdot, but to read through the comments and write a detailed summary just to please a few inquisitive readers.  Do your estimations only take into account one potential unmanned vehicle loss, or multiple accidents (or any method for salvaging the craft in the event of an accident)?  Thank you, and good luck!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6819078">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6819820" class="comment">
+<div id="comment_status_6819820" class="commentstatus"></div>
+<div id="comment_6819820">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6819820">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6819820" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~CmdrWiggle">CmdrWiggle (697247)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6819820">		
+		on Thursday August 28, @07:55PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6819820">#6819820</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6819820"><i>$ 6k 850 gallon fiberglass tank<br>
+$ 2k High pressure carbon fiber pressurant tank and regulator
+$ 1k Honeycomb composite panels<br><nobr> <wbr></nobr>...<br>
+$ 4k Laser altimeter<br>
+$ 4k Wire rope isolator landing gear</i> <br> <br>
+
+A team of intelligent, creative, developers who think outside the box... Priceless.<br>
+
+(and a mastercard with no limit helps, too<nobr> <wbr></nobr>:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6819820">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6820377" class="comment">
+<div id="comment_status_6820377" class="commentstatus"></div>
+<div id="comment_6820377">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6820377">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6820377" class="score">(Score:2, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~fodi">fodi (452415)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6820377">		
+		on Thursday August 28, @09:19PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6820377">#6820377</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6820377">hey, why are you reading slashdot??<br> <br>I'm still waiting for Doom 3 !!</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6820377">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6820490" class="comment">
+<div id="comment_status_6820490" class="commentstatus"></div>
+<div id="comment_6820490">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6820490">Psychological Preparation</a></h4>
+
+
+		 	<span id="comment_score_6820490" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~appleLaserWriter">appleLaserWriter (91994)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6820490">		
+		on Thursday August 28, @09:41PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6820490">#6820490</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6820490">John,<br> <br>You forgot to mention that you've spent the last decade simulating close encoutners with all kinds of terrifying space aliens.  Once you've found a way into space, you will have an army of geeks already trained in advance alien smashing techniques.<br> <br>It seems like you've put a lot of careful thought into this project.  Best of luck!<br> <br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6820490">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6821790" class="comment">
+<div id="comment_status_6821790" class="commentstatus"></div>
+<div id="comment_6821790">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6821790">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6821790" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~znaps">znaps (470170)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6821790">		
+		on Friday August 29, @03:07AM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6821790">#6821790</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6821790"><i>$15k Redundant parachutes, drogues, drogue cannons</i>
+<p>
+
+Can we have those in the next version of Quake, please?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6821790">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6818036">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6820266" class="comment">
+<div id="comment_status_6820266" class="commentstatus"></div>
+<div id="comment_6820266">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6820266">Re:Milled Engine vs Casted Engine</a></h4>
+
+
+		 	<span id="comment_score_6820266" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Sivaram_Velauthapill">Sivaram_Velauthapill (693619)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6820266">		 &lt;<a href="mailto:sivaram.velauthapillai%40GIRAFFEgmail.com+minus+herb">sivaram.velautha ... l.com minus herb</a>&gt;
+		on Thursday August 28, @08:59PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6820266">#6820266</a>)
+		<small><br>(<a href="http://my-quintessence.blogspot.com/" rel="nofollow">http://my-quintessence.blogspot.com/</a> | Last Journal: <a href="//slashdot.org/~Sivaram_Velauthapill/journal/">Friday October 03, @01:43PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6820266">Are you trying to disrupt the harmony that exists in their team? This is not the time to be accusing some team member of pocketing some extra cash<nobr> <wbr></nobr>;) <br> <br>
+
+Besides, these engines probably require different high-performance materials... <br> <br>
+
+Sivaram Velauthapillai</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6820266">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6820048">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6820266">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6820315" class="comment">
+<div id="comment_status_6820315" class="commentstatus"></div>
+<div id="comment_6820315">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6820315">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6820315" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Sivaram_Velauthapill">Sivaram_Velauthapill (693619)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6820315">		 &lt;<a href="mailto:sivaram.velauthapillai%40GIRAFFEgmail.com+minus+herb">sivaram.velautha ... l.com minus herb</a>&gt;
+		on Thursday August 28, @09:08PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6820315">#6820315</a>)
+		<small><br>(<a href="http://my-quintessence.blogspot.com/" rel="nofollow">http://my-quintessence.blogspot.com/</a> | Last Journal: <a href="//slashdot.org/~Sivaram_Velauthapill/journal/">Friday October 03, @01:43PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6820315">You basically answered your own question. I think John Carmack, as well as others, are doing it because they like doing this sort of stuff. I think John even mentioned it in that news article (where they say that they will keep going even after the X-Prize). I highly doubt that many people are doing it for profit.<br> <br>
+
+Sure it may be risky but these people are prepared to take the risks. I don't think it is any more dangerous than climbing the Everest (at least 30 years ago). Right now, a lot of people may be succeeding at climbing the Everest but imagine 30 years ago when they didn't have "tourist camps", helicopter support, modern tools/clothes, etc. <br> <br>
+
+Perhaps one simply need to look at space exploration: just imagine the first person to go into space. Imagine when the Russians went up into orbit for the very first time. No one had ever done it, the systems were far inferior to today (in fact, they didn't even have transistor-based computers at that time if I recall), and so on. Sure they might have spent a billion dollars (by capitalist standards) whereas the X-Prize teams don't have that luxry. Nevertheless, the situation is quite similar IMO...<br> <br>
+
+BTW, AFAIK the X-Prize requires manned flight. <br> <br>
+
+Sivaram Velauthapillai</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6820315">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6819100">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6820751" class="comment">
+<div id="comment_status_6820751" class="commentstatus"></div>
+<div id="comment_6820751">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6820751">Re:Cost</a></h4>
+
+
+		 	<span id="comment_score_6820751" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Snocone">Snocone (158524)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6820751">		
+		on Thursday August 28, @10:32PM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6820751">#6820751</a>)
+		<small><br>(<a href="http://www.alexcurylo.com/">http://www.alexcurylo.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6820751">*snort*<br> <br>Hang out with any free climber or extreme skiier or paraglider for a couple weekends. You'll see them do, repeatedly, things that are FAR more risky than riding this rocket is likely to be.<br> <br>And we don't even get any prestige out of it, never mind "practical application". It's just FUN.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6820751">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6819100">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6825426#6830486">Re:Cost</a> by Snocone (Score:2) Friday August 29, @09:57PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6820751">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6822137" class="comment">
+<div id="comment_status_6822137" class="commentstatus"></div>
+<div id="comment_6822137">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6822137">Chicken!</a></h4>
+
+
+		 	<span id="comment_score_6822137" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~kinnell">kinnell (607819)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6822137">		
+		on Friday August 29, @05:12AM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6822137">#6822137</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6822137"><em>I can safely say that you wouldn't catch me anywhere near (let alone on board!) an operating rocket that hadn't had every sub-system peer reviewed by a dozen senior engineers</em>
+<p>
+Some day your going to die.  It's inevitable.  Going out in a blaze of glory riding a home made rocket into outer space beats the hell out of blinking out in a whimper of irrelevance after years of ill health and decrepitude, IMO.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6822137">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6819100">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6822807" class="comment">
+<div id="comment_status_6822807" class="commentstatus"></div>
+<div id="comment_6822807">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6822807">Re:Milled Engine vs Casted Engine</a></h4>
+
+
+		 	<span id="comment_score_6822807" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~EnglishTim">EnglishTim (9662)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6822807">		
+		on Friday August 29, @08:19AM (<a href="//slashdot.org/comments.pl?sid=76448&amp;cid=6822807">#6822807</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6822807">If you have a look on <a href="http://www.armadilloaerospace.com/" title="armadilloaerospace.com">his page</a> [armadilloaerospace.com], you'll find the answers. His engines work by reacting hyrogen peroxide over platinum-plated meshes. These meshes are pretty expensive, and most of the engines have many layers of them to achieve full catylsation. Also remember that (IIRC) they have either four or five engines, as the engines are used for attitude control.<br> <br>And platinum ain't cheap.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6822807">
+[ <a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6820048">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6822807">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=76448&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6818036">3 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>There's nothing like a good dose of another woman to make a man appreciate
+his wife.
+		-- Clare Booth Luce</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+http://www.gamasutra.com/php-bin/news_index.php?story=16352
+Gamasutra interviews John Carmack and Katherine Anna Kang
+Carmack, Kang Talk Id Mobile, Nintendo Love
+Gamasutra
+Gamasutra
+
+<desc>Veteran Texas-based developer Id Software recently announced Id Mobile, a new division of the famed Doom and Quake creator that will develop games for cell phones, as well as for both the Nintendo DS and PSP.
+
+Id Mobile will be headed up by Fountainhead founder Katherine Anna Kang, who was formerly director of business development at id, and has already worked with spouse Carmack on projects including Doom RPG and Orcs &amp; Elves, the latter of which (pictured) recently shipped on Nintendo DS.
+
+Gamasutra sat down with Id Mobile's Kang and Id's legendary Carmack to talk about the endeavor, a planned Wolfenstein mobile/DS title, possibilities for a Wii version of Orcs &amp; Elves, why Carmack has warmed to Nintendo platforms, and more.</desc>
+
+<q>Why form a separate division instead of continuing to create games from Fountainhead, the way you had with Doom RPG and Orcs and Elves?</q>
+
+<a>Working with Anna allowed us to try things out and experiment, but once we decided it was successful, there are certain things that are easier to deal with at Id. For one, no three-way contracts!
+
+One of the funny things about mobile development work is that the game is often finished before contracts, which is just ridiculous! So this certainly simplifies things. Another aspect is we have a bit more dev cash at Id, and we're hoping it will be easier to attract interested developers. That's been a little of an issue at Fountainhead -- finding talent that's interested in working on these smaller platforms.</a>
+
+<a Katherine Anna Kang>With two separate goals and separate companies, rather than investing in your future and your people, you're kind of on your own. Overall, it was a good combination for the titles we want to develop, but also the quality we want to focus on, and the type of titles we want to focus on.</a>
+
+<q>So how much will you focus on mobile games versus portable systems? Do you think you'll continue to sort of test concepts on the mobile phone and then expand on them for DS or PSP as appropriate?</q>
+
+<a>We're really looking forward to seeing how Orcs &amp; Elves does on the DS. It's looking like now like our first project is going to be a mobile/DS Wolfenstein-type title. After that, we'll do an original title on the mobile, and what happens after that will determine how we go from there.</a>
+
+<a Katherine Anna Kang>I think the general idea is that we definitely want to make games for the known Id IP --Doom and Wolfenstein -- but what we will probably be doing is something between the two: One year a known IP, the next year a new IP, and back and forth. We have a lot of great ideas that haven't been explored yet, and we're really excited and interested. We're also excited to be bringing the classics onto the cell phone or DS.</a>
+
+<q>A lot of people are very interested in seeing Doom RPG come to a portable system, and when we last talked, Anna, you said to that you were concerned about the DS's audience skewing a bit younger, and the risk of an M-rated title on that platform. If you guys are going to be developing for PSP now, do you think we might see more of the intense sort of hardcore Id games that everyone loves hit portable systems?</q>
+
+<a>Well, we have a few things that we're looking at as sales of DS stuff goes on this year. There are a couple new mature-rated titles coming out for DS we're going to be watching the sales numbers on, and EA will be looking at all this as well. Certainly, there are good games we would like to do that would be M-rated, but I'm hedging my bets on that right now where I think it's still kind of risky, but I would love to be proven wrong!
+
+It is an interesting question, about whether we design games to be able to cross between DS and PSP. It's a little bit tough because there's a broad hardware gulf between the two just in terms of power, processing, memory -- pretty much across the board. We did one experiment with Orcs and Elves -- scaling up a high-end cell phone game to the DS, but from the DS to the PSP is probably straining a little bit. Whether we wound up designing something that could span between DS and PSP... that would be an interesting challenge, to do something that's really good on both platforms.</a>
+
+<a Katherine Anna Kang>My goal is to convince him that Doom on DS must happen!</a>
+
+<a>If Orcs &amp; Elves is successful on the DS, we would like to consider scaling that up to a higher-end sku on the Wii -- waving the magic wand around and all that would make a neat entry point onto that platform.
+
+We ignored Nintendo for a long time for a number of fairly good reasons --- we hated dealing with them 10 years ago, as they always lagged behind the front runners in terms of raw technology... now we're branching out onto lower-end platforms, so now its an interesting platform for us to be looking at. Six months from now, when our current projects are done, we have all sorts of options we're focusing on. It really will depend on how things go sales-wise on Orcs &amp; Elves for DS.
+
+It's a great situation we're in -- even if we stuck with two mobile titles a year, it's already profitable and rewarding. The way I look at it is, even if nothing improves, even if we stay as is, it's still a nice business for us to be in. And the exciting part is that there is a real chance over the next five years that mobile gaming on cell phones could really take off. It could be five times larger in four years if certain things happen, but even if it doesn't, we're still okay.</a>
+
+<q>What's it like to be sort of a "game industry power couple"? Do you sometimes feel extra pressure when you do things together? Is it sometimes challenging personally to be a husband-and-wife team?</q>
+
+<a Katherine Anna Kang>I think from my perspective, it's really fun to work with John. I think I kind of take for granted that a lot of people would love to be in my position, and brainstorm game ideas with John! We do have an interesting kind of relationship -- I'm purely a designer, I come up with a lot of different ideas, and John is pure tech - so sometimes, we end up kind of speaking different languages, and kind of cross paths, instead of meeting. It is a little bit different in the sense he's talking tech and I'm talking design and we don't quite get what each other is talking about - but we always end up together.
+
+It's really fun working with John -- I think that sometimes I wish I could clone him so I could have him just working on my products, but he must be shared! And I think it's also really nice, because were both workaholics. We work a lot, pretty much seven days a week, always working in one way or another. To be able to spend that extra time, and have that much fun talking about games - it's really, really fun. I think that for John's part, when he's working with me... he's less likely to be able to put his foot down!</a>
+
+<a>There are some funny stories about that. The situation is different now from our very first game. A significant aspect of my values in the design skills I have is in minimization. Keeping a project from going off the rails is half the battle, keeping things from getting screwed up. There are a lot of things I would dismiss out-of-hand, and say, 'oh, no, we don't need that' - but in Doom RPG, the first project we really worked together on, Anna had a few features that she really wanted to get in, and twisted my arm a little bit.
+
+They turned out to be things that people really liked! I remember scoffing at the whole idea of the fire extinguisher, as going around and putting out fires. I was like, 'why would you want to do that?'</a>
+
+<a Katherine Anna Kang>I thought it was really hilarious, the idea of having it as a weapon, because you had these fire demons flying at you...</a>
+
+<a>But going around and... putting out fires? What's the point? But then, when we watched people play it, we saw so many people just putting out every single fire in the level.</a>
+
+<a Katherine Anna Kang>But the biggest argument was the doggie. I liked the idea of having a dog in the game, and really liked the idea of converting it into a friend. And John was really anti-doggie...</a>
+
+<a>Anna was like, 'Can we have a doggy?' I was like, '...No.' And it went on like that... but then I finally came up with an idea that was a good way to do it.</a>
+
+<a Katherine Anna Kang>What I had to do convince John it would work is, I had my designer, and I said, 'look, this is the idea, let's just show it to him'. Once he saw it, he kind of went '...Okay. I think this will work.'</a>
+
+<a>And since we've seen a couple of those things turn out well, I'm much more willing to trust Anna's judgment, even if my first reaction is 'no, we don't need it'. Not because her ideas are bad, but because there is just so much value in drawing the line.</a>
+
+<a Katherine Anna Kang>One interesting thing about Orcs &amp; Elves 2 is that it has a mouse familiar. I think initially he wanted to scoff at the idea of the familiar. I could tell he was just about to pan it, but then he kind of held his tongue and said, 'we'll see.' And it turned out really well, and everybody loves the little mouse. And in the end, even John really liked it. I think that after what, four games now, he has learned to not cut me off, and listen to me, and see how it goes!</a>
+
+<a>It works out really well.</a>
+
+<q>So obviously you can't say specifics, but what can we look forward to in the pipeline from the Mobile division?</q>
+
+<a>Wolfenstein is definitely under production right now. We're expecting more titles for both mobile and DS, and these early mobile SKUs we have been doing, we want to improve. We feel we're up against the limits with the current set of platforms; we think we've tapped out what we can do, so we're tossing out the low end and still innovating some more.
+
+We'll probably do some simultaneous mobile and DS [releases] - and there are a lot of things, depending on what publisher interest is and how Orcs &amp; Elves does on the DS, we could wind up with any of three or four different directions, and we may not know for four or five months.</a>

@@ -1,0 +1,967 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Futuremark Replies to Nvidia's Claims</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://hardware.slashdot.org/hardware/03/05/27/1529237.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,software,graphics,hardware,technology';
+		var parent = 'http://slashdot.org/articles/03/05/27/1529237.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=software;tpc=graphics;tpc=hardware;tpc=technology;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=03/05/27/1529237">Futuremark Replies to Nvidia's Claims</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>317</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=65617">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 317 comments</option>
+	<option value="0">0: 288 comments</option>
+	<option value="1" selected>1: 205 comments</option>
+	<option value="2">2: 120 comments</option>
+	<option value="3">3: 59 comments</option>
+	<option value="4">4: 37 comments</option>
+	<option value="5">5: 24 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="65617">
+		<input type="hidden" name="cid" value="6051216">
+		<input type="hidden" name="pid" value="6051216">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_6051216" class="comment">
+<div id="comment_status_6051216" class="commentstatus"></div>
+<div id="comment_6051216">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6051216">Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6051216" class="score">(Score:5, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6051216">		
+		on Tuesday May 27, @04:31PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6051216">#6051216</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6051216">Rewriting shaders behind an application's back in a way that changes the output under non-controlled circumstances is absolutely, positively wrong and indefensible.<br> <br>Rewriting a shader so that it does exactly the same thing, but in a more efficient way, is generally acceptable compiler optimization, but there is a range of defensibility from completely generic instruction scheduling that helps almost everyone, to exact shader comparisons that only help one specific application.  Full shader comparisons are morally grungy, but not deeply evil.<br> <br>The significant issue that clouds current ATI / Nvidia comparisons is fragment shader precision.  Nvidia can work at 12 bit integer, 16 bit float, and 32 bit float.  ATI works only at 24 bit float.  There isn't actually a mode where they can be exactly compared.  DX9 and ARB_fragment_program assume 32 bit float operation, and ATI just converts everything to 24 bit.  For just about any given set of operations, the Nvidia card operating at 16 bit float will be faster than the ATI, while the Nvidia operating at 32 bit float will be slower.  When DOOM runs the NV30 specific fragment shader, it is faster than the ATI, while if they both run the ARB2 shader, the ATI is faster.<br> <br>When the output goes to a normal 32 bit framebuffer, as all current tests do, it is possible for Nvidia to analyze data flow from textures, constants, and attributes, and change many 32 bit operations to 16 or even 12 bit operations with absolutely no loss of quality or functionality.  This is completely acceptable, and will benefit all applications, but will almost certainly induce hard to find bugs in the shader compiler.  You can really go overboard with this -- if you wanted every last possible precision savings, you would need to examine texture dimensions and track vertex buffer data ranges for each shader binding.  That would be a really poor architectural decision, but benchmark pressure pushes vendors to such lengths if they avoid outright cheating.  If really aggressive compiler optimizations are implemented, I hope they include a hint or pragma for "debug mode" that skips all the optimizations.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6051216">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">1</th>
+		<th align="left">&nbsp;point</th>
+	</tr>
+
+
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Moderation</td>
+		<td>&nbsp;</td>
+		<td align="right">+4</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Insightful' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Karma-Bonus Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">+1</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_6051581" class="comment">
+<div id="comment_status_6051581" class="commentstatus"></div>
+<div id="comment_6051581">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6051581">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6051581" class="score">(Score:1, Offtopic)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~MarcoAtWork">MarcoAtWork (28889)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6051581">		
+		on Tuesday May 27, @05:20PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6051581">#6051581</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6051581">where are my mod points where I need them! thanks John for the (as usual) insightful post...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6051581">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6051998" class="comment">
+<div id="comment_status_6051998" class="commentstatus"></div>
+<div id="comment_6051998">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6051998">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6051998" class="score">(Score:1, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~stud9920">stud9920 (236753)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6051998">		 &lt;<a href="mailto:slash-dot%40majoroLIONs.net+minus+cat">slash-dot@majoroLIONs.net minus cat</a>&gt;
+		on Tuesday May 27, @06:14PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6051998">#6051998</a>)
+		<small><br>(<a href="http://www.majoros.net/" rel="nofollow">http://www.majoros.net/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6051998">Here's that pedantic schooleacher again ! Who are you ? ID Software's chief engineer or something ?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6051998">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6052748" class="comment">
+<div id="comment_status_6052748" class="commentstatus"></div>
+<div id="comment_6052748">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6052748">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6052748" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~mczak">mczak (575986)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6052748">		
+		on Tuesday May 27, @07:44PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6052748">#6052748</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6052748">I'll probably having a hard time to argue against JC, but here it goes: assumed shader precision is NOT 32 bit, both DX9 and ARB_fragment_program require 24bit floats as a mininum.
+
+mczak</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6052748">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6052748#6053091">Re:Driver strategies</a> by mnemonic_ (Score:1) Tuesday May 27, @08:38PM
+</li><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6052748#6053529">Assumed is not the same as Minimum</a> by CoreyGH (Score:2) Tuesday May 27, @10:06PM
+</li><li id="tree_6053951" class="comment">
+<div id="comment_status_6053951" class="commentstatus"></div>
+<div id="comment_6053951">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6053951">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6053951" class="score">(Score:4, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Tycho">Tycho (11893)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6053951">		
+		on Tuesday May 27, @11:36PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6053951">#6053951</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6053951">JC is off on this.  The specification document for "ARB_fragment_program" does not define a specific precision.  The program can set the option "ARB_precision_hint_fastest" or the option "ARB_precision_hint_nicest".  However these options are only a guide as the drivers have control as to which precision is used.  However "GL_NV_fragment_program" allows the program to use fx12, fp16, and fp32 data types.  I would like to know what precision the NV30 path uses and which precision hint Doom III uses for the ARB2 path.  I also kind of wonder how long it will take nVidia to "optimize" its drivers for Doom III so that the ARB2 path will use fp16 regardless of which precision hint is specified by Doom III.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6053951">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6052748">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6053951#6058133">Re:Driver strategies</a> by BCGlorfindel (Score:3) Wednesday May 28, @12:34PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6052748">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6052793" class="comment">
+<div id="comment_status_6052793" class="commentstatus"></div>
+<div id="comment_6052793">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6052793">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6052793" class="score">(Score:1, Insightful)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_6052793">		
+		on Tuesday May 27, @07:53PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6052793">#6052793</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6052793">Thanks for the comment. I really appreciate it when I see people from a paticular field, who know what they're talking about, commenting on a story. It helps elaborate what's really going on behind the story and I often end up learning just as much from the comments as I do from the story.<br> <br>It sort of irks me when I see people replying to your post with silly or snide remarks. Don't let them keep you from posting. For every 1 of them, there's a 100 more slashdot readers who appreciate reading your comments.<br> <br>Sincrely,<br>AC</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6052793">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6052793">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6053136" class="comment">
+<div id="comment_status_6053136" class="commentstatus"></div>
+<div id="comment_6053136">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6053136">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6053136" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~rune2">rune2 (547599)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6053136">		
+		on Tuesday May 27, @08:46PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6053136">#6053136</a>)
+		<small><br>(<a href="http://www.fragtopia.com/" rel="nofollow">http://www.fragtopia.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6053136">ATI's been burned in the past by the Quake 3 thing and they seem to have learned their lesson from it. Notice how quickly they apologized for (and promised to remove) something that wasn't even really a cheat? The want to avoid even the impression of cheating. Now it's Nvidia's turn to feel the wrath of the gaming community. Every card maker "optimizes" for benchmarks but there is a fine line between optimizing drivers and doing something that alters the conditions under which the benchmark runs.<br> <br>
+
+I believe that what John says about the shader precision difference is significant. How do you really compare benchmark performance on two cards that are rendering shaders at different levels of precision? Perhaps some kind of weighted score that takes into account the differences in the shader precisions? <br> <br>
+
+I still don't think that 3Dmark 2003 is a good benchmark because it only makes use of a very small part of Directx 9 (only one PS 2.0 shader in the entire thing!) and has tests that essentially test the same thing over again using different scenes. If it was to be the "forward looking" benchmark that they claim it is they should have used more Directx 9 features. If it was to be a mostly Directx 8 benchmark with a few Directx 9 elements thrown in for good measure then they certainly didn't accomplish that either.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6053136">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6053136#6055525">Re:Driver strategies</a> by instanto (Score:1) Wednesday May 28, @07:04AM
+</li><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6053136#6059150">Re:Driver strategies</a> by dnoyeb (Score:1) Wednesday May 28, @02:12PM
+</li><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6053136">2 replies</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6053468" class="comment">
+<div id="comment_status_6053468" class="commentstatus"></div>
+<div id="comment_6053468">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6053468">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6053468" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~bloodbob">bloodbob (584601)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6053468">		
+		on Tuesday May 27, @09:54PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6053468">#6053468</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6053468"><blockquote><div>When the output goes to a normal 32 bit framebuffer, as all current tests do, it is possible for Nvidia to analyze data flow from textures, constants, and attributes, and change many 32 bit operations to 16 or even 12 bit operations with absolutely no loss of quality or functionality.</div></blockquote>
+
+Pitty nvidia didn't just do that with their compiler in the 3dmark saga they went of and replaced the shader with a different one.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6053468">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6053471" class="comment">
+<div id="comment_status_6053471" class="commentstatus"></div>
+<div id="comment_6053471">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6053471">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6053471" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Xspringe1">Xspringe1 (451473)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6053471">		
+		on Tuesday May 27, @09:54PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6053471">#6053471</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6053471">I totally agree with you on that.<br> <br>May I also ask on how you feel about the usage of static clipping planes in drivers?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6053471">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6054482" class="comment">
+<div id="comment_status_6054482" class="commentstatus"></div>
+<div id="comment_6054482">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6054482">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6054482" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~strider44">strider44 (650833)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6054482">		
+		on Wednesday May 28, @01:20AM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6054482">#6054482</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6054482">Why would ATI work with a 24 bit float?  I thought that it was pretty much standard that they would use powers of two etc, and I've never used 24 bit floating point ints before (although I've seen cases where it has been used practically).  Wouldn't that hold their card at a disadvantage in later games?  (OK I understand that it probably wouldn't, as the difference in quality is almost nothing when comparing 16/24/32 bit, but none-the-less people are generally picky about the difference between extremely good and absolutely fantastic)<br> <br>For that matter, wouldn't that mean that ATI doesn't have a true DX9 graphics card, but DX9 compatible?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6054482">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6054482#6054569">No it is DX 9</a> by Nazmun (Score:3) Wednesday May 28, @01:41AM
+<ul><li><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=6054569#6110531">Re:No it is DX 9</a> by Ashran (Score:2) Tuesday June 03, @07:24PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6054482">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6070537" class="comment">
+<div id="comment_status_6070537" class="commentstatus"></div>
+<div id="comment_6070537">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6070537">JC: WHEN WILL YOU FINISH DUKE NUKEM FOREVER?</a></h4>
+
+
+		 	<span id="comment_score_6070537" class="score">(Score:3, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~egg+troll">egg troll (515396)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6070537">		
+		on Thursday May 29, @04:33PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6070537">#6070537</a>)
+		<small><br>(<a href="http://www.microsoft.com/" rel="nofollow">http://www.microsoft.com/</a> | Last Journal: <a href="//slashdot.org/~egg+troll/journal/">Thursday October 16, @11:33PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6070537">Perhaps if you spent less time on Slashdot and more time on Duke Nukem Forever, it would be on the shelves. I don't mean to be insulting. After all I'm a huge fan of your work with Half Life and Unreal, but I've been waiting *forever* for DNF and its just vaporware. Do you know - for certain this time - when it will be released?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6070537">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6070537">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li id="tree_6073465" class="comment">
+<div id="comment_status_6073465" class="commentstatus"></div>
+<div id="comment_6073465">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6073465">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6073465" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~I+am+death">I am death (676888)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6073465">		
+		on Thursday May 29, @11:20PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6073465">#6073465</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6073465">I pose this question to you John, when DOOM3 is finished what card will you like to play it on? Or rather if you are showcasing the game, which card would best showcase this game? I was told your an honest guy like that Linus guy...
+
+These stanely cup finals suck bad.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6073465">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6086905" class="comment">
+<div id="comment_status_6086905" class="commentstatus"></div>
+<div id="comment_6086905">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6086905">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6086905" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~I+am+death">I am death (676888)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6086905">		
+		on Saturday May 31, @06:52PM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6086905">#6086905</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6086905">GLAZE3D MY A*S! , Ebay has no such sh|t, ATI will now dominate the market in graphics cards, they have the hardcores now and who needs an 5900fx anyway, the 9800 will do just fine untill DOOM3. By then ATI will be creating a card, and when DOOM3 is out I will re-evaluate the current products available, but I must admit I am only interested in in-game benches not that bullsh|t 3dmark crap. Ha who cares about that...the games know what counts all the rest you can blow out your a*s. Is John ever coming back?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6086905">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051216">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_6056735" class="comment">
+<div id="comment_status_6056735" class="commentstatus"></div>
+<div id="comment_6056735">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="6056735">Re:Driver strategies</a></h4>
+
+
+		 	<span id="comment_score_6056735" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~fbg111">fbg111 (529550)</a> 
+			<span class="otherdetails" id="comment_otherdetails_6056735">		
+		on Wednesday May 28, @10:31AM (<a href="//slashdot.org/comments.pl?sid=65617&amp;cid=6056735">#6056735</a>)
+		<small><br>(<a href="http://concurrentthinking.blogspot.com/">http://concurrentthinking.blogspot.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_6056735"><i>So far I am able to run 64 bit framebuffers through the flex capacitor and find myself scoring 130,000 3dmarks.</i>
+<br> <br>
+That's "flux" capacitor, not "flex" capacitor.  Everybody knows that.  <i>Now</i> the truth comes out and we see you for the fraud you are.  By the way, if anybody would like to buy my new 256bit 500,000 3dmark VPU, I'm selling them for only $500 per.  I built it in my garage in Finland and have named it the Glaze3D.  You can find it on Ebay.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_6056735">
+[ <a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=6051834">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6056735">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=65617&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=6051216">10 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

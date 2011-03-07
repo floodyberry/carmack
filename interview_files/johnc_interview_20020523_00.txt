@@ -1,0 +1,85 @@
+http://archive.gamespy.com/e32002/pc/carmack/
+GameSpy @ E3 - Q &amp; A with John Carmack 
+In which we learn about coding DOOM (it's cool), modding DOOM (it's different) and building a rocket (it's true).
+GameSpy
+Sal "Sluggo" Accardo
+
+<desc>
+This has obviously been a big week for DOOM III. We've finally learned the first real details on the new game and the engine, and for those of lucky enough to attend E3, have actually seen the new engine in action. With this in mind, we were able to ask the man behind the technology -- id Software's John Carmack -- a few questions about the new engine, the current state of video cards, and a few other topics.
+</desc>
+
+<q>
+It's been a few years since the release of Quake III, and other than a few appearances at QuakeCon and other shows, and a few .plan updates, we haven't heard much from you. In terms of developing the new DOOM engine (and otherwise), what have you been up to? In this day and age, how do you approach the task of building a brand new 3D engine, and where does work on the engine stand at the moment?
+</q>
+
+<a>
+I'm not real big on the celebrity bit, so I have just been quietly going about my work.
+
+The process of building the new engine went much more smoothly than anything we have done before, because I was able to do all the groundwork while the rest of the company worked on TeamArena. By the time they were ready to work on it, things were basically functional. I did most of the early development work with a gutted version of Quake 3, which let me write a brand new renderer without having to rewrite file access code, console code, and all the other subsystems that make up a game. After the renderer was functional and the other programmers came off of TA and Wolf, the rest of the codebase got rewritten. Especially after our move to C++, there is very little code remaining from the Q3 codebase at this point.
+
+The fundamental strategic decisions that I made at the start of the development really haven't changed at all. My continuing effort is going into making it clean, solid, and fast. As the artists and designers have built things with the engine, we have left most of our original performance budgets behind, so performance is still a big issue (but, wow, does it look great!).
+</a>
+
+<q>
+The Quake 3 engine has been licensed a number of times since its creation, and many developers have built their own special additions to the engine for their games. Raven Software, in particular, has built technology like the GHOUL II system -- do you take any of these systems into consideration or talk with these developers as you develop the new DOOM engine, or is the game basically being built with one game in mind and a specific set of goals?
+</q>
+
+<a>
+I try to keep us focused on building our particular game, rather than trying to solve all the world's problems. There are some tough judgement calls to be made during development about whether something is an elegant extension of our chosen technical paradigm, or if it is unjustified work. Having the inclination and authority to just say "no" to feature requests has been an important aspect to being able to write quality code. Too many programmers agree to random feature requests without thoroughly considering the impacts. I try to err on the side of elegance in implementation, rather than feature coverage.
+</a>
+
+<q>
+One of the things that first attracted people to the Quake engine -- and in many ways helped shape the current online gaming community -- was the ability to modify the game and create entirely new games with it. Is this something that's being taken into consideration during the development of the new DOOM engine? Compared to the previous games, how easy -- or hard -- do you think it will be for mod makers to work with the new engine?
+</q>
+
+<a>
+A big plus is that all of our tools are now built in to the game, so every release automatically has the tools that were used to build the game. The game also uses the same map file that the editor uses, so the original source data can be opened up with any copy of the game.
+
+We have not yet decided exactly where we are going to break the source code for mod making, but it is certain that it is going to be a C++ DLL.
+
+Artists are going to have a significant learning curve to properly deal with the bump maps, but again, all the tools we use to generate them are included with the game.
+
+Level designers have to retrain themselves to use lighting more efficiently. Instead of plastering in hundreds of little lights to get your light maps the way you want, you need to think about primary key lights in a scene, and fill in around them as necessary. Cinematic lighting skills are now directly relevant.
+</a>
+
+<q>
+Quake 3 was essentially built as a multiplayer game, and it's been 5 years since id Software developed and released a game with a traditional single-player campaign (Quake II, 1997). Is there anything different about developing an engine for the two different styles of games? Is there anything new or special you need to take into consideration for a single-player campaign as work on the new engine continues?
+</q>
+
+<a>
+The core renderer is fairly agnostic to single player versus multiplayer, but many other areas of the game have to make tradeoff decisions. A latency tolerant multiplayer game needs to have all time dependent effects predictable, which forces a style of programming that isn't always the most direct. A single player game can also have more expressive and precise effects, like multiply blended skeletal animations with pivot feet, that wouldn't work out well over a network channel.
+</a>
+
+<q>
+The world of video cards seems to change on a daily basis. What do you think of the current crop of cards on the market, and where do you see things heading? Are there any new cards that interest you? Where would you like to see things go?
+</q>
+
+<a>
+There are interesting things to be said about the upcoming cards, but NDAs will force me to just discuss the available cards.
+
+In order from best to worst for Doom:
+
+I still think that overall, the GeForce 4 Ti is the best card you can buy. It has high speed and excellent driver quality.
+
+Based on the feature set, the Radeon 8500 should be a faster card for Doom than the GF4, because it can do the seven texture accesses that I need in a single pass, while it takes two or three passes (depending on details) on the GF4. However, in practice, the GF4 consistently runs faster due to a highly efficient implementation. For programmers, the 8500 has a much nicer fragment path than the GF4, with more general features and increased precision, but the driver quality is still quite a ways from Nvidia's, so I would be a little hesitant to use it as a primary research platform.
+
+The GF4-MX is a very fast card for existing games, but it is less well suited to Doom, due to the lower texture unit count and the lack of vertex shaders.
+
+On a slow CPU with all features enabled, the GF3 will be faster than the GF4-MX, because it offloads some work. On systems with CPU power to burn, the GF4 may still be faster.
+
+The 128 bit DDR GF2 systems will be faster than the Radeon-7500 systems, again due to low level implementation details overshadowing the extra texture unit.
+
+The slowest cards will be the 64 bit and SDR ram GF and Radeon cards, which will really not be fast enough to play the game properly unless you run at 320x240 or so.
+</a>
+
+<q>
+Every once in a while, we see news that you're -- quite earnestly -- working with a team to build a rocket capable of blasting someone into space. From an engineering point of view, it's easy to see the fascination with the subject, but it's certainly not something to be taken lightly, nor is it an inexpensive endeavor. What was it about *this* particular project that attracted you to it?
+</q>
+
+<a>
+There is something to be said for grappling with a challenge that only involves the forces of nature (ignoring, for the moment, the regulatory challenges), rather than consumer tastes.
+
+The appalling inefficiency in the aerospace industry is also a bit of a driving factor. Due to an accident of history tying them to ICBMs, the evolution of space vehicles has wound up tending towards a local optimum that is in a completely different area than better global solutions, and it doesn't seem likely to break out of the current context. The aerospace industry needs a fresh reboot. There is an order of magnitude improvement available in low hanging fruit.
+
+I have a reasonable time table going for all of our development work, and things are proceeding satisfactorily.
+</a>

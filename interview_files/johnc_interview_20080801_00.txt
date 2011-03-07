@@ -1,0 +1,156 @@
+http://www.gamasutra.com/view/feature/3751/quelling_the_rage_carmack_and_.php
+Quelling The Rage
+Carmack and Willits Speak Out
+Gamasutra
+Chris Remo
+
+<desc>Id co-founder John Carmack - co-creator of franchises such as Doom and Quake and coding pioneer - is not known for self-censorship. It's thus interesting to hear him speak as positively as he does about his company's recently-announced relationship with Electronic Arts, which will be publishing its first-person, post-apocalyptic driver/shooter Rage for Xbox 360, PlayStation 3, and PC.
+
+Here, Carmack, joined by id lead designer Tim Willits and David DeMartini, general manager at EAP, discuss the relationship, the game's move to a primary console focus, the broader philosophy that lead to the development of the title, and the future of the company itself. </desc>
+
+<q>I guess the most obvious question is: how did the EA/id thing come about in the first place?</q>
+
+<a>Well, everybody knew that, or, most people know, at least, that id doesn't sign long-term contracts. Every title that we've had really has been negotiated separately. We have a long history with Activision - we've had a lot of success over the years - but we've had a couple disappointments, recently, with our partner titles... and Rage is a brand new IP, it's a fresh start for us in a lot of ways, so we did go out and broadly shop, looking really critically at all of our publishing options.
+
+And, of course, in the end it came down to like four publishers - you could probably pick which four - and out of that, there's kind of a tier where you've got Activision and EA at the top, and then a couple others below that. And everybody made strong offers; all of them came to the table with a lot of money, good terms, and all of this.
+
+In the end, the decision came down more to secondary factors: about how we thought that the company viewed us in relation to their other projects, what the top executives would think about our products competing with other products they might have internally, how they viewed our game and what they thought we'd do for them.
+
+And we had, surprisingly - if you had asked me five years ago if we would be considering EA, I would've said, probably, no. Because I carried around, really, some outdated prejudices about EA, the big evil empire of gaming, that kind of bought and crushed and squashed a lot of small, creative stuff. </a>
+
+<q>They admitted as such recently; John Riccitiello did.</q>
+
+<a>But when it turned out that we went in and we checked on some of these things, we talked with the developers in the EA Partners program, and we talked to Valve, and some of the other guys who we know, and at this point they say universally positive things about how working with EA has been.
+
+I think there really has been a major intentional corporate change there. It came down from on high; it's like, "We're going to change the way things are done here." And the people that are there right now are happy working with EA, and I've looked over everything - it was a tough call, certainly; everything was strong out there, but we made the call to go with EA, and we're happy with how things are looking right now, and certainly going to be another question that comes up when we start shopping Doom IV. </a>
+
+<a David DeMartini> We're in day one of the marriage, and they're really happy, so...! (laughter from all)
+
+The wedding day's been great, and all that other kind of stuff; and, you know, from this point forward you have to earn the business. Because, as John says, they sign one deal at a time. Which we're perfectly happy with, because in this business you're only as good as your last deal. They're only as good as their last game, and we're only as good as our last deal, and we're only as good as what we said we would do and then what we actually did.
+
+And then now comes the time where we need to provide the appropriate service to the business, and do what we need to do to be the good partner that we said we would be. And we're very confident that with the right, humble attitude, that we will earn the business time and time again with partners like id. </a>
+
+<a Tim Willits>You know, one of the things, just to add to what John said about the top tier at EA, is, when we're coming down to the final decision, you know, Riccitiello and Frank Gibeau flew out to id and they gave them the game demo, and David was there, and all the EA people asked really intelligent game player questions. They were asking things about other games, and what we thought of this and that, and we were, as game players and game developers, very impressed that these guys at the very top, that run this huge company, are actually hardcore gamers. Moreso than I think people would realize, and it really impressed us. </a>
+
+<q>It's interesting because - I mean, I've talked with you about this before - I've been following EA Partners for a while, and though I didn't know anything about this deal, it actually didn't surprise me too much, because you've got Crytek, you've got Valve, and they're some of the only developers that are sort of similar in spirit to id. And I'm wondering if that influenced this at all.</q>
+
+<a>I mean, the fact that they're happy with the relationship there meant a lot; and [Valve's] Gabe [Newell]'s gonna speak his honest opinion on everything like that.
+
+And we got positive responses on that. And it is interesting, when we look at some of the premiere first-person action titles on there... We all looked at it, and we don't think that we're being - none of us are doing kind-of head-to-head bashing titles that are going to be competing against them; Rage is a different flavor than what any of these other things are going for, so it should be an amicable set of partner companies that are working on this, here. </a>
+
+<q>Any chance of id products being on Steam in the future?</q>
+
+<a Tim Willits>Well, we have our catalog... </a>
+
+<q>You have your catalog on there, but in terms of newer games - Activision put some of that stuff up there, but EA often goes for the EA Link thing; but also, Valve is working with EA Partners, so it's kind of a big weird soup.</q>
+
+<a>Right now, we are looking at it - for Rage - as the consoles are the most important "legs" that this project is on. It's definitely shipping on PC as well, and we would be willing to entertain different distribution notions on that, but we would probably leave that up to EA's decision on thereabout.
+
+They're the publisher, and they're going to pick out the best way to get this out to the most number of people; and when EA decides that they think that it's going to be better to cut some deal for electronic distribution, and possibly avoid retailers, or whatever, we'll probably take their advice on that. </a>
+
+<q>Any comment on that? Probably not?</q>
+
+<a David DeMartini>No.</a>
+
+<q>OK! (laughs)</q>
+
+<a David DeMartini>No, I mean, before I would've said, "Just leave it at the no," but what I think we'd say is: game players are getting their games from a variety of sources - from retail, electronic distribution - and EA is committed to being on every viable platform and means of distribution, so that we could get their great game out into as many hands as possible.
+
+So I don't think there's any preconceived "yes" or "no" on any platform, or any method of distribution. Obviously we're developing our own, and we're trying to make that experience as great as possible for game players; we do Direct2Drive, we do other partners, and I don't think that there's any viable entity that we just immediately say "no" to. </a>
+
+<q>There have been reports of some developers being dissatisfied or uneasy about the Activision/Vivendi merger, and I'm wondering if you guys had any misgivings about that in any way.</q>
+
+<a>Not specifically; I mean, we have our set of internal issues with Activision, which we're not just going to all air, but we don't have any burned bridges with Activision either. They're still publishing Wolfenstein for us, there... It's certainly a big shake-up in the industry.
+
+And there's probably going to be the various consolidation things that happen, and I'm sure it's going to spawn lots of other new studios, as other people decide they don't want to be part of this big thing; jump off and do their thing, or their studio gets axed and they go form something else... So it's hard to say exactly what the impact on the industry is.
+
+I'm sure it's actually putting EA on notice to some degree; they've lost their "number one" by a certain however-you-choose-to-count-it metric, and that probably is beneficial for them, by getting a fire lit and going on that... </a>
+
+<q>Well also, gamers have a new whipping boy at this point.</q>
+
+<a>Yeah. </a>
+
+<a David DeMartini>Well, I think the other thing, too, is - you know, not that I would go out of my way to defend Activision, but - I would hope that, moreso than Activision losing this business, EA won this business, and I like to think that that's the approach that we take to all of these things. We're not trying to beat Activision; we're trying to be the best publisher we can possibly be, so that we're attractive to companies like id.
+
+And, you know, with a property like Rage, that is so premiere, and so highly anticipated - and anything they've ever done internally has been great, flat-out great, and customers love it - I think it's more an issue of we were highly attracted to id, we were highly attracted to a new IP from id, and we really reached out and tried to win the business by the services that we were offering, and the commitment that we were making to id.
+
+Hopefully, that's the way I would characterize it, moreso than "Activision did a bad job and they left." I don't think that's fair to Activision, much like if a partner left us and went with Activision, they wouldn't say, "Oh, EA screwed it all up, and that's why we left." So, I think it just demonstrates our commitment to the developers, and we're very happy that we won this business. </a>
+
+<q>Fair enough. It's been a while since you guys introduced a 100% new franchise. Obviously, you guys made your name on Doom and things that you built from the ground up - is there a lot of pressure there? What does it feel like, internally?</q>
+
+<a>Certainly we have our marquee titles, with Wolfenstein, Doom, and Quake; and Doom really is the big gun out of that, the one that everybody remembers. "That's the game I played in college!" We certainly expect to carry on with that, but there is a sense that in the community at large, if we were doing a Quake 5, Doom 4, Wolfenstein 4, just running all of that...
+
+Even if people love it, and you can make - as EA has shown, you can run the sports titles every year, and people will love it, and as Activision is showing, you can sell Call of Duty every year, and people will love it.
+
+We did feel some pressure to try and strike out, and do something different. And there are certain things that we've always been dinged on, in the community, about our games. Some of which were to some degree intentional, but people talk about, "It's too dark! It's too cramped! It's all indoors!" You know, the prototypical corridor shooter, and we did want to branch out from that.
+
+I mean, there are still great things you can do inside any given niche like that, but we wanted to really strongly address some of those things. It's a bright, outdoor, post-apocalyptic desert world. It's a lot of the things that, while still a technological showpiece, in many ways, it's not limited in the way that Doom 3 was, and it's going to hopefully be a broader appeal to the game, with not so much the, "Be scared out of your wits while you're running around tense," all bunched up, playing the game. It should be a more fun experience in a lot of ways; and we wanted to consciously address some of these things.
+
+There are certain things that we know we can do great. We can build up the excitement, and the tension, and the competitiveness, and get people's pulse pounding; we can do all of these things, we've always been able to do them well, and we've got better tools now, so we can do them even better. But, there's a lot more to gaming than just that aspect, there, and we do want to build our skills.
+
+There are things that - some of the hardest that we do, we have never done a driving game, so for some of the driving aspects of it, we decided to focus on that early, and make sure that we've got this cool stuff, running around, driving in the wasteland, shooting at things, and racing. But that's only an aspect of the game. We keep all the things we've always been good at, we add some new things, we learn how to be good at it, and then we build the whole mix together. </a>
+
+<a Tim Willits>Yes. I mean, John said it much better than I would say it, but yes, internally we wanted to do something different, something exciting, but we wanted to keep it grounded in that first-person shooter. And so it's important for people to know that it is a first-person action game, with some exploration, you have some vehicle combat, but it's not a race game, and we're really excited about it. It really allows us to innovate the genre that we created, and expand it while making it better. </a>
+
+<a>Now it is actually worth noting, as a little aside, that it's not actually the first new IP in a long time, because our mobile titles - which was our entry into the relationship with EA, with Orcs and Elves. And the mobile titles have been really successful; we've sold over two million units on the mobile titles.
+
+And we have a Wolfenstein RPG with a whole new engine coming out, and that was sort of our foot in the door with EA, where people we were working with at Jamdat moved to EA, and those became the guys that we knew that are at EA, which boosted us up to start talking with EA Partners people. </a>
+
+<a David DeMartini>And that's what really attracted us to id. I mean, when you hear the guys talk, you know, talking about constantly getting better. Not resting on their laurels, if you will, or continuing to deliver more of the same, but taking their creative efforts and their technology efforts to the next level.
+
+So idTech 5 takes the technology to the next level, the fellas are working on a design which takes it to the next level, and not only does what id has done great, but starts to evolve their skill set with driving, and some of the other elements that are in the game. So you get all the great stuff that you always got from id, but you get an additional set of fun factors that you'll be able to play with Rage, that take that game to the next level.
+
+So, whether it's baseball, or sports, or in business, what you're always looking for is partners who are trying to get better, constantly improve, and take their whatever-they-do to the next level. We hope that EAP does that same kind of thing by taking our services to the next level, and constantly get... We don't always get it right every time on every element, but when you screw up, have the integrity to say, "Hey, screwed that up; I'm gonna fix this."
+
+Same kind of thing with id, and where id wants to go with - you know, like John was saying, they started this project four years ago, and they spent a year working on this project and then said, "This doesn't feel like this is going to be the next level of what we want to do with this title. So we're going to scrap that, and we're going to start all over again." So many other organizations would've tried to figure out how to salvage what they started, so they didn't toss that year; these guys learned from that year and built off of that to make it even better, and I think Rage is going to benefit from all that time that was spent. </a>
+
+<q>I've been playing id games since Wolfenstein 3D, and when I was at QuakeCon last year, it was really almost astonishing to me how many disparate genre elements you're bringing into Rage. Which is an unusual thing for a developer that has made its name on really establishing one genre, and I'm wondering how much you had to, or if you had to, modify your internal design processes to deal with that.</q>
+
+<a>Yeah, it is a tough call, because I've always argued against "kitchen sink" gaming design, and that's a real problem with modern games, where the idea is that you throw hundreds of people at it and make sure that you have everything in there.
+
+There are some extremely successful games that are built along that model, of "have everything, give people nothing that they could criticize us for" - but we're not a team size big enough to do that. I wouldn't really want to do that type of thing, but we knew that we wanted to do certain things different; the idea of setting it out in the brighter outdoor area, that was one of the preeminent things.
+
+I mean, the first game, that we rebooted, was called Darkness. And I was thinking, "This is just going to be another thing that people hate us for - the exact same things." So we're going to go ahead and do the "running over mutants in a pickup truck" sorta thing, in the outside.
+
+But we feel we retired most of the risk for the driving side of things; the last big question is the more adventureish, RPGish side of things - which, of course, is the hardest thing to retire, because you wind up meeting the entire game, there, and finding out how fun it is to go take these tasks, around that. And that's the remaining thing, that none of us internally have built games like that, except for cellphone games, to a minor degree.
+
+But we went through the driving aspect, and we hadn't done this, but we've got stuff that's fun now; it's fun to sit down, drive around, and either race or shoot at other cars, and mow down things. So, we can build the skills; we've got extremely talented people on all sorts of levels, and we can learn what's necessary to do any of these different tasks.
+
+We went into this knowing that we had the humility to say, "We're great at what we do, and we're all smart, and we're all talented; we can learn these other things, but we don't know it yet." And we have to go in with this "freedom to fail" sort of approach. We're going to go take some cuts at it, we don't expect it to be right first, and we'll work on it as long as it takes. </a>
+
+<q>The focus on Rage is the consoles. I think that's understandable, these days, from a market perspective, but I'm wondering, from a development perspective, again, if that is something of a shift in the way that you have to think about the project.</q>
+
+<a>Well, it's a lot of fun, actually, going and working on the different console platforms. I mean, I enjoy doing that type of stuff. The mobile phones are fun, the 360 and PS3 stuff is. It's fun to look at the different challenges. You've got the set of all these technical things here, and figuring out the right set of techniques and organizations for all of that, I love that type of stuff.
+
+I do miss, in some ways, the, "Let's just stay at the bleeding edge on the PC; work real closely with all the hardware vendors so that you're using the latest stuff the minute it comes out," but there are days when I'm like, "Wow, it would be nice to develop just for the 360," you know? If you just want to make games, it would be great to just do that, and not have to worry about driver updates, and all the different hardware SKUs on there.
+
+So we're still trying to do things that - the Quake Live project is all about, "Let's do something that the PC is uniquely good at," because the console is still a crappy web browser, and it's still not as good as a keyboard-mouse interface; it's just not. So there are things that the PC is better at, and we want to take advantage of that.
+
+And there's exciting stuff that we can do on the mobile, but for the big, blockbuster, media-rich, triple-A titles? You have to be cross-platform across the platforms. If you're going to devote the tens of millions of dollars that it takes to make one of these games, you just really need to be there, just from a business reality sort of standpoint. </a>
+
+<q>How big is the team on this game? Approximately.</q>
+
+<a>Well, id now is up to 60 people and growing, because we're actively growing now, as we plan to move up a second team to do a Doom project. And, historically, we're still a tiny team; we've grown very slowly over the years; we've had very little attrition, and we usually bring on one or two people a year, but now we're hiring good people as fast as we can find them. We're only taking people that are great on here. It's tough, you can't just snap your fingers and say, "I want 30 hot-shot developers to drop what they're doing and jump on to our project."
+
+But, internally, we have the Rage team now, which is... How many people are on Rage exclusively? It's easier to go the other way, and say we have the Quake Live team, which has six or eight people. </a>
+
+<a Tim Willits>Eight. About eight people, yeah. </a>
+
+<a>Eight people on there, with some contractors working on it. And we have the id Mobile team, which only has like six people or something, on that. So that means we've got 45-some-odd people on Rage, and then a few other people that are cross-support on different things.
+
+And we expect to be growing - I don't expect that you'll see id at 100 people in the next several years... I don't think we'll get to 100 people in that time. We're looking, for the Doom project, we want to fill out, have 30 or 40 people that are Doom guys, and then we want to be able to migrate resources between the other teams as they start the normal pipelines that most developers are in, that id's really been sort-of a laggard in coming to, where you want to be able to have the previous team going, and starting the work on another one.
+
+Because we have been very efficient like that, where we have the entire team come off of Doom 3 - now a lot of people go to try and help the partners, help with Quake Wars: Enemy Territory, porting on that, but still, you're kind of left with a chunk of people more or less twiddling their thumbs, because it's not the right time to power them onto the project, and that's hurt us in terms of the utilization, and we want to be able to do a better job with that in the future. </a>
+
+<q>I almost dread to ask this, because it doesn't seem like the type of question that you would usually be into, but do you have any comments on what management structure you use, in terms of Scrum or agile, or anything like that?</q>
+
+<a Tim Willits>Well, for us, we have no real model. Sometimes we have Scrums, with the artists, we try to be agile as much as we possibly can, but it's really about talking to people, putting the best people on the projects, and staying on top of it. </a>
+
+<a>But I will say, specifically, that that has never been a strength of id Software for people to emulate! And we have a much better team, in a lot of ways, than we used to. We used to have a, just a deserved reputation, for having a bunch of prima donnas - talented prima donnas, but, you know... </a>
+
+<a Tim Willits>Don't point at me! (laughter) </a>
+
+<a>But we have, especially with this project - to some degree through Doom 3, but definitely throughout this project - we have a lot more mature developers, and a lot of it is just that as people get older, and they are more mature about the way they look at it. This is your career; this is what you do. And they're going to be disciplined about it.
+
+But the growth of a dozen, or two dozen people up there, to 60-something people, there are growing pains there. But those are, again, tasks that we look at and say, "These are challenges; we don't have the right answers; we need to learn what the right answers are," and go into that as a learning experience. And we're getting better at a lot of things there, and we're pretty thankful that things have been as placid as they have been. </a>
+

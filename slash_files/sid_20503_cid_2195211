@@ -1,0 +1,803 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>What is Happening with OpenGL?</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://ask.slashdot.org/askslashdot/01/08/18/2210259.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,software,graphics,askslashdot,technology';
+		var parent = 'http://slashdot.org/articles/01/08/18/2210259.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=software;tpc=graphics;tpc=askslashdot;tpc=technology;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=01/08/18/2210259">What is Happening with OpenGL?</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>576</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=20503">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 576 comments</option>
+	<option value="0">0: 541 comments</option>
+	<option value="1" selected>1: 347 comments</option>
+	<option value="2">2: 120 comments</option>
+	<option value="3">3: 37 comments</option>
+	<option value="4">4: 20 comments</option>
+	<option value="5">5: 11 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="20503">
+		<input type="hidden" name="cid" value="2195211">
+		<input type="hidden" name="pid" value="2195211">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_2195211" class="comment">
+<div id="comment_status_2195211" class="commentstatus"></div>
+<div id="comment_2195211">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195211">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2195211" class="score">(Score:5, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195211">		
+		on Sunday August 19, @07:22PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195211">#2195211</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195211">&gt; I think it's only been established that Id didn't do well with the Linux gaming market
+<br>
+<br>All linux games sales EVER don't add up to one medium selling windows title.  We are one of the creditors that aren't likely to see money that Loki owes us, so we have some idea just how grim it is.
+<br>
+<br>That isn't saying that it can't change in the future, or that doing linux ports isn't a Good Thing, but it isn't an economic motivator at the present time.
+<br>
+<br>John Carmack
+<br>
+
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195211">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2194921">Parent</a>
+ ]
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+		<a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Re:I don't think it's really been established...</a> by John Carmack (Score:5)
+
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">5</th>
+		<th align="left">&nbsp;points</th>
+	</tr>
+
+
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Insightful' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_2195823" class="comment">
+<div id="comment_status_2195823" class="commentstatus"></div>
+<div id="comment_2195823">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195823">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2195823" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~mr100percent">mr100percent (57156)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195823">		
+		on Sunday August 19, @10:55PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195823">#2195823</a>)
+		<small><br>(<a href="http://www.everything2.com/index.pl?node=mr100percent" rel="nofollow">http://www.everythin...pl?node=mr100percent</a> | Last Journal: <a href="//slashdot.org/~mr100percent/journal/">Tuesday June 05, @11:11PM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195823">I'm just curious if you could mention roughly how well the mac sales went, were they better than Linux? How about Team arena, did you get many downloads of the mac binary for the CD-ROM?
+<br>
+<br>Plus, I had the question on why the Q3A for mac was somewhere like $20 higher than the windows version when I bought it 3 weeks after it came out for mac?
+<br>
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195823">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2199506" class="comment">
+<div id="comment_status_2199506" class="commentstatus"></div>
+<div id="comment_2199506">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2199506">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2199506" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Svartalf">Svartalf (2997)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2199506">		
+		on Monday August 20, @05:15PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2199506">#2199506</a>)
+		<small><br>(<a href="http://www.earlconsult.com/" rel="nofollow">http://www.earlconsult.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2199506">Ok, I'll give you that- but then, infant PC games sales didn't compare to one medium Atari, Nintendo, or Sega game either.
+<br>
+<br>Linux gaming is in it's infancy.  As my wife put it, all it'd take is a blockbuster or two at the same time with Windows (or better yet, being Linux first) to change the story.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2199506">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2199506#2200258">Re:I don't think it's really been established...</a> by Com2Kid (Score:1) Monday August 20, @08:17PM
+</li></ul></li><li id="tree_2201544" class="comment">
+<div id="comment_status_2201544" class="commentstatus"></div>
+<div id="comment_2201544">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2201544">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2201544" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~js9999us">js9999us (516896)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2201544">		
+		on Tuesday August 21, @03:01AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2201544">#2201544</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2201544">Well, there are several issues with Linux that make it a hard sell:
+<br>
+<br>1. Not enough users (hopefully Microsoft will help change that with it's new registration system for Windows XP and Office XP)
+<br>
+<br>2. Linux is still not as easy to use. It took me several long nights to get my X-Windows set up to run OpenGL, Mesa, SDL, and all the other stuff that's needed to run my DVD Player, Quake 3, FlightGear, and other programs that require 3D hardware acceleration.  It's getting better.  I upgraded to XFree86 4.1.0, which solved a great deal of my problems.  I consider my self an expert and I like to tinker with this stuff.  Most people want something that works out of the box.
+<br>
+<br>This is definately changing.  Linux is becoming easier to install and use.  It's just not quite there yet.
+<br>
+<br>3. I didn't even know there was a Linux version of Quake2 and Quake3 that you could buy until after I bought the Windows version.  If I had known they were out there, I might have passed over the Windows version and looked for the Linux version.
+<br>
+<br>I see more games coming out (I bought 3 in the last week, specifically for Linux).  I think as Linux becomes more accepted, more people will buy games for Linux.  Perhaps they need some incentive (like a less expensive version for Linux?) I know, I know, why should you give Linux users a break. Well, most people see Linux as the less expensive alternative.  You want more Linux sales, show people you support it by charging less (or by charging more for the Windows version).  As you've stated, you haven't made a lot of money off of the Linux versions, so what do you have to lose?
+<br>
+<br>Usually, you have to buy the Windows version and download the Quake engine from Id for Linux, which is what I've been doing.  So, move one of those tick marks from the Windows sales column to the Linux column, if you don't mind.
+<br>
+<br>That's my 2 cents. I've been using Linux for about three years, and I love it.  It's to the point where I'm probably going to wipe Windows off my system.  I haven't booted Windows in, probably, three months (at least at home, at work I'm forced to use Microsoft).</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2201544">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2201622" class="comment">
+<div id="comment_status_2201622" class="commentstatus"></div>
+<div id="comment_2201622">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2201622">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2201622" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~barfex">barfex (516907)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2201622">		
+		on Tuesday August 21, @03:55AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2201622">#2201622</a>)
+		<small><br>(<a href="http://cosanostra.musicpage.de/" rel="nofollow">http://cosanostra.musicpage.de/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2201622">So what if linux games dont sell
+<br>to good. I buy them and I love
+<br>them...Its also my beleive that if I
+<br>keep on buying them the sales
+<br>will increase, its the multibooters
+<br>and window$ users own headache that they run
+<br>games on a platform that
+<br>keep on crashing and crashing...and crashing...:)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2201622">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2203274" class="comment">
+<div id="comment_status_2203274" class="commentstatus"></div>
+<div id="comment_2203274">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2203274">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2203274" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~Some+Dumbass...">Some Dumbass... (192298)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2203274">		
+		on Wednesday August 22, @02:21AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2203274">#2203274</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2203274">I'm a bit surprised by that comment about the sales of all Linux games ever.  It's probably true, but also misleading.  Given that id releases binaries for non-Windows platforms (which we do appreciate, by the way!), but no boxed sets for those platforms, how can anyone possibly know how many Linux users are (legally) using those games by downloading the binary?  By saying "Linux game sales", I expect Mr. Carmack very strictly meant sales of boxed sets.  But I expect that this clarification takes the edge off that "it isn't an economic motivator" comment, though.  Does anyone really know how many Linux users bought Quake III because someone at id developed a Linux binary?  This is why such a comment may be misleading.<br> <br>By itself I'm sure my quibble is just a minor point, yet I've seen this point made so many times on LinuxGames, SlashDot, and other sites and newsgroups.  Sometimes I just get the feeling that the people at the game development houses just aren't paying attention to us<nobr> <wbr></nobr>:)  What's really surprising, though, is the occasional evidence that some of these people may not realize this themselves!  For example, Loki should know that you can't sell Quake III for $50 when it's just $20 in the stores...<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2203274">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195211">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_2195550" class="comment">
+<div id="comment_status_2195550" class="commentstatus"></div>
+<div id="comment_2195550">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2195550">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2195550" class="score">(Score:2, Interesting)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~RatBastard">RatBastard (949)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2195550">		
+		on Sunday August 19, @09:13PM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2195550">#2195550</a>)
+		<small><br>(<a href="http://www.trilobite.org/" rel="nofollow">http://www.trilobite.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2195550">John Carmack is simply telling the truth.  Look at the gaming market.  How many Windows games do you see?  How many Mac games?  How many Linux games?
+<br>
+<br>I run a website about The Sims ( http://www.thewageofsim.com/ ) and I was one of the first (if not the first) established The Sims websites to embrace the Mac community and convert all of my content to Mac compatible when the Mac version of The Sims was released.
+<br>
+<br>My traffic is 95% Windows users.  95%.
+<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2195550">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195403">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195550#2195618">Re:I don't think it's really been established...</a> by BrerBear (Score:2) Sunday August 19, @09:41PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195618#2195709">Re:I don't think it's really been established...</a> by Anonymous Coward (Score:1) Sunday August 19, @10:21PM
+</li><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2195618#2200925">Re:I don't think it's really been established...</a> by Ghost_5316 (Score:1) Tuesday August 21, @12:10AM
+<ul><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2200925">1 reply</a>
+ beneath your current threshold.</b></li></ul></li></ul></li></ul></li><li id="tree_2196911" class="comment">
+<div id="comment_status_2196911" class="commentstatus"></div>
+<div id="comment_2196911">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="2196911">Re:I don't think it's really been established...</a></h4>
+
+
+		 	<span id="comment_score_2196911" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~MrDolby">MrDolby (303452)</a> 
+			<span class="otherdetails" id="comment_otherdetails_2196911">		
+		on Monday August 20, @09:07AM (<a href="//slashdot.org/comments.pl?sid=20503&amp;cid=2196911">#2196911</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_2196911">Hmm, as you seem to be talking more about government then computers.  You should read this interesting article on the advantages of the two party election system over the multipary system. <br> <br>http://www.edge.org/3rd_culture/hillis_democrac<nobr>y<wbr></nobr> /h illis_index.html</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_2196911">
+[ <a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=2195403">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2196911#2197645">Re:I don't think it's really been established...</a> by MrDolby (Score:1) Monday August 20, @12:17PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=2197645#2198985">Re:I don't think it's really been established...</a> by MindStalker (Score:2) Monday August 20, @03:47PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2196911">1 reply</a>
+ beneath your current threshold.</b></li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=20503&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=2195211">1 reply</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,677 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Rocket Racing League Ready To Launch</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_202">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_202">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_202"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_202">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_202">
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_202" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-32013-5");
+pageTracker._setDomainName("slashdot.org");
+pageTracker._initData();
+</script>
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="http://www.google.com/search">
+				<fieldset>
+					<legend>Google Search</legend>
+					<input type="text" name="query" value=""> 
+					<input type="hidden" name="as_sitesearch" value="slashdot.org">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+	
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+                                        <li><a href="//slashdot.org/help" title="Get help with your account.">Help</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+                                
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+                        Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//mobile.slashdot.org//" onclick="javascript:pageTracker._trackPageview('/toshiba/mobile_section')">Mobile</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="http://ad.doubleclick.net/clk;172276006;13503038;t?http://www.linux.com/sponsor_solutions/">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block static" id="links-jobs">
+	<div class="title" id="links-jobs-title" style="cursor:pointer;" onclick="window.location='http://jobs.slashdot.org/';">
+		<h4><a href=" http://jobs.slashdot.org/" style="text-decoration:none;border-style:none;">Jobs</a></h4>
+	</div>
+	<div class="content" id="links-jobs-content">
+		<script type="text/javascript" src="http://edge.jobthread.com/feeds/jobroll/?s_user_id=100540&subtype=slashdot "></script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://tech.slashdot.org/tech/08/04/15/0116215.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,entertainment,toy,technology,transportation';
+		var parent = 'http://slashdot.org/articles/08/04/15/0116215.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=entertainment;tpc=toy;tpc=technology;tpc=transportation;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox "><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+<div class="commentBox" style="font-size: 120%">
+	<div>
+<span class="escape-link"><a href="//tech.slashdot.org/article.pl?sid=08/04/15/0116215" title="Back to Article - Rocket Racing League Ready To Launch">Rocket Racing League Ready To Launch</a></span>
+<span class="commentBoxLinks"><a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_d"></span> More</a> | 
+
+	<a href="//slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a>
+
+
+
+	| <a href="//slashdot.org/comments.pl?sid=522544&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=#23079092" onclick="replyTo(0); return false;">Reply</a></span>
+	</div>
+</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+<noscript><br><small>Without JavaScript enabled, you might want to
+use <a href="//slashdot.org/comments.pl?sid=522544&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;no_d2=1&amp;pid=23079092">the classic discussion system</a> instead.  If you <a href="//slashdot.org/login.pl">login</a>, you can remember this preference.
+</small></noscript>
+	</div>
+	</div>
+	
+		<div id="d2out" class="vertical">
+		<div id="d2act" class="hide">
+		<div class="loki" id="gods">
+		<div class="block">
+			<div class="title">
+				<h4>
+				
+					<span class="h-inline">
+					<a href="//tech.slashdot.org/article.pl?sid=08/04/15/0116215" title="Back to Article - Rocket Racing League Ready To Launch">Rocket Racing League Ready To Launch</a></span>
+					<span class="titlecount"><a href="//tech.slashdot.org/article.pl?sid=08/04/15/0116215#topcomment" title="Back to Top Comment - Rocket Racing League Ready To Launch"><span id="titlecountnum">3</span>&nbsp;Comments</a></span>
+				
+		<span class="ccw-header-links"><a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_b"></span> More</a> | 
+
+	<a href="//slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a>
+
+
+
+	| <a href="//slashdot.org/comments.pl?sid=522544&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=#23079092" onclick="replyTo(0); return false;">Reply</a></span>
+		<span id="d2toggle" title="Toggle window location" onclick="toggleDisplayOptions()" class="close">/</span>
+				</h4>
+			</div>
+		</div>
+<script type="text/javascript">
+gCommentControlWidget = null;
+
+YAHOO.slashdot.ThresholdApp = function() {
+  return {
+    init: function() {
+      gCommentControlWidget = new YAHOO.slashdot.ThresholdWidget();
+      gCommentControlWidget.setTHT(user_threshold, user_highlightthresh);
+      updateTotals();
+    }
+  };
+}();
+
+YAHOO.util.Event.addListener(window, "load", YAHOO.slashdot.ThresholdApp.init);
+</script>
+		<div id="bones">
+      <div id="ccw">
+        <div id="ccw-body" class="ccw-core">
+          <div id="ccw-panel-container" class="ccw-core">
+            <div id="ccw-full-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-full-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-full-count-text" class="ccw-count-text"><span id="currentFull"></span><span id="ccw-full-phrase">&nbsp;Full</span></span>
+              </div>
+            </div>
+            <div id="ccw-abbr-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-abbr-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-abbr-count-text" class="ccw-count-text"><span id="currentOneline"></span><span id="ccw-abbr-phrase">&nbsp;Abbreviated</span></span>
+              </div>
+            </div>
+            <div id="ccw-hide-panel" class="ccw-panel">
+              <div id="ccw-hide-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-hide-count-text" class="ccw-count-text"><span id="currentHidden"></span><span id="ccw-hide-phrase">&nbsp;Hidden</span></span>
+              </div>
+            </div>
+          </div>
+    
+          <div id="ccw-control" class="ccw-core">
+            <div id="ccw-centering-rail" class="ccw-core">
+              <div id="ccw-hide-bar-pos" class="ccw-core-pos">
+                <div id="ccw-hide-bar" class="ccw-bar">
+                  <div id="ccw-hide-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-hide-bar-upzone" class="ccw-upzone" onclick="gCommentControlWidget.stepTHT(HIDE_BAR, +1)"></div>
+                  <div id="ccw-hide-bar-downzone" class="ccw-downzone" onclick="gCommentControlWidget.stepTHT(HIDE_BAR, -1)"></div>
+                </div>
+              </div>
+              <div id="ccw-abbr-bar-pos" class="ccw-core-pos">
+                <div id="ccw-abbr-bar" class="ccw-bar">
+                  <div id="ccw-abbr-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-abbr-bar-upzone" class="ccw-upzone" onclick="gCommentControlWidget.stepTHT(ABBR_BAR, +1)"></div>
+                  <div id="ccw-abbr-bar-downzone" class="ccw-downzone" onclick="gCommentControlWidget.stepTHT(ABBR_BAR, -1)"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+		<div class="commentControlFooter"><a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_c"></span> More</a> | 
+
+	<a href="//slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a>
+
+
+
+	| <a href="//slashdot.org/comments.pl?sid=522544&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=#23079092" onclick="replyTo(0); return false;">Reply</a><div id="login_cover" style="display:none" onclick="hide_login_box()"></div>
+<div id="login_box" style="display:none">
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Please Log In to Continue<a href="#" onclick="hide_login_box(); return false" class="close" title="Close this box"><img id="login_box_close" src="//images.slashdot.org/sic_close.png" alt="Close"></a>
+			
+		</h3>
+	</div>
+</div>
+<div id="login_box_content">
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/comments.pl?sid=522544">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+</div></div>
+<script type="text/javascript">logged_in = 0</script></div>
+		<div id="commentControlBoxStatus" class="hide"><b>Loading... please wait.</b></div>
+	</div>
+</div>
+		</div>
+	
+</div>
+<a name="topcomment"></a><script src="//images.slashdot.org/comments.js?T_2_5_0_202" type="text/javascript"></script>
+	<script type="text/javascript">
+<!--
+	window.onscroll = d2act;
+	boxStatus(1);
+comments = { 23074572: { uid: 1133473, pid: 0, points: 1, kids: [ 23079092 ], opid: 0 }, 23080680: { uid: 666, pid: 23079092, subject: "Re:Try keeping THAT \"Carbon Neutral\"", points: 0, kids: [  ], opid: 23079092 }, 23079092: { uid: 101025, pid: 23074572, subject: "Re:Try keeping THAT \"Carbon Neutral\"", points: 5, kids: [ 23080680 ], opid: 23074572 } };
+
+thresh_totals = {6:{6:{1:3,3:0,2:0}},4:{6:{1:2,3:0,2:1},4:{1:2,3:1,2:0},5:{1:2,3:1,2:0}},1:{6:{1:1,3:0,2:2},4:{1:1,3:1,2:1},1:{1:1,3:2,2:0},3:{1:1,3:1,2:1},2:{1:1,3:2,2:0},5:{1:1,3:1,2:1}},3:{6:{1:2,3:0,2:1},4:{1:2,3:1,2:0},3:{1:2,3:1,2:0},5:{1:2,3:1,2:0}},0:{6:{1:0,3:0,2:3},4:{1:0,3:1,2:2},1:{1:0,3:2,2:1},3:{1:0,3:1,2:2},0:{1:0,3:3,2:0},2:{1:0,3:2,2:1},5:{1:0,3:1,2:2}},2:{6:{1:2,3:0,2:1},4:{1:2,3:1,2:0},3:{1:2,3:1,2:0},2:{1:2,3:1,2:0},5:{1:2,3:1,2:0}},5:{6:{1:2,3:0,2:1},5:{1:2,3:1,2:0}},"-1":{6:{1:0,3:0,2:3},4:{1:0,3:1,2:2},1:{1:0,3:2,2:1},3:{1:0,3:1,2:2},0:{1:0,3:3,2:0},2:{1:0,3:2,2:1},5:{1:0,3:1,2:2},"-1":{1:0,3:3,2:0}}};
+
+root_comment = 23079092;
+root_comments = [23074572];
+root_comments_hash = {23074572:1};
+max_cid = 23080680;
+
+user_uid = 666;
+user_is_anon = 1;
+user_is_admin = 0;
+user_is_subscriber = 0;
+user_threshold = 1;
+user_highlightthresh = 4;
+user_d2asp = 0;
+
+discussion_id = 522544;
+
+d2_seen = '23074572,4520,1588';
+more_comments_num = 76;
+adTimerUrl = '//images.slashdot.org/iframe/mainpage.html';
+
+
+//-->
+	</script>
+
+
+
+
+	
+	
+	
+	
+		<ul id="commentlisting" class="d2">
+			<li id="tree_23074572" class="comment">
+<div id="comment_status_23074572" class="commentstatus"></div>
+<div id="comment_23074572" class="oneline">
+	<div id="comment_top_23074572" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_23074572" name="comment_link_23074572" href="//slashdot.org/comments.pl?sid=522544&amp;cid=23074572" onclick="return setFocusComment(23074572)">Try keeping THAT "Carbon Neutral"</a>
+
+
+		 	<span id="comment_score_23074572" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 23074572); return false">Score:1</a>)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~NoobixCube">NoobixCube (1133473)</a> 
+			<span class="otherdetails" id="comment_otherdetails_23074572"></span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_23074572">Enough said in the subject, really...</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_23074572">
+
+</div>
+</div>
+
+<div id="replyto_23074572"></div>
+
+<ul id="group_23074572">
+	<li id="hiddens_23074572" class="hide"></li>
+</ul>
+
+<ul id="commtree_23074572"><li id="tree_23079092" class="comment contain">
+<div id="comment_status_23079092" class="commentstatus"></div>
+<div id="comment_23079092" class="full">
+	<div id="comment_top_23079092" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_23079092" name="comment_link_23079092" href="//slashdot.org/comments.pl?sid=522544&amp;cid=23079092" onclick="return setFocusComment(23079092)">Re:Try keeping THAT "Carbon Neutral"</a>
+
+
+		 	<span id="comment_score_23079092" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 23079092); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_23079092">		
+		on Tuesday April 15, @12:43PM (<a href="//slashdot.org/comments.pl?sid=522544&amp;cid=23079092">#23079092</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_23079092">Not that I give a damn about being carbon neutral, but our rocket engines do burn ethanol.<br><br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_23079092">
+<span id="reply_link_23079092" class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=522544&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=23079092" onclick="replyTo(23079092); return false;">Reply to This</a></b></p></span> <span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=522544&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=23074572" onclick="return selectParent(23074572)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_23079092"></div>
+
+<ul id="group_23079092">
+	<li id="hiddens_23079092" class="hide"></li>
+</ul>
+
+<ul id="commtree_23079092"><li id="tree_23080680" class="comment">
+<div id="comment_status_23080680" class="commentstatus"></div>
+<div id="comment_23080680" class="hidden">
+</div>
+
+<div id="replyto_23080680"></div>
+
+<ul id="group_23080680">
+	<li id="hiddens_23080680" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_23079092"><noscript><b><a href="//slashdot.org/comments.pl?sid=522544&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=23079092">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li></ul></li>
+			<li id="roothiddens" class="hide"></li>
+		</ul>
+	
+	
+	
+	
+
+
+<div id="replyto_0"></div>
+
+
+<div id="discussion_buttons">
+
+
+<span class="nbutton"><p><b><a href="#" onclick="ajaxFetchComments(0,1); return false"><span id="more_comments_num_a" class="hide">Get More Comments</span></a></b></p></span>
+
+
+
+<span class="nbutton"><p><b><a href="//slashdot.org/comments.pl?sid=522544&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=#23079092" onclick="replyTo(0); return false;">Reply</a></b></p></span>
+
+
+
+
+
+
+
+</div>
+
+
+
+	<script type="text/javascript">
+<!--
+		currents['hidden']   = 1;
+		currents['full']     = 1;
+		currents['oneline']  = 1;
+		// currents_total = 3;
+
+		abbrev_comments      = {};
+		noshow_comments      = [23080680];
+		pieces_comments      = [23074572];
+		init_hiddens         = [23079092];
+
+		finishLoading();
+//-->
+	</script></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="http://www.google.com/search">
+						<fieldset>
+							<legend>Google Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="hidden" name="as_sitesearch" value="slashdot.org">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>Political history is far too criminal a subject to be a fit thing to
+teach children.
+		-- W.H. Auden</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2008 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script type="text/javascript">
+pageTracker._trackPageview();
+</script>
+<div id="modal_cover" style="display:none" onclick="hide_modal_box()"></div>
+<div id="modal_box" style="display:none">
+        <div class="generaltitle" >
+                <div class="title"><h3><span id="preference_title"></span> <a href="#" onclick="hide_modal_box(); return false"><img src="//images.slashdot.org/sic_close.png" alt="Close"></a></h3></div>
+        </div>
+        <div id="modal_box_content"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,843 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Carmack Needs Rocket Fuel</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/core-tidied.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/comments.css?T_2_5_0_175">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_175"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="//images.slashdot.org/print.css?T_2_5_0_175">
+<link rel="stylesheet" type="text/css" media="handheld" href="//images.slashdot.org/handheld.css?T_2_5_0_175">
+
+
+
+<script src="//slashdot.org/all-minified.js?T_2_5_0_175" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'comments';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="#main-articles">Stories</a>
+	<br>
+	<a href="#blocks">Slash Boxes</a>
+	<br>
+	<a href="#comments">Comments</a>
+</div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="//slashdot.org">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="//slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/login.pl">Log In</a></li>
+					<li><a href="//slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+				
+					<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="//slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+			Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="//slashdot.org/">Main</a></h2></li>
+	
+	
+	<li><a href="//apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="//ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="//backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="//books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="//developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="//games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="//hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="//interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="//it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="//linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="//politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="//science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="//yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org">Old Polls</a></li>
+			<li><a href="//slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="//slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="//slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="//slashdot.org/relocate.pl?id=08b6561b04abba73f86e9ec0b651305d">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block" id="links-ad">
+<div class="content" id="links-ad-content">
+<script type="text/javascript">
+        //<![CDATA[
+                if (adpage == 'index') {
+			google_ad_client = 'ca-ostg_js';
+			google_ad_type = 'text_image';
+			google_safe = 'high';
+			google_ad_channel = 'slashdot_sidenav';
+			ostg_ad_width = 125;
+			ostg_ad_height = 600;
+			google_max_num_ads = '5';
+			ostg_color_bg ='eee';
+			ostg_tbl_width ='125px';
+			ostg_ga_style = 'color: #fff; font-size: 110%; width: 9em; padding: 0 0 .5em 1em; margin: 0; position: relative; background: #666 url(//images.slashdot.org/block-title-bg.png) repeat-x !important;';
+			ostg_color_ga = 'fff; text-decoration: none;';
+			ostg_td_style = 'color: #fff; overflow:hidden; font-size:85%; font-family: arial,sans-serif;'; 
+			ostg_div_style = 'text-align: left; border: 2px solid #ddd; background: #fff; padding: 0 2px; cursor: pointer; width: 9.3em !important; margin: 10px .25em !important;}';
+			ostg_link_style = 'font-size: 100%;';
+			ostg_copydiv_style='color: #000';
+
+			document.write(' <scr'+'ipt type="text/javascript" src="http://genweb.ostg.com/google/ads/sidenav_sky.js?'+dfp_ord+'"></scr'+'ipt>');
+			document.write(' <scr'+'ipt type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></scr'+'ipt> ');
+}
+        //]]>
+</script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+<script type="text/javascript">
+	slashdot_article_url = "http://science.slashdot.org/science/03/02/05/2243243.shtml";
+</script>
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage,space,science,technology';
+		var parent = 'http://slashdot.org/articles/03/02/05/2243243.shtml';
+
+		document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/mainpage_p1_leader;pg=comments;logged_in=0;tile='+dfp_tile+';tpc=space;tpc=science;tpc=technology;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div></div>
+
+		
+			<div id="comments" class="aduserbox"><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+
+
+<div class="commentBox">
+
+	<a href="//slashdot.org/article.pl?sid=03/02/05/2243243">Carmack Needs Rocket Fuel</a>
+
+
+	|
+
+
+	<a href="//slashdot.org/users.pl">Log In/Create an Account</a>
+
+
+		| <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=0">Top</a>
+
+
+
+
+	| <b>662</b> comments
+
+
+
+
+
+
+		| <a href="//slashdot.org/search.pl?op=comments&amp;sid=52934">Search Discussion</a>
+	</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+
+		<form action="//slashdot.org/comments.pl">
+		<fieldset>
+		<legend>Display Options</legend>
+		
+		
+		Threshold: <select id="threshold" name="threshold">
+	<option value="-1">-1: 662 comments</option>
+	<option value="0">0: 637 comments</option>
+	<option value="1" selected>1: 455 comments</option>
+	<option value="2">2: 281 comments</option>
+	<option value="3">3: 72 comments</option>
+	<option value="4">4: 43 comments</option>
+	<option value="5">5: 25 comments</option>
+</select><select id="mode" name="mode">
+	<option value="flat">Flat</option>
+	<option value="nested">Nested</option>
+	<option value="nocomment">No Comments</option>
+	<option value="thread" selected>Threaded</option>
+</select><select id="commentsort" name="commentsort">
+	<option value="0" selected>Oldest First</option>
+	<option value="1">Newest First</option>
+	<option value="3">Highest Scores First</option>
+	<option value="4">Oldest First (Ignore Threads)</option>
+	<option value="5">Newest First (Ignore Threads)</option>
+</select>
+		
+
+	
+		
+		<input type="submit" name="op" value="Change" class="button">
+		
+
+		<input type="hidden" name="sid" value="52934">
+		<input type="hidden" name="cid" value="5236440">
+		<input type="hidden" name="pid" value="5236440">
+		
+		
+
+		</fieldset>
+		</form>
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		</small>
+	</div>
+	</div>
+	
+</div>
+<a name="topcomment"></a><ul id="commentlisting" class="thread">
+	<li id="tree_5236440" class="comment">
+<div id="comment_status_5236440" class="commentstatus"></div>
+<div id="comment_5236440">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5236440">Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5236440" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~John+Carmack">John Carmack (101025)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5236440">		
+		on Wednesday February 05, @08:42PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5236440">#5236440</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5236440">I agree with some comments that this isn't exactly general interest news.<br> <br>I am not interested in hearing from every chem major that is interested in starting a business (already heard from a couple, that's how I found out about the slashdot story).  However, if anyone here does happen to have a brother-in-law that is a VP at FMC or some such, a little nudge wouldn't hurt.<br> <br>The full story:<br> <br>Rocket grade peroxide is stabilizer free, and 85% - 100% concentrated, as opposed to drug store peroxide at about 3% concentration.  You can get up to 70% peroxide reasonably easily, but the high concentration stuff is a specialty item.<br> <br>When we started our development work a bit over two years ago, we were doing some concentration of the peroxide ourselves, which is fine for making small test batches, but you really don't want to be making drums of the stuff, or you wind up spending as much time messing with that as you do building rockets.<br> <br>We had some initial discussions with FMC about that time, but they weren't terribly encouraging.  Shortly thereafter, we made contact with X-L Space Systems, a small company that was producing 98% concentration peroxide and selling it reasonably to several small outfits, as well as NASA and the USAF.  I wound up buying a dozen or so drums from X-L, and everything was going well.<br> <br>The owner of X-L was having such a hard time getting the government to pay their bills on time (he never had complaints about his small commercial customers) that he finally decided it just wasn't worth the headache, and he closed the company down.  I was in discussion with him to make a large enough order to justify keeping production open, but we wouldn't need all that much peroxide for nearly eight months, so the storage logistics were looking troublesome.  In hindsight, I should have worked something out, even if it was expensive or difficult.<br> <br>About six months ago, we started contacting FMC again.  The details haven't been very pleasant, largely because we keep thinking we are almost there, and it keeps not being the case.  If they would just tell me exactly what I have to buy to make them happy, I would gladly do it, but they keep finding new things.  That is the "stringing us along" part.  They are mumbling again about lawyers and liability at the moment, which we thought had been worked through previously.<br> <br>We have also spoken to Degussa about production, but they won't sell in drums, only large storage tanks (they supposedly have some drums in the US, but they are "promised to" NASA, and they won't sell them to us).  We could live with that, but we broke off contact with them a while ago because FMC was sounding reasonable, but insisting that they be our sole supplier.<br> <br>This is one of the unfortunate tradeoffs in modern society -- in the 70's, FMC would just ship drums of peroxide to the guys doing rocket powered dragsters without any hassles (one of them sent me a scan of some of his old shipping invoices).  Today, fears of liability are larger than basic business drives like making money with your product.  I'm not a "back in the good old days" sort, I fully recognize that the other advantages of modern society outweigh the nanny-state disadvantages, but one can always hope for across-the-board improvements.<br> <br>Other than being almost out of peroxide, things are going very well for Armadillo.  We rescheduled a lot of our development now that the X-Prize is fully funded, so we are parallel tracking full scale vehicle development with subscale flight testing.<br> <br>John Carmack<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5236440">
+
+</div>
+</div>
+
+
+	<div class="comment_footer">
+	
+
+	
+	
+	
+
+	
+
+	
+	</div>
+	<table align="center" border="0" cellpadding="2" cellspacing="0" width="300" class="data" id="mod_summary">
+
+	<tr class="data_head">
+		<th align="left">Starting Score:&nbsp;&nbsp;&nbsp;</th>
+		<th colspan="2" align="right">1</th>
+		<th align="left">&nbsp;point</th>
+	</tr>
+
+
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Moderation</td>
+		<td>&nbsp;</td>
+		<td align="right">+4</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Extra 'Informative' Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">0</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<tr class="data_hl2">
+		<td align="left">Karma-Bonus Modifier</td>
+		<td>&nbsp;</td>
+		<td align="right">+1</td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+	
+	
+	<tr class="data_hl2"><td colspan="4"><img SRC="//images.slashdot.org/greendot.gif" ALT="" WIDTH="100%" HEIGHT="1" HSPACE="0" VSPACE="2"></td></tr>
+	<tr class="data_hl2">
+		<td align="left"><b>Total Score:</b></td>
+		<td>&nbsp;</td>
+		<td align="right"><b>5</b></td>
+		<td>			&nbsp;		</td>
+
+		
+
+	</tr>
+	
+	
+</table>
+
+
+	
+	
+	
+	
+		
+			<li id="tree_5237206" class="comment">
+<div id="comment_status_5237206" class="commentstatus"></div>
+<div id="comment_5237206">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237206">We'll be nice to them if they be nice to us..</a></h4>
+
+
+		 	<span id="comment_score_5237206" class="score">(Score:4, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~XJoshX">XJoshX (103447)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5237206">		
+		on Wednesday February 05, @10:35PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237206">#5237206</a>)
+		<small><br>(Last Journal: <a href="//slashdot.org/~XJoshX/journal/">Thursday February 06, @02:49AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237206">...Whether or not my brother in law is the CEO of FMC may depend on whether or not you can give me an FTP site with the latest build of Doom3...<nobr> <wbr></nobr>;)</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237206">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5237300" class="comment">
+<div id="comment_status_5237300" class="commentstatus"></div>
+<div id="comment_5237300">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237300">John why not..</a></h4>
+
+
+		 	<span id="comment_score_5237300" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~linuxislandsucks">linuxislandsucks (461335)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5237300">		
+		on Wednesday February 05, @10:47PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237300">#5237300</a>)
+		<small><br>(<a href="http://www.jroller.com/page/shareme/Weblog" rel="nofollow">http://www.jroller.com/page/shareme/Weblog</a> | Last Journal: <a href="//slashdot.org/~linuxislandsucks/journal/">Tuesday September 03, @08:25AM</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237300">Solve FMCs problem to get the order? How? Gee I don;t know purchase liability insurance and show him the policy?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237300">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5237572" class="comment">
+<div id="comment_status_5237572" class="commentstatus"></div>
+<div id="comment_5237572">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237572">Re:Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5237572" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~WolfWithoutAClause">WolfWithoutAClause (162946)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5237572">		
+		on Wednesday February 05, @11:27PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237572">#5237572</a>)
+		<small><br>(<a href="http://slashdot.org/">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237572">Maybe they're being lent on by NASA?
+<p>
+NASA don't want you launching people, because it would cut into their  launch business. Hey: Carmack launches for 1/10 the cost why don't you? If NASA launched for 1/10 the cost, then they need 10x less people, which means they spend 10x less in the voting districts which means they get 10x less appropriations... which means they'd spend 10x less with FMC.
+</p><p>
+I'd bet dollars to donuts that FMC are worried about losing business to NASA, whether or not NASA are directly leaning on them.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237572">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5237572#5238224">Re:Not exactly general interest news, but...</a> by sean23007 (Score:3) Thursday February 06, @01:18AM
+</li></ul></li><li id="tree_5237774" class="comment">
+<div id="comment_status_5237774" class="commentstatus"></div>
+<div id="comment_5237774">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237774">What I want to know is....</a></h4>
+
+
+		 	<span id="comment_score_5237774" class="score">(Score:4, Funny)</span>
+		</div>
+		<div class="details">
+			by Anonymous Coward 
+			<span class="otherdetails" id="comment_otherdetails_5237774">		
+		on Wednesday February 05, @11:59PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237774">#5237774</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237774">...producing 98% concentration peroxide and selling it reasonably to several small outfits, as well as NASA and the USAF. I wound up buying a dozen or so drums from X-L, and everything was going well.....<br> <br>You didn't happen to conveniently place those drums next to the people guarding your facility, did you?<nobr> <wbr></nobr>:)<br> <br>-Greg</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237774">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5237917" class="comment">
+<div id="comment_status_5237917" class="commentstatus"></div>
+<div id="comment_5237917">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237917">Re:Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5237917" class="score">(Score:5, Informative)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~LenE">LenE (29922)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5237917">		 &lt;<a href="mailto:len_evansic%40+m+a+c+.+c+om">len_evansic@ m a c . c om</a>&gt;
+		on Thursday February 06, @12:27AM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237917">#5237917</a>)
+		<small><br>(<a href="http://flightlinechairs.com/">http://flightlinechairs.com/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237917">I can't believe that I am responding to a John Carmack post, and that I would actually have something substantive to add.<br> <br>Anyway, I used to work at FMC, although not in their chemical division.  In the late nineties, FMC made a huge gamble by selling their defense interests, and diverting funds to hydrogen peroxide production, and lost big.  The thought was that the demand for industrial hydrogen peroxide was going to skyrocket (pardon the pun), and it didn't.<br> <br>When all was said and done, FMC had so much peroxide production capacity that went unused, that it became a huge liability.  Where this is leading is that if you aren't going to use let's say more than 100,000 gallons of peroxide, they probably wouldn't think of selling any to you.<br> <br>Don't take it personally.  Oh, and the current CEO was known internally as quite a hatchet man throughout his carreer at the company.  Since I no longer work there, I can say that he was quite an asshole (unlike his predicessor).  Whenever Neidermier showed up at our site, he canned people with something that approximated a dartboard method (in a large assembly of employees no less).  He cuts operations and personnel on a whim, so his inner circle would probably not get on his bad side by giving some charity to a cool project.  Sorry to spoil the benevolent VP dream.<br> <br>-- Len</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237917">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5237917#5237942">Re:Not exactly general interest news, but...</a> by LenE (Score:2) Thursday February 06, @12:31AM
+</li><li><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5237917#5274238">Re:Not exactly general interest news, but...</a> by Winged Cat (Score:2) Monday February 10, @05:59PM
+<ul><li><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5274238#5295558">Re:Not exactly general interest news, but...</a> by LenE (Score:2) Thursday February 13, @01:38PM
+</li></ul></li></ul></li><li id="tree_5239032" class="comment">
+<div id="comment_status_5239032" class="commentstatus"></div>
+<div id="comment_5239032">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5239032">A Peroxide alternative.</a></h4>
+
+
+		 	<span id="comment_score_5239032" class="score">(Score:1)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~McDoobie">McDoobie (409584)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5239032">		
+		on Thursday February 06, @05:19AM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5239032">#5239032</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5239032">Have you considered Flourine?<br> <br>They make it in large quantities for etching glass and flouridating water supplies. It's all over the place. Shouldn't be too hard to get your hands on some.<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5239032">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5239075" class="comment">
+<div id="comment_status_5239075" class="commentstatus"></div>
+<div id="comment_5239075">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5239075">Re:Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5239075" class="score">(Score:3, Funny)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~cardshark2001">cardshark2001 (444650)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5239075">		
+		on Thursday February 06, @05:34AM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5239075">#5239075</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5239075"><i> <b>Me:</b> </i>  frantically looks for the "+1, Carmack" moderation option.
+<p>
+Need any more programmers John? I'll work twice as long as anybody you've got for half the pay! I'll teach you how to play Quake 3. I'll even wash your car three times a week and wax it with a chamois. I'll personally distill your peroxide for you at no charge.
+</p><p>
+I'll be damned if I'm gonna test fly that rocket for you though, I mean, a man's got to draw the line somewhere.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5239075">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5242472" class="comment">
+<div id="comment_status_5242472" class="commentstatus"></div>
+<div id="comment_5242472">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5242472">Re:Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5242472" class="score">(Score:2)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~caesar-auf-nihil">caesar-auf-nihil (513828)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5242472">		
+		on Thursday February 06, @02:09PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5242472">#5242472</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5242472">Mr. Carmack,<br> <br>If you're looking for some other sources of H2O2, here are some suggestions:<br>1.  SNPE - they make oxidizers for France's munitions industry, and should be willing to sell if FMC and others are not.<br>2.  Contract manufacturing.  Most commercial H2O2 is sold as a 30% solution, and then diluted down to the 1-3% solution you buy in medical supply.  The more concentrated material (50%) is made by distallation.  Perhaps by purchasing the diluted material, you can hire someone to distill it for you.  You may have some success there.<br>3.  Purchase sodium percarbonate and use that as your H2O2 source.  Sodium percarbonate is Na2CO3+2(H2O2).  Its the same material that makes Oxyclean work when dissolved in water.  Water basically releases the H2O2 from the sodium carbonate structure.  Sodium percarbonate should work as a solid propellant, as it releases H2O2, and, upon heating/flame conditions would also release CO2.<br> <br>I don't know if any of this will be of help to you, but I hope you are able to get your program forward.<br></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5242472">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236440">Parent</a>
+ ]
+</div>
+</div>
+
+</li><li id="tree_5237025" class="comment">
+<div id="comment_status_5237025" class="commentstatus"></div>
+<div id="comment_5237025">
+	<div class="commentTop">
+		<div class="title">
+			<h4><a name="5237025">Re:Not exactly general interest news, but...</a></h4>
+
+
+		 	<span id="comment_score_5237025" class="score">(Score:3, Insightful)</span>
+		</div>
+		<div class="details">
+			by <a href="//slashdot.org/~glrotate">glrotate (300695)</a> 
+			<span class="otherdetails" id="comment_otherdetails_5237025">		
+		on Wednesday February 05, @10:04PM (<a href="//slashdot.org/comments.pl?sid=52934&amp;cid=5237025">#5237025</a>)
+		<small><br>(<a href="http://slashdot.org/">http://slashdot.org/</a>) </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">	
+		<div id="comment_body_5237025"><i>The only thing that restrains it is a priori regulation.</i> <br> <br>What happened to judges throwing out baseless cases?<br>What happened to State Supreme Courts actually disbarring these  pernicious highwaymen?<br> <br>Because the lawyers have been so pitiful in policing their own, it looks like Bush is going to do it for them.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_5237025">
+[ <a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=5236659">Parent</a>
+ ]
+</div>
+</div>
+
+<ul><li><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=5237025#5274291">Re:Not exactly general interest news, but...</a> by Winged Cat (Score:2) Monday February 10, @06:04PM
+</li></ul></li><li><b><a href="//slashdot.org/comments.pl?sid=52934&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=5236440">2 replies</a>
+ beneath your current threshold.</b></li>
+			<li id="roothiddens" class="hide"></li>
+		
+	
+	</ul></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>QOTD:
+	"What I like most about myself is that I'm so understanding
+	when I mess things up."</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2007 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//slashdot.org/">home</a></li>
+			<li><a href="//slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="//slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="//slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="//slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="//slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-32013-5";
+	_udn = "slashdot.org";
+	urchinTracker();
+</script>
+</body>
+</html>

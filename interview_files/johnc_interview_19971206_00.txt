@@ -1,0 +1,149 @@
+http://web.archive.org/web/19981201075539/http://www.elecplay.com/feature/quake/carmack.shtml
+John Carmack (of id Software) interview
+Electric Play interviews John Carmack, Date Unknown (pre-Quake II, so sometime in 1997?)
+Electric Play
+Electric Play
+
+<q>Does this stuff make you kind of uncomfortable, all of this attention.</q>
+
+<a>Well, I usually try to avoid press whenever possible because all of my time is really spent on my work and I would much rather be working on something new than talking about something I did in the past. I try to only manage to do a couple of these a year and hide from most of the rest of them.</a>
+
+<q>You must realize that everybody is interested in where you came from and why you got into games.</q>
+
+<a>I know it's a pretty good story, but once again it's not getting into it for the fame and talking about it wasn't in my plans.</a>
+
+<q>Having said that, how did you get started in the games industry.</q>
+
+<a>I've always thought of myself as a games programmer with the programmer emphasized. Working with computers has been something that has fascinated me since I first worked on a computer with, like an Apple II in sixth grade. From that point on, I knew that I was going to be a computer programmer, it was just a forgone conclusion, and it was only a matter of the years going by until it came to be time that I could do that as my full-time profession. I knew for a decade before I could actually go out and do it as my job.</a>
+
+<q>Was it games specifically that interested you?</q>
+
+<a>Just about anything I could find interesting. I enjoy writing compilers or interpreters or network sub-systems. There are interesting aspects to all of these, but games have turned out to be a nice place where a synthesis of these interesting things can be done and it can be a lucrative rewarding profession. So instead of being pigeon-holed in one area, I get to work on just all sorts of different technologies and it has been just about the best possible thing for me. 
+
+Early on there was a little bit of concern that I might get bored with the games and go off and work on something else, OS research or something, but as the years have gone by I've found that I've been able to do probably more stuff in this field than I would have in any other field of computer science. I'm quite happy with it.</a>
+
+<q>Are you a game player yourself?</q>
+
+<a>Yeah, I've played quite a bit. It comes and goes depending on different phases of the development process. At the peak I guess I would play Quake at maybe half an hour or an hour a day, but right now it's kind of low because we are heading in towards crunch time on Quake 2. I haven't played in a little while.</a>
+
+<q>When did it hit you that you'd created something that was going to bring you a lot of attention?</q>
+
+<a>Well, with the early projects we were just so excited to do anything at all. Our early side-scrolling games, we'd find something neat that we'd be able to do. We'd be able to emulate some of the games that we enjoyed and liked and try them for the first time on the PC. That was when it was all just exciting for us to be doing it at all We were just pleased that we were able to be getting anything out there. 
+
+As we moved into the 3D games with Wolfenstien 3D it became obvious that we were kind of on the verge of... well, we basically invented a whole new genre of games; the first person action shooter. That was pretty obvious from the first project, and as we moved into Doom it did become clear that we had carved out a niche pretty much permanently for ourselves. We've been pursuing that and flushing it out and seeing where it takes us as we ride the different technologies that are going on.</a>
+
+<q>You guys have been at the forefront of that stuff and also the distribution model that has blown the industry away with the shareware versions.</q>
+
+<a>Well, I would have to say.. I know that Apogee always comes out and they are correct in saying that wasn't our model, that was Apogee's model. We were just kind of the most famous for probably the way Doom was distributed originally, but that was Scott Miller's idea and our early products were distributed by Apogee. It was basically their method. It was a really smart business model and it did really well for boot-strapping some small companies and development teams.</a>
+
+<q>Is developing the 3D games pretty much the same now as it was back then?</q>
+
+<a>It has gotten a lot rougher. If you look at the way our games have gone, early on, our first couple of games only took three months of time to develop, then maybe four months. Wolfenstein took six months. Doom took nine. Doom II took 12 and Quake took 18. Quake II is only going to take 12 months because a lot of things are functioning better at the company. 
+
+There is a definite fear that the next generational step that we take... if it is a two year development process, that is starting to bring up a lot of complicated issues. How do you forecast two years ahead and what technology curves that you are going to be riding? It has gotten a lot more difficult. 
+
+The market has changed quite a bit too. It's not even clear that a game like Tetris or something could be successful in today's market. So there are much larger barriers to entry.</a>
+
+<q>Are you worried that there is a little bit of over-saturation with first person shooters out there?</q>
+
+<a>It does concern me a little bit, not so much for our position because I do believe we will lead the crowd pretty consistently, but with all of the people working with the technology, I mean we are fairly widely licensing our technology and there are several good companies that are going to do good products with it, but there is a limit to how much the market can sustain out of that.</a>
+
+<q>What are some of the other companies and other games that are using the Quake engine?</q>
+
+<a>Well there are about a half-dozen games that are under development directly with the Quake technology. There are a couple at ION Storm, there is the one at Ritual, SIN. 3D Realms is doing one. Valve is doing one. There are a couple of other licensees out there, and there are options for more, and there will probably be more later on. So there is a lot of action going on, though while it sounds like a lot it is still the sensible thing for those companies to be doing. 
+
+Developing the technology, if they pay a whole lot of money to us for that, they could have looked at it and said 'maybe we could hire a few guys and re-develop it for ourselves for less and even get some additional features'. But time is so crucial on game development. If you say 'well we are going to do it in nine months' which is half of what we did it in. If you've got a model to work from and you are just re-engineering, it might not be out of the question to do that. But still, nine months is just a huge amount of time. For most companies it is easier to throw off a half million dollars or something rather than spending nine months of time. It is usually the smart business move.</a>
+
+<q>What do you say to guys like Dave Perry of Shiny Entertainment who are saying that a game company developing its own technology is absolutely crucial to good game development.</q>
+
+<a>I think that the people who create their own technology and produce the games will always be at the head of the pack and you are definitely better off there. But the bottom line is that there are only a handful of companies that are capable of doing it, even given all of the right conditions. It gets narrowed down by the fact that the conditions are not always there. 
+
+I think that he is absolutely correct in the sense that if you have the resources, all of the resources necessary to do it, you are definitely better off. An engine that is custom designed specifically for your game will certainly be better adapted to it, but there are so many different resources that are required for it. There is the time, at least a year, for development of the technology. There is the integration of all of that. There are only a handful of programmers in the world that can compete at the top level of this now. Companies that don't have those programmers try to grow them from people that they've got. It's all possible but it keeps adding these levels of risk to it. The companies that are able to produce the technologies specifically for their own games, if the technology is state of the art they will lead the pack. 
+
+I think that is clearly his mission and I think that Shiny is taking pretty much the right steps to play in that ballpark, so I think he is correct.</a>
+
+<q>I'm curious to find out what your views are on the way that the Dallas development pool sprang. How did you end up in Dallas?</q>
+
+<a>Well, originally we pretty much came down here around Apogee, but there is kind of a funny story there, in that when id was first founded we were in Louisiana and Apogee was distributing our work. 
+
+We moved the company in a fairly misguided moment to Madison, Wisconsin. It was a horrible mistake and we fled south and just knew we were going someplace where it was warm. The obvious place we were considering was down here by our distributor. There were a few other factors that got tossed in so we just moved down here. It has worked out pretty well. And then all of these other companies kind of sprang up, people falling off or breaking away from Apogee or id into the half dozen other companies that are here. There are a couple of other unrelated companies in the Dallas area. It is a surprisingly active game development scene here. No one would have guessed it in the middle of Texas a few years ago.</a>
+
+<q>Do you think that it is growing?</q>
+
+<a>It certainly is growing a lot right now. I'm not clear that it can be sustained over the longer term, but for the next year or two we will see quite a bit going on.</a>
+
+<q>Now John Romero, who is one of the founders of ION Storm, was a key member of id. What was that like when he decided to say 'I'm leaving guys' and started his own company.</q>
+
+<a>That is not really the way things happened. Romero is an extremely talented person and he was crucial to the early success of id. Very much his mark is on Doom, Doom 1, a lot of it has his spirit in it. He was a key player in all of our projects up to that point, but there were some serious problems afterwards. 
+
+We are a very focused company where we require everyone to work an awful lot. I mean we don't believe in letting people direct other people to do the real hard work and allow themselves to work in a less focused fashion. 
+
+The bottom line came to be that Romero had reached his level of success and he wasn't pushing as hard as everyone else was and.. he'd... we pretty much.. well, we fired him. We parted on reasonably good terms. We are technology licensing with him. We still talk every now and then, but he just wasn't working out as a part of id. His new company seems to be what he wants it to be, where he has got a large number of people that he can direct and he can give his ideas to for implementation. We'll see if it works out well with him.</a>
+
+<q>Switching tracks a bit, what is new with Quake II? How is it going to be different from the original Quake?</q>
+
+<a>Well it is still an evolutionary product where it is not a brand new technology generation, but it is the largest evolutionary step we've taken. 
+
+In our previous products we've always done kind of a follow-on that was basically identical technology but with new content as an opportunity for the designers to kind of stretch themselves with known constraints. The first product with a bleeding edge technology is a really hard thing for the designers to work on, it's very frustrating because with all of the work that they put into it, the technology will change and the rug will get pulled out from underneath their feet and they will have to throw away stuff. Things that they were planning on don't make it in. 
+
+It's just tough in the bleeding edge products. Usually in the follow-on is where they get known circumstances and can stretch their design skills and do things that are better for games. With Quake especially we were hit hard with all of those factors. We were having problems with Romero and some of our other employees and the whole company wasn't really working very well through Quake's development. It had many serious design problems but we just had to push it out the door. We knew that it wasn't really hitting the potential that it should have even for a first generation product. So we had plenty of room to improve Quake II. 
+
+At this time we have the best crew that we've ever had at id. Every single person is really essential to the company right now. We are all working very hard. Quake II is going to be our best game in any way that you want to look at it. It has the best design. It has flexible integrated technology. There is a sense of purpose and elegance to the entire design and it has come together very cleanly. 
+
+There is not like.. 'gee wiz' incredibly unbelievable features, but there is a solid evolution. Everything that was good in Quake we've made better. All of the things that were lacking in Quake are now present. We have a good design. We have flow through the levels. We have intelligent presentation of new features and monsters. We do have new rendering features, a lot of things that people look for like colored lighting, translucency, and other effects like that. Different ways for model interpolation. There are a lot of nice features to make people say 'Wow this is a souped up engine', but it is still fundamentally the same generation. 
+
+I know what the next generation is going to look like and this isn't it. This will be the state of the art for the next year as other things are built on top of it. The main thing that we are looking at with Quake II is that it is going to be a better game because we fell below our own par on Quake and we don't intend to repeat that again.</a>
+
+<q>Is multiplayer gaming it? Is it something that you guys consider necessary?</q>
+
+<a>Multiplayer gaming is the most exciting part of the gaming industry. If you are being rational, it's still not enough to support the games industry. If you are paying attention on the net you can get a self-centered of reality thinking that there are fifty-thousand people that are stark raving lunatics about it and that's all that matters, but you forget that there are a million people that are just buying the game for the single player stuff. But the multiplayer is far and away the most exciting and that is where a lot of the interesting things are happening with the online community. 
+
+There have been a lot of things that have been designed into Quake II from a technology standpoint to allow some really interesting things to happen. Like we have effectively no limit on the number of players that can be in a large multiplayer world. I fully expect to see at some convention, like at QuakeCon '98 we'll see 150 people in one giantic specially constructed map. There are some really exciting things happening.</a>
+
+<q>Is that what excites you the most?</q>
+
+<a>There are so many things that excite me about what I work on here. The multiplayer aspect has a lot of challenging problems on dealing with the communications of that many seperate clients. Dealing with the bandwidth and latency issues. 
+
+The other thing that I'm really excited about is the next generation graphics technology, I have a fairly clear vision of several steps that we are taking there and that is going to be a lot of fun.</a>
+
+<q>In the graphics side, there are artists and lead artists that oversee...</q>
+
+<a>We don't really have an arrangement like that. We have three artists and they all kind of overlap. Paul Steed is strictly a modeller, Adrian is strictly a texturer and Kevin kind of covers those and can work on either side, but there is not a type of lead artist. 
+
+We don't have enough staff to require a level of management like that which I think is kind of an inherent inefficiency if you do require it, because then you have someone who is busy managing instead of doing. That is actually a significant issue about id, where we don't believe in getting to a level where you need managers. I mean we have 11 people working on a project right now and it's unlikely going to grow significantly over this. We think that is the right number of people to do a project like this and having 50 people doesn't help, in fact it hurts.</a>
+
+<q>How do you make your direction decisions? Do you get together and have democratic meetings?</q>
+
+<a>Well, it is a helluva lot better now with less people. At one point id had six people that were partial owners in one way or another, now it is down to three and life runs so much more smoothly. I don't believe in commitee and democratic votes. Whenever possible a dictatorship is the most efficient form of government.</a>
+
+<q>Are you hands on with everything, all of the programming and the coding that goes on in Quake II.</q>
+
+<a>Almost all of my time is spent actually coding stuff for the game. Quake II is the first time that I haven't needed to be involved in the rest of the project which has been really nice for me. 
+
+Kevin Cloud has taken over as project manager to make sure that the levels and art and monsters and all of those things are done and coordinated. Previously I always had to make an effort to make sure that it got done, but it has worked out nicely without that. So my duties now are strictly to make sure that the code works right and to keep anything really obnoxious from slipping through. I mean I'm kind of a final filter of things because if I don't think something is good enough that I'm not going to program it in and it's not going to be in there. 
+
+I've had to do nothing outside of coding on Quake II which has been a real change for me. But certainly all of the code, every file is practically created by me. I share a lot of work now with Brian Hook and John Cash which has been really nice. We have it pretty segmented out. 
+
+John Cash has been doing a lot of game programming with making the monsters perform their actions and artificial intelligence. He is doing an excellent job segmented off there. 
+
+Brian Hook has been brought on to help me with supporting the different graphics, the different 3D accelerators, different graphics architectures. I start everything and then I parcel some of it out to the other people and that has worked out really efficiently for us.</a>
+
+<q>And that is why Quake II is going to be so much more cleaner?</q>
+
+<a>Well all of the projects have been done like that. This probably has more code written by other people just because we have a better way to split it out. On Quake there was really only two of us that wrote code, me and Michael Abrash. Michael was doing mostly assembly optimizations on things. So we have more people writing a somewhat larger bulk of code now, but we have made changes to our structure to allow us to work a little bit more independantly.</a>
+
+<q>You mentioned that Quake II is not the next generation and that you know what that will look like. What is the next level?</q>
+
+<a>Well the fundamental challenge of the next generation of games is going to be dynamic generation of flexible geometry so that you can have levels of detail issues... where Quake's geometry is fixed and immutable. So if you can see a huge canyon, every polygon that you can see there is going to be drawn as a little spec and as you get closer to it, it becomes a great big polygon. 
+
+For certain types of things that is the way to do it, like for a desk because that geometry is inherently flat, but if you want to model something natural like trees, rivers, hills, and mountains. With things like that you want dynamic geometry where as you get further away it simplifies itself down. 
+
+That can be applied to all levels of things, where everything should be able to fall down at some point to a simplified representation so that you can render anything. There are levels of steps that are going to be taken to approach this. I've got a pretty good idea where we are going with our next generation of technology and dynamic geometry is the most key element. I think everybody recognizes that is the future, but the issues of how you are actually going to bring that into the future is really crucial. 
+
+Some of the other important things are atmospheric effects, like real fog that illuminates in light tones and rolls around the feet, not just this haze that you use as an excuse for a rear clipping plane the way people do it now. There will be a lot of specular lighting which is a second pass, which people aren't doing now but as accellerators get faster and we can afford to do an extra pass. 
+
+There will be a lot of stuff that you will see immediatly with the next generation. You will see the atmosphere affect the light and as you move you will see changing specular highlights. You will have scenes that you just can't do with current generation technology, which is what technology is supposed to do, to allow you to do things you haven't done before. 
+
+Now if you want to be able to stand on top of a castle and see the whole world spread out before you which you just can't do with any kind of current technology but it is going to be possible with the next generation so that will change the types of games that we have available for us to do. 
+
+The way we work our games here is that, instead of making desgin documents and saying this is the kind of game we want to make and then trying to do the technology... instead we try to figure out the most impressive technology that will have the biggest impact on the players and then mold a game around that. That has affected a lot of our choices because the technologies that we've been developing that I consider as the most impressive aren't able to do grand outdoor areas. That is why we aren't doing flying or driving games or something like that. But the densly enclosed areas with detailed textures and complex lighting that you can do can have a very evocative feel on the players and we can get a lot of pulse pounding action out of it. In the next generation we won't leave that behind, but we will have these new areas that we can design a game that brings more elements into it than we had before.</a>

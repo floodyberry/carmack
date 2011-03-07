@@ -1,0 +1,187 @@
+http://games.slashdot.org/article.pl?sid=99/10/15/1012230
+Slashdot asks, John Carmack Answers
+10 Slashdot users ask a variety of questions
+Slashdot
+Slashdot
+
+<desc>
+A few days past, we solicited questions from you folks to ask QuakeLaird John Carmack. We sent the questions over to him, and he answered. A lot. It's definitely one of the best interviews we've had yet - click below to read more.
+</desc>
+
+<q>Inazuma asks: I know that you and id are doing simultaneous development of Q3 for Windows, Mac and Linux. Which of those is your favorite OS to use, and which to program for?</q>
+
+<a>I use WinNT, Win98, MacOS 8.x, and linux on a regular basis. I also spend some time with MacOS X and irix.
+
+There are individual pros and cons to each system, but if I had to choose only a single platform in its currently shipping state to work on for the next year, I would choose WinNT.
+
+I'm going to risk my neck here and actually defend microsoft a bit:
+
+There are plenty of reasons to have issues with MS, but to just make a blanket statement like "everything that comes from microsoft is crap" is just not rational. There are a lot of smart people at microsoft, and they sometimes produce some nice things. There are some damn useful features of MSDEV that I have not seen on any other platform - all the intellisense pop up information and edit-and-continue, for instance.
+
+I chose NT as our development environment because, after evaluating all available platforms, I decided it was the best tool for the job. NT had the added advantage of running the native executables of our largest target market, but the important point is that it would have won on its own merits even without it.
+
+It offered quality 3D acceleration on intergraph hardware, a stable platform, a good user environment, apps for basics like mail and document editing as well as high end media creation tools, and a good development environment.
+
+I made that decision over three years ago, and I think it has proven to be the correct one. NT is definitely going to be the primary development platform for our next project, but I will be evaluating alternatives for a possible transition after that. The contenders will be linux and MacOS X. None of the other unix workstations would be competitive for our purposes, and I don't think BeOS will offer anything compelling enough (they can always prove me wrong?).
+
+I haven't really been using Win2K, but from a cursory glance, it looks like a reasonable evolution over NT 4.0. The only real downsides to NT 4.0 for me are the bad sound latency and poor input fidelity, and these should be fixed in Win2K.
+
+The current MacOS X server is a bit of a disappointment. I really enjoyed NEXTSTEP on a lot of levels, and if it had workstation quality 3D acceleration, I probably would have stayed there. Unfortunately, much of the development effort spent on it during its transformation to MacOS X seems to be steps sideways instead of forward. Macifying the user interface, porting to PPC, deprecating ObjC for java and C++, etc. They probably all had to be done, but it just hasn't brought anything new to the table. As a user environment, it still feels sluggish, and it still doesn't have 3D graphics.
+
+Linux has progressed a lot in usability in the time since I made the last platform decision. Sure, the guts have always been good, but the user environments were very weak compared to windows or the mac. Some people may think six xterms and a few athena apps are all the UI that anyone should need, but I disagree. The Linux user environment still isn't as good as windows, but going from redhat 5.2 to redhat 6.0 was a whole lot more impressive than going from win95 to win98, or MacOS 7 to MacOS 8. If there is another jump like that, I wouldn't feel too bad inflicting another non-windows platform on everyone else in the company.</a>
+
+<q>DanJose52 asks: How'd you start, personally (I mean on the inside, like emotionally and morally), and how has Id software changed you? for better or worse?</q>
+
+<a>I knew I wanted to work with computers from a very early age, but there were also a lot of other stereotypical geek aspects to my life growing up - phreaking, hacking (nobody called it "cracking" back then), rockets, bombs, and thermite (sometimes in not-so-smart combinations), sci-fi, comic books, D&amp;D, arcades, etc.
+
+I was sort of an amoral little jerk when I was young. I was arrogant about being smarter than other people, but unhappy that I wasn't able to spend all my time doing what I wanted. I spent a year in a juvenile home for a first offence after an evaluation by a psychologist went very badly.
+
+I went to a couple semesters of classes at the University of Missouri (UMKC), taking nothing but CS classes, but it just didn't seem all that worthwhile. In hindsight, I could have gotten more out of it than I did, but I hadn't acquired a really good attitude towards learning from all possible sources yet.
+
+I dropped-out of college to start programming full time, but trying to do contract programming for the Apple II/IIGS post 1990 was not a good way to make money, and I only wound up with between $1k and $2k a month. Not having enough money is stressful, and I did some things I didn't want to. I wrote a numerology program for a couple hundred bucks one time...
+
+Softdisk publishing finally convinced me to come down to Shreveport for an interview. I had been doing contract work for Jay Wilbur and Tom Hall, so I knew there were some pretty cool people there, but meeting John Romero and Lane Roath was what convinced me to take the job. Finally meeting a couple sharp programmers that did impressive things and had more experience than I did was great.
+
+After I took the job at Softdisk, I was happy. I was programming, or reading about programming, or talking about programming, almost every waking hour. It turned out that a $27k salary was enough that I could buy all the books and pizza that I wanted, and I had nice enough computers at work that I didn't feel the need to own more myself (4mb 386-20!).
+
+I learned a huge amount in a short period of time, and that was probably a turning point for my personality. I could still clearly remember my state of mind when I viewed other people as being ignorant about various things, but after basically doubling my programming skills in the space of six months, I realized how relative it all was. That has been reinforced several additional times over the seven years since then.
+
+All the time from working at Softdisk, to founding Id and making the products we are know for has been pretty seamless for me. I have been learning as much as I can, working hard, and doing my best.
+
+I know that most people won't believe it, but a 100x increase in income really didn't have that big of an impact on me as a person. It is certainly nice to be in a position where people can't exert any leverage on you, but it's definitely not the primary focus of my life. I get to drive a ferrari in to work, but my day to day life is almost exactly the same as it was eight years ago. I get up, go in to work, hopefully do some good stuff, then go home. I'm still happy. </a>
+
+
+<q> moonboy asks: I once read, in Wired, an article that said you have an incredible headstart on everyone else for making "virtual worlds" on the Internet using your engine from the Quake games. Do you have any intention of doing this? Has anyone approached you about it? It would seem like a fantastic use of the technology with online gaming being so popular. Entire worlds online could be created virtually and very life-like with many different purposes.</q>
+
+<a>Making Snow Crash into a reality feels like a sort of moral imperative to a lot of programmers, but the efforts that have been made so far leave a lot to be desired.
+
+It is almost painful for me to watch some of the VRML initiatives. It just seems so obviously the wrong way to do something. All of this debating, committee forming, and spec writing, and in the end, there isn't anything to show for it. Make something really cool first, and worry about the spec after you are sure it's worth it!
+
+I do think it is finally the right time for this to start happening for real. While a lot of people could envision the possibilities after seeing DOOM or Quake, it is really only now that we have general purpose hardware acceleration that things are actually flexible enough to be used as a creative medium without constantly being conscious of the technical limitations.
+
+Two weeks ago, I pitched a proposal to develop some technology along these lines to the rest of the company. I may wind up working on some things like that in parallel with the next game project.</a>
+
+<q> justin_saunders asks: Many people consider you to be one of the best programmers in the game/graphics scene, based on your ability to keep pushing the limits of current PC hardware.
+
+I was wondering what measures you use to gauge the skill of a programmer, and who, if anyone, you look up to and consider to be a "great" programmer.</q>
+
+
+<a>Like most things, it is difficult to come up with a single weighted sum of the value of a programmer. I prefer to evaluate multiple axis independently.
+
+Programming is really just the mundane aspect of expressing a solution to a problem. There are talents that are specifically related to actually coding, but the real issue is being able to grasp problems and devise solutions that are detailed enough to actually be coded.
+
+Being able to clearly keep a lot of aspects of a complex system visualized is valuable.
+
+Having a good feel for time and storage that is flexible enough to work over a range of ten orders of magnitude is valuable.
+
+Experience is valuable.
+
+Knowing the literature is valuable.
+
+Being able to integrate methods and knowledge from different fields is valuable.
+
+Being consistent is valuable.
+
+Being creative is valuable.
+
+Focus is extremely important. Being able to maintain focus for the length of a project gets harder and harder as schedules grow longer, but it is critical to doing great work. (Side note - every time "focus" is mentioned now, I think of Vernor Vinge's "A Deepness in the Sky", currently my favorite SF novel)
+
+I certainly respect the abilities of my primary competitors. Back in the DOOM days, Ken Silverman was extremely impressive, and today Tim Sweeny is producing much of value.</a>
+
+<q>ajs asks: I read a sort-of-analysis that you wrote way back comparing DirectX 3D handling to Open GL (with Open GL being far preferable to you). Do you feel that the tools that you and others will need to create the next generation of games exist now under Linux or other Open Source operating systems, or is that still a long way off? What would you recommend that we developers and developer wannabes dedicate our time to?</q>
+
+<a>To develop a game, you need coding tools, pixel art tools, modeling and texturing tools, sound tools, and usually music tools.
+
+Coding tools are basically fine under linux, and there is already plenty of force behind their improvement.
+
+Gimp looks serviceable for pixel editing, but I don't know of any professional game developers using it.
+
+I assume there are some basic sound tools available, but I would be surprised if they are equal to the best windows or mac tools. That is probably the most approachable sector to work on improving.
+
+Modeling and texturing tools are the biggest lack, but it is also the hardest to address. They really need to be built on top of solid 3D infrastructure, and that is still in its infancy right now. It would probably be possible to build a simple, focused modeling and texturing program that could get the job done, but full featured programs like MAX and maya have an immense amount of work invested in them. Maybe SGI will get maya ported to linux...
+
+We are going to try to build our next level editor cross-platform, which will probably sort out a bunch of 3D content creation issues. I will be improving the matrox GLX driver as necessary to support the effort. </a>
+
+
+<q> thebrit asks: Is it possible ID may join Ion Storm for a future project together, or are the 'artistic' differences between you too great? </q>
+
+<a>Future technology licensing is certainly possible, but as for actually working together, there is very little chance of that for a project that we considered important.
+
+If I decided to spend a little discretionary time whipping up, say, a color gameboy port of Commander Keen (an idea I have sort of been toying with), then I might ask Tom and John if they wanted to make some levels for it. </a>
+
+<q>Scott Francis[Mecham asks: Recently someone posted about their experience in determining the file structure of the Doom WADfile. How did you feel when people were discovering how to modify Doom, from building new levels, to changing the executable itself(dhacked) originally without any information from id? In your opinion, is the modding community a valuable place for creating future game developers?</q>
+
+<a>The hacking that went on in wolfenstein was unexpected, but based on that, DOOM was designed from the beginning to be modified by the user community.
+
+The hacking that went on with the leaked alpha version was obviously not approved of, but after the official release I did start getting some specs and code out. I had sent some things out early on to a couple of the people that had done tools for wolfenstein, but in the end it was pretty much a completely different set of people that did the major work with DOOM.
+
+The original source I released for the bsp tool was in objective-C, which wasn't the most helpful thing in the world, but it didn't take long for people to produce different tools.
+
+Dhacked was a bit of a surprise to me, and I always looked at it as something that maybe shouldn't have been done. I'm not very fond of binary editing an executable. It clearly showed that people were interested in more control, so it probably argued for the greater freedom given with quake.
+
+I still remember the first time I saw the original Star Wars DOOM mod. Seeing how someone had put the death star into our game felt so amazingly cool. I was so proud of what had been made possible, and I was completely sure that making games that could serve as a canvas for other people to work on was a valid direction.
+
+A doom/quake add-on has become almost an industry standard resume component, which I think is a Very Good Thing. The best way to sell yourself is to show what you have produced, rather than tell people what you know, what you want to do, or what degrees you have.
+
+In the modern gaming era, it is very difficult for a single person to produce a complete looking demonstration game from scratch. It does happen, but a much more reasonable scenario is to do an add-on that showcases your particular talents, whether they are in coding, design, or media. You want to be able to go to your prospective employer and say "There is a community of ten thousand people actively playing a mod that I wrote in my spare time. Give me a job and I will be able to devote all of my energy to gaming, and produce something vastly superior." </a>
+
+
+<q>jflynn asks: Many people think that the extreme sucessfulness and longevity of DOOM and Quake was partly due to the internet communities that sprung up around them, to discuss playing them and write new levels for them.
+
+How important do you feel a viable gaming community is to the success of a new game today?</q>
+
+<a>I have always been a strong proponent of supporting the gaming community, but arguments can be made that it isn't that important for success.
+
+Most entertainment media is designed to be throw-away, where people buy something, have a good time with it, and move on. Myst, the most successful computer game of all time, has no community.
+
+A lot of companies would prefer to look at their games like movie releases. Every couple years, you go see the latest by a director you like, then don't think about it too much until the next one.
+
+The game-as-a-lifestyle type of community that has sprung up around a few games is an interesting phenomenon. The plus side is that there is a lot of wonderfully creative things going on, and it does attract more attention over the years than any single media blitz.
+
+The downside is that it breeds a lot of zealotry, which can be a bit ugly. I get some fairly hateful email from people that are too wrapped up in it and disagree with some direction I am taking.
+
+At this point, I think it is clear that the community has been a positive thing. I was very pleased when, earlier this year, Kevin Cloud came around and agreed that the community has indeed been good for us. For years, it felt like I was just being humored by the other owners at id when I pushed for all the code releases. </a>
+
+
+
+<q>mpav asks: This is a break from the usual questions from this group, but I thought it would be interesting to know.. You have a couple of exotic sports cars, one being a 1000 horsepower/750 ft-lbs of torque (insane!) ferrari, and I was wondering which one you generally drive to work?</q>
+
+
+
+<a>I drive my twin-turbo F50 almost all of the time. It took a while to get all the bugs sorted out, but it is almost a perfect combination right now. It is light, nimble, and responsive, and 600 hp at the rear wheels is just about perfect for a street car of that configuration.
+
+I only drive my testarossa now when I am low on gas in the F50 or if I need to drive someplace where I think the extra inch or two of ground clearance is important. It is heavy and ponderous, but every time I do drive it, I am impressed again with the power. 1000 hp at the rear wheels is excessive. It takes a while to spin the turbos up to the full 24 psi of boost, but when it has a full head of steam going, it moves like nothing else on the road. It runs away from superbikes on the highway. However, when exercising it, you have a very clear sense that you are taking your life into your hands.
+
+I will probably be getting rid of my TR when my next project car is completed. It is a custom carbon fiber bodied ferrari GTO with a one-of-a-kind billet aluminum twin turbo V12. It is going to make a bit more power than the TR, but only weigh about 2400 lbs. I have a suspicion that we will wind up detuning the engine, because 1 hp / 2 lbs is probably quite a bit past excessive and into the just-plain-stupid realm.
+
+It was supposed to be done two years ago -- mechanics are worse than programmers.
+
+I also have a little MGB that I am theoretically working on myself, but I haven't had time to touch it in six months?</a>
+
+
+<q> Hobbex asks: Though it unlikely that games will ever be free (ala beer), since so much effort goes into them from all angles (not just code, but also art, music, design etc), but that does not necessarily preclude open source game engines.
+
+Admittedly (and I don't mean this as a slam against you) game engines today do suffer from many of the same problems that Open Source activists attack in Operative systems and other software: bugs, instability and sometimes even bloat and vaporware.
+
+Do you think that Open Source will play a part in the future of game development?</q>
+
+
+<a>I have spent a lot of time thinking about that.
+
+I was trying hard to get an article together about game code licensing to go out with the interview questions, but I just didn't make it in time. I had written three pages of article and four pages of other stuff that I had ripped out because it was going off on various tangents.
+
+First, it is interesting to examine how coding is similar or dissimilar to art, music, design, etc. Most GPL works don't have to face the issue, because the work is clearly dominated by code. A few little icons aren't enough to make people really think about it. The argument is significant for games, because coding is only about a third or less of the work in most cases. The arguments that RMS puts forth for the ethical rightness of free software also seem to apply to all digital media. If you take them seriously, the spirit of the GPL seems to want to say that all digital media should be free. That isn't a pragmatic battle to try and fight.
+
+If you just focus on the code, I think there is indeed a viable business model for a line of titles based on open source code with proprietary data. It will take either a very small company, or a very gutsy big company to take the first step. The payoff won't be until the second product.
+
+I think open source is at its best with games (and probably most other things) in a post-alpha model. Fixing, improving, and building upon an existing core is obviously extremely fruitful in an open source model.
+
+Going open-source from development day one with a game probably doesn't make much sense. Design by committee doesn't work particularly well, and for something with as much popular appeal as games, the signal to noise ratio would probably be very low.
+
+I tagged along at the beginning of a from-scratch open source gaming project (OGRE), and it more or less went how I feared it would - lots of discussion, no code.
+
+While the mod communities may not be exactly OpenSource?, I think they work very well. There is some value in having focused areas to work in, rather than just having the entire thing dumped in your lap.
+
+I am going to be releasing the majority of the code for Q3 soon, but there will still be proprietary bits that we reserve all rights to. We make a fairly good chunk of income from technology licensing, so it would take some damn good arguments to convince everyone that giving it all away would be a good idea.
+
+Something that is often overlooked about Id is that Kevin and Adrian together own 60% of the company. They are artists, and most definitely do not "get" free software. </a>

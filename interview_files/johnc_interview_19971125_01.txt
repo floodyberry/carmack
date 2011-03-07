@@ -1,0 +1,290 @@
+http://web.archive.org/web/19980130151620/http://www.bootnet.com/youaskedforit/lip_16_outtakes/lip_16_all.html
+John Carmack - The Boot Interview (Outtakes)
+Boot Magazine Interviews John Carmack &amp; Brian Hook - The Outtakes
+Boot Net
+Alex St. John
+
+<desc>On the first day, id Software created Wolfenstein 3D-- the debut first-person shooter to confront the issue of 3D on the PC. And it was good. Soon, the small Texas-based startup had a shareware megahit with the legendary game Doom, and the game world began paying attention. Ambitiously, id set out to break its raycast bonds and create the first true 3D game. Thus was born Quake, arguably the best PC game to date, and nothing would be the same again.
+
+Along the way, the technological idealists at id faced opposition. Mighty Microsoft, via outspoken evangelist Alex St. John, began pushing Direct3D as the dominant API. But id had other preferences, and company owner/lead programmer John Carmack has rallied developers against D3D and become alternate API OpenGL's... Ad Hoc Evangelist
+</desc>
+
+<q>If a Microsoft recruiter came down here and said "We'd like to hire you all to come fix DirectX" would you guys go?</q>
+
+<a Hook>I'd probably go. John wouldn't.</a>
+
+<q>So what would you do with Direct3D if you were in charge?</q>
+
+<a Hook>Hold it, hold it. There's too much speculation here. Having talked to enough ex-Microsoft employees, I know it's a very political landscape. It doesn't matter how good you are technologically, because there are people up there right now who have the capability to solve this problem, but politically do not. So you don't need me to go up there--what you need is someone up there willing to dictate on strategy, end of story, that's it.</a>
+
+<a>Well, I don't know if I agree. I undervalue the strength of politics. I am a technical idealist at heart and I think that if you put someone up there that knows what the hell is going on, and they have authority over the code base, they can fix it. The final word is what gets built into the executables.</a>
+
+<a Hook>I think a pretty much infallible case has been made for OpenGL and Microsoft has effectively come back and said "Screw you."</a>
+
+<a>[laughs] Brian's current conspiracy theory is that Microsoft is investing in Apple to force them to adopt D3D or something.</a>
+
+<q>That's not the most irrational thing we've heard. So, what do you two think about Microsoft showing GLQuake running on top of Direct3D?</q>
+
+<a>It was worthwhile, although it's like you adopt OpenGL and write some emulation layer to run all the crappy games--such as Monster Truck Madness.
+
+I've stated from really early on that the APIs are close enough in functionality that there's not a difference. The difference is in how you access that functionality.</a>
+
+<q>I understand the performance is pretty similar.</q>
+
+<a>It's pretty close because it's a heavily fill-limited game, so you're bound-up by what the hardware can do. If the driver is not totally brain dead, it's feeding the hardware, and you wind up waiting for the hardware. So assume that you have a non-brain-dead driver, then you could put a layer of emulation between it. And that works fine on this generation of games, but it's not going to work in the future. If you scaleup the performance ladder-- like where SGI is--then every access to memory is a performance drain. If you start saying "I want to render five million triangles," an emulation layer is not acceptable.</a>
+
+<a Hook>And Microsoft didn't tell us they were going to do an emulation. If they had simply asked "We're going to do this, do you mind?" We would have said OK, because we're just into cool technical stuff. There wouldn't have been a problem, but they didn't even do that.</a>
+
+<q>It was my job to get your approval, but they fired me before I could do it!</q>
+
+<a Hook>Look, this is my view of the people who work at Microsoft. You have a choice. If you're good enough, you have a choice of where you work. You have to realize that what you're doing is bad for the industry. And what you're doing is only good for your personal ego and your personal power trip and your stock options. If you're doing stuff that you don't even agree with and you do it for the money--we have a word for that.</a>
+
+<q>So what's that word?</q>
+
+<a Hook>A whore. And I've never done that. I can sleep well at night. Those people can't.</a>
+
+<q>Are there particular people that you have in mind?</q>
+
+<a Hook>No, I'm not even singling out the D3D team. I'm saying in general that you can have a certain level of honor and integrity, but not a lot of people exhibit that.</a>
+
+<a>One thing the D3D/GLQuake demonstration did was draw the lines of battle. Microsoft is always trying to be friendly and put on a good face and saying "We're doing what the ISVs want" and everything. But that's really just a front. There's a well-defined agenda that D3D shall rule the universe; OpenGL shall crumble and die.
+
+But Microsoft can't quite come out and say that. And I would respect them a hell of a lot more if they actually did, but they're trying to have your cake and eat it too. And it's just not that way.</a>
+
+<a Hook>Their D3D developer-relations guy sends e-mail asking if there's anything he can do. And then something happens and he'll say "Oh, I had nothing to do with that."
+
+It's like "Fuck you! You work there." That's not my problem and I don't respect you for coming up with excuses when you come down here and start saying "Oh, we really want to work with you..." and then pull a stunt like that. You come off as two-faced, you come off as a hypocrite. If you want to work with us, pay attention to us. But it's not what they want to do. They say "Try D3D--you'll like it," And I kept saying "I don't want to use D3D. I have something else I like." To me, the analogy was like going to a fast food place and saying "I want a hamburger," and them saying, "We've got a really good chicken sandwich."
+
+
+You know, we're not supposed to do what Microsoft wants. Microsoft is supposed to enable us to deliver content on their operating system, but they're not doing that. They're flat-out ignoring us to a large degree. And I've heard private comment from members of the Direct3D group where they just categorically ignore anything John Carmack says. Not because they don't believe in him, but because he disagrees with them. It's not John Carmack, it's anyone who disagrees with them. They've done this with hardware people. "Yeah, even though they're the fastest, they don't have enough volume. We don't really need to work with them..." And they do that across the board.</a>
+
+<q>SGI can't make much money licensing the OpenGL technology, so they really need to make an NT deal with Microsoft. How does that make you feel?</q>
+
+<a>This is where I can just be righteously indignant and disgusted about them. I am a technical idealist and the wrong things are happening. I understand the reasons why some of them are happening and I'll probably learn to live with them, but it doesn't keep me from being pissed-off about it.</a>
+
+<q>So even if OpenGL dies, will you remain its torchbearer?</q>
+
+<a>No. We're not going to crusade off a cliff. I am pragmatic at the end; there is a limit as to how much I will let idealism damage me because I can adapt to whatever is necessary and Direct3D with Draw primitive doesn't suck.
+
+D3D sucks!
+
+There's just nothing charitable you can say about it. Over the years, Microsoft will make D3D suck less, but they're dragging us through the mud along with them as they figure it out.
+
+But in the end, if SGI did give up on OpenGL, we would give it up. I suppose the gentlemen's bet would be that they're not going to bow out in the next couple of years.</a>
+
+<q>I'll make that gentleman's bet: I predict SGI will become less interested in providing a consumer API on the PC for OpenGL...</q>
+
+<a>Certainly, but they're not going to start running D3D on Infinite Reality.</a>
+
+<q>At least not for a while. On the other hand, their product mix might increasingly become whatever Microsoft supports under NT.</q>
+
+<a>And I think that's wonderful. If we could buy Infinite Reality and plug into an NT workstation, we'd do so. I'd write that $100,000 check right now because I don't like Irix. I don't like their desktop and their operating systems.</a>
+
+<q>Do you see hardware companies making a special effort to build drivers just for Quake as a problem?</q>
+
+<a>They aren't just for Quake. A couple are just for Quake now--the 3Dfx and PowerVR ones--although they both intend to evolve to a full version. There are a lot of great things people can do with them.
+
+D3D is not being exercised in application mode. And this is where everybody has always had these vague notions that 3D is going to be important on the desktop. And while I don't think that's really near-term, in general, it's true: You are going to integrate 3D in your desktop experience ... and that's what OpenGL was designed for. It runs full-screen. That was kind of a side-effect, but doing applications on a simple level--such as our map editor and the tools we write here--are things I can whip-out really easily in OpenGL and they work really well. And there are going to be consumer-level things like that which are interesting, and you'll want a robust, full OpenGL driver for.</a>
+
+<q>So you think people will be using OpenGL in Excel-type applications?</q>
+
+<a>Actually, yes--drawing 3D graphs and everything in spreadsheets is an excellent use for something like that, rather than writing your own 3D transport clip project pipeline to do those little things. But the obvious things of the graphics tools, modelers, map creators, and things like that. It's silly not to write those to an API.
+
+In fact there's a funny thing... Somebody sent me back an e-mail that I had written at least a year ago, where I said, "You should use a commercially available API like Direct 3D." That was before I had done any Direct3D programming. This guy sent it back to me, and it's like "You said this?" It was like, "Yeah, I did say that. I stand by the sentiment that you should use someone else's library." After actually doing a bunch of D3D programming, we recommend using OpenGL, for sure. But at the time, I hadn't used either.
+
+It's important to note that some people have this misconception that we're just being recalcitrant and not wanting to learn something new. But I did Direct3D programming and Brian's done a lot. The thing is: I've only learned OpenGL over the last two years. It's not like I'm some guy at SGI who's been doing it for a decade. I learned it after I left NextStep and then I learned D3D later because I had the best of intentions. I went into it with eyes wide open, and it just sucked.</a>
+
+<q>But clearly SGI isn't making a big effort to get drivers done and making sure that all the hardware manufacturers are unified...</q>
+
+<a Hook>They're working with every major IHV that I've been talking to. They're in constant negotiations. Their team is almost the size--in terms of programmers--of the Direct3D team up at Microsoft. They're taking this very seriously.</a>
+
+<a>Sure, it could be better. It'd be great if they had an evangelist like you were for Microsoft. But we're still like this bug splat to Microsoft, and we can't get them to do what we think is right. This is the first time I'm really trying to use what influence I do have to do something I think is proper and forward-looking for the game industry. And I know I'm not really hurting anyone by doing this. I think that the long-term benefits of trying to push something that's right are good. At the very least, even if we fail, we have put pressure on D3D to examine some of the issues that they wouldn't have otherwise.
+
+And I do get mail from people. Most of them really don't understand the issues technically. They think when GLQuake is running on their S3 ViRGE, "If it just supported D3D..."
+
+I didn't know any better two years ago, before I used OpenGL. I clearly remember laughing about this e-mail saying how OpenGL is going to take over the world, and there are going to be OpenGL accelerators in the consumer space, and anyone would be able to write stuff on those. And I was laughing because the misconception I had was, "Yeah, anyone that runs a $50,000 SGI workstation." Something that's appropriate there just can't be efficient, because they're throwing all this hardware at it. And I was just wrong.
+
+I just didn't know the issues and I learned better. And a lot of game developers haven't been in the position where they've had the opportunity to learn some of these things and they just take what's available and it's been bad. It's bad for the industry that what's available hasn't been as good as it should have been. But people really don't know there's an option.</a>
+
+<a Hook>People point out how OpenGL is designed on high-end workstations, but keep in mind that the "high-end" workstation OpenGL was designed on didn't even have hardware texture mapping. And a lot of them are significantly less powerful than a Pentium 166--even today.</a>
+
+<a>So it's like they had all these years of evolution and we're now at a point where we can say "They've spent a lot of time getting it to work on this hardware. And now our hardware is pretty damn similar. Let's just take all this. Let's not re-invent everything."
+
+And if you're going to re-invent the wheel, don't make it square.</a>
+
+
+<q>What would you think if SGI were to find a way to ship a PC version of OpenGL with Microsoft and doing the NT license for that workspace?</q>
+
+<a Hook>I personally can't believe it. It's a rumor. When it becomes a reality, I'll stress about it.</a>
+
+<a>We have like plan A, B, C and D on what could happen with OpenGL.
+
+The best plan would have been if Microsoft played ball and got behind us. That would have been best for everybody. But it didn't happen. So plan B is working with SGI. And if that falls through, the other ones probably really aren't worth pursuing as a long-term strategy. It would be strictly a rear-guard action.
+
+If Microsoft does manage to effectively squash SGI's involvement, it may be time to pack up and move on.</a>
+
+
+<q>Will there be a Mac version of Quake 2 ?</q>
+
+<a>Quake 2 is not going to be on MacOS 8, because I'm taking my idealist stand and saying Quake 2 will be available on Rhapsody. Give up the crusty old Mac stuff! I'm going to personally port the stuff to Rhapsody and make it a high-quality implementation for people that want to take a step into the future of Apple. I have no respect for the MacOS, none at all.
+
+There's a chance that if Apple doesn't curl up and die and Rhapsody turns out to be everything that it looks like it's going to be, then next year we might jump ship and develop on Rhapsody and port to Windows. There's a lot of good reasons to not have your target platform be your development platform. It keeps you from accidentally doing things that aren't robust and portable. And that was one thing during Doom and Quake, we developed exclusively on NextStep because cross-compiles were ported to DOS.</a>
+
+<q>Apple didn't come to you and say "Please put Quake 2 on Rhapsody"?</q>
+
+<a>I have some issues with Steve Jobs. When he was running Next, I tried so hard to get any publicity I could for Next but, from what I hear third-hand, Steve Jobs just was not interested in any of that. And it's defensible in a workstation company, although it still would have been good free PR that they could have used. But I'm getting the vibe that he's squashing some things that are important at Apple, and he has no justification for doing that in a consumer operating system company. I've never met him--I'd like to some time, but I don't think he's exactly on my side.</a>
+
+<q>Brian, what do you think of 3Dfx's future prospects now that you don't work there?</q>
+
+<a Hook>I've always felt 3Dfx will do amazing stuff. I keep hearing rumors that there's political stuff in the semiconductor industry that will always hold small, fabless semiconductor companies like 3Dfx back. But I can't comment on that because I don't know enough to really say if that's a factor.
+
+But remove that from the equation and I think 3Dfx Voodoo is still the best. Now that everybody's gone through multiple generations, this one architecture has lasted for a year. The boards are $180 for a 6MB version now, and you can get others for $150, and it's still competitive with brand new chips coming out from Invidia and Rendition.</a>
+
+<a>They had a 4x performance lead when they came out. That is just so rare, they need to be lauded just for doing that, because it was an amazing thing.
+
+Now I don't think they're going to have a 4x performance lead in the future, because eventually everyone is going to be working with the same memory subsystem, the same type of SDRAM, but I think they're still going to maintain a good 2x lead--and it's because they're really damn good. And I think they'll be successful. I don't think they're going to put S3 out of business, but I'm happy with the performance.</a>
+
+<q>That's a pretty strong statement. What don't you like about S3?</q>
+
+<a>Well the ViRGE was the whipping child of the 3D industry because it was so bad. Just like 3Dfx was so good, ViRGE was so bad.</a>
+
+<q>You're pretty hopeful that S3 isn't going to be predominant in the marketplace?</q>
+
+<a>Well anyone can turn it around. We've got a wonderful example with NVidia. The NV1 was the most stupid, wrong-headed thing anybody could have possibly built at that time. It was so bad it would have poisoned the industry if it had become a predominant thing-- it was horrible. And now NV3 is probably the single-best chip solution available right now. They did the wrong thing, they recognized it, and then they did the right thing. So S3 may very well do that. I hope they do because they certainly still have a commanding presence and I just want lots of good chips in lots of people's hands, but I don't want lots of lousy chips in people's hands.
+
+And it was funny, id Software had written off 3Dfx because when all the chip vendors came down and paraded through, 3Dfx said, "We're going to be $400." And we said, "You're not relevant!" We were behind Rendition because we felt they had the right feature set and they were going to be at the right price. But then RAM prices tumbled and, all of the sudden, 3Dfx is relevant. And not only are they relevant, they're so much better!
+
+Memory is now cheap enough to use aggressively for graphics... and that's why 3Dfx is viable. If memory hadn't gone down, I'm not sure 3Dfx would still be in business.</a>
+
+
+<a Hook>3Dfx's original business plan was not predicated upon having any presence in the consumer space for the first couple of years. They were going for massive arcade sales in order to keep the business going. Then they could get the prices down and work out the technology necessary to run in only two megabytes. But when the bottom fell out, all of a sudden 3Dfx was a consumer company. The arcade stuff became irrelevant, and they spun-off their board division, Quantum 3D, because it's like, "We need to focus on the consumer space. This arcade stuff is not going to be nearly as important to us now as we thought it was going to be three years ago." It was smart because if you're just selling chips into arcades, the volumes are nothing. And 3Dfx makes the same amount of money whether they're selling chips to Gateway or Dell or Compaq as they would if they were selling to Konami or Midway or whoever else.</a>
+
+<a>Well, that's one of those things that I can just look back on. I thought it was too expensive for us to be paying a lot of attention to consumer boards. But a lot of it was us believing what these people were telling us about their board's performance. Everyone said "Oh, we'll do 25 to 33 megapixels"--and we believed that!</a>
+
+<a Hook>They were running their SGI software emulation of what they would be capable of rendering.</a>
+
+<a>And 3Dfx was saying "We'll do 45 megapixels" and we thought, "they're only 50% faster than these people but they're twice as expensive" and it's just not worth it. Then it turned out that the prices changed, everything became a lot cheaper. And everyone else under-delivered. And 3Dfx did not. They did what they said they would do and they did it well.</a>
+
+<q>What about non-Intel processors, what do you think of them?</q>
+
+<a>The floating-point issue has really hurt them. We had AMD and Cyrix down here while we were developing Quake, and we said, "Look, floating point's going to be important," but because there weren't any benchmarks or any applications they'd used at that time, they brushed it under the rug.
+
+AMD and Cyrix both have non-pipeline FPUs, which is their Achilles' heel. In terms of integer performance a lot of them are on par or, even in some cases, better than Intel, but we optimize for Intel because the Pentium's got the FXCH change trick to pipeline all these things. And it's pretty tweaky but it pervades all of our assembly language code for Quake.
+
+So we're de-optimized for non-Intel chips, but it was the only sensible thing to do.</a>
+
+<a Hook>Intel was the best processor at the time. The K6 had not shipped yet, so it's hard to optimize for the K6 or the Cyrix M2 or whatever. They just didn't exist yet. So it's not favoritism towards Intel, it was just being pragmatic.</a>
+
+<q>What do you think of Intel buying-up interest in the major 3D chip companies?</q>
+
+<a>Intel's a smart company, and Intel's turning themselves into this gigantic, monolithic company has been good for us. We have benefited very strongly by Intel's ramming through things like PCIs, taking over the motherboard chip and the L2 caches. Because every time they've done something like that, our life has gotten better, our systems have gotten more stable, more standardized. And they're moving into the 3D market with their Auburn part and I think that's going to be great. I think they're going to do a solid job. And if Intel murders S3, I don't think I'm going to shed too many tears. If we get a better part from a reliable supplier that's going to be on the motherboard of everything, wonderful!</a>
+
+<a Hook>And contrast that with Microsoft. You have two companies in similar positions: One in software and one in hardware. Intel is doing the right thing. PCI was better than VLB. Them owning the chipsets is a smart thing. They're doing CPUs that no one even thought technically possible with an x86 architecture. Contrast that with Microsoft, which has just made a habit of screwing things up. Making good business decisions, but screwing things up technically. If Microsoft was like Intel, it would have adopted OpenGL.</a>
+
+<q>I heard a rumor that id had a deal with Rendition requiring you to support their API only and that you couldn't ship anything else, except OpenGL.</q>
+
+<a>Oh, OK, yeah. Originally we didn't have anything in place when we did VQuake. And in the end, my God, that took far more effort than we expected because of the performance required. The performance was really only good in some situations, and not the situations that it turned out we had to use, which included Z-buffering.</a>
+
+<q>So what Verite chip problems are you responsible for...?</q>
+
+<a>We were originally saying, "Z-buffering is important but you shouldn't have to run all these other APIs and everything, so Quake is not going to do Z-buffering." I said that and they probably still have the e-mail. And then halfway through Quake I said, "Well I changed my mind. We are using Z-buffering, even in software, because it turns out that it's the most effective thing for us to do."
+
+And they're like "Oh great. We have Z-buffering, but it runs at half the speed of our non-Z-buffered algorithm." We did finally get VQuake running on their 3D stuff, because all through Quake we were concentrating on, "OK, how are we going to hook out hardware for this?" But when we implemented it that way, the performance was just wretched, totally not acceptable, even at low resolution.
+
+We did finally get good performance out of VQuake. And I still find that a technical accomplishment. We took an architecture that had certain strengths and we leveraged it as well as was possible.</a>
+
+
+
+<q>Did you sign a contract restricting what kinds of technology you could do ports for?</q>
+
+<a>We got some bundled deals, some things. Rendition offered us... I don't even know exactly what the specifics were, but I think there was like some stock involved or something, if we would sign an exclusive hardware agreement for a certain time frame. And we were looking at that saying "Well, we're not going to do anything else in that time frame, so we might as well."</a>
+
+<q>So that agreement stated that you can only ship 3D-hardware-accelerated software for a Rendition chip?</q>
+
+<a>It was like no chip-specific ports or anything inside the space of three months or something. The only thing on the radar at that time was a Glide port. And I was like, "Well, maybe we could be talked into doing this because it is really cool." There's all this disinformation saying I did GLQuake for 3Dfx. In fact, I did it because I have an Intergraph workstation in my office that runs OpenGL and I wanted my game on my workstation. And 3Dfx was like, "You know, we could just write an OpenGL subset that catches all that and it will run on our hardware."</a>
+
+<q>So the only way 3Dfx could get Quake running on their hardware was to write an OpenGL driver, because you could only ship an OpenGL version?</q>
+
+<a>I forget exactly what the timing was on all this. We talked about letting them do a Glide port because they had a lot of the work done and we figured we'd give them the codebase and probably wouldn't even have to be involved in it much. But there were issues with the Verite port-- if I could go back in time, I wouldn't have done it. It was too much work, too much distraction for Michael Abrash. And we were afraid of that happening again with another proprietary port. But the OpenGL stuff seemed to be the right thing.
+
+And when I did the OpenGL version, I realized that even with all this sweat and labor, the Verite version was just awful--the OpenGL version was a pleasure to do.
+
+I tried just a couple of features, like transparency or shadows and reflections. And they just dropped in--it was so wonderful. And that was what really got me crusading for OpenGL. It was like, "This helps me. This is not me laboring to produce something to deliver to the consumer. This is something that's letting me be more creative and try out more things to produce a better architecture than we would have had otherwise." And at that point I went and tried D3D and found out that it wasn't helping me do creative things. But I really learned something: A good API can help you produce better products.</a>
+
+
+
+<q>How do you handle third-party developers when you license your engines?</q>
+
+<a>It's, "Here's a CD. Thank you for the half-million dollars. Have a nice life."</a>
+
+<q>Any truth to the rumor that Mindscape's upset about their licensing deal with you guys right now?</q>
+
+<a>Mindscape had the very first Quake license and they signed a really nice contract where they got the codes, development, everything for cheap. They never got a team together and now they're trying to say, "Well, we don't want to pay you this last $200,000 because we didn't do a game." And we're like, "Tough luck. You signed a contract. That's your fault."</a>
+
+<q>How important is software rendering to games these days?</q>
+
+<a>I don't think software rendering has a future, especially once the hardware people get their shit together and are actually helping us instead of being this anchor that you get paid to support, like it is right now.
+
+Trinity will not have a software renderer. Guaranteed. Well, theoretically you could have a software renderer, if you hook that up as an OpenGL bag. And who knows, maybe processors with unique architectural features will make it possible to do hardware-like rasterizing on a software level, but I doubt we'll have a pixel-level interface.
+
+Now that means giving up a ton of stuff, but it's an architectural transition point and we have to lose some things to make the right steps in the future.</a>
+
+<a Hook>Adding power suits into Quake 2 took an hour and a half to get something we all agreed looked really good in hardware. Then to do the software version took four or five hours, even after the research was done on the OpenGL version. And the same with these translucent beams we do. OpenGL was "Boom, done!" Software, I had to go through and write new primitives. That took over a day.</a>
+
+
+
+<q>Bottom line, what should the next-generation 3D hardware accelerator be?</q>
+
+<a>It should be a 3Dfx with integrated 2D and video-IN. That's the concise definition of what future hardware should be. And there's a couple coming out now that fit that bill. The NVidia RIVA 128, the Rendition V2200 and, to a lesser degree, the PerMedia P2. They're all single-chip cards that basically use the same memory and provide most of the features. In the case of the Rendition, they provide everything. They provide a wider feature base than 3Dfx without some of the limitations on texture aspects and format sizes. And they also provide acceptable 2D video.
+
+With all these pluses and minuses, I thought for sure there would be the clear winner by now. I remember thinking in January that in a couple of months the three survivors would be Voodoo Rush, the Verite V2200, and the PerMedia. It turned out that the PerMedia 1 had really bad visual fidelity. V2200 still hasn't shipped, delayed forever. And Voodoo Rush has limits, and they wound-up crippling some of the 3Dfx performance for architectural reasons. So they took a step forward and a step back.</a>
+
+<q>Is id going to have to start patenting its technologies to protect you from other people patenting things they use in their games?</q>
+
+<a>Well, we get to the idealistic thing. The only time I've ever had to actually put my foot down at id was over a patent.</a>
+
+<q>You asserted your authority?!?</q>
+
+<a>Yeah. The only time I have ever had to do that over other people's wishes was over software patents. Things were coming up about patenting things for protection, licensing, whatever, just for the reasons that lawyers give you. They were coming up and I said "No!" a bunch of times, and then they were being talked about when I wasn't there. And I delivered an ultimatum that said if id Software patents anything, they're going to be doing it without me because I will leave. And the fallout from that was not pretty. Everybody was pissed off at me, and I don't want to do that again. But that was something I felt strongly enough about that I, quite literally, would have left the company. I would've gone off and programmed on my mountaintop someplace.</a>
+
+<q>What if somebody patents the technology you want to use in Trinity ?</q>
+
+<a>I really don't want to think about it. I'm sure eventually we'll get a demand letter from someone. I'll throw a lot of money at lawyers and say "Make this person go away," and we'll see how it goes. It's something that's really depressing because it's so horribly wrong for someone who's a creative engineering type to think about patenting a way of thinking. Even if you had something really, really clever, the idea that you're not going to allow someone else to follow that line of thought... All of science and technology is built standing on the shoulders of the people that come before you. Did Newton patent calculus and screw the hell out of the other guy working on it? It's just so wrong, but it's what the business world does to things, and certainly the world is controlled by business interests. And technical idealists are a minority, but it doesn't mean that I have to drag myself to do things that I don't consider right.</a>
+
+<a Hook>It'll just be unfortunate when John comes up and says "Man, I came up with this really cool idea to do something, but some guy patented something that sounds sort of like this in a real general way, and we may not be able to use it." And what could've been the basis for a whole new completely cool architecture, and a new revolution in gaming is off limits.</a>
+
+<a>Well, the argument is that we could always license it from them. That's what patents are supposed to protect.</a>
+
+<q>I know that's the specter raised by the whole Messiah controversy.</q>
+
+<a Hook>Dave Perry's comments would make sense if he were talking about copyrights. It's apparent that whoever's been educating him about this has not been doing a good job because the things he's talking about a patent protecting are not what a patent protects. He says, "We don't want people stealing our code." Well, copyrights protect you from that. It's important for the people at Shiny, or whoever else is doing software patents, to understand the difference between a software patent and the copyright because copyrights protect you in all the important ways that you really need to be protected.
+
+We've even had people say "id shouldn't sue people for pirating your software because you're against software patents." That's a completely separate topic.</a>
+
+<q>If you could just hire anybody from the 3D world, who would you hire?</q>
+
+<a>Well there's a big difference between who I consider the most talented and who I would necessarily hire, because you have to hire people that fit right. If I had to pick who I think is just the most talented, it would probably be Ken Silverman, the guy that did the BUILD engine. He does engines and tools. He's great as an editor. He writes all the code for everything, and he's just extremely talented. I think it was 3D Realms' worst decisions not to coddle him, or whatever it took, to keep him on board. I think if he was still working directly for 3D Realms, they would have a Quake-type game shipped by now, just because he's extraordinarily good. There's maybe a half dozen people that are top-notch A-level 3D programmers. I'm not going to give you a list because I'd leave somebody off and they'd be all pissed off at me.</a>
+
+<q>You've already left off 90% of them by naming Ken Silverman.</q>
+
+<a>All the people doing things that people are talking about now are pretty talented. The Epic people have been working on it for a long time. They've gone through a big learning process, but they've got the issues under control and they're going to ship a product.</a>
+
+<q>So you think one day Tim Sweeney might grow to be as successful as you.</q>
+
+<a>It's hard to become successful by following in footsteps. This is probably going to come out sounding demeaning, but Epic wants Unreal to be Quake. Everything they did with Unreal, they did because they wanted it to be like what Quake turned out to be. And they're going to achieve a lot of that, because they're doing a lot of things well, but you're just never as big when you're second in line.</a>
+
+<a Hook>Just like Dark Forces and Duke were both phenomenal games, they still definitely didn't have the impact of Doom simply because they just weren't first out the gate.</a>
+
+<a>Like Prey, there's a lesson to be learned, something a lot of companies don't really ever learn. You hear it from the fan base a lot. "Do it right. We'll still be here. We'll wait," and it's tempting to just let things slip. But that's really not OK. If you're doing something cutting edge, you're making fundamental decisions about your architecture, and if you let it slide for a year or two, then it's just not the right decision anymore. Even if you pile on all these extras, it's not optimal. It's not targeted at what you're doing. So I have some concerns about Prey coming out this late.</a>
+
+<a Hook>That's the other thing that differentiates the really good people and is sort of a pet peeve of mine. I have a problem with some of Dave Perry's attitudes, but he has shipped games, so he is someone to be taken seriously. It bothers me when someone solicits magazine covers 12 months before their game is going to ship. It's like, "Spend more time working on your game instead of hyping it." The ability to ship a game, you can't stress that enough. You know that Albert Einstein quote "Imagination is more important than knowledge." I don't believe that anymore. I think the ability to ship a product is far more important because someone who's not very creative can have little bouts of creativity, but someone who's not very productive doesn't have a bout of productivity and ship a product. You just have to grind it out.
+
+The problem is that it's a slippery slope. Everybody likes to make fun of Battle Cruiser 3000 AD--which I've never even seen--but it was like seven years late because they didn't know when to just say "Ship the damn thing!" No matter how creative you are, no matter how good you are, if your product takes three, four, five years to develop, you're not going to make back the money you spent on development.
+
+These days, I'm a lot more jaded. You'll see Next Generation or boot coming out with a preview of a game that's 25% complete but it's got the most incredible screen shots. You look at it, and you look at the developer, and you're like "What have they done? Nothing." You can look at a laundry list of games that people talked about and never shipped, or by the time they came out, were absolutely irrelevant.</a>
+
+<a>We've got a pretty consistent track record here. We go 50% over budget on schedules. With Quake we said "We're going to do it in 12 months," it took 18. It's pretty much the same thing back for Doom and Wolf. Michael Abrash and I once had a discussion kind of justifying ourselves. We said, "Well, if we shipped on time, we probably weren't ambitious enough."</a>
+
+<a Hook>Games that were started in 1992 and took a really long time have shipped in the past six months and they still use fixed-point math. And fix-point math died with the 486. They said "Hey, why don't we use floating point?" Then later, it's, "No, we don't have time to go back and rewrite it." You choose your target platform and you architect your entire game around this concept, then the minute you slip you're going to be dated technology and you're not going to be appropriate for the vast majority of systems people are running.</a>
+
+<a>That was one thing that Quake did really good on. We still hear people that use Cyrix and AMD processors saying, "You're just lazy for not doing fixed-point math." We saved time doing floating point. And on Intel processors it was actually the faster thing to do.</a>

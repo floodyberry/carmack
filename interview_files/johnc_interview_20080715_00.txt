@@ -1,0 +1,68 @@
+http://www.maximumpc.com/article/features/e3_2008_the_john_carmack_interview_rage_id_tech_6_doom_4_details_and_more
+E3 2008: The John Carmack Interview
+Rage, id Tech 6, Doom 4 Details, and More!
+Maximum PC
+Will Smith
+
+<desc>We had an opportunity to speak with id co-founder John Carmack after the big EA press conference yesterday (where id surprisingly announced a partnership with EA to publish Rage). We grilled the legendary game developer (and part-time rocket scientist) about id's post-apocalyptic shooter, the state of gaming graphics, and what his plans are after id Tech 5. Rage looks be a drastic departure from the traditional id FPS, not only in gameplay style (open worlds with vehicles vs. claustrophobic indoor environments) but also in the way Carmack has designed the code-base. id has already announced that Doom 4 is in development (no publisher has yet been annonced), and Carmack confirmed that it'll run at 30Hz and run with several times the graphics power as Rage, a 60Hz game. </desc>
+
+<q>Can you lead off by telling us a little bit about Rage and id Tech 5?</q>
+
+<a>id Tech 5 is the next major technology generation after the Doom 3 [engine]. Doom 3 was targeted at high-end PCs and the original Xbox. It’s been one of our big learning experiences working with our partner companies about just how miserable the porting process is. Doing a game, then delivering for the PC, the Xbox 360, the PS3, the Mac or whatever. It’s just something horrible that we suffered through with Enemy Territory, or rather one of our partners did.
+
+The target that we had, we knew when we were starting this generation of technology that the consoles were taking over the preeminence for the types of games we’d been making—the AAA media-rich blockbusters were on the consoles. We needed a solution that would be portable across 360, PS3, PC, and OS X, but we didn’t want to abandon our PC roots. And we have enough Apple boosters internally that the Mac remains a platform that we have some fondness for.
+
+On a technical level, we had to make design decisions that would let us target all of these platforms, very importantly, from a single source-base, and developed [that] internally. We didn’t want to have to go out to any other companies to produce these games. We wanted to say OK, here’s the build and run the same build on the PC, the 360, and the PS3. We still have to go through one extra step to build it on the Mac. But it really does work that way on the other [console] platforms. Right now, you check the stuff in, the next day you get the build reports, which says, “here it is [ready to go] on these three platforms.” So that’s one of the core technical aspects.</a>
+
+<q>So one team is developing for four platforms at the same time (PC, 360, PS3, and OS X)? That’s really cool!</q>
+
+<a>This is the first time we’ve done this at id, and we think we’ve done it better than many other companies. This is one source tree and one environment, you build it and it works well on all these. Different platforms have had different amounts of elbow grease on them. Certain things are easier on the 360 than the PS3, but you put the extra effort in where it’s required. You don’t want to minimum common denominator it, and just do what’s easy on the different platforms. The intersection of that is not so great.</a>
+
+<a Tim Willits>One of the great things about the new id Tech 5 engine is that as a developer, you use the same set of assets on all of the platforms. You can immediately see what your game looks like on all the different platforms. For us, that’s a great way of looking at development of games.</a>
+
+<a>Our history as a PC developer lead us to a lot of development technologies that console developers generally didn’t do. Through the Doom 3 generation we had all of this live update stuff, where a modeler could save out a model or save out an image. You could just hit one key in game, and it refreshes everything in the game around you. While we went through the Doom 3 porting process to the Xbox, our designers were appalled at how painful the process was. “Ew, this takes hours to just make tiny changes there”. We’ve brought all of the goodness of PC development there to console developers.
+
+During the development process [now], you can do the exact same thing: save this thing out, hit a key, and it magically pops up in the world around you. With a stamping on the Megatexture stuff, you’ve got even cooler demos, where you can be doing graffiti on the texture on the PC, and a guy walks around the corner on the PS3, and it’s magically there.  </a>
+
+<a Tim Willits>So Rage, the other part of your question. Rage is a new franchise built on a first-person shooter foundation. But yet, it expands on that with more exploration, more action, and more adventure with some driving and vehicle combat.</a>
+
+<a>It’s explicitly not the corridor shooter that people have come to expect from id. It was a very conscious decision that this won’t just be the next revision of the same game that id’s made before.</a>
+
+<q>It seems like you’ve taken inspiration for Rage from Mad Max and everything else that’s post apocalyptic and awesome. What would you say that you’re juiced about and pulling on to make Rage?</q>
+
+<a Tim Willits>For us, it’s all about fun and making the game experience as enjoyable as possible. During development, whenever we hit a crossroads between realism and fun, we take the fun path. We would love for game players, after they finish Rage to say, “that game was fun. I had a great time.”</a>
+
+<a>And that actually, there are some technical points that we tie in there. I was very proud of the Doom 3 generation, where I unified all these things: static and dynamic lighting, static and dynamic geometry. It was technically elegant and wonderful, and was this thing that I was quite proud of as a setup. We’re making completely different decisions on Rage. I’m not trying at all to be perfectly uniform or elegant in whatever way. We’re doing a lot more of the traditional gaming hacks in the technology, because we’re a 60Hz game. We’re totally blazing fast because Rage is a 60Hz game. We want to be responsive for the driving side of things, and that carries over into a silky-smooth sense of play even with all the other first-person sides of things.
+
+That also plays into our grand strategic plan with all this generation of technology. We’re ramping up to do another Doom game, built on id Tech 5. But it’s going to be a 30Hz game. Even though we’re not changing the engine, we get to throw three times as much horsepower at it, so it’s going to look like a totally new game engine on there, even though it’s going to be built on the four years of effort that we spent developing this generation of technology. </a>
+
+<q>So, you said Rage is a 60Hz game. Is it an OpenGL or DirectX game?</q>
+
+<a>It’s still OpenGL, although we obviously use a D3D-ish API [on the Xbox 360], and CG on the PS3. It’s interesting how little of the technology cares what API you’re using and what generation of the technology you’re on. You’ve got a small handful of files that care about what API they’re on, and millions of lines of code that are agnostic to the platform that they’re on.</a>
+
+<q>Are you using DirectX 9 equivalent? For Doom 4 as well?</q>
+
+<a>Yes to both. It’s one of those things I get asked a lot. What’s big and exciting for DirectX 10 or DirectX 11? There’s not a whole lot of… really not a whole lot. The big touted geometry shaders were in many ways, a mistaken belief that people desperately wanted to create stencil shadow volume.
+
+There’s a tough thing with that. You get a bunch of people who make APIs, and they think “it’s my job to make APIs. I make new APIs every year.”  There’s a reality of approaching a functionality curve, and the DX9 level gives us a whole lot of stuff where it’s not like before, even at the DX7 functionality level. Graphics programmers have tried every possible configuration, and they’ve tried every state and know what happens when. But, as soon as you get programmability in there (as happened with DX9) you’re writing code now. The code is limited, but we’re so far from exhausting the possibilities.
+
+Sure, when DX10 hardware is ubiquitous and that’s our baseline platform, we’ll find something useful to do with all that extra hardware. It’s not like we’re saying “no, we won’t use this”. </a>
+
+<q>Do you think we’ve reached a point of diminishing returns with regard to graphics?</q>
+
+<a>There’re interesting things to talk about in that direction, [for example] with Quake Live. We’re taking this ancient graphics technology, it’s nine years old, but we’re wrapping it in this other way to innovate, with the website interface for all of that. It’s clear that there are certain types of games that we’re past the curve for the benefit. For the highly competitive games, competitors would crank the detail all the way down, sometimes going too far. It’s cool that we’re running those games now at 60Hz on 2 million-pixel monitors.
+
+There’s still value to be gained at the high end with graphics. We’ve got some wonderful looking stuff with Rage where we can do things with the environments that people have never seen before. Rage and id tech 5 will make a lot of games start to look plain. We’ve seen that phenomenon with previous games, where people don’t know exactly what they’re missing until they’re shown it, but it makes some of the other things look shabby in comparison.
+
+I still think there’s one more generation to be had where we virtualize geometry with id Tech 6 and do some things that are truly revolutionary.</a>
+
+<q> How long will we see games based on id Tech 5? </q>
+
+<a>Through this console generation at least, I am beginning some of the preliminary research work on what we’re going to follow this up with on the following console generation. Lots of questions are unanswered about that, depending on how all the players choose their technology—whether it ends up being a Larrabee based, CUDA hybrid, or Fusion-based, there’re lots of unanswered questions. I know we can deliver a next-gen kick, if we can virtualize the geometry like we virtualized the textures; we can do things that no one’s ever seen in games before. It’s worth doing a new generation for.</a>
+
+<q>So this isn’t your last engine?</q>
+
+<a>No. It’s interesting though, that a couple of years ago, I’d thought that maybe we were approaching something that would be a regular tool, that the performance is a driving factor. You could write something really general, but the performance is hard, even for a 30Hz game.
+
+In some ways, our big advances are in tools. Our innovations are beyond the offline renderers. We’re doing stuff that even the offline renderers don’t. </a>
+

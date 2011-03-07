@@ -1,0 +1,35 @@
+http://www.gamesradar.com/pc/quake-live/g-2008022010732152090
+Carmack frees Quake 
+Godfather of deathmatch spills the beans on Quake Live and why Crysis isn't the future of PC gaming
+PC Gamer US
+Norman Chan
+
+<q>What inspired you to resurrect Quake III Arena as Quake Live?</q>
+
+<a>At the very highest level, Quake Live - what we originally called Quake Zero - was one of my experiments about what we could do usefully on the PC platform. The consoles are very good machines for a lot of things, but there are some things the PC platform uniquely does better, such as anything having to do with a web browser and the superior mouse & keyboard interface. [Those things are] pretty darn good reasons to be playing on the PC, and we’re also trying out an innovative business strategy that could pave the way for the future.
+
+It’s completely free - there aren’t any micro-transactions. Quake Live is completely ad-supported on the web browser pages and [through] in-game advertising. Of course, this is speculative - we’re going to have to see how this works out. Early on, we were tossing around two different orders of magnitudes - anywhere from 50,000 to 5 million people playing. We have no idea where it is going to be in there. The fact that 70,000 people have signed up in a week means that we’re going to be looking at hundreds of thousands of players, if not millions. We hope that that can be a sustained critical mass of a community that can play this type of game, and be self-supporting.
+
+Quake III Arena was always my personal favorite id Software game. It’s such a pure activity kind of game - more of a sport than a movie. And I’m excited to have this opportunity to bring back the pure type of gaming as opposed to the “everything and the kitchen sink” modern design. We have no pretensions about it being the best multiplayer game in all types of things, but for any player looking to test their [deathmatch] skill, I think Quake III Arena is the best there ever was.</a>
+
+<q>Why this new direction?</q>
+
+<a>I would say that there is this sense of trying to figure out what to do with PC gaming. Historically, id Software has been a PC gaming company, with consoles a secondary business that happened later. And even though the PC doesn’t get the focus that it used to, in many ways our hearts are still there, and we’d like to do things where the PC is the appropriate platform. [We’d like to] do something that really speaks to the future of where the PC can be superior to consoles.
+
+Obviously, we have examples like World of Warcraft that show how the PC can be viable and vibrant in its own way. But in terms of first-person shooters, if you look at something like Crysis and say that’s the height of what the PC market can manage, I don’t think that’s necessarily that exciting of a direction for the PC to be going in the future. With Quake Live, we hope that there’s an opportunity for people who’ve never played shooters to give this a try, and with that, the potential of actually growing the PC gaming market. I still have a lot of a faith in simple gameplay formulas - it might not be the game that everyone plays for three hours a day to be the best at, but it’s something that offices, dorms, and schools across America can have fun with.</a>
+
+<q>How much of the original game has been ported?</q>
+
+<a>Every single level of the original game has been touched to bring them up to modern quality standards. All the little things, like level alignment and lighting in different areas. We also integrated in-game billboards throughout the levels. So, all the levels are modernized a little bit, but there’s no pretense about this being a modern technology game. One of the key benefits of this, with the old game being a standard graphics benchmark, is that this is going to run on almost any machine you’d want to play it on, and at a very high framerate.
+
+Playing directly inside a browser window is moderately new in that it integrates friends lists and messaging. The core of the game remains the same.</a>
+
+<q>How will matchmaking work?</q>
+
+<a>Increasing the approachability of the game is one of the absolute top-level priorities here. If someone bought Quake III right now and found a game online, they would have a miserable experience because people playing the game right now are too skilled and experienced. We’re doing a few things to address that. Skill-based matchmaking is extremely important, so when you jump in, you’re going to be someplace appropriate. But we’re also adding things like bot-guided training levels offline. When you initially set up your account, you get to give the system an indication of what your skill level is. After a few matches, the game will see how you’re performing and adjust your choices.</a>
+
+<q>What’s going to convince the existing Quake III community to make the move to Quake Live?</q>
+
+<a>That’s not necessarily our primary objective. We know that there’s going to be some pushback. At least initially, we’re not going to have all the mods that they expect to have supported. But I do expect that a lot of people will transition because it’s going to be a more polished experience and it’s going to be a much larger stage to play on. If you’re a hotshot player, you’re going to want to know where you rank globally in the new community. But our top priority is to get a broader range of people - more than those who played the old game - trying this out.
+
+If we have a breakout success, there are all sorts of places it could lead. But while this is novel and a new direction, I don’t think this is that risky of a bet for us. I have pretty high confidence on it right now.</a>
