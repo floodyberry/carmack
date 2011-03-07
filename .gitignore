@@ -9,4 +9,4 @@ pdf/*.tex
 pdf/*.toc
 pdf/*.pdf
 files/*.zip
-./*
+/*.*
