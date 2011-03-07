@@ -1,1 +1,15 @@
-!
+BUILDING THE SITE
+
+* Run page_tools/page_compile.php from the browser or command line (I think)
+* The site will be generated to the root directory, and 
+  files/[name]_archive.zip will contain a full archive of the site you can
+  unzip anywhere
+* Run pdf_tools/page_compile.php to generate .tex files to the pdf/ directory
+* .pdf filse are generated using Miktex and Texnic (add-ons will need to be
+  installed on-demand on first run) by running the .bat files in the pdf/ 
+  directory
+
+
+WORKING WITH THE SUB-PAGES AND DATA FILES
+
+* Good luck!
