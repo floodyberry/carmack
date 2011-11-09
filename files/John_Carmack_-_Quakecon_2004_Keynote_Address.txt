@@ -1,0 +1,884 @@
+Transcribed by Mystery Man from GameDev forums 
+http://www.gamedev.net/community/forums/topic.asp?topic_id=266373
+
+
+I'm mostly going to ramble on about graphics technology and hindsight on the
+Doom 3 engine and where I'm going for the next generation, and I'll talk a bit
+about sound and some of the other technologies.
+
+So, the decisions that I made with the Doom 3 renderer were made over four
+years ago, and they turned out pretty good as far as I'm concerned with how
+the hardware evolved and what we were able to produce in the game with that,
+but it is time now to go ahead and re-evaluate where things are with the
+current hardware and where things are likely to be over the next several
+years, and basically make a new rendering engine based on those decisions.
+
+So there are a few flaws you can see in Doom 3 if you look at it from a
+graphics perspective. One of the most obvious ones is you get some seams down
+some of the character heads where a mirroring repeat is used on the texturing.
+That's not so much an engine problem as we just should go ahead and spend the
+extra texture memory and not have any texture seams across directly visible
+areas, but there may be some things I do with the calculation of the tangent
+space vectors that can clean that up a little bit. One of the other things
+people have commented on is that the skin tone on the characters doesn't nlook
+particularly realistic as a skin tone. Part of that can be attributed to the
+fact that we only have a single level of specularity. There's only one kind of
+power factor that goes onto everything. We can make brighter or dimmer specular
+highlights but we can't make tighter and broader specular highlights. That's
+mostly the result of the original engine being done on the notchy feature sets
+of the early register combiners for the NV10/NV20 class hardware. With anything
+that's DX9 class hardware or modern, that's basically NV30/R300 class, there's
+no reason whatsoever to have limitations to a particular specular exponent. We
+don't actually use an exponent, it's not a power series like a conventional
+cosine raised to a particular power. It's actually, in Doom, a kind of a
+windowed function that does some bias and squares, which was something that
+worked out reasonably on the early fixed function hardware, and was actually a
+little bit easier to control because it has a very finite falloff, where in
+theory classical phong shading with a cosine exponent doesn't cover completely
+falloff and you end up with a slight addition across everything and it's a
+little bit nicer to have that completely windowed off.
+
+The fragment program paths actually do use a texture lookup table for the
+specular exponent, and I just made that texture to be exactly what was
+calculated in the earlier fixed function hardware, but you can easily replace
+that with anything that you want. What I've done in the newer renderering
+paths is made it a two-dimensional texture, so all of the specular lookups
+happen with an additional rendering map that has the specularity factor in
+there. What we call specular maps in Doom 3 are more commonly called "gloss
+maps," where it's just affecting the intensity of the specular highlight, but
+we now also add in new technology, the ability to change the breadth of the
+specular highlight. That lets you do a lot of interesting things with... the
+highlight that we've got in Doom is really quite broad for a specular
+highlight, and it's about what you'd get on a really dull plastic; something
+that wasn't very shiny, it's a kind of fairly broad, spread out thing. You
+don't get anything that looks like a really good metallic highlight, or things
+that would be shiny cast plastic, so there's a lot of neat stuff that you get
+just playing with that, and going ahead and having some that are even broader
+and some that tighten down a whole lot to give you bright little pin-point
+highlights on there.
+
+The other issue with specularity is that you can see in some cases in Doom
+where if you have a really broad triangular surface or a broad surface with
+very low polygon tesselation. Doom uses half-angle interpolation for the
+specular calculation, again because that's all that was reasonable to do with
+the fixed function hardware early on. I much prefer to use actual reflection
+vector calculation which doesn't involve any non linear calculations in
+vertices. What that means is, if you take a really large box room in Doom and
+punch a hole in the center of it so you've got some funny triangulations going
+on, and then you have a bright light with a specular highlight moving around,
+as you walk around, the shape the shape of the highlight will change quite a
+bit depending on where it is in the triangular surface, even though it
+shouldn't, based on the location of the viewer, and the light source. So
+that's another fairly straightforward thing that gets addressed where with
+reflection vector calculations, no matter what the underlying triangles
+tesselation is, you get exactly the correct highlight on there. Another minor
+thing you see in Doom, again on big flat surfaces with a specular highlight,
+is that there's a grainyness to the specular highlight. That's actually mostly
+due to using cubic environment maps for normalization. When that's replaced
+with direct calculations, again, only in the ARB2 path, you get a better
+quality highlight, but there's still a small amount that goes in... there's
+two normalizations that happen. One of them I did replace with calculations,
+the other one is still with a lookup map. So there's a slight quality
+improvement to, again, placing that into mathematical calculations instead of
+texture lookups.
+
+One of the other things you notice in basically everything using normal maps
+right now, when you've got specular highlights on there, and it becomes much
+more apparent when you add tighter specular highlights, is there's a degree of
+aliasing where... normally people think about aliasing just at the edges of
+polygons, where if you've got a thin railing you get an obvious kind of notchy
+pixel edge at the side when you've got it in front of a background that's lit
+differently. Hardware anti-aliasing does a good job at addressing this, but as
+we get more sophisticated with what we're doing inside surfaces we've got whole
+new classes of aliasing that are coming into it which are "in-surface aliasing"
+based on the actual texture calculations. So what happens in games that have
+normal maps on there is the calculations where you may have a specular
+highlight that happens at the interpolated point between one sample and
+another where one facet may be pointing up and one facet may be pointing off
+to the right, and depending on where the viewer and the eye is, some
+combination either at those points or in-between them, may have a really
+bright specular highlight, and Doom doesn't suffer from it too badly because
+the specular highlights tend to be very broad, but as you tighten it up it
+does get to be more of a problem where slight movements cause the bilinear
+interpolation (or trilinear interpolation) on the surface to generate normals
+that either approach or move away from the exact specular highlight, and that
+will cause little shimmery speckles to happen on the surface as things go in
+and out of the exact highlight point on the reflection vector. So this is
+something that I'm still working on various techniques to combat on there. The
+primary direction that I'm looking at is to go ahead and analyze the actual
+surface normals along with the specularity factor and basically broaden the
+specular highlight as more geometry is pushed into whatever may be covered by
+the filter kernel on there, and that seems pretty promising on there, and it
+works nicely. One minor drawback is that it does wind up having to tie
+together the specularity maps with the normal maps where you wouldn't have the
+freedom to take a single surface and flip a different normal map onto it
+without having a matching specularity map on it, so they become kind of
+multiple channels of a more complex data structure on there. That also takes
+away the ability to scale and rotate them independently because it again looks
+like just a deep multichannel texture. Several of the things we do are sort of
+like that, where you could look at a given surface that has a normal map, a
+diffuse map, a specular map, a specularity map, a gloss map, a subsurface map,
+and all of these things. They can be treated sort of as seperate maps, but if
+you start doing some of this analysis and modification across the different
+levels, they really become much more like a 14 channel or 16 channel deep
+single texture on there. That's one of the minor issues that I'm not
+completely clear on what I'm going to do enforcing that inside the engine.
+
+Another thing that turned out to be a really cheap and effective quality
+improvement is doing renormalization of of the normal maps before it does all
+the lighting calculations. Now normally there's some benefit to when you have
+the hardware going ahead and doing trilinear interpolation on your normal
+maps, because you've got a normal pointing one way and another one pointing
+another way, when it does an interpolation between there that's linear it ends
+up having a normal vector that's no longer unit length. That's not a huge
+problem because most normal vectors tend to be pretty close to eachother. But
+when you have tight little fillets and gouges between things you wind up
+having normals that may tilt over a 45 degree angle or so, and that is a
+significant amount of denormalization there. You can easily, in a fragment
+program based system, renormalize those after you fetch the samples. That
+exaserbates the aliasing problem with the in-surface specular highlights and
+such, but it makes a lot of surfaces look a whole lot better, where you can go
+up to surfaces that may have been, when you walk up to them, they would have
+been just more blurry smears right now, and with renormalization you can
+actually see a little one unit wide normal map divet becomes a nice corner
+rounded indentation in the surface. That's not that expensive and looks really
+good on there.
+
+The biggest change that's likely to happen in a next generation renderer is
+moving to shadow buffers instead of shadow volumes. This was one of those
+large, key strategic decisions that had to be made early on in the Doom
+renderer. I had, early on, a version of the code that would render both shadow
+buffers and shadow volumes on there, so I could compare the different
+performance and visual quality tradeoffs on there. At the time there was a lot
+of speculation about which way things should go. Some people thought that
+shadow buffers might have been a better choice on there. Having done much more
+work on it now it's really clear that a generalized rendering architecture
+would not have been viable with shadow buffers in Doom's timeframe to cover
+our entire target market on there. What I'm doing right now is, it's not 100%
+clear yet that it's going to be viable for our next generation target on
+there, but I have pretty good hopes for it. We just have to get some
+cooperation with the video card vendors on some issues to get some of the
+performance issues cleared up as much as possible. The issues with shadow
+buffers are, when I was able to test them early on in Doom's development,
+without fragment programs, and without dedicated shadow buffer hardware which
+came for the first time on the Geforce 3, NV20 class systems on there, you
+could do things with alpha test and some other hacks to go ahead and compare
+against shadow buffers, and you could do multiple layers to crutch up the fact
+that you've only got 8 bits of depth precision, and you could make an engine
+that would work with that, but visually it looked really bad. Everyone
+complains about the hard edges with stencil shadows on there, but with the way
+you could do shadow volumes [did he mean "shadow buffers"? - Johnny] before,
+you had hard edges and they weren't even straight; you had these awful
+distorted pixel edges that looked really really bad even at quite high
+resolutions. So when I sat down to work on the new technology, I sat back
+again, and the reasons you want to do shadow buffers instead of shadow volumes
+is mainly that shadow volumes require us to do a lot of work on the CPU, which
+does make Doom more CPU bound than I would prefer. So it makes things where
+you have to generate the coordinates for any animation on there on the CPU
+because you need to do shadow volumes off of that. And you need to do all
+these calculations even for static objects that are inside moving lights, or
+of course moving objects past static lights. The shadows silhouettes always
+need to be detected and generate new indicies and verticies. There are things
+that Doom does to try to crutch up around there where with vertex programs we
+can have static lists of vertices for the shadows and just generate new
+indices based off of them, but it's still a significant issue. We spend a
+pretty good amount of time messing with the silhouettes on there.
+
+With shadow buffers, the new versions that I've been working with, there's a
+few things that have changed since the time of the original Doom 3
+specifications. One this that we have fragment programs now, so we can do
+pretty sophisticated filtering on there, and that turns out to be the key
+critical thing. Even if you take the built in hardware percentage closer
+filtering [PCF], and you render obscenely high resolution shadow maps
+(2000x2000 or more than that), it still doesn't look good. In general, it's
+easy to make them look much worse than the stencil shadow volumes when you're
+in that basic kind of hardware-only level filtering on it. You end up with all
+the problems you have with biases, and pixel grain issues on there, and it's
+just not all that great. However, when you start to add a bit of randomized
+jitter to the samples, you have to take quite a few samples to make it look
+decent, it changes the picture completely. Four randomized samples is probably
+going to be our baseline spec for normal kind of shipping quality on the next
+game. That looks pretty good. There's a little bit of, if you look at broader
+soft shadows on there, there's a little bit of fizzly pixel jitter as things
+jump around on there, but the randomized stuff does look a lot better than any
+kind of static allocation on it. It should be a good enough level on there, and
+the nice thing is because the shadow sampling calculation is completely
+seperated from the other aspects of the rendering engine, you can toss in
+basically as many samples as you want. In my current research I've got a
+zero-sample one which is the hardware PCF for comparison, a single sample
+that's randomly jittered, four samples as kind of the baseline, and also a
+sixteen sample version which can give you very nice, high quality soft shadows
+on there. And I'll probably toss in even higher ones like a 25 or 64 sample
+version on there which will mostly be used for offline rendering work if
+people want to go ahead and have something render and they don't mind if it's
+running a few frames a second, you can get literally film quality shadowing
+effects out of this, by just changing out the number of samples that are going
+on in there. This wind up being very close to the algorithm that Pixar has used
+for a great many of the Renderman based movies, and it's just running in the
+GPU's now in real time at the lower sample levels.
+
+So that's pretty exciting because in addition to soft shadows which is the
+buzzword that people look at where, okay, you've got a shadow line on the
+floor, is it an exact binary difference between in light and in shadow or do
+you have a nice smooth umbra and penumbra area in there? The probably more
+significant aspect we get out of that is, the randomized dithering and
+jittering in everything that goes on in there allows us to go ahead and have
+good quality shadows on normal mapped characters. Now, there's a lot of things
+in Doom that are sort of limitations on what the technology does well that we
+just work around and you don't really notice them because we work around them
+well. One of the major ones is that if you have normal shadowing turned on
+surfaces that have a high degree of curvature encoded into the normal maps,
+basically like characters, and to a lesser degree on things like pipes and
+stuff like that in the world, the fact that it goes from binary light into
+binary shadow at a silhouette edge where you have normals that curve around
+that pass the silhouette should still be directly lit; gives you this very
+harsh lighting condition. Sometimes the designers crutch up for that by having
+fairly bright fill lights so that the shadow isn't very harsh but when we
+wanted to do stronger lighting, almost all of the characters have no self
+shadowing set as a flag, which is a hack that we do in the stencil shadow
+buffering, so characters with this set will not cast shadows on themselves so
+you don't get the harsh silhouette shadowing but they still cast shadows on
+everything else in the world. There are a few things this screws up where it's
+not really unique per character on there, it kind of batches things into the
+two groups, no self shadow, and global shadow, so no self shadow things don't
+cast any shadows on other things and you'll see this sometimes where two
+monsters standing right next to eachother with a light off to the side,
+they'll both cast shadows on the floor but if they're both "no self shadow"
+you won't get a shadow from one monster on the other monster.
+
+The primary thing this prevents us from doing is dramatic close-ups on
+characters with self shadowed lighting going on, and this was one of the major
+limitations with what we could do with otherwise very high quality surface
+lighting. So, the shadow buffers solved that very very nicely, in that you
+could have a light directly on a character even without an ambient light, and
+you get a soft silhouette on there, which really does what we need it to. So
+the other things with the soft shadows, there are... I've got it set up right
+now in my research engine where I can toggle between the original Doom
+renderer, and the new renderer. We're using mostly the same data on there.
+Soft shadows are held out as a grand new feature, but for the most part when
+you walk through Doom, toggling between soft shadows and the regular harsh
+shadows in Doom, there's very few places where it makes much of a difference.
+If you're just toggling between them, somebody a little ways away from the
+monitor won't even notice it unless there are items that are set in as "no
+self shadow" that wind up getting shadows on them, that's the only thing you
+really notice when you're just flipping between it. There are a couple scenes
+where you look a lot closer it's really nice to see a good soft shadow on
+everything there, but for the most part it doesn't make a hughe difference.
+Part of that is because the designers know not to put in things where harsh
+shadows look bad, so they'll have a bit more artistic freedom with that. But
+the primary benefit of it is going to be 1) getting proper self shadowing,
+getting rid of the silhouette problem on major characters, and we should
+eventually see speed-ups on this by unloading the CPU from the shadow
+calculations. However, at this point right now, the shadow buffer solution is
+quite a bit slower than the existing stencil shadow solution.
+
+Some of that is due to hardware API issues. Right now I'm using the OpenGL
+p-buffer and render-to-texture interface which is a GOD AWFUL interface, it
+has far too much inheritence from bad design decisions back in the SGI days,
+and I've had some days where it's the closest I'd ever been to switching over
+to D3D because the APIs where just that appaulingly bad. Both ATI and Nvidia
+have their preferred direction for doing efficient render-to-texture, because
+the problem with the existing APIs is not only are they crummy bad APIs, they
+also have a pretty high performance overhead because they require you to
+switch OpenGL rendering contexts, and for shadow buffers that's something that
+has to happen hundreds of times per frame, and it's a pretty big performance
+hit right now. So, both ATI and Nvidia have their preferred solutions to this
+and as usual they're not agreeing on exactly what should b done on it, and
+it's over stupid, petty little things. I've read both the specs, and I could
+work with either one, they both do the job, and they're just silly syntactic
+things and I have a hard time empathising why they can't just get together and
+agree on one of these. I am doing my current work on Nvidia based hardware so
+it's likely I will be using their extension.
+
+The issues right now with the hardware are, the NV40 has a few things that
+make development easier for me. It has floating point blending, which saves me
+some passes for what I've been doing, well certainly have fallback positions so
+anything we do with blending we can do with an additional render and another
+texture copy pass on there, to work for NV30 and R300 class hardware. It's
+nice, and there's also the pretty much unlimited instruction count on the NV40
+where there are times I'm writing these large fragment programs and it's nice
+to keep tacking more and more things in there as I look at it but I know full
+well I'll eventually have to segment these into something that can run on R300
+class hardware. The other issue on just raw performance on the shadow buffers
+is that a lot of people used to think that stencil shadows because of that in
+the basic direction you'd be rendering front faces, back faces, and silhouette
+edges that it was going to be this large polygon count increment. It is a lot
+of extra polygons, but what wasn't immediately obvious was that in all the
+cases I'm testing so far, the shadow buffers actually require more polygon
+draws than the stencil shadows. The reason for that is, of all the demos that
+you see of shadow buffers, in order to make it look good and performance
+attractive it's always a projective light with a relatively tight frustum. You
+see comments like this in the Renderman books where you say, "Try to make your
+shadow lights like a 20 degree spotlight and use a 2k x 2k texture, and you'll
+get good looking shadows and everything on there." The problem is with games,
+99+ percent of all lights are omnidirectional point lights. To render a point
+light with a shadow buffer you need to have an enclosing polygon on there
+which, the most straightforward way to do it is to have six planar projections
+on there. Now what happens here is that any time you have an object that
+crosses these frustum boundaries it has to be rendered multiple times. And
+again, in your typical standard graphics demo where you've got a fruitbowl on
+a flat plane, the whole object fits into one frustum projection and it's
+obvious you only need one extra rendering of that geometry to create a shadow
+buffer, then you use it. Again, however, in real life, or at least real game
+life, we have many many objects that a part of the scenery, that instead of
+being contained inside a light frustum, many object contain entire lights when
+you're looking at parts of the room, which means some of the geometry needs to
+be rendered up to six times on there. Even when it's rendered, on average,
+maybe twice, it's still more polygons than you'd see with the stencil
+shadows.
+
+So that's an interesting performance characteristic from there, but polygon
+rates on the hardware are really really high now and only getting higher, so I
+don't think that's going to be a huge issue. Another factor involved is, what
+you see with offline rendering tools that use shadow buffers a lot, you
+commonly have to do little tweaks to the bias to get things exactly right.
+There are two kind of standard problems that you have with shadow buffers that
+are artifacts. When you have the bias set too low you get what's called "shadow
+acne," where you get dark splotches of shadow on surfaces that are directly
+luminated because the values there weren't enough to bias completely off the
+surface. When you've got jittered sampling on, that gives you just kind of a
+dimmer look to them with a little bit of extra noise, and it's not HORRIBLE
+but it's not something you'd really like to have. The other artifact you get
+when you have shadows too large is you get shadow pull-away which is when
+you've got a surface that actually contacts a floor, but the shadow doesn't
+start, say, right at a characters heel, but it starts some number of pixels
+behind it because of the way the biases work. And that's a fairly
+objectionable artifact when you look at it, where you see benches and things
+like that with the shadows not starting directly at them. There are a few
+things that make this difficult in a number of ways. One problem is the depth
+buffer, if you use a normal depth buffer for this, isn't linear. Because it
+has a perspective projection or perspective warp into the depth buffer, if you
+have a bias that's correct for something that's right in front of the light,
+it's actually incorrect for something that's a long ways away. That's a pretty
+fundamental problem with that. It can be addressed by, instead of using depth
+buffering and the actual real depth buffer you could have your fragment
+program render out an alpha channel that's a floating point value that's in
+linear object space, and you could have consistent depth values across
+everything like that.
+
+Another issue is if you just programatically add a bias value in like when
+you're rendering or when you're comparing against it, you're again adding a
+linear world offset to your non-linear depth offset. You can sort of fix that
+by using polygon offset rendering to add a non-linear, small unit bias on
+there. A problem with that is, you can add the offsets there, several people
+suggest using the polygon offset factor calculation to offset from the slope
+of the plane, that's not usable in a robust, real engine because for any
+factor value that you get you'll eventually find some cases where tiny sub
+pixel polygons have a factor plane calculation that is almost infinity, and
+you will get these things where, if they're multiplied by anything, they'll
+drop in and out of your shadow map. I saw that when I had some of those in
+there where I would occasionally get one pixel out of a shadow map that would
+be clear to the light even though it was completely inside an enclosed mesh on
+the character. And that was just because some tiny little polygon turned almost
+edge on to the light and the factor value blew it out out through the back of
+the world and you got to see through that. Which would show up when you had a
+light that was projecting from a long distance with a relatively low
+resolution map, you see the little bright speckles sometimes jumping through
+things. The solution to all the bias problems is, there's a completely robust
+way of doing it that solves all the problems, and that's to actually render
+two shadow buffers, one using front facing triangles to the light, and the
+other one using back facing triangles to the light, and then you combine those
+together to find a midpoint value between all the surfaces. That works great, I
+haven't seen any situation where that doesn't do as good a job as possible.
+Unfortunately it means twice the shadow renderings for shadow buffers. The
+current plan of record is, we will probably be using probably back face
+renderings as our default, and we'll offer midpoint rendering as a higher
+quality option with a performance cost. This will likely become a highly
+optimized path for the hardware vendors.
+
+Another somewhat interesting aspect of the hardware interactions on this is it
+may very well turn out to be that 16 bit depth rendering, which is a mode that
+is almost not used at all by any current rendering systems, we like our 24 bit
+depth buffers for rendering views because we all want to render large outdoor
+scenes that easily swamp a 16 bit depth buffer, but 16 bit depth buffers may
+be very useful for shadow buffers. Not only do they take up less memory for
+very large ones, but they should render somewhat faster and sample somewhat
+faster. Because most lights won't have these incredibly large frustum
+distances we see with views on there. So, there are a few things that become
+more challenging with the shadow buffers. There are issues with stitching
+together the multiple planes where if you do six renderings of a cube face to
+go ahead and make an omnidirectional light, you want them to meet up
+seamlessly and not have any double-shadowed or double-lit surfaces, and you
+don't want to have the jittered sampling noticably change planar orientation.
+That was something that took a little while to work out perfectly, but it does
+the job right now and you can't really tell any difference on it.
+
+Outdoor lighting is something that becomes more challenging with shadow
+buffers. If you wanted to do a straightforward parallel projection from sun or
+moonlight onto your world, you would need a high enough resolution on your
+shadow map that would basically cover everything in your world or everything
+that could be seen on there. Even if you chose a very large value like a
+2000x2000 map and you had a decent sized outdoor world area you would find
+that the shadows that you get from trees and little things protruding up from
+the ground would be very blurry and fizzly because there's not enough texture
+resolution there. There's been some research done by people exploring
+"perspective shadow mapping" where you try to use a perspective warp to get
+more detail from a given shadow map resolution where you are, and I don't
+think that's going to be a very usable solution for games because there will
+always be a direction you can turn into the light where the perspective
+warping has very little benefits or even makes it worse, where you wind up
+with more distorted pixel grain issues. So the solution I'm looking at for
+outdoor lighting is a sort of multi-middle, propped mip-map of shadow buffers,
+where you have your 1k x 1k shadow buffer which renders only, say, the 2000
+units nearest you, and it's cropped to exactly cover that area dynamically,
+then you keep scaling by powers of two on there until you've covered the
+entire world, which may require rendering five or six shadow buffers depending
+on how big your outdoor area is. It's not really that big of a deal and ends up
+being like rendering six views for a single point light for an indoor area. I
+think that's a pretty solvable problem.
+
+There are a lot of interesting tradeoffs that get made with the shadow buffer
+approach on there. Like there's an obvious thought with, well, you'd like to
+use cube maps for rendering your shadow buffer on there where you render your
+six views into the cube map and just sample the cube map. Current hardware
+doesn't deal with that well because you wind up using one of the texture
+coordinate values as the "compare to" value and you can't directly do it now,
+although there's some hacks you can do with referencing a 2D texture and
+referencing a cube map that indirects into an unrolled 2D texture. But
+interestingly, it turns out that that's not even what you really want to do.
+To do efficient shadow buffers in a real game engine you need to be changing
+the resolution of these shadow maps all the time. If you're seeing 50 lights
+on there you can't render 2k x 2k shadow buffers for everything, especially
+when a lot of the lights may only be 50 pixels across in their affected area.
+So what I do is, I dynamically scale all of the resolutions for every single
+light that's drawn based upon how big it is on screen, and you can throw other
+parameters into the heuristic you decide on using that. But because of the way
+I select out the areas that are going to be recieving shadow calculations on
+there, for which I actually use stencil buffer tests so all the work with
+stencil buffers, and all the algorithms from that is still having some payoff
+in the new engine, even though we're not using that directly for shadowing.
+But because of the way I select areas of the screen for that, I don't require
+clamping, or even power-of-two texturing on the shadow buffers, so they will
+smoothly scale from 2000 to 1900, 1800, and so on rather than making any kind
+of power-of-two jumps from 2048 to 1024, various things like that. That also
+ends up saving a really significant amount of memory. We're looking at large
+buffers here, where a 2k x 2k one with a 24 bit depth buffer, you know, that's
+4 million pixels at 4 bytes each, if you were storing a full cube map on there,
+that's a good chunk of your total video card memory right there, so it actually
+pays quite a bit to go ahead and render one side at a time, at least on lights
+that are close up. There would be some performance benefit to having all those
+smaller lights where it doesn't take much space on there rendered directly as
+cube maps. There's a pretty appalling amount of upcoming 3D hardware to allow
+this single path render into cube maps. I have not been a proponent of this. I
+tried really hard to get this stuff killed at the last Windows Graphics Summit.
+It didn't work out, and all the extra stuff went in, and the hardware vendors
+I'm sure will eventually get it all working right, but I question the actual
+utility of the a lot of the geometry processing stuff going in there with
+replicating all the viewports and scissors with having basically six different
+rendering views you're dealing with at a specific time. It was all driven by
+this thought that we're gonna render shadow buffers, toss the geometry down
+one time and the hardware would spit it all out into the different bins, and
+as it turns out it's not really that important, and when you do that it ends
+up having some of these other performance implications where it's not nearly
+as big of a win as people hoped it would be on there. Even when you do all
+that it's a fair amount of hardware cost that's required to implement all of
+that.
+
+So, the shadowing is THE big question that goes on there. I have it working,
+looking good. It doesn't handle all the picky cases now. I don't have the
+outdoor lighting done. I don't have proper individual light specification for
+how blurry you want the edges to be. It is worth noting that with shadow
+buffers the edge blurring that you get isn't a real shadow umbra and penumbra.
+The soft part of a real world shadow is related to the size of the light
+emitter, the location of the occluder, and then the location of the surface
+that it's on. And you get the different effects like the broadening of the
+soft shadow from the exact point from where it intersects the occluder and the
+surface to a broader one as it goes much further out until eventually, small
+occluders are completely subsumed by a broad extended area light source. And
+you don't get those exact effects, but again this is the standard for many
+film quality renderings that have been done for years, and it gives the
+designers the control that they need. They can say, "Well this light is going
+to have a broad angle on it and we're going to get fuzzier shadows, while this
+one over here we have some of the light extending over such a large area we're
+gonna tighten it down to reduce the noise," and there will be a little bit of
+tweaking going on there in a lot of different parameters. So in some ways
+there will be more hacking going on a per light basis than there were in the
+stencil shadows because the stencil shadows are what they are, they do the
+exact pixel same thing no matter what the geometry is, no matter where the
+light is, and there will be a lot more judgement calls going on with this.
+
+So another major thing that will be going on is lots and lots of surface
+models. There are some specific things we'd like to do with adding things like
+subsurface scattering to make skintones look better, partial translucency to
+let you get the kind of glows through edges of partially translucent things,
+like backlit earlobes. Things to do better hair, and so on like that. I was
+kind of surprised when I asked Tim what the thing he'd most like improved in
+the rendering from a game designers standpoint. The biggest gripe was order
+independent translucency. Doom does not have a proper solution for order
+independent translucency. We had basically the same approach we had in Quake 3
+where you can assign sort values to different materials, and lower sort values
+will always be drawn before later sort values. There are situations that
+fundamentally don't work with that, where if you have two alpha blended
+surfaces, and you can go to both sides of them, where object A draws in front
+of object B, and object B draws in front of object A, with the current engine
+we cannot make that look exactly right. We would have to do something silly
+like tell where the player is and change out the materials to things with
+different sort orders. It will look right from one side and the other side
+will have this obvious mis-blend on there. Now I had a good theory on an
+attempt to solve this, there are a couple directions that I've got that are my
+options for solving this. One path is to go ahead and have separate layer
+views, where in addition to rendering your direct normal view on there, you
+may have multiple translucency layers where the engine figures out where they
+overlap and if you've got overlapping translucencies it goes ahead and spawns
+off another buffer and then it puts them together as necessary. That still
+doesn't solve single surface self intersecting translucency but that's not a
+problem I think is really important to solve. The drawback to that being it
+could potentially chew up a lot of video memory where if you run into
+something where you have three translucent planes and it needs to render those
+out separately, that could be many many megs of video memory spent doing that.
+That's something where virtualized video memory would help out a lot with
+because most of these won't cover the entire screen, but it is an issue.
+
+The other thing that sounded like it was it was going to be the best direction
+and may still be our baseline approach is to attempt to do all the translucency
+in the single framebuffer but kind of sparsely scatter the pixels that are
+translucent on there so they don't interfere completely with the other pixels,
+and then use post-processing to kind of blend the contributions together. I
+actually tried some of that early on with Doom, but without the ability to
+have good post-processing filters on there. It was completely unacceptable,
+just a fizzly mess on there. However now that we have the ability to do broad
+filtering, and I'm doing a lot of things at the backend with filtering to
+improve various things, with that I was able to setup some demos of
+translucency where, the simplest possible case is, say you want a 50 percent
+translucent object, you use a separate texture to basically do a stipple test
+where you only have 50 percent of the pixels used for that, and they're
+completely opaque pixels as far as the renderer is concerned, half the pixels
+inside this area have the translucent object, and half of them are just
+showing through to what's behind it. From a rendering standpoint this works
+really nice, you get all the exact lighting and shadowing and everything works
+because everything is an opaque surface, and then you have a final pass that
+renders over the translucent objects and basically blurs together the four
+surrounding pixels there. When you have a fixed pixel grid like that, like
+half of them or every fourth one, and it's on a regular pattern like that, it
+looks great. It's perfect translucency, accepting shadows and having the light
+on it, having the translucency to see behind it, and it works great. The
+problem is, at that level we can do an improvement over what we've currently
+got. If you were able to specify for a given translucent object what it's sort
+of stipple pattern would be, you can then have object A and object B have
+non-interfering stipple patterns, or only interfering in a particular case,
+then you get your order independent translucency and that works wonderfully.
+It's more of a problem when you start wanting arbitrary levels of
+translucency.
+
+Now, you can do that in a dithering operations where if you're using a 2x2 or
+2x4 dither mask or stipple pattern for this, you can go ahead and have your
+fixed values on there, and then either statically or randomly offset the
+opacity value that you get from either an opacity map or alpha interpolator or
+whatever you're getting from there. And you can blend that all in and randomly
+choose between these, but that hasn't been completely satisfactory to me so
+far, where even if I put in a fairly broad filter kernel if it's randomly
+picking the different stipple patterns there, it get still a little too
+visually noisy for me. So I've got a few different levels I've got on here
+where the easiest possible thing is, we can set it up so we have this
+randomized stuff where we have these certain good high quality levels which
+may be 25%, 50%, 75%, whatever, that look perfect, and when you're in between
+interpolating those you get more and more noise added to it, which is kind of
+the direction I'm leaning towards right now but we'll only be able to see
+later on when we get more media, how much trouble this is actually going to
+be.
+
+So there are a lot of interesting graphics technologies that may or may not
+make it into the next engine. A lot of things, because we've got the flexible
+programming interface now just get tossed in without really affecting the
+engine. Anything that's a non-interactive surface or that's specified with the
+same environment we'd use for our normal lights, it's easy to just throw in a
+programmable factor there. The art and craft of engine design is really about
+what fundamental assumptions are going to be built into the core engine.
+What's going to be exposed as programmable features in there. How the work
+flow of the content creation and the utilization of the engine are done. It's
+tough to say how important some of these things are, like internally there are
+a number of things I consider flaws with the Doom engine, for instance, surface
+deforms, where you have something that's an auto-sprite or uses some other
+deform, that happens in the wrong place in the pipeline to get lit. That's
+obviously something we want to fix in the next generation engine where all
+geometry gets lit and shadowed exactly correctly across everything. There are
+some interesting aspects to the fact that I wrote the core Doom 3 renderer,
+which could render pretty much the same pictures we've got now, four years
+ago, and I did it in C. I basically took Quake 3 at the time, took out the
+renderer, wrote a brand new renderer in C, fitting it in there and testing it
+like that. When the whole team started working on Doom, we did make the
+decision to move everything over to C++. We got everything included, started
+building the new pieces of the codebase in there. All the additional work on
+the renderer since then has been in C++, but there's still sort of a C legacy
+to it that the new renderer won't have, where things will be communicating
+with objects rather than passing structures. I got sort of half way to
+changing that in Doom, when you look in the SDK in the headers you'll see what
+were going to be nice new class interfaces, but it's still setup where you pass
+handles to render entities and render lights along with data structures on
+there where that really should just be a class.
+
+It's kind of interesting that when I started on the research for the next
+generation engine a couple months ago I sat down and started testing some of
+these things; building some of the actual rendering test features, and it was
+interesting to see that in this kind of experimental mode I did just fall back
+to functional C programming for things. I wound up making a class to
+encapsulate the awful pbuffer and render to texture interfaces. But when I'm
+just hacking around on graphics it feels more natural to just use a functional
+programming interface. I'm curious if that's just me or if that's the way
+graphics tends to be done on there. When you start building an actual engine
+that's going to be interfacing with a lot of different things, the kind of
+interface rigor of object oriented interfaces are beyond question valuable on
+there. The internals are still a bit C-ish, even with the brand new stuff. A
+lot of the issues with rendering engine design aren't with these things
+involved with actually drawing pictures because everybody draws things the
+same way now, no matter what you're drawing it winds up being binding a
+fragment program, a vertex program, setting some parameters, binding some
+textures, and then drawing a bunch of triangles, that's the same at the core
+of absolutely everything everybody's doing now if you're using 3D hardware. So
+in theory, all engines can draw media from all other engines because at the
+bottom line there, they're all doing the same thing. All of the innovations
+and important decisions get made in how exactly you determine what the
+geometry's going to be, what the textures are going to be, and what the
+programs are going to be, and that's one of the things I've always been down
+on, is when people do shader previewers and things like that, and shader
+integration into tools like 3D Studio and Maya, those are not very useful
+things. Yes, it lets you take this bottom line of take a program and throw
+some geometry at it, but all of the interesting things that happen in the game
+engine come from things like interactions and parameter passing and how the
+game world is determining the parameters that are used for the rendering, how
+the rendering engine composites together different layers of effects or
+different parts of programs. So you're not going to have that many things that
+are just "here's a fragment program." You'll get that for special effects, all
+the artifact effects where we've got the heat haze thing I threw in late in
+the game which is used all over the game just because people liked that type
+of little thing, so there are special effects like that where you'll get some
+use from "here's the fragment program that does the special effect." But so
+much of the stuff is going to be dynamic composition of the different programs
+where if you've got opacity mapping where you have to determine which areas are
+going to be combined with arbitrary interaction programming, combined with
+different shadowing programs, combined with deformations of the top level
+surfaces, there's undoubtedly going to be this dynamic combining of different
+programs in there. That's one of those things where I'm not exactly clear yet
+what the solution is going to be, so whenever I'm in those cases I usually
+implement a couple of different paths and just see what works out best. There
+are many different directions you could possibly take.
+
+One of the easiest ones that will probably get tried first is adding sort of
+macro-capability to the fragment programs where you could say, "light
+calculation here, stick it in register R0," and that might do light
+combination by two projected textures, or it could do an actual distance based
+calculation or use a 3D light. There's a number of different things you might
+want to have for light shaders on here that can be combined with arbitrary
+surface shaders. And you get certain things like that where you want to be
+able to toss a deformation onto an arbitrary surface rendering. You want to be
+able to say, I want to be the "grass blowing in the wind" deform on these
+multiple different things... we've got sticks and grass and those different
+things here that could be used in the static surface but you also want to be
+able to have them deformed. That winds up being more complex if you have
+different tangent space calculations on there, where there are some potential
+advantages to using global maps instead of local maps even for deformed things
+where you're deforming multiple axes rather than just moving the vertex around.
+And if you have that type of thing the sense of what is a normal map may be
+different. We also have some things like height maps may be included in the
+game, even though they're very inferior to normal maps for surface
+characteristics, but height maps can be used for other things, like if we
+eventually have a displacement mapping option in the game, you would need a
+height map rather than a normal map on there.
+
+ There's some cheap hack things, like I put in a trial of surface warping
+based on the height map to kind of fake displacement mapping. That didn't work
+out well enough, where you can make a few textures where it looks really cool
+and awesome, but if you try using it on things in general you get too many
+places that are kind of sheared and warped and not looking very good on there.
+That's an example of something that's an easy effect to have in, and we can use
+it for some special effect surfaces and interesting things like that but it's
+not a generally utilizable function. Heightmaps will also be needed if we do
+things like bump map occlusion, so you get self shadowing amongst the bumps in
+different areas, again that'll be at the cost of an additional texture. More
+problems there. I have some interesting thoughts for being able to do sort of
+a screen space displacement mapping, where we render different offsets into
+the screen and then go back and render the scene warping your things as
+necessary for that, which would solve the T-junction cracking problem that you
+get when using real displacement mapping across surfaces where the edges don't
+necessarily line up. There's a lot of interesting things that we can be doing
+there. We'll start media creation with the new engine pretty soon, in a month
+or so I expect the artists will start using some of the new features like the
+specularity maps, and building scenes with the soft shadows, and so on like
+that. I am kind of waiting on some help with the hardware vendors to get the
+shadow buffering up to the full performance that we're going to need to have
+that as a replacement. I would expect that by the end of this year we'll
+probably be rendering some demo scenes that will be indicative of what the
+technology is eventually going to be producing. The renderer will take another
+full year to mature to its full form as far as interfaces, what the programming
+APIs are going to be, and how the media for programming it is going to be
+used.
+
+But I do expect at the end, the capabilities you're going to have, you're
+probably going to be programming things at surface interaction level, light
+level, deformations, opacity level, where if necessary you can stick in full
+programs to do exactly what you want there. We're going to have nearly the
+capability of a traditional scanline offline renderer, and if you want to take
+the game and crank the values way up, like you can use textures as big as you
+want, you'll have lots of places where you can turn the sampling levels up
+higher, like if you want your high dynamic range light blooms to be really
+really accurate on there you can, say, instead of downsampling three times,
+you can do them on the native frame buffer level, instead of using a seperate
+gaussian filter go ahead and use this real 100x100 actual filter on there, if
+you really really wanted to have perfect starburst lines coming off of things,
+and there will be these areas where changing the data will let you crank up the
+performance or the quality at the expense of performance to things that are
+really, honestly film quality rendering. That term gets thrown around
+constantly like, since the advent of hardware accelerated renderings and lot
+of people mention things like that for Doom, but we're still living in a
+notchy feature set on the renderer, and there are still immense amounts of
+things the game engines can't do that you need for offline rendering. With the
+next engine you're not going to have absolutely every capability you'll have
+for an offline renderer, but you will be able to produce scenes that are
+effectively indistinguishable from a typical offline scanline renderer if you
+throw the appropriate data at it, and avoid some of the things that it's just
+not going to do as well. We're seeing graphics accelerated hardware now,
+especially with the multi-chip, multi-board options that are going to be
+coming out, where you're going to be able to have a single system, your
+typical beige box, multiple PCI-express system stuffed with video cards cross
+connected together, and you're gonna have, with a game engine like this and
+hardware like that, the rendering capability of a major studio like Pixar's
+entire render farm, and it's going to be sitting in a box and costing $10,000.
+And not only does it have the throughput of a rendering farm, where you're
+looking at, in terms of total frames possible rendered in a given amount of
+time, the important thing is it's going to have a fraction of the latency of
+it. If it takes 30 minutes to render a film quality frame, you can throw 1000
+systems at it, and render a whole bunch of frames, but it still takes 30
+minutes to get your main frame back. If you can kill the latency down like
+that where you're actually rendering it in 1/1000th of 30 minutes on there,
+that's a far better thing from a creative standpoint. I think there's going to
+be some interesting stuff going on. Already there are studios working with
+hardware accelerated renderers.
+
+They're coming at it from a different angle. They're coming at it from, "how
+can we take a real offline renderer and start using GPU technology to
+accelerate some of it?" While we're coming from the side of, "how do we make a
+game that's already designed to use this very efficiently begin to have all of
+the features the offline renderers have?" There will be some pretty
+interesting overlaps between the approaches. A few years from now it's going
+to start seeming like an anacronysm when a few studios decide to absolutely
+stick to their guns on the huge offline rendering things. There will still be
+the case for multi-hundred-million dollar film studios where they absolutely
+must get certain reflections exactly the way they want, certain filtering
+exactly the way they want, but everybody that's cost conscious is going to be
+moving towards this sort of GPU accelerated real time rendering. We'll
+probably see it first in TV shows, but it will not be long until film quality
+rendering is at least using GPU acceleration of classical style renderers, and
+perhaps in some cases using effectively game rendering engines.
+
+There's an interesting thing to note about engine technology in general. We've
+got a good example here. Doom has probably gotten more universal praise for the
+quality of the audio than it has for the graphics. Now there's some lessons to
+be learned from this. I took over the audio engine work this last year after
+Graham left, and we made some really large changes with exactly what Doom was
+doing for audio. When we started off we knew we had a lot more CPU power, and
+we could do some sophisticated things with audio. So, the original Doom audio
+engine had head modelling, room modelling, all of the typical DSP high end
+stuff that you think about doing for virtual environments and simulations. It
+sort of worked, but we had these option flags where you could say "plain sound
+on here," where the sound designers didn't like the way things were sounding
+because the engine was mucking with all the sounds, you would just set it to
+plane. We were using this in an awful lot of places on there. When I took over
+the sound code, I basically redid everything so it basically had none of those
+features, and all it does is 1 to 1 mix the audio data that the sound
+designers have actually created, and it does some mildly interesting stuff for
+localizing the sounds through portals, but basically it's a really simple
+engine, it's not much code. The code is less than half the code it was when I
+took over the codebase there, and it's nice and robust now, and it does what
+it does predictably exactly what the sound designers want it to do. So this is
+a case of, it looks like we've got phenomenal sound on all of this, but it's
+very straightforward basic thing that, it's exposing a good canvas for the
+designers to work on where they know what the sounds sound like, they want
+them to be like this, maybe just quieter, depending on as you're going around.
+We've got the ability to have them play non-localized stereo sounds, have
+sounds that cut off a few basic features you've got like "do you want it to be
+occluded?" "Do you want it to do portal chaining on there?" But basically all
+it's doing is taking the sounds, multiplying them by whatever the current
+attenuation factor is, and adding them together.
+
+This is something where there's always a danger of running into kind of the
+sophistry of excessive complexity and sophistication in an engine, and I think
+we ran past that with sound recovered and produced exactly what we needed to on
+there. That's also always a worry with graphics technologies, where you can do
+really sophisticated things that might be very correct, especially with light
+transport; we know exactly how light works, we can simulate light very
+precisely. If we want to spend the time we can do photon tracing and radiosity
+and all of these things. But in many cases it turns out that not only is that
+perhaps not necessary, but in many cases it's not even what you want to do
+from a game design standpoint. For instance, right here while I'm being
+videoed, there are a number of lights setup to provide a better view of what's
+going to be captured onto the video, rather than the natural lighting of the
+room that I'm in, and in offline renderers they're constantly setting up
+lights that don't behave exactly like real lights or ignore surfaces, or don't
+make shadows, lights that only cast onto certain things... I've always thought
+that the important things were to provide tools that behave the way the
+designers expected them to. So if you give a craftsman, you know, you've got
+talented people creating the media, if you give them tools they understand and
+that work the way the want them to, and hopefully work with a short latency
+that will allow for them rapid turnaround and good incremental viewing of what
+they're working on, that's the most positive thing you can do in a game
+engine.
+
+Doom made several really significant advances for that in terms of media
+creation. Obviously the level editor, being able to have the dynamically
+updating lights and shadows while you're working on things was a really big
+advance. Having everything setup for really fast rapid media reload was
+another big deal. Getting away from the complex offline processing that we
+have in the Quake series of games changed it from a 30 minute relight or revis
+time to immediately just moving a light or changing its color and seeing it
+right then and there. We've got some things we're expecing to improve in the
+next generation for tightening the integration between game editing, and level
+editing. That was one thing where, for a long time I was a proponent of
+seperate tools, and I still think I had plenty of good reasons at the time we
+did these things, while some people had integrated level editors into early
+games, and we used separate programs because we were using separate hardware
+at the time for that. We had really high end really high end workstations we
+could run everything on, while some people were editing their games basically
+on the target consumer platforms. But now that those specs have basically
+merged, Doom Did The Right Thing and integrated the level editor, but there
+are a lot of things we can do to take advantage of that integration that we
+haven't yet. Things like being able to play the game and dynamically change
+something, we have the sound editor integrated with the game, where the audio
+designers can run around and modify the sounds literally while they're playing
+the game. It's obvious we should have light editing the same way. And then
+there are a few things that will follow that same route but will take a little
+more programming design effort to setup, like we should be able to reset object
+positions while you're playing the game; you should be able to just knock it
+back to its spawn position and adjust things around and conditionally restart
+the level in different places. That's a lot of design work we're going to be
+going over in the high architectural level between things.
+
+The overriding concern for us is that we don't want the next game to take as
+long to make as Doom did, so we're going to be pretty rational about how grand
+we're going to be making these changes. I'm confident the renderer will take
+less than a year to make, which gives us plenty of time to go ahead and get
+full skill base and utilization and have time to polish everything with that.
+But most of the other changes throughout the system, we're going to try to
+have things setup so that we don't force the level designers to work with
+really broken stuff for a year or more before they can actually really start
+working on things. We're all pretty excited about where we're going with our
+next title. We're not saying much about it yet, but I think it's actually a
+pretty good plan when you're pushing new technology, like the new Doom engine,
+to have the first version to come out be the single player experience where
+people are expecting it to run a little bit slower, and you can tolerate all
+that in those conditions. Then when expansions and sequels and things like
+that come out you can use the same technology with another year or two of
+hardware progress, all the sudden what was a boarderline experience on one
+system speed wise becomes again sixty frames per second running locked on
+later hardware. That's a better environment for multiplayer because with the
+multiplayer systems we're over the knee of the curve for the benefit you get
+from adding cool new graphics to multiplayer systems. Really the most popular
+multiplayer games really don't have all that good of graphics, and they're
+really popular because they're fun. Now we can certainly make good games. We
+think we do good game design with all of our current stuff, but if id Software
+wants to play to our strengths as a company where we've got all this great
+technology and media in addition to game design and gameplay work on here,
+we're going to be producing another game that has a strong immersive single
+player experience, with a minimalist multiplayer, again, about the level of
+Doom, where it's there, it's a basis, if people want to expand upon it,
+they're free to, and then we'll have partner companies probably work on taking
+it to the super high level of polish that's sort of demanded for an online
+multiplayer game nowadays.
+
+I thought about showing little snippets and scenes from the new technologies
+that I'm working on here, but we decided that programmer demos just don't put
+our best foot forward, and I'd hate to have some blurry shot that somebody
+took from here posted up on all the websites as id Softwares new technology
+that shows my box room with some character in it and some smudge that's
+supposed to be really cool on there. Next year when the designers have had the
+ability to build new media that exploits the new capabilities, we'll be showing
+some really cool stuff.

@@ -1,0 +1,487 @@
+Transcribed by Tim Verry from pcper.com http://www.pcper.com/users/Tim-Verry
+
+Ryan Shrout: I'm here with John Carmack of id Software. We're going to ask
+him some questions (user submitted questions as well some of our own).
+We'll focus on hardware, technology and those types of things. Thanks for
+joining us.
+
+John Carmack: Welcome.
+
+Ryan Shrout: One of the interesting ideas that has come up is game engines
+have evolved into these much more complex things, which obviously you are
+aware of, how are mathematics involved in this more so than just what we
+previously did with management of hardware in computers? How important are
+mathematics in these engines?
+
+John Carmack: It's interesting in that I have had my math background
+overstated. For awhile there on our company press information it said
+something about me reading math textbooks all the time. I'm really not that
+much of a math geek. We've had a few people come through id that are much
+more versed in advanced mathematics. I was able to do all the things that I
+needed to do just by having a very strong, applicable knowledge of
+(basically) high school topics going through Algebra to Trigonometry, and a
+little bit of calculus. But knowing how to apply them to situations that
+weren't in the textbook and actually [knowing] how to use them for a
+problem that comes to you rather than something that's sitting down on a
+test, is what's really important. Now we use some more sophisticated
+mathematical solvers, [such as] numeric and iterative methods for some of
+the physics, collision response, and things like that. As you get to
+simulations, it gets a lot more where people start to looking at
+Navier-Stokes equations and things like that to do turbulent fluid flow
+simulations. You can throw arbitrary amounts of compute horsepower and
+analytical knowledge at things like that, but I do kind of keep coming back
+to time sliced things [being] enough, everything is linear and you can
+apply linear technologies to it. When we do get people applying for jobs,
+an advanced math background does say a lot about a person, to be able to
+get through working with high levels of abstraction. I've certainly had
+people working for me that I know are far beyond me in levels of what they
+can do analytically with math but I do always come back to, well, you can
+chop everything up again and do it all with discrete approximation methods.
+Many times you can spend hideous amount of blackboard space doing analytic
+solutions for lines that can be solved much more easily with Monte Carlo
+Iterative Methods.
+
+Ryan Shrout: Focusing back on the hardware side of things, in previous
+years’ Quakecons we've had debates about what GPU was better for certain
+game engines, certain titles and what features AMD and NVIDIA do better.
+You've said previously that CPUs now, you don't worry about what features
+they have as they do what you want them to do. Are we at that point with
+GPUs? Is the hardware race over (or almost over)?
+
+John Carmack: I don't worry about the GPU hardware at all. I worry about
+the drivers a lot because there is a huge difference between what the
+hardware can do and what we can actually get out of it if we have to
+control it at a fine grain level. That's really been driven home by this
+past project by working at a very low level of the hardware on consoles and
+comparing that to these PCs that are true orders of magnitude more powerful
+than the PS3 or something, but struggle in many cases to keep up the same
+minimum latency. They have tons of bandwidth, they can render at many more
+multi-samples, multiple megapixels per screen, but to be able to go through
+the cycle and get feedback... “fence here, update this here, and draw them
+there...” it struggles to get that done in 16ms, and that is frustrating.
+
+Ryan Shrout: That's an API issue, API software overhead. Have you seen any
+improvements in that with DX 11 and multi-threaded drivers? Are those
+improving that or is it still not keeping up?
+
+John Carmack: So we don't work directly with DX 11 but from the people that
+I talk with that are working with that, they (say) it might [have] some
+improvements, but it is still quite a thick layer of stuff between you and
+the hardware. NVIDIA has done some direct hardware address implementations
+where you can bypass most of the OpenGL overhead, and other ways to bypass
+some of the hidden state of OpenGL. Those things are good and useful, but
+what I most want to see is direct surfacing of the memory. It’s all memory
+there at some point, and the worst thing that kills Rage on the PC is
+texture updates. Where on the consoles we just say “we are going to update
+this one pixel here,” we just store it there as a pointer. On the PC it has
+to go through the massive texture update routine, and it takes tens of
+thousands of times [longer] if you just want to update one little piece.
+You start to advertise that overhead when you start to update larger blocks
+of textures, and AMD actually went and implemented a multi-texture update
+specifically for id Tech 5 so you can bash up and eliminate some of the
+overhead by saying “I need to update these 50 small things here,” but still
+it’s very inefficient. So I’m hoping that as we look forward, especially
+with Intel integrated graphics [where] it is the main memory, there is no
+reason we shouldn't be looking at that. With AMD and NVIDIA there's still
+issues of different memory banking arrangements and complicated things that
+they hide in their drivers, but we are moving towards integrated memory on
+a lot of things. I hope we wind up being able to say “give me a pointer,
+give me a pitch, give me a swizzle format,” and let me do things managing
+it with fences myself and we'll be able to do a better job.
+
+Ryan Shrout: It seems like AMD has been doing a lot of talking about the
+future of the APU CPU and GPU combination.
+
+John Carmack: It is important to separate a little bit. The current
+generation Fusion parts are really a separate CPU and separate GPU
+connected on the die by better or worse interconnects, but their vision is
+integrating them much more tightly such that they share cache hierarchies,
+address space, and page tables. I think its almost a foregone conclusion
+that its going to be the dominant architecture in the marketplace because
+there are these strong forces about how we are getting more shrinks on the
+dies, [and] we can stick more things on there. It’s going to just pay to
+integrate that, and you aren't going to be able to put as many transistors
+towards that if its a dedicated chip. You'll pick up a lot from this tight
+integration with cost benefits. Intel is also doing a lot better with their
+integrated graphics parts, once the butt of jokes, but they've taken a
+couple of steps now which are fully competent parts. The drivers still
+aren't very well tuned, the bandwidth is not great yet, and [neither is]
+total raw performance, but they are pretty much at feature parity barring
+some quality issues on there. It's close and they get better each time.
+This will be one of those things that will sneak up on people where the
+stuff that they got free with their CPU is all of a sudden good enough to
+run the games they want to play. I have high hopes that because it is all
+integrated memory, Intel will be able to lead the way with surfacing and
+direct access. That will give them the opportunity to sometimes take
+console developers who are used to this lower level access and maybe have
+something -shock of shocks- run better on Intel’s Integrated Graphics part
+than the much more expensive NVIDIA or AMD card that has all the layers of
+driver overhead.
+
+Ryan Shrout: Does that lead us to a single platform across consoles and
+PCs? Where future consoles may be this next iteration in 2013 where there
+is one processor across all types of devices, or at least where you get the
+same type of access across all devices?
+
+John Carmack: It's interesting, if you asked us a couple of years ago (when
+we surveyed the field) there was this thought that “would Intel's Larrabee
+be the platform to rule them all?” Of course, it turned out to not meet
+performance expectations. It was an interesting architecture, but a lot of
+us were cautioning from the very beginning to not underestimate the fixed
+functionality the GPU provides them. If people want to draw polygons made
+out of vertexes containing fragments, then hardware that's kind of built
+around that is going to outperform hardware of a more general purpose
+nature. I would be very surprised if all the major platforms came out with
+a common processor-GPU architecture. I think its obvious that there will be
+at least strong contenders with ARM cores mixed in with conventional GPUs.
+I hope that they don’t try to push Cell architectures again because there
+are a lot of reasons why peak performance is great... and there are cases
+in Rage where a PS3, if you are in an instance level where you have a lot
+of main memory (so a lot of things are cached in RAM), the extra horsepower
+of the Cells will let them transcode it into graphics memory much faster
+than the 360 and faster than all but the most extreme PCs, but its a pain
+in the ass to take advantage of it that way. For the cases when we didn't
+have all that buffered in memory, it winds up being more problematic.
+
+Ryan Shrout: You mentioned ARM, Do you think that architecture is capable
+of the kind of performance necessary for consoles and PCs?
+
+John Carmack: NVIDIA is basically reimplementing their very own custom ARM
+architecture. There is a big distinction between an instruction set or
+architecture specification and the physical implementations of it. Heck,
+x86 spans a huge range of capability. There is no doubt that ARM can handle
+a lot of that. What I would worry about a lot is that they are just
+beginning to push through their 64 bit transitions and any next gen
+consoles need to 64 bit platforms. Of course, the PS3 is 64 bit in many
+ways but it cuts off the upper half of the address space in a very strange
+decision making process. We don’t know how ARM is going to fare as 64 bit
+processors, but lots of companies have been through all of this. Apple has
+a ton of experience migrating across all of that, and I’m sure that they
+are working closely. How close Apple, ARM, and NVIDIA are working together
+are different things, and is an open question. ARM is more likely to make a
+dent in it just because [of] the x86 business model where desktop CPUs cost
+so much more... if you have PowerPC, MIPS, or especially ARM, it seems
+likely ARM has the better ecosystem and there would be sensible reasons to
+go with that.
+
+Ryan Shrout: A couple of software questions now; A couple of years ago when
+we last talked we discussed ray tracing. At that time you didn’t think it
+was going to overtake anything in terms of rasterization or actual engine
+use. You were more interested in ray tracing for data structure accessing.
+Has anything changed?
+
+John Carmack: I spent quite a bit of time on ray tracing in the last year
+and a half or so. I spent a bunch of time with OpenCL to figure out what I
+could do with that to make a real ray tracing engine. I made some really
+cool stuff. There are a few experiments I wanted to get results on. One was
+trying to say “well, what if you had a hybrid engine and only ray traced
+the specular reflections on there, how would that look?” I did that, and it
+turns out ray tracing off of a bump map surface looked god awful bad with
+one ray. You really need to throw at least 50 rays to make that look good.
+It was neat to have this overlaid mirrored surface in a lot of things but
+it clearly wasn’t a near-term function for this. Then, using it to replace
+rasterization, I got a somewhat mixed result where it was a little bit
+closer than I thought it might have been for tracing into a static scene.
+One of the things that I wanted to do that I’ve been trying to do for years
+was... with rasterization we aim for 60fps on Rage, but that means that we
+need to keep a cushion. We dynamically adjust our resolution, but we never
+get 100% utilization because we have to leave a little margin in case we
+mis-estimate.
+
+I’ve always wanted to have a technology where you can just keep throwing
+rays, rasterizing, or something and when you are at 60fps you just use what
+you’ve got... so you can hard cap the stuff. I did a ray tracing engine
+where, on the system I was testing it on, a Fermi NVIDA card I could run a
+720p ray trace at (in most of the cases) around 60fps, but in certain areas
+it would start falling off. I had it set up so that it could stop early,
+and have it be a lower resolution or have it include frames from somewhat
+further back so it turns into motion blur. I would do per-pixel jittering
+in both spatial domains for anti-aliasing (AA) and temporal for motion
+blur, and capping it in different ways. That worked really well, but the
+interesting thing is that when you see people make demos about certain
+things, it is not appreciated what a large gulf there is between a tech
+demo and what is going to be shown in a game. For example, I have this
+60fps 720p ray tracing engine but it’s dealing with static models. It
+doesn’t have character animation or anything. It could spit out a depth
+buffer and spit out a hybrid engine to do that. Also, the fact that it runs
+60fps at 720p for a ray tracer (seems great) but if you were just drawing
+that same thing with no fragment shaders using a traditional engine it
+would be running at 1,000fps. We do all this other stuff; once you throw
+your particles, post processing, and character animation... all that. That
+core part that has great detail and runs 20fps is a huge gulf between what
+can be part of a triple A engine.
+
+On the other hand, we have converted all of our offline processing stuff to
+ray tracing. For years, the back-end MegaTexture generation for Rage was
+done with... we had a GPGPU cluster with NVIDIA cards and it was such a
+huge pain to keep. It was an amazing pain where one system would be having
+heat problems and would be behaving weird even though we thought they had
+identical drivers. Something would always be wrong with render farm 12, and
+whenever we wanted to put in new features it was like “Okay, writing new
+fragment programs to go into this.” Now, granted I did this just when CUDA
+was in its infancy. If I did re-implement it with OpenCL or CUDA we
+wouldn’t have some of these problems, but when I converted all these over
+to ray tracing there was a number of things that got a lot better. Things
+that we deal with, [for example] shadows and reflections that have to be
+approximated, and were so used to doing with rasterization... we sometimes
+forget how big of hacks these are. To be able to say I really just want
+that ray, and tell me what it hit; not do a projection with feathering
+shadowed edges and whatever the heck else we’re doing there, so much of the
+code got so much easier. If it’s a choice of... now that we have these
+awesome multi-core x86 CPUs where we can get 24 threads in commodity
+boxes... it’s true that one GPU card can do more ray tracing than one 24
+thread x86 box, but it’s not multiples more and if it’s just a matter of
+buying more $2000 boxes, it makes the development, maintenance, and upkeep
+much better. While everyone in high performance computing is all “rah-rah”
+GPUs right now, I’ve come full circle back around to saying the fact that
+we can get massive amounts of x86 cores and threads... it wont win on
+FLOPS/watt or FLOPS/volume, but in terms of results per developer hour it
+is much, much better.
+
+Ryan Shrout: There are different types of efficiency then?
+
+John Carmack: Yeah, and when you are developing it is perfectly fine for us
+to spend hundreds of thousands of dollars in our back room to go ahead and
+make things better for that. It is a different question where, if every
+consumer has some graphic processor of some kind, we are going to do
+whatever it takes to max that out because you can’t tell everybody to go
+out and buy lots of x86 boxes. It’s interesting, the difference between the
+design decisions you make for a consumer target versus a development
+target.
+
+Ryan Shrout: One of the interesting topics going around the graphics world
+now is that of the “infinite detail” engines, Voxels, and these types of
+things. I know that you have played around with Voxels, written little
+Voxel engines, and that kind of stuff. What do you think about this debate
+on the possibility of the “Infinite Detail” engine?
+
+John Carmack: Okay, for one thing, I think it’s important to separate the
+notion of infinite detail and Voxels. You can have Voxels [that are not
+infinitely detailed] because many of the Voxel engines that I’ve written
+have been at finite coarse levels of detail. The fact that you can instance
+detail in [Voxels]... in may ways it sounds awesomely cool: “infinite
+detail,” but if we look at all of the trends that we’ve been doing and Rage
+epitomizes in many ways, procedurally generated detail is usually not what
+you want. This has been an argument going back decades: “now is the year of
+procedurally generated textures and geometry.” We’ve heard that for a
+decade and it never has come true. What has won is being able to manage the
+real data that we want. Procedural-ism is really just a truly crappy form
+of data compression. You know, you have the data that you really want, and
+procedural-ism makes you something that might resemble what you really
+want, but it’s a form of extraordinarily lossy data compression that lets
+you produce something there.
+
+And that really is the problem with the voxels. Infinitive detail is
+basically procedural-ism and you can do that with polygons, voxels, atoms,
+splats, whatever. They are tied together now with people talking about the
+recent demo that came out, but they are really orthogonal topics. I don’t
+think the notion of infinite detail is actually all that important. It is
+more important to be able to get the broad strokes of the artistic vision
+in there, and if you take uninspired content and look at it at the
+molecular level, it is still uninspired content. It’s not really going to
+make a big difference. What is potentially useful about voxels is that it
+allow you to access them in a certain way that may be more efficient than
+say a rise pipeline of dicing polygons, doing displacement mapping, and
+things like that. They are both ways to give huge amounts of geometric
+detail, which is obviously the next frontier after we uniquely texture
+everything. We want to uniquely “geometrify” everything. We all want to go
+there, but it’s also important to realize that I was showing MegaTexture
+demos five years ago. It took five years for it to turn into a production
+quality game, and you could make a cool, flashy demo of like “look, isn’t
+this amazing, we can stamp down stuff and everything looks totally
+different? There’s no tiling, and we can use procedural information to
+generate all of this,” but there is a huge amount of work that goes into
+building a robust production quality system that you can build real game
+worlds with.
+
+I’ve revisited voxels at least a half dozen times in my career, and they’ve
+never quite won. I am confident in saying now that ray tracing of some form
+will eventually win because there are too many things that we’ve suffered
+with rasterization for, especially for shadows and environment mapping. We
+live with hacks that ray tracing can let us do much better. For years I was
+thinking that traditional analytical ray tracing intersecting with an
+analytic primitive couldn’t possibly be the right solution, and it would
+have to be something like voxels or metaballs or something. I’m less
+certain of that now because the analytic tracing is closer than I thought
+it would be. I think it’s an interesting battle between potentially ray
+tracing into dense polygonal geometry versus ray tracing into voxels and
+things like that. The appeal of voxels, like bitmaps, [is that] a lot of
+things can be done with filtering operations. You can stream more things in
+and there is still very definitely appeals about that. You start to look at
+them as little light field transformers rather than hard surfaces that you
+bounce things off of. I still wouldn’t say that the smart money is on
+voxels because lots of smart people have been trying it for a long time.
+It’s possible now with our current, modern generation graphics cards to do
+incredible full screen voxel rendering into hyper-detailed environments,
+and especially as we look towards the next generation I’m sure some people
+would take a stab at it. I think it’s less likely to be something that is a
+corner stone of a top-of-the-line triple A title. It’s in the mix but not a
+forgone conclusion right now.
+
+Ryan Shrout: In the near-term, what are your thoughts on tessellation? Does
+id Tech 5 implement any tessellation?
+
+John Carmack: No, we don’t have any tessellation. Tessellation is one of
+those things that bolting it on after the fact is not going to do anything
+for anybody, really. It’s a feature that you go up and look at,
+specifically to look at the feature you saw on the bullet point rather than
+something that impacts the game experience. But if you take it into account
+from your very early design, and this means how you create the models, how
+you process the data, how you decimate to your final distribution form, and
+where you filter things, all of these very early decisions (which we
+definitely did not on this generation) I think tessellation has some value
+now. I think it’s interesting that there is a no-man’s land, and we are
+right now in polygon density levels at a no-man’s land for tessellation
+because tessellation is at it’s best when doing a RenderMan like thing
+going down to micro-polygon levels. Current generation graphics hardware
+really kind of falls apart at the tiny levels because everything is built
+around dealing with quads of texels so you can get derivatives for you
+texture mapping on there. You always deal with four pixels, and it gets
+worse when you turn on multi-sample anti-aliasing (AA) where in many cases
+if you do tessellate down to micro-polygon sizes, the fragment processor
+may be operating at less than 10% of its peak efficiency. When people do
+tessellation right now, what it gets you is smoother things that approach
+curves. You can go ahead and have the curve of a skull, or the curve of a
+sphere. Tessellation will do a great job of that right now. It does not do
+a good job at the level of detail that we currently capture with normal
+maps. You know, the tiny little bumps in pores and dimples in pebbles.
+Tessellation is not very good at doing that right now because that is a
+pixel level, fragment level, amount of detail, and while you can crank them
+up (although current tessellation is kind of a pain to use because of the
+fixed buffer sizes on the input and output [hardware]) it is a significant
+amount of effort to set an engine up to do that down to an arbitrary level
+of detail. Current hardware is not really quite fast enough to do that down
+to the micro-polygon level.
+
+It’s almost like procedural data where we’ve heard tessellation is going to
+be the “big thing” since the NP patches from the ATI stuff, and there are
+reasons why it never caught on. Because... in the early days of shells on
+things, when you say “well we’ve got a Bézier spline, or a NURB, or
+something like that,” what we would find is that, well, if we are going to
+have this net of 16 vertexes around here, you can do cooler game art by
+making that 16 vertexes for triangles. You’ll have cooler protrudes rather
+than your smooth Gumby shape. Now that we have the ability to go ahead and
+do texture sampling, and do real bump mapping, it becomes interesting from
+a content point, but we don’t quite have the power to do the entire world.
+You can run a character down like that with current generation stuff, and
+that’s probably useful directions but you can’t yet go ahead and render
+your 2 million pixel world at sub-pixel micro-polygon triangles (and
+certainly not at 60fps). That’s the type of performance that we are going
+to get no matter what, and I think the smart money bet for next generation
+consoles is that early on they are just going to be hyped up versions of
+our current technologies, but when people build technologies from scratch
+for that, the smart money would be on a tessellation based, you know, all
+the way down to micro-polygon levels with outside bets on voxel, ray
+tracing, and hybrid engines.
+
+Ryan Shrout: I think you mentioned in your key note yesterday that Rage was
+not going to have support for Eyefinity? What is your long term view on
+those technologies (multi-displays, 3D technologies, how they can
+differential from consoles)? Is that something that you think is going to,
+or should, catch on?
+
+John Carmack: Historically id is known for having a lot of patches for
+weird, quirky things, and I hope we can follow that up with this [after
+getting] the game out of the door, and the great thing is we still have
+another month on the PC as the console certification process takes longer
+than the PC, so the PC is at parity with the consoles now. You crank up the
+AA and all this, but we hope that we can do some extra things for the PC.
+Not much is going to go in initially, but I have research engines that I
+hope that we can release, at least as novelty patches which is what I used
+to do in the Geo-Quake, Quake World days. It’s not clear exactly what we
+are going to have with that, but I’ve promised myself that after Rage is
+done I get to buy a bunch of toys on the PC. I’ve got my Kinect SDK,
+ordered a new head mounted display, and probably will set up the
+multi-monitor stuff and run through all of that. A lot of that is
+legitimate research where i need to gauge “how important are these things
+that we can do, and what benefits you get by adding these additional
+layers?” I’ve been saying this for years, but my money is still eventually
+on direct ocular scanning. I think mobile devices will probably be the
+thing that drives it home, where we are carrying supercomputers around in
+our pockets that are crippled by lack of IO devices on there. I think that
+once we get the thing that clips on your glasses, and laser scans into your
+eye that gives you very high resolution.
+
+I really strongly believe at this point that the big impact changes where
+people are going to say “wow, this game is so much different than what
+we’ve had before,” is going to be from IO devices. It is going to be...
+we’ve got rendering ability to do this for sure... we can do incredible
+virtual reality world rendering, but if you are just looking at it on a TV
+set there is a limit to what the extra quality will do. But if we can get
+down to below the perceptible response level of looking around and
+experiencing the world, even if we took the worlds that we just had today
+and were able to get that extra level of immersion... I think that’s going
+to make the games really go to the next level. It’s not really clear what
+that is... is it a consumer head mounted display, is it a free-form
+display, looking around at things? I think [the reason why] we haven’t
+gotten enough vibe from 3D displays and head tracking 3D displays is that
+you are still looking at a window into the world. The next big step has to
+be from something that attaches and moves with you.
+
+Ryan Shrout: Something that came up, Rage is going to be... your targeting
+60fps. Is there going to be any sort of benchmarking or testing modes?
+
+John Carmack: That’s something we don’t have in yet, where it’s... in fact
+we need to implement at least in the next month some sort of
+micro-benchmark just to tell if you crank the settings to a specific level
+what quality it is. We don’t have time demo runs through all of this, but
+we probably will have some sort of artificial scenes set up just to
+benchmark in the video settings. We’ll then spit out a number so that you
+can see “can I crank up AA or down on this?” It’s frustrating on the PC
+that while you might have the hardware capability to run at these extremely
+high resolutions and all of this, we get tripped up a lot on the drivers,
+texture management, some of the fencing, and other resource management.
+
+Ryan Shrout: Okay. id Tech 5, in terms of the licensing, what sort of tools
+do you have available for the developers?
+
+John Carmack: It’s a high level corporate decision that there is no
+external licensing. Only companies in the ZeniMax family have access to the
+id Tech 5 technology, and there are a couple of other teams working with it
+right now. For the user community, all of our tools are only available in
+the 64 bit version. We ship the 32 bit version that we treat as a sort of
+console platform. We will be releasing the 64 bit version after the fact,
+but honestly there is going to be a limit to what people can do with it
+because there is so much infrastructure that goes into building a
+MegaTextured world. I suspect that there will be one or two people who go
+through the trouble to figure out how to really build a MegaTextured world,
+or do some of the stamping effects on there. Mostly it will be for changing
+game play stuff. You can set up new layers, build a new multi-player
+layout, and build a nightmare difficulty level going through it.
+Unfortunately, there is a terabyte of source art that goes into building
+the game and we are certainly not going to be pushing all that out for
+download.
+
+Ryan Shrout: Now that you are part of the Zenimax family, you have been
+seeing what other developers such as Bethesda have done with Skyrim. How
+has that effected what you have done with Rage and what you think you’ll be
+doing in the future?
+
+John Carmack: The great thing about ZeniMax is we have these Christmas
+“get-togethers” where all the teams get up and show their product to just
+the family, not worrying about how it’s going to be taken by the press or
+public. It’s really neat to be part of a family like this where it’s not id
+against the world. It’s our team here, and we can cheer for Skyrim. There
+have been some specific things that I’ve looked at [after] hearing Todd
+Howard talk about design decisions in Skyrim [concerning] what an adventure
+game is, and what people get out of it. There are some very specific things
+like how people feel about your loot and items, how you want to fondle your
+items, and scroll through and look at the different things. A lot of things
+I have as specific bullet points for Rage too, things that I want to go
+into and do a better job... I want to play this up. There are different
+genres and there are things that you choose to do one way that detracts
+from certain other aspects, but there is low hanging fruit that is just
+better: making items cooler, making more things that you can look at,
+things that you can completely ignore, or if that’s your thing you can go
+in there and drool over all of your stuff and plot your acquisition
+strategy for all of this. We can add this level of things to our game, and
+we started to with Rage but there is a lot more we can get out of it. We
+can add this and it can make the game much better for lots of people. Some
+people might not ever notice that extra stuff is there, but for some people
+it’s going to double the fun that they have with the game. It is great to
+be here with masters of the craft. There is a lot that we can learn from
+them, and it’s a good relationship.
+
+Ryan Shrout: Thanks for talking with us.
+
+John Carmack: Thank you.

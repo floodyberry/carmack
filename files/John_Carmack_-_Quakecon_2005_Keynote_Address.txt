@@ -1,0 +1,1419 @@
+Transcribed by aaaaa00 from Beyond3d forums
+http://www.beyond3d.com/forum/showthread.php?p=543232
+
+
+First, it's worth sitting back and reflecting about how amazing the industry
+has been and the type of progress that we've seen.
+
+A long time ago, a graphics pioneer once quipped that reality is 80 million
+polygons a second. We're past that number, right now, on cheap console
+hardware. Later that number was fudged to 80 million polygons a frame, because
+clearly we don't have reality yet, even though we have 80 million polygons a
+second.
+
+But still, the fact is that number was picked to just be absurd. It was a
+number that was so far beyond what people were thinking about in the early
+days that it might as well have been infinity. And here we are with cheap
+consoles, PC cards that cost a few hundred dollars that can deliver
+performance like that, which was basically beyond the imagination of the early
+pioneers of graphics.
+
+And not only have we reached those kind of raw performance throughput numbers,
+but we have better features than the early systems that people would look at.
+You can look at a modern system and say it is better in essentially every
+single respect than multi-million dollar image synthesis systems of not too
+many years ago.
+
+Unlike a lot of the marketing quips that people make about when this or that
+chip is faster than a supercomputer, which are usually fudged numbers when you
+start talking about only executing in cache, ignoring bandwidth, and this or
+that to make something sound good, that's not really the case with the
+graphics capabilities we've got, where not only do we have raw triangle
+throughput, we've got this programmability that early graphics systems just
+didn't have at all. We've got better image fidelity coming now, we've got
+higher multiple scan-out rates, and all of this stuff, and we're getting them
+in the next generation of consoles for just a few hundred dollars. And the PC
+space is still advancing at this incredibly rapid clip.
+
+Well everybody's kind of saturated with the marketing hype from Microsoft and
+Sony about the next generation of consoles. They are wonderful but the truth
+is they're about as powerful as a really high end PC right now and a couple
+years from now on the PC platform you're going to be able to put together a
+system that's several times more powerful than these consoles that are touted
+as the most amazing thing anybody's ever seen.
+
+But this trend of incredible graphics performance, what it's allowed us to do,
+and this is great just following up on the Quake 4 demo, because there's a
+whole lot of shock and awe in everything that they showed there. And that is a
+direct result of what we're able to do because of the technology. id is often
+sort of derided as being a technology focused company where a lot of people
+will get on this high horse about game design purity, but the truth is, the
+technology that we provide, that we're able to harness from the industry, is
+what lets us do such a memorable gaming experience.
+
+While you can reduce a game to its symbolic elements in what you're doing and
+what your character accomplishes, you can't divorce that from the experience
+that you get with the presentation. So the presentation really is critically
+important.
+
+To some degree id software has actually been singled out by developers as
+causing problems for the industry by raising the bar so much and I am
+sympathetic to this.
+
+It's a serious topic to talk about in software development where as the
+budgets get larger and larger, we're talking about tens of millions of
+dollars. There are people that have said explicitly they wish that Doom 3 or
+now Quake 4 hadn't shipped because now every game is expected to look that
+good. Every game is expected to have that level of features because the bar
+has kind of been raised. Things like that happen in a lot of other areas also.
+It's going on with physics as well as graphics, where every game is expected to
+have a physics engine and I have some sympathy for them.
+
+I sometimes find it unfortunate that we effectively have to make a B-movie to
+make a computer game nowadays, whereas sometimes it would be nice to be able
+to concentrate on a game being a game and not worrying about having to have
+hours of motion capture footage and cinematic effects but that's just kind of
+what games are expected to have nowadays.
+
+But the technology has provided real absolute benefits to the game playing
+public, to the people that are playing these games. Sometimes people will look
+through the tinted glasses of nostalgia and think back to some time where maybe
+gaming was perhaps less commercial, less promoted, less mainstream, less
+whatever, and think back to, you know, the golden age.
+
+But the truth is the golden age is right now. Things are better in every
+respect for the games that you play now than they ever have been before. It's
+driven home when you take something like watching the Quake 4 trailer here and
+then you go back.
+
+Most people here will have fond memories of Quake 1. I know the great times
+you had playing that and the things would be stuck in your memory. But you
+then go and run them side by side, and you could have fun in that game, and
+there are the moments of wonder at the newness of it, but it won't have the
+presence and the impact, and the ability to really get in and stir up your
+guts that we can do with the modern state of the art games.
+
+So I'm not apologetic at all for the effort that we put in to pushing the
+technology, what we've been able to do to allow the artists and designers to
+present a world that's more compelling then what we've been able to do before
+and to make stronger impacts on the people playing the games. That's all been
+really good.
+
+And the trends are still looking really strong. There's nothing on the
+immediate horizon that would cause us to expect that over the next several
+years we're not going to see another quadrupling and eventually another order
+of magnitude increase in what we're going to be able to do on the graphics
+side of things.
+
+Console Development So the console platform is going to become more important
+for us in the future. It's interesting now that when we look at the xbox 360
+and the PS3 and the PC platforms, we can pretty much target essentially all of
+them with a more or less common code base, more or less common development
+strategies on there, and this is I guess going to be the first public
+announcement of it, this will be the first development cycle for id software
+where we're actually going to be internally developing on console platforms
+for a simultaneous, hopefully, release on there.
+
+In the last couple weeks I actually have started working on an xbox 360.
+
+Most of the upcoming graphics development work will be starting on that
+initially. It's worth going into the reasons for that decision on there. To be
+clear, the PC platform will be released at least at the same time if not
+earlier than any of the consoles but we are putting a good deal more effort
+towards making sure that the development process goes smoothly onto them.
+
+While Doom 3 on the xbox was a great product -- we're really happy with it,
+it's been very successful -- it was pretty painful getting that out after the
+fact. We intend to make some changes to make things go a little bit smoother
+on this process.
+
+We've been on-again off-again with consoles for a long time. I've done console
+development work back on the original Super Nintendo and several platforms up
+through today, and there's always the tradeoff between flexibility on the PC
+and the rapid evolutionary pace that you get, and the ability to dial down and
+really take the best advantage of the hardware you've got available on
+consoles.
+
+It's worth taking a little sort of retrospective through the evolution of PCs
+and the console space.
+
+In our products if you look back at the really early days, up through
+basically Doom, the original Doom, we were essentially writing register level
+access to most of the PC video cards, we would use special mode X graphics and
+things like that to get a few extra features out of that.
+
+Once we got beyond that point, especially after we moved to Windows, with
+post-Quake development, it's become a much more abstract development process,
+where we program to graphics APIs and use system software interfaces, and that
+certainly helped the ability to deploy widely and have a lot of varied hardware
+work reasonably well. You can certainly remember back in the original Doom days
+we had a half-dozen different audio drivers for Pro Audio Spectrums and Ad-Libs
+and all this other stuff that we've been pretty much able to leave behind.
+
+Eventually with the 3D space there was the whole API wars issue about how you
+were going to talk to all of these different graphics cards because for a
+while there, there were 20 graphics chips that were at least reasonable
+players. It's nice now that it's essentially come down to ATI and NVidia, both
+of whom are doing very good jobs in the 3D graphics space.
+
+Especially in this last development cycle, in the last year, that I've been
+working on some of the more advanced features, it has been troublesome dealing
+with the driver situation. Bringing in new features, new hardware, new
+technologies that I want to take advantage of, that have required significant
+work in the driver space where there have been some significant driver
+stability issues as they've had to go do some major revamps to bring in things
+like frame buffer objects and some of the pixel buffer renderings and stuff
+like that.
+
+That has given us some headaches at id where we have one driver revision that
+fixes something that makes our tools work correctly but that happens to cause
+the game to run slow because there some heuristic thing going on with buffer
+allocations and we've had things kind of ping-pong back and forth between some
+of that and I've had some real difficulty trying to nail down exact graphics
+performance on the PC space because we are distanced from the hardware a fair
+amount.
+
+The interfaces that we go through, they don't map one-to-one to "calling this"
+results in "this being stuck into a hardware buffer which is going to cause
+this to draw". There are a lot of things that are heuristically done by
+drivers now that will attempt to not necessarily do what we say, but do what
+they think we meant in terms of where buffers should go and how things should
+be allocated and how things should be freed. It's been a little bit
+frustrating in the past year trying to nail down exactly how things are going
+to turn out where whether I can say something is my fault, the driver's fault,
+or the hardware's fault.
+
+So it's been pretty refreshing to actually come down and work on the xbox 360
+platform, where you've got a very, very thin API layer that lets you talk
+pretty directly to the hardware. You can say "this is the memory layout",
+"this call is going to result in these tokens going into the command buffer",
+and so on. The intention is I'm probably going to be spending the next six
+months or so focusing on that as a primary development platform, where I'll be
+able to get the graphics technology doing exactly what I want, to the
+performance that I want, on this platform where I have minimal interface
+between me and the hardware, and then we'll go back and make sure that all the
+PC vendors have their drivers working at least as well as the console platform
+on there.
+
+We do have PS3 dev kits also, and we've brought up some basic stuff on all the
+platforms.
+
+A lot of people assume for various reasons that I'm anti-Microsoft because of
+the OpenGL versus D3D stance. I'd actually like to speak quite a bit in praise
+of Microsoft in what they've done on the console platform, where the xbox
+previously and now the 360 have the best development environment that I've
+ever seen on a console. I've gone a long ways back through a number of
+different consoles and the different things that we've worked with, and
+Microsoft does a really, really good job because they are a software company
+and they understand that software development is the critically important
+aspect of this, and that is somewhat of a contrast to Nintendo and Sony, and
+previously Sega, who are predominantly hardware companies, and decisions will
+get made based on what sounds like a good idea in hardware rather than what is
+necessarily the best thing for the developers that are actually going to be
+making the titles.
+
+Over the history of the consoles there's been sort of this ping-pong back and
+forth between giving good low-level access to the hardware, letting you kind
+of extract the most out of it, and having good interfaces and good tools to go
+with it.
+
+In the real old days of side scrolling tile based consoles, you got register
+access, and that was pretty much it. You were expected to do everything
+yourself, and the hardware was usually pretty quirky and designed around a
+specific type of game that the vendors thought you would be making on there.
+
+It's entertaining to program in it's own way.
+
+But the first really big change that people got was when the original
+Playstation 1 came out, and it had a hardware environment that didn't
+originally let you get at the lowest level graphics code on there. But they
+designed fast hardware that was easy to program. One fast processor, one fast
+graphics accelerator, and you got to program it in a high level language on
+there.
+
+The contrast with this was the Sega Saturn at the time, which had five
+different processing units and was generally just a huge mess. They did
+document all the low level hardware for you to work at, but it just wasn't as
+good an environment to work on.
+
+So it was interesting to see with the following generation, that Sony kind of
+flip flopped with the Playstation 2, where you now had low level hardware
+details documented and all this, but you were back to this multi-core, not
+particularly clean hardware architecture.
+
+And then Microsoft came out with the xbox which had an extremely clean
+development environment, the best we've really seen on a console to date, but
+you didn't get the absolute nitty-gritty low-level details of the 3D system on
+there. And I know Microsoft actually, there's a lot of bickering back and forth
+about "was it NVidia's fault or Microsoft's fault" or whatever on there, but
+still it was a clear advantage for developers. If you ask developers that
+worked on xbox and PS2, the xbox is just a ton nicer to develop for.
+
+So it's been interesting to see that Microsoft has had a good deal of success,
+but they haven't been able to overtake Sony's market dominance with the earlier
+release of the PS2.
+
+So it's going to be real interesting to see this how this following generation
+plays out, with the xbox 360 coming out first, and being more developer
+friendly, at least in our opinion, and Sony coming out a little bit later with
+PS3.
+
+Hardware-wise, there's again a lot of marketing hype about the consoles, and a
+lot of it needs to be taken with grains of salt about exactly how powerful it
+is. I mean everyone can remember back to the PS2 announcements and all the
+hoopla about the Emotion Engine, and how it was going to radically change
+everything, and you know it didn't, its processing power was actually kind of
+annoying to get at on that platform.
+
+But if you look at the current platforms, in many ways, it's not quite as
+powerful as it sounds if you add up all the numbers and flops and things like
+that. If you just take code designed for an x86 that's running on a Pentium or
+Athlon or something, and you run it on either of the PowerPCs from these new
+consoles, it'll run at about half the speed of a modern state of the art
+system, and that's because they're in-order processors, they're not
+out-of-order execution or speculative, any of the things that go on in modern
+high-end PC processors. And while the gigahertz looks really good on there,
+you have to take it with this kind of "divide by two" effect going on there.
+
+Now to compensate for that, what they've both chosen is a multi-processing
+approach. This is also clearly happening in the PC space where multi-core CPUs
+are the coming thing.
+
+Everyone is essentially being forced to do this because they're running out of
+things they can do to make single processor, single thread systems go much
+faster. And we do still have all these incredible market forces pushing us
+towards following Moore's Law -- faster and faster, everyone needs to buy
+better systems all the time. But they're sort of running out of things to do
+to just make single processors much faster.
+
+We're still getting more and more transistors, which is really what Moore's
+Law was actually all about, it was about transistor density, and everyone sort
+of misinterpreted that over the years to think it was going to be faster and
+faster. But it's really more and more. Historically that's translated to
+faster and faster, but that's gotten more difficult to make that direct
+correlation over there.
+
+So what everybody's having to do is exploit parallelism and so far, the huge
+standout poster-child for parallelism has been graphics accelerators. It's the
+most successful form of parallelism that computer science has ever seen.
+
+We're able to actually use the graphics accelerators, get all their
+transistors firing, and get good performance that actually generates a benefit
+to the people using the products at the end of it.
+
+Multiprocessing with the CPUs is much more challenging for that. It's one of
+those things where it's been a hot research topic for decades, and you've had
+lots academic work going on about how you parallelize programs and there's
+always the talk about how somebody's going to somehow invent a parallelizing
+compiler that's going to just allow you to take the multi-core processors,
+compile your code and make it faster, and it just doesn't happen.
+
+There are certain kinds of applications that wind up working really well for
+that. The technical term for that is actually "embarrassingly parallel" --
+where you've got an application that really take no work to split up -- things
+like ray-tracing and some of the big mathematics libraries that are used for
+some vector processing things.
+
+The analogy that I tell hardware designers is that game code is not like this;
+game code is like GCC -- a C compiler -- with floats. It's nasty code with
+loops and branches and pointers all over the place and these things are not
+good for performance in any case, let alone parallel environments.
+
+So the returns on multi-core are going to be initially disappointing, for
+developers or for what people get out of it. There are decisions that the
+hardware makers can choose on here that make it easier or harder. And this is
+a useful comparison between the xbox 360 and what we'll have on the PC spaces
+and what we've got on the PS3.
+
+The xbox 360 has an architecture where you've essentially got three processors
+and they're all running from the same memory pool and they're synchronized and
+cache coherent and you can just spawn off another thread right in your program
+and have it go do some work.
+
+Now that's kind of the best case and it's still really difficult to actually
+get this to turn into faster performance or even getting more stuff done in a
+game title.
+
+The obvious architecture that you wind up doing is you try to split off the
+renderer into another thread. Quake 3 supported dual processor acceleration
+like this off and on throughout the various versions.
+
+It's actually a pretty good case in point there, where when we released it,
+certainly on my test system, you could run and get maybe a 40% speed up in
+some cases, running in dual processor mode, but through no changing of the
+code on our part, just in differences as video card drivers revved and systems
+changed and people moved to different OS revs, that dual processor acceleration
+came and went, came and went multiple times.
+
+At one point we went to go back and try to get it to work, and we could only
+make it work on one system. We had no idea what was even the difference
+between these two systems. It worked on one and not on the other. A lot of
+that is operating system and driver related issues which will be better on the
+console, but it does still highlight the point that parallel programming, when
+you do it like this, is more difficult.
+
+Anything that makes the game development process more difficult is not a
+terribly good thing.
+
+The decision that has to be made there is "is the performance benefit that you
+get out of this worth the extra development time?" There's sort of this
+inclination to believe that -- and there's some truth to it and Sony takes
+this position -- "ok it's going to be difficult, maybe it's going to suck to
+do this, but the really good game developers, they're just going to suck it up
+and make it work".
+
+And there is some truth to that, there will be the developers that go ahead
+and have a miserable time, and do get good performance out of some of these
+multi-core approaches and CELL is worse than others in some respects here.
+
+But I do somewhat question whether we might have been better off this
+generation having an out-of-order main processor, rather than splitting it all
+up into these multi-processor systems.
+
+It's probably a good thing for us to be getting with the program now, the
+first generation of titles coming out for both platforms will not be anywhere
+close to taking full advantage of all this extra capability, but maybe by the
+time the next generation of consoles roll around, the developers will be a
+little bit more comfortable with all of this and be able to get more benefit
+out of it.
+
+But it's not a problem that I actually think is going to have a solution. I
+think it's going to stay hard, I don't think there's going to be a silver
+bullet for parallel programming. There have been a lot of very smart people,
+researchers and so on, that have been working this problem for 20 years, and
+it doesn't really look any more promising than it was before.
+
+Physics and AI One thing that I was pretty surprised talking to some of the
+IBM developers on the CELL processor, I think that they made to some degree a
+misstep in their analysis of what the performance would actually be good for,
+where one of them explicitly said "now that graphics is essentially done,
+won't we have to be using this for physics and AI?".
+
+Those are two poster children that are always brought up of how we're going to
+use more CPU power -- physics and AI. But the contention that graphics is
+essentially done I really think is way off base.
+
+First of all, you can just look at it from the standpoint of "Are we
+delivering everything that a graphics designer could possibly want to put into
+a game, with as high a quality as they could possibly want?", and the answer is
+no. We'd like to be able to do Lord of the Rings quality rendering in real
+time. We've got orders of magnitude more performance that we can actually suck
+up in doing all of this.
+
+What I'm finding personally in my development now is that the interfaces that
+we've got to the hardware with the level of programmability that we've got,
+you can do really pretty close to whatever you want as a graphics programmer
+on there.
+
+But what you find more so now than before is that you get a clever idea for a
+graphics algorithm that's going to make something look really awesome and is
+going to provide this cool new feature for a game. You can go ahead and code
+it up and make it work and make it run on the graphics hardware.
+
+But all too often, I'm finding that, well, this works great, but it's half the
+speed that it needs to be, or a quarter the speed, or that I start thinking
+about something "this would be really great but that's going to be one tenth
+the speed of what we'd really like to have there".
+
+So I'm looking forward to another order of magnitude or two in graphics
+performance because I'm absolutely confident that we can use it. We can suck
+that performance up and actually do something that's going to deliver a better
+experience for people there.
+
+But if you say "ok here's 8 cores", or later 64 cores, "go do some physics
+with this that's going to make a game better", or even worse, "do some AI with
+this that's going to make a game better" -- the problem with those, both of
+those, is that both fields, AI and physics, have been much more bleeding edge
+than graphics has been.
+
+To some degree that's exciting, where the people in the game industry are
+doing very much cutting edge work in many cases. It is "the" industrial
+application for a lot of that research that goes on.
+
+But it's been tough to actually sit down and take some of that and say "all
+right lets turn this into a real benefit for the game, lets go ahead and how
+do we use however many gigaflops of processing performance to try and do some
+clever AI that winds up using it fruitfully", and especially in AI, it's one
+of those cases where most of the stuff that happens in especially single
+player games, is much more sort of a directors view of things. It's not a
+matter of getting your entities to think for themselves, it's a matter of
+getting them to do what the director wants, to put the player in the situation
+that you're envisioning in the game.
+
+Multiplayer focused games do have much more case for you want to have better
+bot intelligence. It's more of a classic AI problem on there, but the bulk of
+the games still being single player it's not at all clear how you use
+incredible amounts of processing power to make a character do something that's
+going to make the gameplay experience better.
+
+I keep coming back to examples from the really early days of the original
+Doom, where we would have characters that are doing this incredibly crude
+logic that fits in like a page of C code or something, and characters are just
+kind of bobbing around doing stuff.
+
+You get people that are playing the game that are believing that they have
+devious plans and they're sneaking up on you and they're lying in wait. This
+is all just people taking these minor, minor cues and kind of incorporating
+them inside their head into this vision of what they think is happening in the
+game. And the sad thing is you could write incredibly complex code that does
+have monsters sneaking up on you and hiding behind corners and it's not at all
+clear that makes the game play any better than some of these sort of
+happenstance things that would happen as emergent behavior of very trivial
+simple things.
+
+So until you get into cases where you can think in games, games like "The
+Sims", or perhaps massively multiplayer games where you really do want these
+autonomous agents, AIs, running around doing things. But then that's not
+really a client problem, that's sort of a server problem, where you've got
+large worlds there which again isn't where the multi-core consumer CPUs are
+really going to be a big help on that.
+
+Now physics is the other sort of poster-child for what we're going to do with
+all this CPU power. And there's some truth to that, I mean certainly what
+we've been doing with the CPUs for the physics stuff -- it's gotten a lot more
+intensive on the CPU -- where we find that things like rag-doll animations and
+all the different objects moving around, which is one of these sort of "raise
+the bar" things every game now has to do this. It takes a lot of power, and it
+makes balancing some of the game things more difficult when we're trying to
+crunch things to get our performance up, because the problem with physics is
+it's not scalable with levels of detail the way graphics are.
+
+Fundamentally, when you're rendering an image of a scene, you don't have to
+render everything at the same level. It would be like forward texture mapping,
+which some old systems did manage to do. But essentially what we've got in
+graphics is a nice situation where there are a large number of techniques that
+we can do that we can fall off and degrade gracefully.
+
+Physics doesn't give you that situation in the general case. If you're trying
+to do physical objects that affect gameplay, you need to simulate pretty much
+all of them all the time. You can't have cases where you start knocking some
+things over and turn your back on it and you stop updating the physics. Or
+even drop to some lower fidelity on there, where then you get situations where
+if you hit this and turn around and run away, they'll land in a certain way,
+and if you watch them they'll land in a different way. And that's a bad thing
+for game development.
+
+And this problem is fairly fundamental. If you try to use physics for a
+simulation aspect that's going to impact the gameplay, things that are going
+to block passage and things like that, it's difficult to see how we're going
+to be able to add a level of richness to the physical simulation that we have
+for graphics without adding a whole lot more processing power, and it tends to
+reduce the robustness of the game, and bring on some other problems.
+
+So what winds up happening in the demos and things that you'll see on the PS3
+and the physics accelerator hardware, you'll wind up seeing a lot of stuff
+that are effectively non-interactive physics. This is the safe robust thing to
+do.
+
+But it's a little bit disappointing when people think about wanting to have
+this physical simulation of the world. It makes good graphics when you can do
+things like instead of the smoke clouds doing the same clip into the floor
+that you've seen for ages on things, if you can get smoke that pours around
+all the obstructions, if you get liquid water that actually splashes and
+bounces out of pools and reflects on the ground.
+
+This is neat stuff, but it remains kind of non-core to the game experience.
+
+And an argument can be made that we've essentially done that with graphics,
+where all of it is polish on top of a core game, and that's probably what will
+have to happen with the physics. I don't expect any really radical changes in
+the gameplay experience from this.
+
+I'm not really a physics simulation guy so that's one of those things where a
+lot of people are like "damn id software for making spend all this extra work
+on graphics". So to some degree I'm like "damn all this physics stuff making
+us spend all this time on here", but you know, I realize that things like the
+basic boxes falling down knocking things off, bouncing around the world,
+rag-dolls interacting with all that, that's all good stuff for the games.
+
+But I do think it's a mistake for people to try and go overboard and try and
+do a real simulation of the world because it's a really hard problem, and
+you're not going to give that much real benefit to the actual gameplay. You'll
+tend to make a game which may be fragile, may be slow, and you'd better have
+done some really, really neat things with your physics to make it worth all of
+that pain and suffering.
+
+And I know there are going to be some people that are looking at the
+processing stuff with the CELLs and the multi-core stuff, and saying "well,
+this is what we've got to do, the power is there, and we should try and use it
+for this". But I think that we're probably going to be better served by trying
+to just make sure that all of the gameplay elements that we want to do, we can
+accomplish at a rapid rate, respectable low variance in a lot of ways.
+
+Personally I would rather see our next generation run at 60 fps on a console,
+rather than add a bunch more physics stuff. I actually don't think we'll make
+it, I think we'll be 30 fps on the consoles for more of what we're doing.
+Anyways we're going to be soaking up a lot of the CPU just for the normal
+housekeeping types of things that we're doing.
+
+So I'm probably coming off here as a pretty big booster of Microsoft on the
+360 and their development choices, the potentially really interesting thing on
+the other side of the fence with Sony, is that they're at least making some
+noises about having it being a more open platform. This is always been one of
+the issues that I disliked about the consoles.
+
+I mean I don't like closed development platforms. I don't like the fact that
+you have to go be a registered developer and you have to, you know, have this
+pact where only things that go through a certification process can be
+published. As a developer I've always loathed that aspect of it. Nintendo was
+always the worst about that sort of thing and it's one of the reasons why
+we're not real close with them.
+
+It's the reality of the market when they sell these platforms essentially at a
+loss they have to subsidize those to make it back on the unit sales of the
+software. It's why I've always preferred the PC market in the past. We can do
+whatever we feel like, we can release mission packs, or point releases, we can
+patch things, all of this good stuff that happens on the PC space that you're
+not allowed to do on the consoles.
+
+So Sony has been talking about more openness on the platform, and I'm not sure
+how it would work out there directly, but if you had something where if the PS3
+became sort of like the Amiga used to be as a fixed platform that was graphics
+focused, that could be potentially very interesting. Microsoft certainly will
+have nothing to do with that [...audio dropout...] As a quick poll here, how
+many people have HDTV? The console vendors are obviously pushing HDTV but I've
+been hearing this sense that... the Super Nintendo way back when had "HDTV
+output support" it's been over and over and over that it hasn't turned out to
+be a critically important aspect. For console as computing device, having a
+digital output, HDTV, may be one of the key things that makes that possible,
+because WebTVs and such have always sucked, nobody actually wants to do any
+kind of productivity work on an NTSC TV output, but digital HDTV is really
+pretty great for that.
+
+Microsoft's got this big push that I'm somewhat at odds with them about, about
+minimum frame-buffer rendering resolutions on the 360 and it's not completely
+clear how that pans out, but they're essentially requiring all games to render
+at HDTV resolution. And that may not be exactly the right decision, where if
+you've got the option of doing better rendering technology at less pixels with
+higher antialiasing rates, that seems like a perfectly sensible thing that
+someone might want to do, but having a blanket "thou must render at 720p" or
+something, probably not.
+
+But some marketing person came up with that and decided it was an edict, which
+is one of those things that I hate about the console environment -- that you
+get some marketing person making that decision and then everybody has to sort
+of abide by it. Not clear yet exactly how that turns out.
+
+Obviously things like Quake 4 are running good at the higher resolutions but
+the next generation rendering technology there are some things like if it
+comes down to per pixel depth buffered atmospherics at a lower resolution, I'd
+rather take that than rendering the same thing at a higher resolution. But I'll
+be finding out in kind of the next six months about what I actually can extract
+from the hardware.
+
+Cell phones and fostering innovation and creativity To change gear a little
+bit on the platform side, something that also ties into the whole development
+cost and expense issue. A lot of you have probably heard that several months
+ago I actually picked up some cell phone development, which has been really
+neat in a lot of ways.
+
+Coming off Doom 3's development, which was a 4 year development process, which
+cost tens of millions of dollars, with a hundred plus man-years of development
+effort into it, to go and do a little project that had about 1 man year of
+effort in it, a little bit more, and was essentially done in four months,
+there's a lot of really neat aspects to that.
+
+One of the comments I've made in regards to the aerospace industry, talking
+about rockets and space and all that, is that the reason things have
+progressed so slowly there is because there's so much money riding on
+everything. If you've got a half-billion dollar launch vehicle satellite
+combination, engineers just aren't allowed to come up and say "hey I got an
+idea, lets try this". You know, you don't just get to go just try something
+out that might lead you to much better spot in the solution space. You are
+required to go with what you know works and take a conservative approach that
+will have very low, as low a likelihood as you are able to guarantee against
+failure.
+
+While in game development we're a long ways from that particular point, but
+when you're talking about tens of millions of dollars, sure it's not hundreds
+of millions of dollars, but it's not chump change either. You look at game
+development process, and if someone is going to be putting up a couple tens of
+millions of dollars, there is a strong incentive to not do something completely
+nuts.
+
+You know they want to make sure that, you know, and even the people working on
+it, if you're going to work on something for four years, it's all well and good
+to say "we're going to be at the vanguard of creative frontiers here, and we're
+going to go off and do something that might turn out to be really special.
+
+But if you spend four years of your life developing something, and it turns
+out to be a complete flop, and you spent all of your money and publishers
+don't want to give you another deal for your next one because you just had a
+flop, that's a real issue. And that is what is fueling the trend towards
+sequels and follow-ons and so on in the industry.
+
+And a lot of people will deride that and say well it's horrible that there's
+no innovation and creativity and all this here we're getting Doom 3, Quake 4.
+You know, I'll look at it and say yeah but they're great games -- people love
+them, people are buying them and enjoying them and all that.
+
+But there is some truth to the fact that we're not going off and trying random
+new genres.
+
+The cell phone development was really neat for that. Where we went and did a
+little kind of turn-based combat game, I think there's going to be a few
+people with some of the phones around here you might be able to take a look at
+it, but the initial version was just tiny. We had to fit in a 300k zip file
+essentially on here. It was almost an exercise in pure design. It's not so
+much about the art direction, about how we're going to present this
+shock-and-awe impact that we've been doing on the high end PCs. It's about
+what are going to be the fun elements here, you know, "how much feedback you
+want to give them", "what loot does the player get", "how do you get to bash
+monsters", and it's almost at the symbolic level because it's so simple.
+
+Now, after I started on some of that, it wasn't long before I had a backlog of
+like a half dozen interesting little ideas that I'd like to try on a small
+platform. And these aren't things that are anything like what we're doing, I
+mean I've got some ideas for a rendering engine for a particular type of
+fighting game or sort of a combat lemmings multiplayer game on cell phones and
+so just cool things that we could never just go off and try on the PC space
+because id does triple A titles, you know, we're not going to just be able to
+go and lets try doing a budget title or something like that, it's just not
+going to happen. The dynamics of our company, we need to continue to use the
+people that we have at the company, we're not about to say, "well we don't
+need level designers for this project, all you guys, have a good life". Our
+projects are defined by the people that we have at the company.
+
+But the idea of having other platforms where you can start small, at this one
+man year of effort or so, to just try out new things, I think is really
+extremely exciting.
+
+There are two predominant platforms on the cell phone for development, there's
+the Java platform and the BREW platform. And what's really neat is the Java
+platform is essentially completely open. Literally I was looking at my cell
+phone and said, "I'd like to try writing something on this". I just poke
+around online, download the development tools, download the documentation, and
+go upload a little program. And you can just start just like that. That was
+sort of the feel that I had way back when I first sort of learned programming
+on like an Apple II or something. You just sit down and kind of start doing
+something.
+
+Sometimes I worry about people trying to start developing today because if you
+start on the PC and you're looking at Doom 3 or something and you open up MSDEV
+and say "where do I start", it's a really tough issue. I've always consciously
+tried to help people over that gap with the tools we make available for
+modding and source code that we make available, specifically for that to kind
+of help people get started.
+
+I guess now is as good a time as any to segue on this. The Quake 3 source code
+is going out under the GPL as soon as we get it together now. So there are a
+few actual key points about this. We're going to cover everything this time, I
+know in the past we've gotten dinged for not necessarily getting out all the
+utilities under the same license and all that, but we're going to go through
+and make sure everything is out there and released.
+
+All of the Punkbuster stuff is being removed, so the hope is anyone that's
+playing competitively with released versions should be protected from
+potential cheating issues on there. We'll see how that plays out.
+
+One of the kind of interesting statistics that Todd and Marty told me just
+earlier today, is that the entire Quake franchise, all the titles that have
+been produced on it, our titles, our licensee titles, have generated over a
+billion dollars in revenue worldwide. And the source code that's going out now
+is the culmination of what all of those were at least initially built on.
+
+I have a number of motivations for why I do this, why I've been pursuing this
+since the time the Doom source code was released. One of them is sort of this
+personal remembrance where I very clearly recall being 14 years old and
+playing my favorite computer games of the time, like Wizardry and Ultima on
+the Apple II, and I remember thinking it's like "wow it'd be so great to be
+able to look at the source code and poke around and change something in here",
+and you know, I'd go in and sector edit things to mess with things there, but
+you really wanted the source code.
+
+And that was something that later on when it turns out that I'd been writing
+the games that a new generation of people are looking at and probably thinking
+very similar things, that wouldn't it be cool to be able to go in and do this,
+and the original mod-ability of the games was the step that we could take, but
+when we've been able to take it to the point of actually releasing the entire
+source code on there, it opens up a whole lot more possibilities for people to
+do things.
+
+The whole issue about creativity in the development environment; that is one
+of my motivators for why I give this stuff out there, where I actually think
+that the mod community and the independent developer community, there are a
+lot of reasons why we can look for creativity from that level, where people
+can try random things, and there's going to be fifty things and forty of them
+are stupid, you know, and some of them turn out to be good interesting ideas.
+Like it's amazing to look at how Counterstrike has gone which was somebody
+making a mod to make something fun, and it's become this dominant online
+phenomenon there.
+
+So there are also the possibilities of people actually taking this and you
+know, perhaps doing commercial things with it. The GPL license does allow
+people to go make whatever game they want on this and sell it. You can go get
+a commercial publishing agreement and not have to pay id a dime if you abide
+by the GPL. And I'm still waiting for someone to have the nerve to do this, to
+actually like ship a commercial game with the source code on the CD. I mean,
+that would be really cool.
+
+We always have the option of re-licensing the code without the GPL. You can't
+do this if picked up random people on the net's additions to it, you know,
+that's stays GPL unless you go get a separate license from everybody there,
+you're stuck with the GPL.
+
+But if you work with the original pristine source from id, you can always come
+back to us and say "well we developed all of this with the GPL source code, we
+want to ship a commercial product, but we don't want to release our source
+code, so we'd like to buy a license", and we do that at reasonably modest
+fees, we've done that some with the previous generation, and that's certainly
+an option for Quake 3.
+
+I do hope that one of these days that somebody will go and do a budget title
+based on some of this code, and actually release the source code on the CD.
+
+That would be a novel first, and the way I look at it, people are twitchy
+about their source code, more so than I think is really justified. There's a
+lot of sense that "oh this is our custom super value that we've done our magic
+technology in here", and that's really not the case.
+
+A whole successful game, it's not about magic source code in there, it's about
+the thousands and thousands of little decisions that get made right through the
+process. It's all execution, and while there's value in the source code, it's
+easy to get wrapped up and overvalue what's actually there.
+
+Especially in the case of the GPL'd stuff, I'm mean here we are, it's like I'm
+releasing this code that has this billion dollars of revenue built on it, don't
+you think it's maybe a little bit self righteous that the code that you've
+added to it is now so much more special that you're going to keep it
+proprietary and all that.
+
+There have been some hassles in the past about people that developed on
+previous GPL'd code bases and don't follow through and release the code, and
+occasionally we've had to send, get a lawyer letter or something sent out to
+them.
+
+But for the most part I think a lot of neat stuff has been done with it. I
+think it's been great that a lot of academic institutions have been able to do
+real research based off of the code bases, and I am still waiting for someone
+to do the commercial kind of breakthrough project based on the GPL stuff.
+
+Previously I would have several people say "oh but you didn't get the
+utilities licensed right" or any of this stuff as sort of an excuse about it,
+but we're going to have all that taken care of correctly this time, and anyone
+can kind of go with it to whatever level they want there.
+
+That's one of my multi-pronged attacks on hopefully nurturing creativity for
+gaming on there, and I do think making the canvas available for lots of people
+to work on is an important step.
+
+The low end platforms like the cell phone development, I actually have sort of
+a plan that I'm hopefully going to be following through to develop a small
+title on the cell phone and then possibly use that, if it's well received, as
+a springboard towards a higher level title, which is sort of the opposite way
+to people doing it now, where usually on the platforms on the GBA and the cell
+phone stuff, you'll see people that have a named title on some other high end
+console platform, and they release some game with the same title that has
+almost no relevance to the previous thing, but you're just using some brand
+marketing on there.
+
+I think that there's the possibility of doing something actually the other
+way, where if we do something neat and clever or even just something
+stylistically interesting, that people can look at and say "this is a good
+game", and you get a million people playing it or something. Using that as
+your kind of negotiation token to go to a publisher and say "all right, now we
+want to go ahead and spend the tens of millions of dollars to take this to all
+the high end platforms and really do an awesome job on that. We'll see over
+the next, you know, year or so, if any of that pans out. I think there's a
+better chance of doing that than your random cold call.
+
+id software is in sort of a unique position of we can just say this is the
+game we're going to do next, and publishers will publish it because we have a
+perfect track record on our mainstream titles, they've all been hits and
+successes.
+
+But even in a lot of the companies that we work with, our partner companies --
+companies that we help on development projects and try to help get projects
+going -- it's tough to pitch a brand new concept. It's pretty easy to go ahead
+and get titles developed that are expansions and add-ons and in-themes and
+sequels, and the stuff that known to be successful, but starting something
+brand new is pretty tough.
+
+I think that things like starting from mods or small game platforms is an
+exciting idea for moving things a little bit forward there.
+
+On the downside, the pace of technology is such that while our first cell
+phone target was for this 300k device, we later made an upscale version for
+one of the higher end BREW platforms and it's 1.8 megs and I looked at this
+and said well, we up-scaled all of this, but if somebody targeted a game
+development specifically for the highest end of the cell phones now, you're
+already looking at million dollar game budgets, and given a year or two we're
+going to have PSP-level technology on the cell phones, and then a couple years
+later, we'll have Xbox, and eventually you'll be carrying around in your hand
+the technology that we currently have on the latest consoles, and then people
+will be going "is it worth 20 million dollars to develop a cell phone game".
+
+So this is treadmill that really shows no sign of slowing down here. And there
+are going to continue to be problems in the future. And I'm not sure how you
+scale down much further than that, so there might only be this window of a
+year or two where we've actually got the ability to go out and do relatively
+inexpensive creative development before the bar is raised, as the saying goes,
+over and over again, and you're stuck to huge development budgets even on those
+kind of low-end platforms.
+
+Where the hardware should go In terms of where the things I think hardware
+should be evolving towards, honestly, things are going really well right now.
+The quibbles that I make about the exact divisions of CPUs and things like
+that on the consoles, they're really essentially quibbles. The hardware's
+great, I mean everybody's making great hardware, the video card vendors are
+making great accelerators, the consoles are well put together, everything's
+looking good.
+
+The pet peeves or my wish list for graphics technology at least, I've only
+really got one thing left on it that hasn't been delivered, and that's full
+virtualization of texture mapping resources.
+
+There's a fallacy that's been made over and over again, and that's being made
+yet again on this console generation, and that's that procedural synthesis is
+going to be worth a damn. People have been making this argument forever, that
+this is how we're going to use all of this great CPU power, we're going to
+synthesize our graphics and it just never works out that way. Over and over
+and over again, the strategy is bet on data rather than sophisticated
+calculations. It's won over and over again.
+
+You basically want to unleash your artists and designers, more and more. You
+don't want to have your programmer trying to design something in an algorithm.
+It doesn't work out very well.
+
+This is not an absolute dogma sort of thing, but if you've got the spectrum
+from pure synthesis that like to make their mountains and fluffy clouds out of
+iterated fractal equations and all this, down to pure data which is nothing but
+rendering models that are already pre-generated, I'm well off towards this
+side, where I believe in simple combinations of extensive data.
+
+The texturing is one of the areas I think we can still make radical
+improvements in the visual look of the graphics simply by completely
+abandoning the tiled texture metaphor. Even in the modern games that look
+great for the most part, you still look out over these areas and you've got a
+tiled wall going down that way or a repeating grass pattern, maybe it's
+blended and faded into a couple different things.
+
+The essential way to look at it is that texture tiling, the way it's always
+been done, texture repeats, is a very, very limited form of data compression,
+where clearly what you want is the ability to have exactly the textures that
+you want on every surface, everywhere.
+
+The visual results you get when you allow an artist to basically paint the
+scene exactly as they'd like, that's one of those differences where a lot of
+people are sort of wondering what going to be the next big step, where
+obviously look at the Doom 3 technology versus the Quake 3 technology, we took
+a massive leap in visual fidelity.
+
+Now there's a ton of graphics algorithms that you can work on that will be of
+improved quality in similar models, that we can take forward, and a lot of
+them are going to be pretty important. High dynamic range is the type of thing
+that can make just about everything look better to some degree, and you can do
+all the motion blurs and the subsurface scattering, and grazing lighting
+models, and all of this.
+
+And those are good, but they're not they type of thing that for the most part
+when you glance over someone's shoulder walking by that it makes what's on the
+screen look radically better.
+
+Unique texturing is one of those things where you look out over a scene, and
+can just look a whole lot better than anything you've seen before.
+
+What we're doing in Quake Enemy Territory is sort of our first cut at doing
+that over a simple case, where you've got a terrain model that has these
+enormous, like 32000 by 32000, textures going over them. Already they look
+really great. There's a lot of things that you get there that are generated
+ahead of time, but as the tools are maturing for allowing us to let artists
+actually go in and improve things directly, those are going to be looking
+better and better.
+
+We're using similar technology, taking it kind of up a step, in our next
+generation game, and I'd really love to apply this uniquely across
+everything.
+
+It'd be great to be able to have every wall, floor, and ceiling uniquely
+textured where the artists are going around and slapping down all these decals
+all over the place, but it's a more challenging technical problem where there's
+a lot of technology that goes on behind the scenes to make this flat terrain
+thing, which is essentially a manifold plane, uniquely textured with multiple
+scrolling textures and all this stuff going on behind the scenes -- it doesn't
+map directly to arbitrary surfaces where your locality can't necessarily tell
+you everything. An obvious case would be if you've got a book. A book might
+have 500 pages, each page could have this huge amount of texture data on
+there, and there's no immediately obvious way for you to know exactly what you
+need to update, how you need to manage your textures.
+
+Lots of people have spent lots of time in software managing these problems --
+you get some pretty sophisticated texture management schemes, especially on
+the consoles where you've got higher granularity control over everything.
+
+But the frustrating thing for me is that there is a clearly correct way to do
+this in hardware and that's to add virtual page tables to all of your texture
+mapping lookups and then you go ahead and give yourself a 64-bit address
+space, and if you want, take your book that has 500 pages, map it all out at
+100 dpi on there, and give yourself 50 gigs of textures. But if you have the
+ability to have the hardware let you know "ok this page is dirty, fill it up",
+whether it's fill it up just by copying something from somewhere, or more
+likely, decompressing something, or in the case of a book, using some domain
+specific decompression -- I mean you could go ahead and rasterize a PDF to
+that, and actually have it render just like anything else.
+
+This is one of these things that has seemed blindingly obvious and correct to
+me for a number of years and it's been really frustrating that I haven't been
+able to browbeat all of the hardware vendors into actually getting with the
+program on this because I think this is the most important thing for taking
+graphics to the next level, and I'm disappointed that we didn't get that level
+of functionality in this generation.
+
+What you want it to do is if it's missing the page, not mapped in, it just
+goes down the mipmap chain and eventually it stops at a single pixel,
+whatever, it's all completely workable, there are some API and OS issues that
+we have to deal with, exactly how we want to handle the updates, but it's a
+solvable problem and we can deliver some really, really cool stuff from this.
+
+The only other thing that I have to say about graphics now really is that
+getting people to concentrate more on the small batch problem is important.
+
+Microsoft is focusing on that for Longhorn to try and make that a little bit
+better, but it's a combination hardware software thing where ideally you want
+your API to be a direct exposure of what the hardware does, where you just
+call something which sets a parameter, and it becomes "store these four bytes
+to the hardware command buffer", and right now there's far too much stuff that
+goes on which winds up causing all of the hardware vendors to basically say
+"use large batches", you know, use more instancing stuff, or go ahead and put
+in more polygons on your given characters.
+
+But the truth is that's not what makes for the best games. Given a choice, we
+can go ahead and have 100,000 polygon characters, and you can do some neat
+close-ups and stuff, but a game is far better with ten times or a hundred
+times as many elements in there.
+
+For instance, we're a long ways away from being able to render this hall
+filled with people with each character being detailed because there are too
+many batches. It just doesn't work out well, and that's something that the
+hardware people are aware of and it's evolving to some correction, but it's
+one of those issues that they don't like being prodded on it because hardware
+people like peak numbers. You always want to talk about what's the peak
+triangle, the peak fill rate, and all of this, even if that's not necessarily
+the most useful rate. We suffer from this on the CPU side as well, with the
+multi-core stuff going on now.
+
+But overall I'm really happy with how all of the graphics hardware stuff has
+gone, the CPUs, and it's sort of fallen off my list of things -- about four or
+five years ago I basically stopped bothering talking with Intel and AMD because
+I thought they were doing a great job. I really don't have much of anything to
+add. Just continue to make things faster, you know, you don't have to add
+quirky little things that are game targeted.
+
+And you know the last year or two, even the video card vendors -- I continue
+to get the updates and look at all of these things -- but basically it's been
+"good job, carry on and get the damn virtual texturing in", but that's about
+it.
+
+So life is really good from a hardware platforms standpoint and I think the
+real challenges are in the development management process and how we can
+continue to both evolve the titles that we're doing and innovate in some way,
+have the freedom to do that, and that's probably a good time to go ahead and
+start taking some questions.
+
+Question: Tradeoffs when developing for multiple platforms? Ok, so the
+tradeoffs when you are developing for multiple platforms. It's interesting in
+that the platforms are closer together in the upcoming generation than the
+current generation.
+
+There is a much bigger difference between Xbox and PS2 than there is between
+Xbox 360 and PS3.
+
+There were clearly important design decisions that you would have to make if
+you were going to be an Xbox targeted game or a PS2 targeted game, and you can
+pick out the games that were PS2 targeted that were moved over to the Xbox
+pretty clearly.
+
+That's less of a problem in the coming generation because both a high-end PC
+spec and the 360 and the PS3, they're all ballpark-ish performance-wise.
+
+Now the tough decision that you have to make is how you deal with the CPU
+resources. Where you might say that if you want to do the best on all the
+platforms, you would unfortunately probably try to program towards the Sony
+CELL model, which is isolated worker threads that work on small little nuggets
+of data, rather than kind of peer threads, because you can take threads like
+that and run it on the 360. You won't be able to get as many of them, but you
+can still run, you know you got three processors with two threads, or three
+cores with two threads in each one.
+
+So you could go ahead and make a game which has a half dozen little worker
+threads that go on the CELL processor there, and run as just threads on the
+360 and a lot of PC specs will at least have hyper threading enabled, the
+processor's already twice as fast, if you just let the threads run it would
+probably work out ok on the PC, although the OS scheduler might be a little
+dodgy for that -- that might actually be something that Microsoft improves in
+Longhorn.
+
+And that's kind of an unfortunate thing that that would be the best
+development strategy to go there, because it's a lot easier to do a better job
+if you sort of follow the peer thread model that you would have on the 360 but
+then you're going to have pain and suffering porting to the CELL.
+
+I'm not completely sure yet which direction we're going to go, but the plan of
+record is that it's going to be more the Microsoft model right now where we've
+got the game and the renderer running as two primary threads and then we've
+got targets of opportunity for render surface optimization and physics work
+going on the spare processor, or the spare threads, which will amenable to
+moving to the CELL, but it's not clear yet how much the hand feeding of the
+graphics processor on the renderer, how well we're going to be able to move
+that to a CELL processor, and that's probably going to be a little bit more of
+an issue because the graphics interface on the PS3 is a little bit more
+heavyweight. You're closer to the metal on the Microsoft platform and we do
+expect to have a little bit lower driver overhead.
+
+People that program directly on the PC as the first target are going to have a
+significantly more painful time, although it'll essentially be like porting a
+PC game, like we did on the Xbox with Doom, lots of pain and suffering there.
+
+You take a game that's designed for, you know, 2 GHz or something and try and
+run it on a 800 MHz processor, you have to make a lot of changes and
+improvement to get it cut down like that, and that is one of the real
+motivators for why we're trying to move some of our development to the
+consoles is to sort of make those decisions earlier.
+
+Question: Next game after Quake 4? No I'm not going to really comment on the
+next game right now.
+
+Question: PSP or portable platforms? No, I haven't done any development on
+those yet. I just recently looked over some of the PSP stuff with. We tossed
+around the idea of maybe taking a Doom 3 derivative to the PSP. I really like
+the PSP. I don't play a ton of video games, but I like the PSP, one of the few
+things I've been playing recently.
+
+I think it's a cool platform and we're looking at the possibility of maybe
+doing something that would be, it would have to be closer to Quake 3 level
+graphics technology because it doesn't have as much horsepower as the modern
+platforms. But it's got a nice clean architecture, again back to one
+reasonably competent processor, and one fast graphics accelerator.
+
+The development tools again aren't up to Microsoft standards on there, so it's
+probably more painful from that side of things, but it looks like an elegant
+platform, that would be fun to develop something on.
+
+Question: Stand-alone physics cards? Ok, stand-alone physics cards. They've
+managed to quote me on the importance of, you know, physics and everything in
+upcoming games. But I'm not really a proponent of stand-alone physics
+accelerators. I think it's going to be really difficult to actually integrate
+that with games. What you'll end up getting out of those, the bottom line, is
+they're going to pay a number of developers to add support for this hardware
+and it's going to mean fancy smoke and water, and maybe waving grass on there.
+You're not going to get a game which is radically changed on this. And that was
+one of the things again why graphics acceleration has been the most successful
+kind of parallel processing approach. It's been a highly pipelined approach
+that had a fallback.
+
+You know in Quake, GLQuake, and Quake 2 timeframe where we had our CPU side
+stuff, and the graphics accelerator made it look better and run faster.
+
+Now the physics accelerators have a bit of an issue there where if you go
+ahead and design in these physics effects, the puffy smoke balls, and the
+grass and all that, you can have a fallback where have a hundred of these on
+the CPU and a thousand of them if you're running on the physics accelerator.
+
+Once of the problems though it's likely to actually decrease your wall clock
+execution performance, and this is one of the real issues with all sorts of
+parallel programming is that it's often easy to scale the problem to get
+higher throughput, but it often decreases your actual wall clock performance,
+because of inefficiencies with dealing with it. And that's one of the
+classical supercomputer sales lines that you can quote these incredibly high
+numbers on some application, but you have to look really close to see that
+they scaled the problem.
+
+Where usually people when you think of acceleration you want to think "it does
+what I do only better and faster" and a lot of cases in parallel applications
+you get something where "well, it does what I do, it's better, but might
+actually be a little bit slower", and this was one of the real problems we had
+with the first generation of graphics accelerators until 3DFX really got things
+going with Voodoo.
+
+A lot of the early graphics accelerators you'd take the games, they would run
+on there, and they would have better filtering and higher resolution, so in
+many cases they'd look better, but they were actually slower -- in some cases
+significantly slower than the software engines at the time. It was only when
+you got to the Voodoo cards that actually it looks better in every respect and
+it's actually also faster than the software rasterizer version that they became
+a clear win.
+
+So I have concerns about the physics accelerator's utility. It's the type of
+thing where they may be fun to buy for their demos, it might be cool, and
+there will be some neat stuff I guarantee it. I know there's some smart people
+at the company working on it that I'm sure will develop some great stuff, and
+there will probably be some focused key additions to some important games that
+do take advantage of it, but I don't expect it to set the world on fire
+really.
+
+Question: Creative gameplay design? Creative gameplay designing -- that was
+sort of one of my themes about the issues of development and this was another
+kind of interesting thing with the cell phone project. Lots of people will go
+on about the lack of creativity in the game industry and, you know, how we're
+lacking all of these things.
+
+It was interesting when we interviewed at Fountainhead, we were looking for
+some additional people to bring onto the development team for cell phone
+projects and we have several cases of people going "eh, I don't want to work
+on a little puny cell phone" essentially.
+
+Everybody wants to work on the next great sequel, you know, people go into the
+game industry, they want to work on Doom 5 or whatever, you know the games that
+they've had a great time playing and there's nothing wrong with that, but it
+was a little disappointing to see a lot of people give lip service to
+creativity and innovation and being able to go out and try different things,
+but there's probably not nearly as much when it comes down to actually walking
+the walk on that, it's probably not as widespread as a lot of people who just
+chat on message boards about how awful and non-creative everything is these
+days.
+
+But I do think that, like I said, my key plan is, small platforms may be a
+cradle for innovation and then I leave a lot in the hands of what people can
+do with the source code platforms we have released as an ability to kind of
+strut your stuff.
+
+And the other aspect of the source code is it is the best way to get into the
+industry. Do something with the resources that are available out there.
+
+If you do something really creative and you get thousands of people playing
+your mod online, and everybody likes it, you can get a job in the industry,
+because those are credentials. That's showing you've got what it takes to
+actually take an idea from a concept to something people actually enjoy, and
+that's been a really positive side effect of the whole mod community in
+general, and the source code stuff is a follow on that.
+
+Question: LGPL middleware solutions? So, LGPL middleware solutions -- I'm not
+really up on all the middleware -- so are there actually any significant
+middleware solutions that are under the LGPL? <Audience member unintelligible>
+Yeah, we use OpenAL for some of our audio stuff.
+
+The GPL has always been sort of a two edged sword, where a lot of people will
+just say "well why don't you release it under the BSD license or something so
+we can do whatever we want with it" and there's something to be said for the
+complete freedom, but I do like the aspect of the GPL about forcing people to
+actually give some back. I do get a little irritated about people getting too
+proprietary about their addition to the code when it's built on top of what
+other people have put far more effort into.
+
+But any of the work that goes on for developing GPL or LGPL stuff, it's been
+to some degree, there's a lot of stuff that goes on in the development of sort
+of amateur graphics engines that people are doing because it's fun -- and it is
+-- and not so much because it's something that's really going to be helping
+anyone produce a title or do something interesting there.
+
+I think that in general people trying to actually make a difference would be
+better served working in one of the established code bases, because in the
+development process, the last 10% turns out to be 90% of the work.
+
+There have been dozens and dozens of projects that are done in a somewhat
+public form that look like they're making great progress, and you take a quick
+glance at it and say "oh this is 90% or 80% of the way to something that can be
+a commercial game" when in reality it's 10% or 15% of what it takes to actually
+get there.
+
+So I certainly encourage people to work inside the context of full complete
+code bases that have a commercial kind of pedigree on it, but the great thing
+about any of that though is if you just want to program to have fun -- which
+is a perfectly valid thing to do -- writing graphics engines and middleware
+solutions sort of from scratch has it's own appeal.
+
+Question: The orders of magnitude we've seen in graphics? The numbers of
+orders of magnitude we've seen in graphics is really stunning. It's easy to be
+blasé about the state of everything, but if you step back and take a
+perspective look at this, I stand in awe of the industry and the progress that
+has been made here.
+
+I mean I remember writing character graphics depth buffer on a line printer at
+a college VAX. All the Apple II graphics and line drawing so on like that. I
+could not say that I envisioned things at the point that we've got right now.
+
+I mean it's hard, even if you say right now, what would do with four orders of
+magnitude more performance. I mean I can tell you right now what I'd do with
+one or two orders of magnitude. There are specific things that I know look
+good and will improve things and do all of that. But just imagining out
+another couple orders of magnitude, is pretty tough.
+
+Even at the worst of times, I'm a glass is half full sort of person, but this
+glass is overflowing. I don't have anything that I look at as "darn it's too
+bad we don't have all of this".
+
+Question: Networking side of things? On the networking side of things, it's
+been extremely gratifying seeing the success of the massively multiplayer
+games. You know we certainly talked about doing that type of stuff early on in
+the Doom days. We actually started a corporation, id communications, with the
+expressed idea that we should pursue this type of multi-player persistent
+online experience.
+
+id never got around to all of that, but when the early Ultima Online and
+Everquest were coming out, I was certainly looking on that eagerly
+anticipating how they would do and the huge success that we've seen with all
+of those has been really cool. It's again one of those things that we're not
+directly a part of, but I can very much appreciate the raw neatness of how
+that's all gone.
+
+There are technical directions that things would go if performance, if
+broadband performance continues to improve in terms of bandwidth and latency
+and variability, there are other styles of technology that one would do. You
+can make all the client side cheating sort of things impossible if you had
+enough bandwidth to essentially have everyone just be a game terminal where
+you're essentially just sending compressed video back to them so there's no
+opportunity for driver cheats or intercepting game positions of things. If
+someone wants to actually write optical analysis software to analyze
+compressed images to target people, go for it -- that's a hell of a research
+project. Something like that would be a direction that things could change.
+
+I think that the push that Microsoft's done with Live in a lot of ways has
+been good, making voice kind of a standard part of a lot of the games, and the
+work that's going on in terms of infrastructure and back-end in matchmaking,
+Microsoft's been pretty smart in a lot of things they're doing there.
+
+So it was a lot of fun doing the early networking work, but it's a reasonably
+well understood problem now.
+
+I don't expect to see really radical changes in the technologies that are
+going on in games. It's just gotten easier with the broadband, where we don't
+have to cripple the game or the single player aspect of the game as much now.
+
+Quake 3 was all built around minimum transmit, all presentation client-side,
+and that actually made Quake 3 a little bit more difficult of an engine for
+developers that took it and made single player games out of it. A lot of
+times, like some of Raven's titles, they would wind up making two separate
+executables, where you take one that's more derived from the Quake 3 original
+source and one that they took a hatchet to, to make a great single player game
+out of.
+
+As people start going through the source code in the coming weeks, it will be
+interesting to see what people make of those necessary tradeoffs.
+
+Question: When is the Quake 3 GPL release? Well we tried to start getting it
+put together but everybody's really busy.
+
+Timothy is going to be taking care of making sure its got everything, its got
+the right GPL notices in it, that everything builds, the utilities and
+everything are done. I'm hoping it'll be next week.
+
+It would have been nice if we could have had it done and actually up on the
+FTP site now, but things like working on Quake 4 is still taking priority for
+a lot of resources there. I would certainly expect within a week.
+
+Question: Tools and middleware versus APIs? Ok, tools and middleware over
+APIs, you know there are interesting tradeoffs to be made there. For years the
+middleware companies were really in kind of a dodgy space in terms of what they
+could provide and the benefits that you get from that, and it was really only
+with the PS2 that middleware companies really became relevant for gaming.
+
+Now id has always been sort of the champion of full engine licensing. We have
+no intention of changing from that model. I think that a company will get more
+out of taking a complete game engine and modifying that to suit their game, if
+they're looking for something that's reasonably close to what the game engine
+does, rather than taking a raw middleware technology and using that to build a
+game on top of.
+
+Now the nastier the platform is the more valuable middleware is. Middleware
+was valuable on the PS2 because there's a lot of nasty stuff in there the
+developers didn't want to work with.
+
+It may be less valuable on platforms like the 360 that are really pretty
+clean. There will be more solutions for things on taking advantage of the CELL
+processor where you'll probably be able to get neat little modules that do
+various speech and audio processing and certain video effects, and things like
+that where you just know oh I can just go off and run this on a CELL processor,
+I don't have to worry about figuring out how to do that and it'll go do its job
+and add something to the game.
+
+So there will be some good value there. There's definitely a valid place for
+middleware solutions, but again there's a ton of success that's been built on
+top of the engine licensing model.
+
+Question: Armadillo Aerospace update? Ah, the Armadillo Aerospace stuff. Well
+I could talk for another two hours about all the aerospace side of things.
+
+In October we're going to be flying a little vehicle at the X-Prize Cup, to
+show rapid turn-around. The big change that we've made in the last six months
+is we've abandoned our peroxide based engine. We're using liquid oxygen and
+alcohol engines, which we're still getting them to melt sometimes, got a few
+issues left to work out on that.
+
+The upside is that it's essentially a combination which you can credibly build
+an actual orbital booster out of. The combination we were using before was
+optimized for ease of development and making it generally safer and lot less
+problematic for us to develop, but now we're going ahead and taking that big
+step of making it work with cryogenic propellants, it will be the platform
+that will be able to take us into the future.
+
+Question: Ferraris? I actually just recently sold my last Ferrari. I've been
+sort of pawning them off for a while, and a lot of people commented that for a
+while in my old house I didn't have much space in my garage, so I had my little
+machine tools and my mill and my lathe, small things, and I would be setting
+books and manuals and parts on my Testarossa, people were like "this is just
+appalling", but it was table space for a while there. But I did just recently
+sell the F50.
+
+The rocket work kind of drove a lot of vehicle choice where I drive a BMW X5
+to carry boxes around here mostly, cause I have to lug things around, and it
+just doesn't work having boxes of industrial parts sticking out of a Ferrari
+there.
+
+My wife's car is a BMW Z8 which is a neat little sports car. It's not a
+Ferrari, but it's actually in many ways sort of a more little fun car to
+drive.
+
+Recently just before I sold the F50, I drove it around for a little while.
+
+It had been in the shop for a long time actually getting the turbos taken off,
+because the damn Ferrari purists, none of them want a turbo Ferrari. It's like
+I don't understand it. They would rather pay more for this pure car that
+you're in danger of having someone with a Mustang with a big shot of nitrous
+running ahead of you. It's like that's no way to have an exotic car.
+
+But it was interesting to just sort of go ahead and drive it again like that.
+Yeah when you run it flat out, it's a fast car. And it's faster than the Z8,
+but just for most day to day around town driving, the Z8's actually a more fun
+little car.
+
+You know the cars I have the fond memories of are things like my 1000 HP
+Testarossa, which is just a completely different quality of experience. It's
+not just a little bit faster, you know, it's "See God and hope you don't die"
+type of fast. And you know that's spoiled me for years. It's like forever
+after probably I'll test drive somebody's new supercar and it'll be like "oh
+this is... pleasant." Question: Facial expressions in games? Ok that's another
+kind of good example about how we really need more of stuff. If you look at the
+movies doing facial expressions, they will have hundreds of control points
+going on, tugging every little muscle that makes up the face.
+
+We as an industry know how to do very realistic facial work there if we follow
+the movie example, but it's time consuming and expensive, and I don't expect
+radical improvements in that, where if you look at the Lord of the Rings work
+on there, in a lot of the making of stuff where they talk about how they
+animate Gollum's face and it comes down to an insane amount of man work just
+going in tweaking every last little control point. Yeah they capture most of
+it, but everything gets touched up.
+
+And that's just what's going to be leading us to hundred million dollar game
+budgets. And these are just all the things that, it's not going to be long
+before we literally see a hundred million dollar budget game that's going to
+employ all of this level of movie production values going in there and human
+faces are one of those really tough things.
+
+id has classically intentionally steered away from having to do that because
+it's a tough problem solvable only by large amounts of manpower and money
+going towards that. And unless you're perfect, it can still come off looking
+really bad.
+
+It's one of the problems that scare me about doing the more and more people
+that you do have on there. I mean even at the movies, you look at the movies
+that have the incredibly huge budgets, you tend not to have synthetic computer
+actors doing close up face shots. You have the computer animated guys screwing
+around doing their action things down there, but you don't do a zoom-in full
+face close up on a simulated character, because even given unlimited
+resources, you get a few things like Gollum, and that's not a human -- you get
+away with it because it's a creature.
+
+When you take an actual person and simulate it, it's possible to pull off, but
+it's incredibly expensive and that's one of the real challenges facing gaming
+today, as you get a lot more games that are kind of set in conventional modern
+world environments where you've got more and more things that people are used
+to looking at and used to interacting with, solving the people problem is a
+really big issue because it starts rearing it's head as the thing that will
+dominate your experience of how realistic the people look, and in a lot of
+games people just have to kind of swallow that little bit of disbelief and say
+everything else look really lush and wonderful, but the close up facial
+expressions are not there yet. I'll be surprised if we do get there in this
+coming generation.
+
+I think that's about my time slot, thanks.
