@@ -10,3 +10,254 @@ Here, John Carmack discusses, along with Marty Stratton, executive producer of t
 
 Carmack and Stratton also discuss how they expect to see the product evolve down the road -- giving a roadmap to how one of the top developers on the platform sees the market evolving over the next several months, at the very least. </desc>
 
+<q>It's been an interesting experience taking this game that so many people were familiar with nearly a decade ago and have it, essentially, be current again.</q>
+
+<a>It's really heartening to see how many hours a lot of people are logging on the game now, and that shores up my confidence that it really is a good solid core gameplay mechanic that we've polished and tuned a little bit. The whole point of the project was just to make it easier to access that core mechanic.</a>
+
+<q>I joined a game early on, and there were two guys in a duel who each had kill counts in the 400s -- they must have been there for hours. They were just bantering back and forth casually, while pulling off amazing stunts. It was funny to see.</q>
+
+<a>Yeah, it's also really interesting how broad the user base is on our beta list, and Marty is saying that he thinks we're actually going to be running more servers in Europe than domestically on our launch, or ramp-up to the public beta. Just looking at all the leaderboards seeing all the huge diversity of country flags up there is kind of cool.</a>
+
+<q>You're going into an open beta now, right?</q>
+
+<a Marty Stratton>Yes. We'll have opened up to the public on Tuesday evening. We anticipate being in beta for a little while, completely open to the public, and going from there.</a>
+
+<q>How much have you worked out your final "release" schedule, so to speak? Are you playing it by ear?</q>
+
+<a Marty Stratton>I would consider this the full, official launch. Because it is a website and is a built-in, unified experience all on this web portal, we're taking more of an attitude of it being web development, so we're launching to the public.
+
+We're letting everybody play. We don't expect to have to do anything like wiping stats or anything major like that. We expect that once we launch it, we're going to leave the beta tag on it until we're sure that we're not going to have major outages or different things like that.</a>
+
+<a>The beta tag is certainly an admission that we never launched an online web service like this before, and we've already run into lots of things that we didn't know we needed to know. And I'm sure we're going to run into a lot more as we open up to the public.
+
+So, some of that is just: bear with us, there are probably going to be some issues here, but we are going to work through them.</a>
+
+<a Marty Stratton>We have used Google's model a bit, in terms of launching new features. I think Gmail is actually still in beta, so I hope we're not in beta quite as long as that, but it's that kind of philosophy. We have a full-featured product, but we'll probably be adding some functionality, some features, and hammering out some issues as large numbers of people begin to use the service.</a>
+
+<q>Can you speak to any of those factors that forced you to reconsider elements of your strategy or prolong development?</q>
+
+<a>The gameplay side of things went really pretty much as we expected. The plan was to take the old codebase, and modernize it a little bit. There have been so many people who have played the game for nine years or so and have tried out lots of things in the different mods. While you'll never have a complete consensus, with some improvements, it [comes close].
+
+So we did integrate a lot of the changes that people almost universally agreed on -- some things with item placement, weapon balance, and tuning the different parts of the game. All of the levels are cleaned up visually.
+
+We added some things with the in-game advertising, but also took the opportunity to tighten up the visual presentation on everything and improve the lighting. All that went pretty much the way we expected. That didn't go massively over time budget or anything.
+
+What really hurt us was the initial thought of putting a web interface on it. Some things surrounding the game were certainly overly trivialized by us. That's easy to do when you say, "Oh, we're hotshot game developers. This web stuff can't be too hard because so many people do it."
+
+There's a little bit of a humbling lesson there in how much work we did have to do with all the things on browser compatibility and backend database integration and optimization.
+
+Things like that that really had taken a couple times longer than we expected them to. But on the other hand, the entire product package is a lot slicker than I envisioned in my mind's eye when I threw out the napkin design for this a year and a half ago.</a>
+
+<q>What prompted that design? Why not a more straightforward method like a small executable?</q>
+
+<a>Well, we really wanted it to be something where people go in and out of the website. The core concept here is that one of the major things that PCs do much better than consoles is the web browsing experience -- looking at lots of data and navigating around, finding different things, refining queries in different ways. PCs are still just plain better than consoles at that.
+
+A lot of this project was about doing something that the PC was going to be better at than the consoles. Our modern triple-A stuff has to be somewhat more console-centric, with the PC as a peer, while this is an opportunity to do something where the PC will really stand alone.
+
+The browser experience was a major part of that. We want to be doing things with the social networking, the communications and friends lists and inviting friends, ranking all the different things, drilling down through all the different games played and all the leaderboards.
+
+These are things that certainly appear to some degree or another on the consoles, but are just a lot more fleshed-out and have more depth with what we can do here.
+
+It'll be interesting to see if hardcore people play full-screen still. You can go full-screen and focus on the game -- keep all your attention on there. But I suspect that probably there will be a lot more people, as our user base grows, who are playing it just in the browser window.
+
+They may be never even having to learn or care to switch to full-screen because they want to get all the notifications when their friends are signing on and doing different things, or they have other windows open with other things going on there.
+
+I'm curious to see how that actually plays out in the end -- how many people look at it as a serious gaming experience and just use the portal to get there, versus the people for whom the portal is a large chunk of the experience.
+
+For years, I've often thought about the fact that a lot of people spend vastly more time on websites and forums about the games that they're playing than they actually spend playing the games themselves. We hope to have some aspect of that here.</a>
+
+<q>On the social note, do you plan to do integration with sites like Facebook, where you have an actual app that will run the game and tie the accounts together? </q>
+
+<a Marty Stratton>Definitely. Actually, our PR agency has a woman that specializes in those types of things and hooking up us with developers if we need that assistance. I'm looking at hiring an intern, honestly, who's done that stuff through college, for a few months to investigate.
+
+We already have some people who, even on their own in the beta, have created forum signatures that you can transport to other forums that dynamically pull information from our stack and show which character you are, your win-loss record, and what your favorite arena is. Cool integration like that is already being followed up, even through people in our beta community.</a>
+
+<q>Going back to the people who run full-screen versus those who run in a window, that probably to some extent reflects a more or less hardcore attitude. Do you have any idea as to the ratio of the people have that decade of experience, and the people who are newer to the game? Is it trending in either direction?</q>
+
+<a>Since it's been a closed beta and we seeded it with just the hardcore community that were still playing the game from its original release, we're definitely skewed pretty hard towards the serious players right now. And that's actually made it a little bit of a challenge to get some of the automatic skill-ranking stuff looking right.
+
+Even a big influx of brand-new users we probably won't even see on the opening day, because it's going to be mostly people that already are familiar and aware of this. It's going to be real interesting, a few months down the road, when it's percolated out towards people that weren't necessarily in the Quake or id or even FPS community.</a>
+
+<a Marty Stratton>Or that were eight when Quake III came out.</a>
+
+<q>Yeah. [laughs] </q>
+
+<a Marty Stratton>Honestly! When Quake III came out, 18-year-olds were eight years old at that time.
+
+There really is, I think, a pretty fertile ground for guys in college who've heard about Quake and know id and Doom, to then hear, "Hey, here's a free game that's a first person shooter. It's totally what you'd expect to get in a retail package, and it's free at this website." There's a lot of potential there.</a>
+
+<a>And certainly, for the business model to work out, we have to wind up getting many more people playing than ever played the original game.</a>
+
+<q>And presumably, those guys in college can play it on a laptop with an integrated graphics card.</q>
+
+<a>Yeah. I mean, that's one of the great things about it -- it's an older technology that was well-written at the time and was used as a major benchmark in testing, et cetera, over the last decade, and is still on the list of making sure that no modern video card drivers regress over anything. They still test Quake III Arena on all that.
+
+That has some really great benefits of meaning that it is really rock-solid. It's not like a modern game, where going to the 0.107 driver causes some problem in the middle of things.
+
+It just works, and it just works really fast, on any computer. It turns out that you're more limited by the browser support for the technologies that we get than for the graphics-acceleration support for the game itself.
+
+Somebody at id just recently got one of the little netbooks -- I can't remember the manufacturer. It's literally a $300 laptop that doesn't have a DVD drive or anything, and it runs the game.</a>
+
+<a Marty Stratton>It runs the game at 50 to 80 frames per second in full screen. So it's pretty cool.
+
+The other thing that I think particularly Quake players, but PC gamers in general, are used to, and that this does do better, is keeping the game up to date.
+
+On the Xbox, you pop your disc in and it says, "Oh, there's an update for this game." You download it, and you're off and playing. PC gamers have sometimes been kind of run through the wringer, to have to go out and install the latest patch, or check if there's a new map pack out. Only recently have games on the PC really started to handle updating themselves very well.
+
+But, because of the way we built this, any time you go to quakelive.com, wherever you are, it automatically checks to see what you have and downloads what you need. So you're always up to date. You're never out of date.
+
+You'll have a bit of a download because it pulls the game data in chunks to your system, but you can start playing while it's kind of downloading in the background as well. Basically, anywhere you go, your friends list, your statistics, your personalized settings, your customized views of the game browser, of filters, or of leaderboards, all of that follows you.
+
+So it really is a fairly portable -- not only from a laptop perspective, but as a portable experience in that once you've downloaded the game at a friend's house or at home, or wherever, there are no install discs, no patching, no nothing. You just log in, it updates it, you have the latest version, and you can play with all of your settings right there.
+
+I think that's actually going to be pretty darn cool, the fact that you can sit down at a hotel business center and just have exactly the game experience that you have been playing at home, or at work.</a>
+
+<q>Back in the Quake III release days, there was a whole class of player at a certain level of play who would turn every graphical option down as far as it could go, to get that baseline type of experience where they can just push as many frames as possible and strip the game down to its basics. Do you find it interesting that, even now, with modern machines, some people still do that on Quake Live?</q>
+
+<a>Yeah. There's not nearly as much of that, though. A lot of the people did it, really, for the right reasons of wanting to get improved frame rates. There's still a slight sense, for some people, that blurring things out gives more contrast and can be a slight edge for making things stand out. But for the most part, it's great to see the game running at, really, two-million-pixel resolution.
+
+In fact, it's really neat to see how cool a lot of the stuff really looks on there. A lot of the shots in the website, the glamour shots that are all still in-game, look pretty damn good. And the polish path the level designers went, to go line up all the textures and improve the lighting, without having changed any of the rendering code at all, has added a nice little extra layer of gloss to it.
+
+In many ways, it's almost hard to say this, coming from a graphics programmer, but for what the game is and what it does, it really looks plenty good enough.</a>
+
+<q>On that note, with regard to the graphical design mentality, Quake III is a very clean, very readable game. And the gameplay design is extremely elegant, in that it's very game-like and based on pure dynamics, as opposed to trying to model more realistic systems, which is a more modern design ethic. I'm curious what you think the place for that kind of game design and visual design is today? There are very few triple-A games being made with that mentality.</q>
+
+<a>Yeah. That's a really worthwhile thing to explore. If we look back into history on that, inside id, we would go back and forth between different people having different primary drives on that.
+
+And Quake III was my game. I am all about the elegant, simple, minimalist design. And we thought it was a good thing for what it is. But it wasn't as successful as either Quake II or Doom 3, the games that bracketed it -- although it was plenty successful to be worthwhile.
+
+But it has become clear, over the years since then, that what people expect from a current triple-A title is everything and the kitchen sink. Especially in an established genre like first-person shooters, you have to have everything nowadays. And it's a tall order to go ahead and do all of that. People expect a lot for their $50 or $60 that they're plunking down.
+
+That's all well and good, and it's led to some really fabulous titles coming out, but there is still a lot to be said for that minimalist, simple game design. When we're not trying to claw $60 out of somebody's back pocket, I think there is a place for things that are simple. And I think that there's a possibility that we can actually attract many more players to this than to the big games with the really high barrier to entry.</a>
+
+<q>That highlights an interesting dichotomy in that the game itself is so classically streamlined in the hardcore sense, and yet the whole presentation layer surrounding it -- being in the browser, being a two-minute download, having automated matchmaking -- is actually incredibly inviting.</q>
+
+<a>Yeah. We've certainly, over the years, seen a lot of cases, especially in the early days before everything got hyper-competitive online, where people just had the magic of wandering around in the world and taking a shot at somebody else wandering around the same world with them.
+
+There are still millions and millions of people who are open for that experience.
+
+But, we do need to segregate them into the shallow end of the pool, because it's all too easy to have a shark swimming around in those waters making it no fun for anybody.
+
+But with a large enough body of players there and good automatic skill-ranking, you should be able to get people who don't know how to play the game very well go in, wander around, and find that it looks neat, it sounds neat, and interesting things are going on.
+
+They just need to build up a little base level of skill to start achieving those incremental advances and personal rewards of playing the game.</a>
+
+<q>Speaking of matchmaking, you said it's been tough getting that system tuned due to the current skewed player base. How do you deal with that, especially now that newer players will be coming in?</q>
+
+<a>There's a training map to kind of assess the skills. And it's kind of interesting how Marty was just talking about the changes that have been made in there. Originally, they just asked people for an assessment of their skill. And we were finding that all sorts of people would go, "I'm an expert." [laughs] And they weren't anywhere close to that in the global scheme of things.
+
+So it changed over to more of a challenge exercise, where they have to do certain skill-based things to get into the right pool, aside from the interaction with the bot.
+
+I think that helps a lot, where you're going to find people who can't even jump from a pedestal to pedestal at the very beginning if they're not coordinated with the mouse-keyboard combination. They'll be in the beginner pool.
+
+Then you get people that can rocket jump and do strafe-jumping and wall-climbing stuff -- really, only the true experts and masters of the game can kind of get into that pool. And that's as it should be. It will be interesting to see how the community goes as more people get on, how many people go in just to grief other players in different ways.
+
+I think that we have some advantage in this, having accounts -- the complete anonymity of a typical PC game did make it easy for some people to just be spoilers. There was very little you could do to censure them in different ways.
+
+But with the account-based system, at least it could take some 15 minutes to go make a new account. They don't do it 100 times if they keep getting kicked. I hope that has some benefit there. But we are going to learn a lot in the coming months.</a>
+
+<q>What's involved on the rendering side of this? I mean, did you have to rewrite a renderer, or was it just an issue of plugging in to existing APIs?</q>
+
+<a>In the core rendering system, hardly anything at all changed. It's interesting, because I am kind of poking through the Quake III codebase on the iPhone right now, for some after-hours work a couple of us are doing, and I'm going to have to go in and make some serious renderer changes to get that up to the performance that I want. But for Quake Live, the game rendering code didn't change at all.
+
+For the framework around it, about making sure that you've got the right context and the right PC and the right rendering going, there's a little bit of work, especially dealing with all the different browser versions.
+
+Between the different browser types and versions, a lot of tweaking has to be done to make it work right, to switch quickly between full-screen and the browser. But all of that is on the fringes.
+
+When I look back at the original codebase, the data points that it was designed around, it was a good design point for just before GPUs started doing vertex acceleration.
+
+All of Quake III was built around minimizing state changes and crunching up broken drivers, because this was back in the days when we had 15 different video card companies and 13 of them didn't have a clue how to do what they were supposed to be doing.
+
+So it was a very defensively programmed renderer. I look at it now, and compiled vertex arrays are completely archaic. Everything should be in vertex buffer objects. But for Quake Live, it doesn't make a damn bit of difference.
+
+There's a part of me that wants to go in and do the optimal point design for any given thing. But the smarter part of me just looks back and says, "It works just fine right now. It's been tested to death by all the remaining video-card vendors. Don't touch that. Let it go. It's doing a good job."</a>
+
+<q>It's funny that you bring that up, having also mentioned iPhone in the same breath, because you've spoken a good deal over the last few years about the enjoyability and challenge of going to lower-spec systems and trying to tweak everything for maximum optimization on that spec. Does that not exist here, simply because modern PC hardware is already so capable?</q>
+
+<a>The tough part of it really becomes the decision about whether [it's worth it]. I love to go fight at the hardware level. I really enjoy doing that type of work. But projects like these have to be done more, unfortunately, on business-case decisions.
+
+If we say, "Oh, if we want to do the best possible in-browser game," well, we could spend $30 million doing the best possible browser game, and you could never make a business case close on it. So it becomes, "How much can we afford to spend on this?"
+
+And then, given that amount of resources, how do you want to allocate it? What's going to go to rendering? What's going to go to modeling? What's going to go to level design? What's going to go to web and database development and all of that?
+
+It's clearly not the best thing we could do in a world without resource constraints, but it's a matter of figuring out what's the best we can do and still hope to have the business case close at the end of the day.</a>
+
+<q>So, are you putting Quake III on iPhone, then? Is that part of the plan? </q>
+
+<a>It's not tied in directly with this. I could go on for a long time, again, just about the iPhone stuff. We've got a couple things going on on that, and some things have not gone great with our working with outside companies on it.
+
+But there are several of us that are poking around in our somewhat after-hours and discretionary time on things. It's kind of exciting to look at that. We're working with a more vanilla Quake III codebase.
+
+But now that I'm thinking about all this stuff, if we turned this into a product, even if it's not part of the Quake Live framework, we'll probably go in and pick up all the tweaks and changes to the core gameplay and the levels that have been developed for Quake Live.</a>
+
+<q>With regard to the business model, is it purely ad-supported? </q>
+
+<a Marty Stratton>Yes. At launch, we'll be ad-supported completely, and probably for a couple months after that. One of the big features that our player base is asking for is the ability to run private servers. Right now, we control all of the game servers, so all of the game instances that are happening are public games.
+
+There's really no ability to say, "I want to run my own game and only have the people playing that I want to be playing," primarily because it's free and we're paying for all that infrastructure anyway. There are huge benefits for us controlling the physical hardware that the game is running on.
+
+So, in the couple months after launch, we will be putting together, more or less, a subscription option that allows players, for a very nominal fee -- something around like the $4.99 price point -- to also probably do other things, but the core functionality will be to allow players to, through the very elegant interface they have on the website, run their own game servers.
+
+You say, "I want to play this game at this location. I want it to be configured this way," and then tie that into our friends list and the social aspect of it. "I want to invite this player, this player, this player, this player, this player. Start the match." Or even have that match recurring, on a calendar basis -- "Every day at six o'clock, I want to play a match against John, and I want the system to invite us both to the match, start the game for us automatically." We'll be introducing that.
+
+The traditional model for that is publishers or developers working with a game server provider, or GSP, to provide game server rental. That's usually done around a price point of $1, $1.50, sometimes a little less, per slot. So you've got players who end up paying $25 to $30 to "rent" the game server, and it's always in the same location. It's a very static transaction, and it's pretty costly.
+
+Because of the way we handle game servers, we can be much more flexible with it and offer it at a much lower price. If I want to run my own game, it's only going to cost me five bucks a month or so, and I can set that game up any time I want, invite whatever friends I want. It'll spin it up, and then as soon as I'm done, it spins it back down. Then, next time, if I want to start one in another location, I'm not tied to a specific physical box.
+
+I think players will really respond to that favorably. It's something that they wanted. And we'll tie a bunch of other features, more specific to running private games, to that model as well -- being able to call time-out in a game, blocking teams, and having referees.
+
+It's more of a competitive feature set. We'll tie to those private games, because we obviously can't run those features on a public game. It frustrates too many people.
+
+That will be something that, shortly after we go open beta, we'll start talking about, and people will see it fairly quickly. So I presume -- I hope -- that we'll add another component to the business model outside the advertising revenue.</a>
+
+<q>Are you looking tie that into official clan support, where you could set up clan servers and events and groups?</q>
+
+<a Marty Stratton>Yeah. That's one step beyond. That's a lot of web interface. Right now, we allow players to enter their clan tag, but that's kind of the extent of the clan support. I'd actually like to extend our friends system to support clans. So, not only would you have your friends list, but you could have a separate list, effectively, that's your clan.
+
+I see clan support, in general, as being able to join a clan and have that as part of your social management. I wouldn't throw that into the category of needing to pay. The pay service is really more about an extra service, this ability to run a server that we are paying for.</a>
+
+<q>The other obvious comparison to what you guys are doing is InstantAction.com. They're, coincidentally I imagine, also opening up to a broader audience the same day. I just spoke to them yesterday, and they mentioned you had early on discussed possibly collaborating.</q>
+
+<a Marty Stratton>If those conversations happened, they were so short that I don't remember them. It may have been an email exchange that was, "Hey, what do you think about this?" "No, we're doing our own thing."
+
+Honestly, I don't know. We had one person who, a while ago, was on the InstantAction beta, and we kind of stood over his shoulder while he played a couple things. But that's really been the most interaction we've had.
+
+I checked out how their web statistics trend on some of the different web-statistic sites and different things like that. But no, we really haven't talked to them at all, and this has really -- from the initial seed from John -- been a totally-id project.</a>
+
+<a>And really, Quake Live does have that. It has this entire thing wrapped around itself. It's not an à la carte product. And it's not something where we're going to be adding in additional games decided on here, or have you fit your game inside this framework. Everything really has been tuned around the Quake Arena experience.
+
+If things are successful here, we may try to go ahead and build another version, like maybe with the Wolfenstein multiplayer things, but it would be a really significant redesign. And we think that there's enough of an experience on here.
+
+Let's face it, most of the web games are about giving you some mediocre-ish content, but it is free and there's a lot of it, so be happy about it and maybe pay a little fee on there. And we do think that this is much more of a top-notch experience that people are getting, and we really don't want to have it kind of petered next to a bunch of other stuff.</a>
+
+<q>Is there any possibility at any point of mod support? Or do you start, at that point, to worry about security issues or fracturing the player base?</q>
+
+<a>That's certainly been the biggest thing, since the very beginning, that we've been asked about. We are pretty firm on this, that we control everything with the Quake Live project, and that is going to be the way it stays.
+
+We've tried to integrate specific features that people have liked from a lot of the mods through our work, and to take the things that people universally agree on. But we definitely don't have the broad array of really quirky, different things that people could get from mods on here.
+
+We probably will add additional game types and modes of play as time goes on, but it will be coming from a centralized point.
+
+But the upside is that Quake III is out there. It's open source. People can hack anything they want on the code. And I would expect that the success of Quake Live should be a great invigorator for any mod communities out there because, if we go ahead and get millions of new people playing this, that's going to lead towards many thousands of people that are willing to go off and do something fringe -- like downloading a completely recompiled executable or hunting down original assets for the game and so on.
+
+We did not think that there was a reasonable way for us to have the complete, free-for-all, do-anything-the-heck-that-you-want mod community that we had with the commercial game in this project. We're going to see how that goes.
+
+If anybody else does another project and proves us incorrect on that, it'll be a data point. But we certainly still hope to have good communications and relations with everybody that's sticking with the original Quake Arena codebase. And, again, I think it will be a positive thing for it.</a>
+
+<q>What do you actually spend most of your time on these days? Rage, Doom 4, Quake Live?</q>
+
+<a>Almost all of my time is on Rage. I take a couple days every six months or so to work on various mobile things that I'm hacking around on. I have had almost no direct work on the Quake Live project since it was set in motion with my, "Here's the plan," a year and a half ago.
+
+All the things that I had thought through pretty much came out just fine. And it was the things that I was blind-spotted on, the things that I just wasn't aware of the challenges of, that have turned out to be where more development time and effort have been required. So it's been a learning experience for all of us.</a>
+
+<q>How big is the team for Quake Live?</q>
+
+<a Marty Stratton>We've had a full team on it for just over a year.</a>
+
+<a>Yeah. The first beta went open on February, one year ago.</a>
+
+<a Marty Stratton>Actually, January. So, 13 months ago, we added I think 100 people into the beta. And one of these days, I'm going to do a forum post or something with a lineage of the Quake Live beta site and the looks that it's gone through and its functionality, because it's striking.
+
+Just over a year ago, we hired our web designer, and about a year ago, we had the level designer who has done a lot of the new content. So we've had a full team on it for over a year.</a>
+
+<a>And at that point, a year ago, we were looking like, "OK. This all pretty much works in the game. Let's tidy up the web stuff and get it out the door." [laughs] It hasn't quite worked out that way.</a>
