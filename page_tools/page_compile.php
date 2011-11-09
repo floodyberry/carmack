@@ -32,6 +32,9 @@
 	add_to_timeline( "20070803", "Audio", "John Carmack at QuakeCon 2007", "http://www.archive.org/details/JohnCarmackAtQuakecon2007" );
 	add_to_timeline( "20080801", "Audio", "John Carmack at QuakeCon 2008 (Keynote Up!)", "http://www.archive.org/details/JohnCarmackAtQuakecon2008" );
 	add_to_timeline( "20090813", "Audio", "John Carmack at QuakeCon 2009", "http://www.archive.org/details/JohnCarmackAtQuakecon2009" );
+	add_to_timeline( "20100815", "Audio", "John Carmack at QuakeCon 2010", "http://www.archive.org/details/JohnCarmackAtQuakecon2010" );
+	add_to_timeline( "20110806", "Audio", "John Carmack interview by pcper.com at QuakeCon 2011", "http://www.archive.org/details/JohnCarmackAtQuakecon2011" );
+	add_to_timeline( "20110807", "Audio", "John Carmack at QuakeCon 2011", "http://www.archive.org/details/JohnCarmackAtQuakecon2011" );
 
 	write_template( "audio.html", ", audio, mp3, speech, keynote", " - Audio files" );
 	write_template( "plan.html", ", blog, log, plan", " - plan Archive" );
