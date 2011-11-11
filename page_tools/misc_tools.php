@@ -94,21 +94,37 @@
 	}
 	
 	
-	function write_template( $template, $keywords="", $title="", $extra="" ) {
+	function write_template( $template, $keywords="", $title="", $extra=array() ) {
 		global $conf;
+		
+		$in = array();
+		$out = array();
+		foreach( $extra as $find=>$replace ) {
+			$in[] = $find;
+			$out[] = $replace;
+		}
+		
+		print_r($extra);
 		
 		$page = str_replace( 
 			array( "@keywords", "@title" ),
 			array( $conf->keywords.$keywords, $conf->title.$title ),
 			$conf->header );
 		$page .= str_replace(
-			array( "@extra" ),
-			array( $extra ),
+			$in,
+			$out,
 			read_file( "template/".$template ) );
 		$page .= $conf->footer;
 		write_file( "../".$template, $page );
 	}
 
+	function human_readable_size($size) {
+		$mod = 1024;
+		$units = explode(' ','b kb mb gb tb pb');
+		for ($i = 0; $size > $mod; $i++)
+			$size /= $mod;
+		return round($size, 2).$units[$i];
+	}
 	
 	$mon[ "Jan" ] = "01";
 	$mon[ "Feb" ] = "02";

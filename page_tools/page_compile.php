@@ -53,12 +53,8 @@
 			$text .= "<li><span class=\"strong\">".date_to_string( $timestamp )."</span> - ($link_info[type]) <a href=\"$link_info[url]\">$link_info[title]</a></li>\n";
 		}
 	}
-	$text .= "</ul>\n";
-	$text .= "<p><span class=\"italic\">Compiled on $conf->compiled_on.</span></p>\n";
-	write_template( "index.html", "", "", $text );
 	
 	write_timeline( );
-
 
 	// copy static in
 	if ( $dh = opendir( $static_dir ) ) {
@@ -72,4 +68,11 @@
 	}
 	
 	include( "page_compress.php" );
+
+	// generate index.html with the size of the zip, then add index.html to the zip
+	$text .= "</ul>\n";
+	$text .= "<p><span class=\"italic\">Compiled on $conf->compiled_on.</span></p>\n";
+	write_template( "index.html", "", "", array("@extra"=>$text, "@johnc_archive_size"=>human_readable_size(filesize("../files/johnc_archive.zip"))) );
+	chdir( ".." );
+	exec( "zip -9 files/johnc_archive.zip index.html" );
 ?>
